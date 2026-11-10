@@ -8,7 +8,7 @@
 2. `logo.svg` を差し替える（お手本のロゴは残さない）。キャラ（`character/`）は、お手本のキャラをそのまま使ってもよい（公序良俗に反しない使い方なら自由。README の「ライセンス」）。別のキャラにするなら下の「キャラパック」
 3. `episodes/` のお手本の回を消し、`episodes.json` を `[]` にする
 4. 最初の回を作る（下の「台本」「声」）
-5. `station.json` の `url` に公開先（`https://<you>.github.io/<repo>/`）を書き、`tools/publish.sh` で公開し、GitHub の Settings → Pages で `gh-pages` ブランチを配信元にする
+5. `station.json` の `url` に公開先（`https://<you>.github.io/<repo>/`）を、`repo` に自分のリポジトリ（`https://github.com/<you>/<repo>`、プレーヤーの「しくみ」のリンク先）を書き、`tools/publish.sh` で公開し、GitHub の Settings → Pages で `gh-pages` ブランチを配信元にする
 6. `README.md` を自分の局の紹介に書き換える。冒頭の画像 `docs/screen.jpg` はお手本の局（ものラジオ）の放送画面なので、自分の局の放送画面のスクリーンショットに差し替えるか、画像の行ごと消す。「ON AIR」バッジの局名（`Mono Radio`）とリンク先も自分の局にする
 7. リポジトリに topic `myradio-station` を付ける（`gh repo edit --add-topic myradio-station`。gh がなければ、リポジトリの About の歯車 → Topics）。ほかの局を探す人が、ここから見つける
 

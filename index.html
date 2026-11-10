@@ -300,8 +300,14 @@ main{max-width:1280px;margin:0 auto;padding:16px}
 .chan .av b{font:800 20px var(--jp);color:var(--yellow)}
 .chan .av b:empty,.chan .av .logo[hidden]{display:none}
 .chan .nm{display:flex;flex-direction:column;min-width:0;margin-right:10px}
-.chan .nm b{font:800 16px var(--jp);white-space:nowrap}
+.chan .nm b{font:800 16px var(--jp);white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
 .chan .nm small{font-size:12px;color:var(--muted);white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.chan .how{margin-left:auto;flex:none;display:inline-flex;align-items:center;gap:7px;padding:8px 15px;border:1px solid var(--line);border-radius:999px;background:rgba(22,25,35,.6);color:var(--text);font:700 13px/1 var(--jp);text-decoration:none}
+.chan .how:hover{border-color:var(--yellow);color:var(--yellow)}
+.chan .how svg{width:16px;height:16px;fill:currentColor}
+.chan .how[hidden]{display:none}
+.chan .how.tight{padding:8px}
+.chan .how.tight span{display:none}
 html.embed .chan{display:none}
 /* embedded in another site (?embed=1): only the screen and the bar under it, as large as the frame allows */
 html.embed body{background:var(--ink)}
@@ -407,7 +413,10 @@ html.phone .mnav #sdate{flex:1;min-width:0;justify-content:space-between;height:
 html.phone .mnav #sdate span{white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
 html.phone .mnav #sdate i{width:32px;height:32px;flex:none}
 html.phone .chan .langsw{margin:0 0 0 auto;flex:none}
-html.phone .chan .langsw button{font-size:14px;padding:9px 14px}
+html.phone .chan .how ~ .langsw{margin-left:8px}
+html.phone .chan .how{padding:8px 11px;gap:5px;font-size:12px}
+html.phone .chan .nm{margin-right:0}
+html.phone .chan .langsw button{font-size:14px;padding:9px 11px}
 html.phone .mnav #eplist{left:0;width:calc(100vw - 20px);max-height:60vh;top:calc(100% + 8px);padding:8px;border-radius:14px}
 html.phone .mnav #eplist .hd{font-size:11px;letter-spacing:2px;padding:6px 10px 4px}
 html.phone .mnav #eplist button{grid-template-columns:52px minmax(0,1fr) auto;gap:12px;padding:10px 12px;border-radius:10px}
@@ -468,6 +477,7 @@ html.phone #share span{display:none}
   </div>
   <div class="mnav" id="mnav"></div>
   <div class="chan"><span class="av"><i class="logo"></i><b id="avch"></b></span><div class="nm"><b id="cname"></b><small id="ctag"></small></div>
+    <a class="how" id="how" hidden target="_blank" rel="noopener"><svg viewBox="0 0 16 16" aria-hidden="true"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27s1.36.09 2 .27c1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8z"/></svg><span></span></a>
   </div>
   <div id="now"></div>
   <details id="talkBox" hidden><summary id="talkSum">コメント</summary><p class="talkNote" id="talkNote"></p><div id="talk"></div></details>
@@ -488,11 +498,11 @@ const WEEK = "日月火水木金土";
 // seconds} with episodes/<date>.json) still works. The words of the page itself are below.
 const UI = {
   ja: { share: "共有", copied: "コピーしました", resumeAt: t => `${t} から続きを再生`, from0: "最初から", heard: "聞いた", partway: t => `途中 ${t}`, rate: "再生速度", wxHere: "現在地", wxCredit: "天気：Open-Meteo（CC BY 4.0）", wxNoGeo: "位置情報が使えませんでした", wxPrompt: "右上から場所を選ぶと、天気が出ます", wxChoose: "場所を選ぶ", wxUseHere: "現在地にする", wxJapan: "日本", wxWorld: "世界", wxHi: "最高", wxLo: "最低", wxRain: "降水", copyHint: "押すとコピー", native: "共有…", copyLink: "リンクをコピー", copyEmbed: "埋め込みコードをコピー", openPage: "ページを開く", news: "ニュース", none: "詳細なし", jump: "この話題へ", bye: "またあした！", related: "関連記事", open: "記事をひらく ↗",
-        notFound: c => `リンク先が見つかりませんでした（${c}）`, source: "出典", script: "台本を読む", past: "これまでの放送", talk: "コメント", talkNote: "書きこむには GitHub のアカウントが要ります。コメントは GitHub Discussions に保存され、ここは giscus.app から読みこんでいます。",
+        notFound: c => `リンク先が見つかりませんでした（${c}）`, source: "出典", how: "しくみ", howTitle: "このラジオのしくみ（GitHub）", script: "台本を読む", past: "これまでの放送", talk: "コメント", talkNote: "書きこむには GitHub のアカウントが要ります。コメントは GitHub Discussions に保存され、ここは giscus.app から読みこんでいます。",
         expired: "この回の音声は公開が終わりました（台本は下で読めます）", loading: "読み込み中…", empty: "まだ放送がありません",
         muted: "音声オフ・クリックでオン", sep: "・", colon: "：" },
   en: { share: "Share", copied: "Copied", resumeAt: t => `Resume from ${t}`, from0: "Start over", heard: "Heard", partway: t => `Stopped at ${t}`, rate: "Playback speed", wxHere: "Your area", wxCredit: "Weather: Open-Meteo (CC BY 4.0)", wxNoGeo: "Location not available", wxPrompt: "Choose a place (top right) to see its weather", wxChoose: "Choose", wxUseHere: "Use my location", wxJapan: "Japan", wxWorld: "World", wxHi: "H", wxLo: "L", wxRain: "Rain", copyHint: "Click to copy", native: "Share…", copyLink: "Copy link", copyEmbed: "Copy embed code", openPage: "Open the page", news: "News", none: "No details", jump: "Go to this story", bye: "See you tomorrow!", related: "Related", open: "Open article ↗",
-        notFound: c => `Link not found (${c})`, source: "Source", script: "Read the script", past: "Past episodes", talk: "Comments", talkNote: "You need a GitHub account to comment. Comments are kept in GitHub Discussions, and this part loads from giscus.app.",
+        notFound: c => `Link not found (${c})`, source: "Source", how: "About", howTitle: "How this radio works (GitHub)", script: "Read the script", past: "Past episodes", talk: "Comments", talkNote: "You need a GitHub account to comment. Comments are kept in GitHub Discussions, and this part loads from giscus.app.",
         expired: "This episode's audio is no longer available (the script is below)", loading: "Loading…", empty: "No episodes yet",
         muted: "Sound off · click to turn on", sep: " · ", colon: ": " },
 };
@@ -717,6 +727,12 @@ function pickHtml() {
   if (!l?.image || l.status === 404 || l.status === 410) return "";
   return `<a class="pick" href="${esc(l.url)}" target="_blank" rel="noopener noreferrer"><img src="${esc(l.image)}" alt="" referrerpolicy="no-referrer" onerror="this.parentNode.remove()"><span>${esc(n.label)}<i>↗</i></span></a>`;
 }
+// on a narrow screen the "how it works" link gives up its words (keeps the icon) when the station's name would not fit
+function fitHow() {
+  const how = $("how"), name = $("cname"); how.classList.remove("tight");
+  requestAnimationFrame(() => how.classList.toggle("tight", name.scrollWidth > name.clientWidth + 1));
+}
+addEventListener("resize", fitHow);
 // a click on a heading copies it, and the show plays on: a topic's heading copies its words (to search for),
 // the station's name the address of its repository (station.json "repo")
 const headCopy = (text, inner) => text ? `<button class="head" data-copy="${esc(text)}" title="${tr("copyHint")}">${inner}</button>` : inner;
@@ -1097,6 +1113,10 @@ function setLang(l) {
   $("mutedTxt").textContent = tr("muted"); $("rate").title = $("rate").ariaLabel = tr("rate");
   $("share").querySelector("span").textContent = tr("share");
   $("cname").textContent = st("name"); $("ctag").textContent = st("tagline") || "";
+  // "how it works": the station's repository (station.json "repo"), where its README tells how it is made
+  const repo = /^https:\/\//.test(STATION.repo || "") ? STATION.repo : "";
+  $("how").hidden = !repo; if (repo) { $("how").href = repo; $("how").title = $("how").ariaLabel = tr("howTitle"); $("how").querySelector("span").textContent = tr("how"); }
+  fitHow();
   $("avch").textContent = STATION.logo ? "" : [...(st("name") || "")][0] || "";
   document.querySelector(".chan .av .logo").hidden = !STATION.logo;
   for (const [act, k] of [["native", "native"], ["link", "copyLink"], ["embed", "copyEmbed"]]) $("shareMenu").querySelector(`[data-act=${act}]`).textContent = tr(k);
