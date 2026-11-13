@@ -1,0 +1,367 @@
+{
+ "title": "llama.cppがv1.0.0に、3D生成はLoRAで特化へ",
+ "opening": [
+  {
+   "say": "おはようございます、ものラジオです。十一月十四日、土曜日の朝のニュースです。",
+   "show": "おはようございます、ものラジオです。11月14日、土曜日の朝のニュースです。"
+  },
+  {
+   "say": "今日は五本、順番にいきますね。",
+   "show": "今日は5本、順番にいきますね。"
+  }
+ ],
+ "news": [
+  {
+   "label": "llama.cppがv1.0.0に",
+   "points": [
+    "libllamaとggmlがv1.0.0",
+    "互換性を壊すなら大版上げ",
+    "150種類超のモデルに対応"
+   ],
+   "url": "https://huggingface.co/blog/ggml-org/llama-cpp-v1",
+   "lines": [
+    {
+     "say": "まずは、ラマシーピーピーが、ついにバージョン一に到達です。",
+     "show": "まずは、llama.cppが、ついにバージョン1に到達です。"
+    },
+    {
+     "say": "互換性を壊す変更では、メジャーバージョンを上げる方針が明確になりました。",
+     "show": "互換性を壊す変更では、メジャーバージョンを上げる方針が明確になりました。"
+    },
+    {
+     "say": "ローカルエーアイの土台が安定しましたね。",
+     "show": "ローカルAIの土台が安定しましたね。"
+    }
+   ],
+   "details": [
+    "推論ライブラリlibllamaと、その基盤であるggmlのv1.0.0が公開されました。",
+    "公開C APIに互換性を壊す変更が入る場合は、メジャーバージョンを上げる方針が明確になりました。",
+    "150種類以上のモデルアーキテクチャに対応し、macOS、Linux、Windows、モバイルなどで使えます。"
+   ],
+   "link": {
+    "url": "https://huggingface.co/blog/ggml-org/llama-cpp-v1",
+    "title": "llama.cpp v1.0.0 : A stronger foundation for the local AI ecosystem",
+    "site": "huggingface.co",
+    "description": "A Blog post by ggml-org on Hugging Face",
+    "image": "https://cdn-uploads.huggingface.co/production/uploads/63148d3b996c52bf0142cdbe/2PgU1GxpJX_LVORaP2RRy.png",
+    "icon": null
+   }
+  },
+  {
+   "label": "TRELLIS.2をLoRA学習",
+   "points": [
+    "3D生成をLoRAで追加学習",
+    "靴188個で靴底を改善",
+    "Dockerとスクリプトも提供"
+   ],
+   "url": "https://huggingface.co/blog/3d-lora-finetuning",
+   "lines": [
+    {
+     "say": "続いて、ハギングフェイスが、トレリスツーをローラで追加学習する手順を公開です。",
+     "show": "続いて、Hugging Faceが、TRELLIS.2をLoRAで追加学習する手順を公開です。"
+    },
+    {
+     "say": "靴の形で試した実験が紹介されています。",
+     "show": "靴の形で試した実験が紹介されています。"
+    },
+    {
+     "say": "特定の形に特化させる道が見えてきました。",
+     "show": "特定の形に特化させる道が見えてきました。"
+    }
+   ],
+   "details": [
+    "画像から3Dモデルを生成するTRELLIS.2を、LoRAで追加学習する実装ガイドが公開されました。",
+    "188個の靴の3Dモデルを使い、不正確になりがちな靴底の形状を改善する実験が紹介されています。",
+    "前処理・学習用のDockerコンテナとスクリプトが提供されています。学習例ではA100 80GBを使っています。"
+   ],
+   "link": {
+    "url": "https://huggingface.co/blog/3d-lora-finetuning",
+    "title": "The Definitive Fine-Tuning Guide for 3D Generation Models",
+    "site": "huggingface.co",
+    "description": "We’re on a journey to advance and democratize artificial intelligence through open source and open science.",
+    "image": "https://huggingface.co/blog/assets/3d-lora-finetuning/thumbnail.gif",
+    "icon": null
+   }
+  },
+  {
+   "label": "EINSTAR EZ GO発表",
+   "points": [
+    "AI追跡のモバイルスキャナー",
+    "レーザーと赤外線の組み合わせ",
+    "スマホ連携で約2時間駆動"
+   ],
+   "url": "https://prtimes.jp/main/html/rd/p/000000024.000148722.html",
+   "lines": [
+    {
+     "say": "次は、シャイニングスリーディーのモバイルスキャナー、アインスターイージーゴーです。",
+     "show": "次は、SHINING 3DのモバイルスキャナーEINSTAR EZ GOです。"
+    },
+    {
+     "say": "エーアイ追跡で、マーカーなしのスキャンができます。",
+     "show": "AI追跡で、マーカーなしのスキャンができます。"
+    },
+    {
+     "say": "持ち歩いて形を取れるのは便利ですね。",
+     "show": "持ち歩いて形を取れるのは便利ですね。"
+    }
+   ],
+   "details": [
+    "AIによるトラッキングや背景分離、マーカーレススキャンに対応します。",
+    "30本のクロスレーザーライン、細部向けのシングルレーザー、赤外線スキャンを組み合わせています。",
+    "スマートフォン・タブレットとワイヤレス接続でき、最大約2時間のバッテリー駆動です。"
+   ],
+   "link": {
+    "url": "https://prtimes.jp/main/html/rd/p/000000024.000148722.html",
+    "title": "SHINING 3D、AI搭載モバイル3Dスキャナー「EINSTAR EZ GO」を発表",
+    "site": "プレスリリース・ニュースリリース配信シェアNo.1｜PR TIMES",
+    "description": "Shining3D Technology Japan株式会社のプレスリリース（2026年11月13日 17時04分）SHINING 3D、AI搭載モバイル3Dスキャナー「EINSTAR EZ GO」を発表",
+    "image": "https://prcdn.freetls.fastly.net/release_image/148722/24/148722-24-e3a60fcbc4e41fcf514f2b8dd528b447-2000x1000.jpg?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260",
+    "icon": "https://prtimes.jp/common/v4.1/images/html/favicon/favicon-196x196.png"
+   }
+  },
+  {
+   "label": "NVIDIA SOMA Retargeter",
+   "points": [
+    "人の動きをロボット関節へ",
+    "関節角度をCSVで出力",
+    "5種類のロボットに対応"
+   ],
+   "url": "https://developer.nvidia.com/blog/adapt-human-motion-for-robots-with-nvidia-soma-retargeter/",
+   "lines": [
+    {
+     "say": "ロボットの話題です。エヌビディアが、人の動きをロボットの関節の動きに変える、ソーマリターゲッターを公開しました。",
+     "show": "ロボットの話題です。NVIDIAが、人の動きをロボットの関節の動きに変える、SOMA Retargeterを公開しました。"
+    },
+    {
+     "say": "実機がなくても試せるのが面白いです。",
+     "show": "実機がなくても試せるのが面白いです。"
+    }
+   ],
+   "details": [
+    "BVH形式の動きを、ロボットの体格や関節可動域に合わせて逆運動学で変換します。",
+    "各フレームの関節角度をCSVとして書き出せます。",
+    "v0.2ではUnitree G1、H2など5種類のロボットの設定例やサンプルモーションが提供されています。"
+   ],
+   "link": {
+    "url": "https://developer.nvidia.com/blog/adapt-human-motion-for-robots-with-nvidia-soma-retargeter/",
+    "title": "Adapt Human Motion for Robots with NVIDIA SOMA Retargeter | NVIDIA Technical Blog",
+    "site": "NVIDIA Technical Blog",
+    "description": "Human motion offers roboticists a great starting point for teaching humanoid robots how to move. A human demonstration captures the coordination and timing behind natural movement…",
+    "image": "https://developer-blogs.nvidia.com/wp-content/uploads/2026/11/SOMA_Retargeter_Featured_600x338-500x282.gif",
+    "icon": null
+   }
+  },
+  {
+   "label": "ChatGPT Walletを発表",
+   "points": [
+    "AIエージェントが購入を支援",
+    "カード情報は渡さない",
+    "まず米国のProユーザーから"
+   ],
+   "url": "https://openai.com/index/introducing-chatgpt-wallet/",
+   "lines": [
+    {
+     "say": "最後は、オープンエーアイのチャットジーピーティーウォレットです。",
+     "show": "最後は、OpenAIのChatGPT Walletです。"
+    },
+    {
+     "say": "エーアイエージェントが、本人の承認のあとに買い物を進めます。",
+     "show": "AIエージェントが、本人の承認のあとに買い物を進めます。"
+    },
+    {
+     "say": "カード情報は渡さない仕組みがポイントです。",
+     "show": "カード情報は渡さない仕組みがポイントです。"
+    }
+   ],
+   "details": [
+    "ユーザーが商品・合計金額・決済カードを確認し、生体認証などで承認すると購入が進みます。",
+    "エージェントは実際のカード情報を受け取らず、決済用トークンを使って購入を進めます。",
+    "初期提供は米国の18歳以上のChatGPT Proユーザー向けで、Dotsを通じて段階的に展開されます。"
+   ],
+   "link": {
+    "url": "https://www.cnbc.com/2026/11/13/openai-chatgpt-wallet-dot-purchases.html",
+    "title": "OpenAI launches ChatGPT Wallet, allowing its 'dots' AI agents to make purchases for users",
+    "site": "CNBC",
+    "description": "OpenAI's ChatGPT Wallet partners with American Express, Mastercard and Visa, and those cardholders keep their existing credit card rewards.",
+    "image": "https://image.cnbcfm.com/api/v1/image/108469835-1793120540409-Screenshot_2026-10-27_at_10008_PM.png?v=1793474850&w=1920&h=1080",
+    "icon": null,
+    "found_by": "search"
+   },
+   "source_link": {
+    "url": "https://openai.com/index/introducing-chatgpt-wallet/",
+    "error": "HTTPError",
+    "status": 403
+   }
+  }
+ ],
+ "closing": [
+  {
+   "say": "今日の注目は、トレリスツーのローラ学習。スリーディー生成を特化させる道筋が楽しみです。",
+   "show": "今日の注目は、TRELLIS.2のLoRA学習。3D生成を特化させる道筋が楽しみです。"
+  },
+  {
+   "say": "以上、ものラジオでした。",
+   "show": "以上、ものラジオでした。"
+  }
+ ],
+ "highlight": 1,
+ "format": "monoradio/news-1",
+ "date": "2026-11-14",
+ "lang": "ja",
+ "seconds": 83.2,
+ "lines_timed": [
+  {
+   "start": 0.6,
+   "end": 6.482,
+   "show": "おはようございます、ものラジオです。11月14日、土曜日の朝のニュースです。",
+   "part": 0
+  },
+  {
+   "start": 6.732,
+   "end": 8.992,
+   "show": "今日は5本、順番にいきますね。",
+   "part": 0
+  },
+  {
+   "start": 10.042,
+   "end": 14.09,
+   "show": "まずは、llama.cppが、ついにバージョン1に到達です。",
+   "part": 1
+  },
+  {
+   "start": 14.34,
+   "end": 19.479,
+   "show": "互換性を壊す変更では、メジャーバージョンを上げる方針が明確になりました。",
+   "part": 1
+  },
+  {
+   "start": 19.729,
+   "end": 22.326,
+   "show": "ローカルAIの土台が安定しましたね。",
+   "part": 1
+  },
+  {
+   "start": 23.376,
+   "end": 29.165,
+   "show": "続いて、Hugging Faceが、TRELLIS.2をLoRAで追加学習する手順を公開です。",
+   "part": 2
+  },
+  {
+   "start": 29.415,
+   "end": 32.546,
+   "show": "靴の形で試した実験が紹介されています。",
+   "part": 2
+  },
+  {
+   "start": 32.796,
+   "end": 35.892,
+   "show": "特定の形に特化させる道が見えてきました。",
+   "part": 2
+  },
+  {
+   "start": 36.942,
+   "end": 41.547,
+   "show": "次は、SHINING 3DのモバイルスキャナーEINSTAR EZ GOです。",
+   "part": 3
+  },
+  {
+   "start": 41.797,
+   "end": 44.928,
+   "show": "AI追跡で、マーカーなしのスキャンができます。",
+   "part": 3
+  },
+  {
+   "start": 45.178,
+   "end": 47.856,
+   "show": "持ち歩いて形を取れるのは便利ですね。",
+   "part": 3
+  },
+  {
+   "start": 48.906,
+   "end": 56.692,
+   "show": "ロボットの話題です。NVIDIAが、人の動きをロボットの関節の動きに変える、SOMA Retargeterを公開しました。",
+   "part": 4
+  },
+  {
+   "start": 56.942,
+   "end": 59.562,
+   "show": "実機がなくても試せるのが面白いです。",
+   "part": 4
+  },
+  {
+   "start": 60.612,
+   "end": 63.952,
+   "show": "最後は、OpenAIのChatGPT Walletです。",
+   "part": 5
+  },
+  {
+   "start": 64.202,
+   "end": 68.459,
+   "show": "AIエージェントが、本人の承認のあとに買い物を進めます。",
+   "part": 5
+  },
+  {
+   "start": 68.709,
+   "end": 71.399,
+   "show": "カード情報は渡さない仕組みがポイントです。",
+   "part": 5
+  },
+  {
+   "start": 72.449,
+   "end": 79.074,
+   "show": "今日の注目は、TRELLIS.2のLoRA学習。3D生成を特化させる道筋が楽しみです。",
+   "part": 6
+  },
+  {
+   "start": 79.324,
+   "end": 81.154,
+   "show": "以上、ものラジオでした。",
+   "part": 6
+  }
+ ],
+ "segments": [
+  {
+   "kind": "opening",
+   "index": null,
+   "start": 0.6,
+   "end": 10.042
+  },
+  {
+   "kind": "news",
+   "index": 0,
+   "start": 10.042,
+   "end": 23.376
+  },
+  {
+   "kind": "news",
+   "index": 1,
+   "start": 23.376,
+   "end": 36.942
+  },
+  {
+   "kind": "news",
+   "index": 2,
+   "start": 36.942,
+   "end": 48.906
+  },
+  {
+   "kind": "news",
+   "index": 3,
+   "start": 48.906,
+   "end": 60.612
+  },
+  {
+   "kind": "news",
+   "index": 4,
+   "start": 60.612,
+   "end": 72.449
+  },
+  {
+   "kind": "closing",
+   "index": null,
+   "start": 72.449,
+   "end": 83.204
+  }
+ ],
+ "made_at": "2026-11-14T06:52:19"
+}
