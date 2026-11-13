@@ -1,0 +1,379 @@
+{
+ "title": "Fast AI and Robot AI Arrive! Gemini 4 and Praxis-1",
+ "opening": [
+  {
+   "say": "Good morning, and welcome to Mono Radio. It's Friday, November thirteenth.",
+   "show": "Good morning, and welcome to Mono Radio. It's Friday, November 13."
+  },
+  {
+   "say": "Today we have five stories about AI and three D.",
+   "show": "Today we have five stories about AI and 3D."
+  }
+ ],
+ "news": [
+  {
+   "label": "Gemini 4 Hydrogen Released",
+   "points": [
+    "Optimized for everyday coding",
+    "Switches models automatically",
+    "Cuts quota use by 24% on average"
+   ],
+   "details": [
+    "It is optimized for coding, debugging, and agent tasks, and supports a one million token context and four levels of reasoning.",
+    "The Orchestrator added to Google Antigravity automatically switches between a high-performance model and Hydrogen within a single session.",
+    "Google's evaluation says success rates stay close to a single model's, while completion time is also cut by 19%."
+   ],
+   "lines": [
+    {
+     "say": "First up is Google, and the arrival of Gemini four Hydrogen.",
+     "show": "First up is Google, and the arrival of Gemini 4 Hydrogen."
+    },
+    {
+     "say": "It's a model built for speed in everyday coding.",
+     "show": "It's a model built for speed in everyday coding."
+    },
+    {
+     "say": "It switches automatically with a high-performance model, and that can reduce usage.",
+     "show": "It switches automatically with a high-performance model, which can reduce usage."
+    }
+   ],
+   "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-hydrogen/",
+   "link": {
+    "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-hydrogen/",
+    "title": "Introducing Gemini 4 Hydrogen",
+    "site": "Google",
+    "description": "Today, we’re introducing Gemini 4 Hydrogen, our daily driver for agentic workflows",
+    "image": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/gemini-4-hydrogen__key-art__lockup__16-9.width-1300.jpg",
+    "icon": "https://blog.google/static/blogv2/images/apple-touch-icon.png?version=pr20261029-2131"
+   }
+  },
+  {
+   "label": "Runway Releases Praxis-1",
+   "points": [
+    "Robot control model weights released",
+    "Predicts video and actions together",
+    "Achieves a 46.2% task success rate"
+   ],
+   "details": [
+    "The weights, along with inference and fine-tuning code, have been released under the Apache two point zero license.",
+    "It is a 27 billion parameter MoE diffusion Transformer that predicts video and robot actions together.",
+    "On NVIDIA's RoboLab-120 evaluation, it beat the publicly available models it was compared against in success rate across 1,200 episodes. Running it requires a high-performance NVIDIA GPU."
+   ],
+   "lines": [
+    {
+     "say": "Next, a story about robots. Runway has released Praxis one.",
+     "show": "Next, a story about robots. Runway has released Praxis-1."
+    },
+    {
+     "say": "It's an open model that predicts video and actions together.",
+     "show": "It's an open model that predicts video and actions together."
+    },
+    {
+     "say": "It's fascinating to see knowledge about video put to work for robots.",
+     "show": "It's fascinating to see knowledge about video put to work for robots."
+    }
+   ],
+   "url": "https://runway.com/news/company-news/praxis-1-is-now-available",
+   "link": {
+    "url": "https://runway.com/news/company-news/praxis-1-is-now-available",
+    "title": "Runway Praxis-1 Is Now Available: Open-Weight Robotics Model",
+    "site": "runway.com",
+    "description": "Runway Praxis-1, our open-weight world action model for robotics, is now available under Apache 2.0. Download the weights on Hugging Face and GitHub.",
+    "image": "https://d3phaj0sisr2ct.cloudfront.net/site/images/sanity/2026/11/frame-8-bddb7fbc-4647-44e5-bf65-1fbb7e559b24-af3f1b60-26e7-4a91-afda-ee27b0a4674b.webp",
+    "icon": "https://runway.com/icon.png?icon.35ps9bmugbe1e.png"
+   }
+  },
+  {
+   "label": "Gemini Decisions API",
+   "points": [
+    "Handles up to 1,000 decisions at once",
+    "Responds in 150 to 250 milliseconds",
+    "$0.10 per million input tokens"
+   ],
+   "details": [
+    "For text, images, audio, video, and PDFs, it judges batches of questions such as yes or no, multiple choice, and rating scales, and returns a confidence score.",
+    "That is the typical response time published by Google. It does not generate text.",
+    "There is no charge for output tokens. It lets you build tool selection, image classification, and inspection judgments quickly and at low cost."
+   ],
+   "lines": [
+    {
+     "say": "Here's one more from Google, the Gemini Decisions API.",
+     "show": "Here's one more from Google, the Gemini Decisions API."
+    },
+    {
+     "say": "It judges up to one thousand questions at once and returns a confidence score.",
+     "show": "It judges up to 1,000 questions at once and returns a confidence score."
+    },
+    {
+     "say": "Responses in one hundred fifty to two hundred fifty milliseconds are a real draw.",
+     "show": "Responses in 150 to 250 milliseconds are a real draw."
+    }
+   ],
+   "url": "https://blog.google/innovation-and-ai/technology/developers-tools/gemini-decisions-api/",
+   "link": {
+    "url": "https://blog.google/innovation-and-ai/technology/developers-tools/gemini-decisions-api/",
+    "title": "Gemini Decisions API: Fast, calibrated multimodal decisions",
+    "site": "Google",
+    "description": "Meet the Gemini Decisions API, powered by our state-of-the-art model Gemini Decision for fast, calibrated multimodal decisions.",
+    "image": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/gemini__decisions__blog-header_2784x1566.width-1300.png",
+    "icon": "https://blog.google/static/blogv2/images/apple-touch-icon.png?version=pr20261029-2131"
+   }
+  },
+  {
+   "label": "NVIDIA Déjà View",
+   "points": [
+    "Rebuilds 3D scenes from multiple photos",
+    "Only 117 million parameters",
+    "Speed and accuracy are adjustable"
+   ],
+   "details": [
+    "It estimates camera positions and dense 3D geometry. It has been accepted to NeurIPS 2026.",
+    "It repeatedly runs the same Transformer block, which keeps the parameter count down.",
+    "You can tune it by changing the number of iterations at inference time. However, as of this check, the release of the trained weights was not yet complete."
+   ],
+   "lines": [
+    {
+     "say": "Now a three D research story, NVIDIA's Deja View.",
+     "show": "Now a 3D research story, NVIDIA's Déjà View."
+    },
+    {
+     "say": "It rebuilds three D scenes from multiple photos, with just one hundred seventeen million parameters.",
+     "show": "It rebuilds 3D scenes from multiple photos, with just 117 million parameters."
+    },
+    {
+     "say": "It's impressive how close this small model gets to much larger ones.",
+     "show": "It's impressive how close this small model gets to much larger ones."
+    }
+   ],
+   "url": "https://research.nvidia.com/labs/dvl/projects/dvlt/",
+   "link": {
+    "url": "https://huggingface.co/nvidia/dvlt",
+    "title": "nvidia/dvlt · Hugging Face",
+    "site": "huggingface.co",
+    "description": "Image-to-3D model with 0.1B parameters. Download, explore files and run it on Hugging Face.",
+    "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/models/nvidia/dvlt.png",
+    "icon": null,
+    "found_by": "search"
+   },
+   "source_link": {
+    "url": "https://research.nvidia.com/labs/dvl/projects/dvlt/",
+    "title": "Déjà View",
+    "site": "research.nvidia.com",
+    "description": "Déjà View — a 117M-parameter looped transformer for multi-view 3D reconstruction that matches or beats >1B-parameter feed-forward baselines and exposes inference compute as a slider.",
+    "image": null,
+    "icon": null
+   }
+  },
+  {
+   "label": "Kurabe: Japanese AI Evaluation",
+   "points": [
+    "ELEMENTS launches it free of charge",
+    "Compares accuracy, speed, and cost",
+    "More field-specific evaluations planned"
+   ],
+   "details": [
+    "It is an AI leaderboard for business use in Japan, available as a web service.",
+    "Based on Japanese-language and domestic business use cases, it lets you compare combinations of AI models and execution environments.",
+    "It is part of the results of a NEDO-related research project led by AIST, and field-specific evaluations for finance, manufacturing, and more are planned."
+   ],
+   "lines": [
+    {
+     "say": "Last, a story from Japan. ELEMENTS has released Kurabe, free of charge.",
+     "show": "Last, a story from Japan. ELEMENTS has released Kurabe, free of charge."
+    },
+    {
+     "say": "It's a service for comparing AI models for Japanese business use.",
+     "show": "It's a service for comparing AI models for Japanese business use."
+    },
+    {
+     "say": "It looks like a handy reference when choosing a model.",
+     "show": "It looks like a handy reference when choosing a model."
+    }
+   ],
+   "url": "https://prtimes.jp/main/html/rd/p/000000171.000061051.html",
+   "link": {
+    "url": "https://prtimes.jp/main/html/rd/p/000000171.000061051.html",
+    "title": "ELEMENTS、国内業務向けAIリーダーボード「Kurabe（クラベ）」のサービス提供開始",
+    "site": "プレスリリース・ニュースリリース配信シェアNo.1｜PR TIMES",
+    "description": "株式会社ELEMENTSのプレスリリース（2026年11月12日 10時00分）ELEMENTS、国内業務向けAIリーダーボード「Kurabe（クラベ）」のサービス提供開始",
+    "image": "https://prcdn.freetls.fastly.net/release_image/61051/171/61051-171-fa1908599bdff62e58c0b529b2252787-1200x400.png?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260",
+    "icon": "https://prtimes.jp/common/v4.1/images/html/favicon/favicon-196x196.png"
+   }
+  }
+ ],
+ "closing": [
+  {
+   "say": "Today's highlights are the Decisions API you can try right away, and Praxis one, which gives a glimpse of the robot future.",
+   "show": "Today's highlights are the Decisions API you can try right away, and Praxis-1, a glimpse of the robot future."
+  },
+  {
+   "say": "That's all from Mono Radio.",
+   "show": "That's all from Mono Radio."
+  }
+ ],
+ "format": "monoradio/news-1",
+ "date": "2026-11-13",
+ "lang": "en",
+ "seconds": 90.12,
+ "lines_timed": [
+  {
+   "start": 0.6,
+   "end": 5.315,
+   "show": "Good morning, and welcome to Mono Radio. It's Friday, November 13.",
+   "part": 0
+  },
+  {
+   "start": 5.565,
+   "end": 8.658,
+   "show": "Today we have five stories about AI and 3D.",
+   "part": 0
+  },
+  {
+   "start": 9.708,
+   "end": 13.676,
+   "show": "First up is Google, and the arrival of Gemini 4 Hydrogen.",
+   "part": 1
+  },
+  {
+   "start": 13.926,
+   "end": 16.571,
+   "show": "It's a model built for speed in everyday coding.",
+   "part": 1
+  },
+  {
+   "start": 16.821,
+   "end": 21.259,
+   "show": "It switches automatically with a high-performance model, which can reduce usage.",
+   "part": 1
+  },
+  {
+   "start": 22.309,
+   "end": 26.405,
+   "show": "Next, a story about robots. Runway has released Praxis-1.",
+   "part": 2
+  },
+  {
+   "start": 26.655,
+   "end": 30.068,
+   "show": "It's an open model that predicts video and actions together.",
+   "part": 2
+  },
+  {
+   "start": 30.318,
+   "end": 34.222,
+   "show": "It's fascinating to see knowledge about video put to work for robots.",
+   "part": 2
+  },
+  {
+   "start": 35.272,
+   "end": 38.899,
+   "show": "Here's one more from Google, the Gemini Decisions API.",
+   "part": 3
+  },
+  {
+   "start": 39.149,
+   "end": 43.799,
+   "show": "It judges up to 1,000 questions at once and returns a confidence score.",
+   "part": 3
+  },
+  {
+   "start": 44.049,
+   "end": 49.191,
+   "show": "Responses in 150 to 250 milliseconds are a real draw.",
+   "part": 3
+  },
+  {
+   "start": 50.241,
+   "end": 53.462,
+   "show": "Now a 3D research story, NVIDIA's Déjà View.",
+   "part": 4
+  },
+  {
+   "start": 53.712,
+   "end": 59.792,
+   "show": "It rebuilds 3D scenes from multiple photos, with just 117 million parameters.",
+   "part": 4
+  },
+  {
+   "start": 60.042,
+   "end": 63.989,
+   "show": "It's impressive how close this small model gets to much larger ones.",
+   "part": 4
+  },
+  {
+   "start": 65.039,
+   "end": 69.86,
+   "show": "Last, a story from Japan. ELEMENTS has released Kurabe, free of charge.",
+   "part": 5
+  },
+  {
+   "start": 70.11,
+   "end": 74.163,
+   "show": "It's a service for comparing AI models for Japanese business use.",
+   "part": 5
+  },
+  {
+   "start": 74.413,
+   "end": 77.187,
+   "show": "It looks like a handy reference when choosing a model.",
+   "part": 5
+  },
+  {
+   "start": 78.237,
+   "end": 86.087,
+   "show": "Today's highlights are the Decisions API you can try right away, and Praxis-1, a glimpse of the robot future.",
+   "part": 6
+  },
+  {
+   "start": 86.337,
+   "end": 88.065,
+   "show": "That's all from Mono Radio.",
+   "part": 6
+  }
+ ],
+ "segments": [
+  {
+   "kind": "opening",
+   "index": null,
+   "start": 0.6,
+   "end": 9.708
+  },
+  {
+   "kind": "news",
+   "index": 0,
+   "start": 9.708,
+   "end": 22.309
+  },
+  {
+   "kind": "news",
+   "index": 1,
+   "start": 22.309,
+   "end": 35.272
+  },
+  {
+   "kind": "news",
+   "index": 2,
+   "start": 35.272,
+   "end": 50.241
+  },
+  {
+   "kind": "news",
+   "index": 3,
+   "start": 50.241,
+   "end": 65.039
+  },
+  {
+   "kind": "news",
+   "index": 4,
+   "start": 65.039,
+   "end": 78.237
+  },
+  {
+   "kind": "closing",
+   "index": null,
+   "start": 78.237,
+   "end": 90.115
+  }
+ ],
+ "made_at": "2026-11-13T06:32:53"
+}

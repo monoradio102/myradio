@@ -1,0 +1,362 @@
+{
+ "title": "llama.cpp Hits v1.0.0, and 3D Generation Gets Specialized with LoRA",
+ "opening": [
+  {
+   "say": "Good morning, and welcome to Mono Radio. It's Saturday, November fourteenth, and here's your morning news.",
+   "show": "Good morning, and welcome to Mono Radio. It's Saturday, November 14."
+  },
+  {
+   "say": "We've got five stories today, so let's jump right in.",
+   "show": "We've got five stories today, so let's jump right in."
+  }
+ ],
+ "closing": [
+  {
+   "say": "Today's highlight is LoRA training for TRELLIS dot two. It's exciting to see a path toward specialized three D generation.",
+   "show": "Today's highlight: LoRA training for TRELLIS.2, a path to specialized 3D generation."
+  },
+  {
+   "say": "That's all from Mono Radio. Have a great day.",
+   "show": "That's all from Mono Radio. Have a great day."
+  }
+ ],
+ "news": [
+  {
+   "label": "llama.cpp reaches v1.0.0",
+   "points": [
+    "libllama and ggml hit v1.0.0",
+    "Breaking changes mean a major bump",
+    "Supports 150+ model architectures"
+   ],
+   "details": [
+    "The inference library libllama and its foundation, ggml, have both reached version 1.0.0.",
+    "The project has made clear that any breaking change to the public C API will come with a major version bump. It supports more than 150 model architectures and runs on macOS, Linux, Windows, mobile, and more."
+   ],
+   "lines": [
+    {
+     "say": "First up, llama dot c p p has finally reached version one.",
+     "show": "First up, llama.cpp has finally reached version 1."
+    },
+    {
+     "say": "Any change that breaks compatibility will now come with a major version bump.",
+     "show": "Any change that breaks compatibility will now come with a major version bump."
+    },
+    {
+     "say": "Looks like the foundation of local A I has become a lot more stable.",
+     "show": "The foundation of local AI just got a lot more stable."
+    }
+   ],
+   "url": "https://huggingface.co/blog/ggml-org/llama-cpp-v1",
+   "link": {
+    "url": "https://huggingface.co/blog/ggml-org/llama-cpp-v1",
+    "title": "llama.cpp v1.0.0 : A stronger foundation for the local AI ecosystem",
+    "site": "huggingface.co",
+    "description": "A Blog post by ggml-org on Hugging Face",
+    "image": "https://cdn-uploads.huggingface.co/production/uploads/63148d3b996c52bf0142cdbe/2PgU1GxpJX_LVORaP2RRy.png",
+    "icon": null
+   }
+  },
+  {
+   "label": "LoRA training for TRELLIS.2",
+   "points": [
+    "Fine-tuning 3D generation with LoRA",
+    "188 shoe models improve soles",
+    "Docker and scripts provided"
+   ],
+   "details": [
+    "A hands-on guide has been published for fine-tuning TRELLIS.2, which generates 3D models from images, using LoRA.",
+    "One experiment used 188 shoe 3D models to improve sole shapes, which are often inaccurate. Docker containers and scripts for preprocessing and training are provided, and the example uses an A100 80 gigabyte GPU."
+   ],
+   "lines": [
+    {
+     "say": "Next, Hugging Face has published a guide to fine-tuning TRELLIS dot two with LoRA.",
+     "show": "Next, Hugging Face has published a guide to fine-tuning TRELLIS.2 with LoRA."
+    },
+    {
+     "say": "It includes an experiment using shoe shapes.",
+     "show": "It includes an experiment using shoe shapes."
+    },
+    {
+     "say": "It points to a way of specializing the model for particular shapes.",
+     "show": "It's a way to specialize the model for particular shapes."
+    }
+   ],
+   "url": "https://huggingface.co/blog/3d-lora-finetuning",
+   "link": {
+    "url": "https://huggingface.co/blog/3d-lora-finetuning",
+    "title": "The Definitive Fine-Tuning Guide for 3D Generation Models",
+    "site": "huggingface.co",
+    "description": "We’re on a journey to advance and democratize artificial intelligence through open source and open science.",
+    "image": "https://huggingface.co/blog/assets/3d-lora-finetuning/thumbnail.gif",
+    "icon": null
+   }
+  },
+  {
+   "label": "SHINING 3D unveils EINSTAR EZ GO",
+   "points": [
+    "AI-tracking mobile 3D scanner",
+    "Combines laser and infrared",
+    "About 2 hours of battery life"
+   ],
+   "details": [
+    "It supports AI tracking, background separation, and markerless scanning.",
+    "It combines thirty cross laser lines, a single laser for fine detail, and infrared scanning. It connects wirelessly to smartphones and tablets and runs for up to about two hours on battery."
+   ],
+   "lines": [
+    {
+     "say": "Up next, SHINING three D's mobile scanner, the EINSTAR EZ GO.",
+     "show": "Up next: SHINING 3D's mobile scanner, the EINSTAR EZ GO."
+    },
+    {
+     "say": "With A I tracking, it can scan without any markers.",
+     "show": "With AI tracking, it can scan without any markers."
+    },
+    {
+     "say": "Being able to carry it around and capture shapes is pretty handy.",
+     "show": "Being able to carry it around and capture shapes is handy."
+    }
+   ],
+   "url": "https://prtimes.jp/main/html/rd/p/000000024.000148722.html",
+   "link": {
+    "url": "https://prtimes.jp/main/html/rd/p/000000024.000148722.html",
+    "title": "SHINING 3D、AI搭載モバイル3Dスキャナー「EINSTAR EZ GO」を発表",
+    "site": "プレスリリース・ニュースリリース配信シェアNo.1｜PR TIMES",
+    "description": "Shining3D Technology Japan株式会社のプレスリリース（2026年11月13日 17時04分）SHINING 3D、AI搭載モバイル3Dスキャナー「EINSTAR EZ GO」を発表",
+    "image": "https://prcdn.freetls.fastly.net/release_image/148722/24/148722-24-e3a60fcbc4e41fcf514f2b8dd528b447-2000x1000.jpg?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260",
+    "icon": "https://prtimes.jp/common/v4.1/images/html/favicon/favicon-196x196.png"
+   }
+  },
+  {
+   "label": "NVIDIA releases SOMA Retargeter",
+   "points": [
+    "Human motion to robot joints",
+    "Joint angles exported as CSV",
+    "Supports 5 robot types"
+   ],
+   "details": [
+    "It converts BVH motion data using inverse kinematics, adapting it to a robot's body proportions and joint limits, and exports each frame's joint angles as CSV.",
+    "Version zero point two provides example configurations and sample motions for five robots, including the Unitree G1 and H2."
+   ],
+   "lines": [
+    {
+     "say": "Now to robotics. NVIDIA has released SOMA Retargeter, which turns human motion into robot joint movement.",
+     "show": "Now to robotics. NVIDIA has released SOMA Retargeter, which turns human motion into robot joint movement."
+    },
+    {
+     "say": "The fun part is that you can try it without a physical robot.",
+     "show": "The fun part: you can try it without a physical robot."
+    }
+   ],
+   "url": "https://developer.nvidia.com/blog/adapt-human-motion-for-robots-with-nvidia-soma-retargeter/",
+   "link": {
+    "url": "https://developer.nvidia.com/blog/adapt-human-motion-for-robots-with-nvidia-soma-retargeter/",
+    "title": "Adapt Human Motion for Robots with NVIDIA SOMA Retargeter | NVIDIA Technical Blog",
+    "site": "NVIDIA Technical Blog",
+    "description": "Human motion offers roboticists a great starting point for teaching humanoid robots how to move. A human demonstration captures the coordination and timing behind natural movement…",
+    "image": "https://developer-blogs.nvidia.com/wp-content/uploads/2026/11/SOMA_Retargeter_Featured_600x338-500x282.gif",
+    "icon": null
+   }
+  },
+  {
+   "label": "OpenAI announces ChatGPT Wallet",
+   "points": [
+    "AI agents help you make purchases",
+    "Your card details stay private",
+    "Starting with US Pro users"
+   ],
+   "details": [
+    "You review the item, the total, and the payment card, then approve with biometrics or similar, and the purchase goes ahead.",
+    "The agent never receives your actual card details and uses a payment token instead. It launches first for ChatGPT Pro users in the US aged eighteen and over, and will roll out gradually through Dots."
+   ],
+   "lines": [
+    {
+     "say": "Last up, OpenAI's ChatGPT Wallet.",
+     "show": "Last up: OpenAI's ChatGPT Wallet."
+    },
+    {
+     "say": "An A I agent can go ahead with a purchase once you've approved it.",
+     "show": "An AI agent can go ahead with a purchase once you've approved it."
+    },
+    {
+     "say": "The key point is that your card details are never handed over.",
+     "show": "The key point: your card details are never handed over."
+    }
+   ],
+   "url": "https://openai.com/index/introducing-chatgpt-wallet/",
+   "link": {
+    "url": "https://www.cnbc.com/2026/11/13/openai-chatgpt-wallet-dot-purchases.html",
+    "title": "OpenAI launches ChatGPT Wallet, allowing its 'dots' AI agents to make purchases for users",
+    "site": "CNBC",
+    "description": "OpenAI's ChatGPT Wallet partners with American Express, Mastercard and Visa, and those cardholders keep their existing credit card rewards.",
+    "image": "https://image.cnbcfm.com/api/v1/image/108469835-1793120540409-Screenshot_2026-10-27_at_10008_PM.png?v=1793474850&w=1920&h=1080",
+    "icon": null,
+    "found_by": "search"
+   },
+   "source_link": {
+    "url": "https://openai.com/index/introducing-chatgpt-wallet/",
+    "error": "HTTPError",
+    "status": 403
+   }
+  }
+ ],
+ "highlight": 1,
+ "format": "monoradio/news-1",
+ "date": "2026-11-14",
+ "lang": "en",
+ "seconds": 87.37,
+ "lines_timed": [
+  {
+   "start": 0.6,
+   "end": 6.893,
+   "show": "Good morning, and welcome to Mono Radio. It's Saturday, November 14.",
+   "part": 0
+  },
+  {
+   "start": 7.143,
+   "end": 10.237,
+   "show": "We've got five stories today, so let's jump right in.",
+   "part": 0
+  },
+  {
+   "start": 11.287,
+   "end": 15.255,
+   "show": "First up, llama.cpp has finally reached version 1.",
+   "part": 1
+  },
+  {
+   "start": 15.505,
+   "end": 19.899,
+   "show": "Any change that breaks compatibility will now come with a major version bump.",
+   "part": 1
+  },
+  {
+   "start": 20.149,
+   "end": 24.16,
+   "show": "The foundation of local AI just got a lot more stable.",
+   "part": 1
+  },
+  {
+   "start": 25.21,
+   "end": 30.778,
+   "show": "Next, Hugging Face has published a guide to fine-tuning TRELLIS.2 with LoRA.",
+   "part": 2
+  },
+  {
+   "start": 31.028,
+   "end": 33.503,
+   "show": "It includes an experiment using shoe shapes.",
+   "part": 2
+  },
+  {
+   "start": 33.753,
+   "end": 37.401,
+   "show": "It's a way to specialize the model for particular shapes.",
+   "part": 2
+  },
+  {
+   "start": 38.451,
+   "end": 42.504,
+   "show": "Up next: SHINING 3D's mobile scanner, the EINSTAR EZ GO.",
+   "part": 3
+  },
+  {
+   "start": 42.754,
+   "end": 45.655,
+   "show": "With AI tracking, it can scan without any markers.",
+   "part": 3
+  },
+  {
+   "start": 45.905,
+   "end": 49.425,
+   "show": "Being able to carry it around and capture shapes is handy.",
+   "part": 3
+  },
+  {
+   "start": 50.475,
+   "end": 57.707,
+   "show": "Now to robotics. NVIDIA has released SOMA Retargeter, which turns human motion into robot joint movement.",
+   "part": 4
+  },
+  {
+   "start": 57.957,
+   "end": 61.456,
+   "show": "The fun part: you can try it without a physical robot.",
+   "part": 4
+  },
+  {
+   "start": 62.506,
+   "end": 65.322,
+   "show": "Last up: OpenAI's ChatGPT Wallet.",
+   "part": 5
+  },
+  {
+   "start": 65.572,
+   "end": 69.156,
+   "show": "An AI agent can go ahead with a purchase once you've approved it.",
+   "part": 5
+  },
+  {
+   "start": 69.406,
+   "end": 73.118,
+   "show": "The key point: your card details are never handed over.",
+   "part": 5
+  },
+  {
+   "start": 74.168,
+   "end": 82.232,
+   "show": "Today's highlight: LoRA training for TRELLIS.2, a path to specialized 3D generation.",
+   "part": 6
+  },
+  {
+   "start": 82.482,
+   "end": 85.319,
+   "show": "That's all from Mono Radio. Have a great day.",
+   "part": 6
+  }
+ ],
+ "segments": [
+  {
+   "kind": "opening",
+   "index": null,
+   "start": 0.6,
+   "end": 11.287
+  },
+  {
+   "kind": "news",
+   "index": 0,
+   "start": 11.287,
+   "end": 25.21
+  },
+  {
+   "kind": "news",
+   "index": 1,
+   "start": 25.21,
+   "end": 38.451
+  },
+  {
+   "kind": "news",
+   "index": 2,
+   "start": 38.451,
+   "end": 50.475
+  },
+  {
+   "kind": "news",
+   "index": 3,
+   "start": 50.475,
+   "end": 62.506
+  },
+  {
+   "kind": "news",
+   "index": 4,
+   "start": 62.506,
+   "end": 74.168
+  },
+  {
+   "kind": "closing",
+   "index": null,
+   "start": 74.168,
+   "end": 87.369
+  }
+ ],
+ "made_at": "2026-11-14T06:53:01"
+}

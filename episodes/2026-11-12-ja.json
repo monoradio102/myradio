@@ -1,0 +1,320 @@
+{
+ "title": "NTTが荷崩れを先読みするロボットAI",
+ "opening": [
+  {
+   "say": "おはようございます、ものラジオです。十一月十二日木曜日の朝のニュースをお届けします。",
+   "show": "おはようございます、ものラジオです。11月12日木曜日の朝のニュースをお届けします。"
+  },
+  {
+   "say": "今日は全部で五本、ロボットから3Dまで、サクッといきますよ。",
+   "show": "今日は全部で5本、ロボットから3Dまで、サクッといきますよ。"
+  }
+ ],
+ "news": [
+  {
+   "label": "NTTが荷崩れ予測AI",
+   "points": [
+    "行動前に荷崩れを予測",
+    "棚積みの成功率が向上",
+    "把持や配置計画にも応用"
+   ],
+   "url": "https://group.ntt/jp/newsrelease/2026/11/11/261111b.html",
+   "lines": [
+    {
+     "say": "まずはエヌティーティーから。ロボットが動く前に、荷崩れを予測するAIを発表しました。",
+     "show": "まずはNTTから。ロボットが動く前に、荷崩れを予測するAIを発表しました。"
+    },
+    {
+     "say": "物理的な量を扱う仕組みで、棚積みの成功率が大きく上がったそうです。",
+     "show": "物理的な量を扱う仕組みで、棚積みの成功率が大きく上がったそうです。"
+    }
+   ],
+   "details": [
+    "物体の重さ・向き・速度などを扱う物理制御アダプタを映像生成モデルに組み込み、複数の動作候補を事前に評価します。",
+    "小型ロボットの棚積み実験で、作業成功率が73.1%から92.3%に向上したと報告されています。",
+    "映像の見た目でなく物理法則で結果を予測する方向で、ロボットアームの把持や配置計画への応用が期待できます。"
+   ],
+   "link": {
+    "url": "https://group.ntt/jp/newsrelease/2026/11/11/261111b.html",
+    "title": "ロボットが「動く前に未来を予測」、失敗を回避するフィジカルAI技術を開発 ～物理法則に基づき荷崩れや落下を予測、空港手荷物など多様な物品の積込み・積降ろし自動化へ～ | ニュースリリース | NTT",
+    "site": "NTT",
+    "description": "発表のポイント：     ◆NTTは、ロボットが動く前に、複数の行動候補について荷崩れや落下の可能性を予測・評価し、成功につながる行動を選択可能にする技術を実現...",
+    "image": "https://group.ntt/common/img/ogp.jpg?20250701",
+    "icon": null
+   }
+  },
+  {
+   "label": "hdUEが公開",
+   "points": [
+    "UEをHydraレンダラーに",
+    "Lumenで描画できる",
+    "Windows向けの概念実証"
+   ],
+   "url": "https://cgworld.jp/flashnews/01-202611-hdUE.html",
+   "lines": [
+    {
+     "say": "続いて3Dの話題です。エイチディーユーイーが公開されました。",
+     "show": "続いて3Dの話題です。hdUEが公開されました。"
+    },
+    {
+     "say": "アンリアルエンジンを、フーディーニのレンダラーとして使えるんですよ。まだ試作段階ですが、ワクワクしますね。",
+     "show": "Unreal Engineを、Houdiniのレンダラーとして使えるんですよ。まだ試作段階ですが、ワクワクしますね。"
+    }
+   ],
+   "details": [
+    "Unreal EngineをOpenUSDのHydraレンダラーとして使え、MITライセンスで公開されています。",
+    "Houdini Solarisやusdviewから、Unreal EngineのLumenやパストレーサでUSDシーンを描画できます。",
+    "現在はWindows x64向けの概念実証段階で、10月27日に公開されたプロジェクトです。"
+   ],
+   "link": {
+    "url": "https://cgworld.jp/flashnews/01-202611-hdUE.html",
+    "title": "Hideki Suzuki氏、Unreal EngineをHydraレンダラーとして利用する「hdUE」をオープンソース化　Houdini Solaris、Lumen、パストレーサに対応",
+    "site": "CG・映像の専門情報サイト | CGWORLD.jp",
+    "description": "月刊CGWORLDがお届けする、日本で唯一無二のCG＆映像に特化した情報サイトです。3DCG、VFX、撮影、編集などに関する国内外さまざまな話題をお届けします。",
+    "image": "https://cgworld.jp/flashnews/assets_c/2026/11/hdUE-01-thumb-1920x960-91010.jpg",
+    "icon": null
+   }
+  },
+  {
+   "label": "重さを感じないロボットアーム",
+   "points": [
+    "重力補償制御の実装例",
+    "400Hzの制御ループ",
+    "PythonとC++の実装例"
+   ],
+   "url": "https://developer.nvidia.com/blog/make-a-robot-arm-feel-weightless-with-nvidia-holoscan-5/",
+   "lines": [
+    {
+     "say": "お次はエヌビディアから。手で動かせる、重さを感じないロボットアームの作り方です。",
+     "show": "お次はNVIDIAから。手で動かせる、重さを感じないロボットアームの作り方です。"
+    },
+    {
+     "say": "ホロスキャン5を使って、制御ループを組む実装例が公開されています。",
+     "show": "Holoscan 5を使って、制御ループを組む実装例が公開されています。"
+    }
+   ],
+   "details": [
+    "関節状態の取得、Pinocchioによる重力トルク計算、モーターへの指令を3つの処理に分離しています。",
+    "制御周期のばらつきや安全停止の仕組みまで具体的に解説されており、実装資料として価値があります。",
+    "Jetson Orin Nanoなどで動作を検証しています。"
+   ],
+   "link": {
+    "url": "https://developer.nvidia.com/blog/make-a-robot-arm-feel-weightless-with-nvidia-holoscan-5/",
+    "title": "Make a Robot Arm Feel Weightless with NVIDIA Holoscan 5 | NVIDIA Technical Blog",
+    "site": "NVIDIA Technical Blog",
+    "description": "Picture guiding a robot arm by hand while its motors supply just enough torque to support its weight and keep the robot upright. This simple interaction, a useful starting point for robots that learn…",
+    "image": "https://developer-blogs.nvidia.com/wp-content/uploads/2026/11/featured-image.webp",
+    "icon": null
+   }
+  },
+  {
+   "label": "PixelのGeminiがアプリ操作",
+   "points": [
+    "Pixel 10・11で日本提供",
+    "買い物や予約を代行",
+    "進行確認と途中停止"
+   ],
+   "url": "https://blog.google/intl/ja-jp/products/devices-services/november-2026-pixel-drop/",
+   "lines": [
+    {
+     "say": "そしてグーグルのピクセル。ジェミニがアプリを操作してくれる機能が、日本でも始まりました。",
+     "show": "そしてGoogleのPixel。Geminiがアプリを操作してくれる機能が、日本でも始まりました。"
+    },
+    {
+     "say": "買い物や予約を任せられて、途中で止めることもできます。",
+     "show": "買い物や予約を任せられて、途中で止めることもできます。"
+    }
+   ],
+   "details": [
+    "対象機種には今後数週間かけて順次展開されます。",
+    "買い物や配車、テイクアウト注文、レストラン予約などを支援します。",
+    "ユーザーは進行状況を確認したり、途中で停止したりできます。"
+   ],
+   "link": {
+    "url": "https://blog.google/intl/ja-jp/products/devices-services/november-2026-pixel-drop/",
+    "title": "11 月の Pixel Drop：Gemini で毎日のタスクをもっとスマートに。Google Pixel Tag も新発売",
+    "site": "Google",
+    "description": "Gemini Intelligence のアップデートや Google Pixel Tag の発売など、Google Pixel の最新機能をご紹介します。",
+    "image": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/header_Pixel_drop_image.width-1300.jpg",
+    "icon": "https://blog.google/static/blogv2/images/apple-touch-icon.png?version=pr20261029-2131"
+   }
+  },
+  {
+   "label": "車載AI Alpamayo 2 Edge",
+   "points": [
+    "20億パラメータの車載AI",
+    "不要な推論を省く",
+    "遅延は約160〜190ms"
+   ],
+   "url": "https://developer.nvidia.com/blog/running-av-reasoning-models-within-onboard-compute-and-latency-limits",
+   "lines": [
+    {
+     "say": "最後はエヌビディアの車載AI、アルパマヨ2エッジです。",
+     "show": "最後はNVIDIAの車載AI、Alpamayo 2 Edgeです。"
+    },
+    {
+     "say": "二十億パラメータのモデルを、車の中で動かす技術が公開されました。必要なときだけ深く考える工夫が面白いですよ。",
+     "show": "20億パラメータのモデルを、車の中で動かす技術が公開されました。必要なときだけ深く考える工夫が面白いですよ。"
+    }
+   ],
+   "details": [
+    "推論モデルと動作生成モデルを組み合わせた、視覚・言語・行動モデルです。",
+    "通常走行時には不要な推論を省くことで、計算量を削減します。",
+    "DRIVE AGX Thor向けの最適化で、映像から走行軌道を生成するまでの遅延です。"
+   ],
+   "link": {
+    "url": "https://developer.nvidia.com/blog/running-av-reasoning-models-within-onboard-compute-and-latency-limits",
+    "title": "Running AV Reasoning Models Within Onboard Compute and Latency Limits | NVIDIA Technical Blog",
+    "site": "NVIDIA Technical Blog",
+    "description": "Autonomous vehicle (AV) developers need reasoning models that can operate within the compute and latency constraints of an onboard system. Larger models provide a foundation for developing these…",
+    "image": "https://developer-blogs.nvidia.com/wp-content/uploads/2026/11/auto-alpamayo-2-edge-tech-blog-promo-600x338_r2-1-500x282.gif",
+    "icon": null
+   }
+  }
+ ],
+ "closing": [
+  {
+   "say": "今日の注目は、動かす前に予測するエヌティーティーと、動かすときの力を制御するエヌビディアの組み合わせ。計画と実行、両方が進んでいますね。",
+   "show": "今日の注目は、動かす前に予測するNTTと、動かすときの力を制御するNVIDIAの組み合わせ。計画と実行、両方が進んでいますね。"
+  },
+  {
+   "say": "それでは今日も一日、いってらっしゃい。ものラジオでした。",
+   "show": "それでは今日も一日、いってらっしゃい。ものラジオでした。"
+  }
+ ],
+ "format": "monoradio/news-1",
+ "date": "2026-11-12",
+ "lang": "ja",
+ "seconds": 90.56,
+ "lines_timed": [
+  {
+   "start": 0.6,
+   "end": 6.993,
+   "show": "おはようございます、ものラジオです。11月12日木曜日の朝のニュースをお届けします。",
+   "part": 0
+  },
+  {
+   "start": 7.243,
+   "end": 11.651,
+   "show": "今日は全部で5本、ロボットから3Dまで、サクッといきますよ。",
+   "part": 0
+  },
+  {
+   "start": 12.701,
+   "end": 18.665,
+   "show": "まずはNTTから。ロボットが動く前に、荷崩れを予測するAIを発表しました。",
+   "part": 1
+  },
+  {
+   "start": 18.915,
+   "end": 24.112,
+   "show": "物理的な量を扱う仕組みで、棚積みの成功率が大きく上がったそうです。",
+   "part": 1
+  },
+  {
+   "start": 25.162,
+   "end": 29.291,
+   "show": "続いて3Dの話題です。hdUEが公開されました。",
+   "part": 2
+  },
+  {
+   "start": 29.541,
+   "end": 36.503,
+   "show": "Unreal Engineを、Houdiniのレンダラーとして使えるんですよ。まだ試作段階ですが、ワクワクしますね。",
+   "part": 2
+  },
+  {
+   "start": 37.553,
+   "end": 43.191,
+   "show": "お次はNVIDIAから。手で動かせる、重さを感じないロボットアームの作り方です。",
+   "part": 3
+  },
+  {
+   "start": 43.441,
+   "end": 47.988,
+   "show": "Holoscan 5を使って、制御ループを組む実装例が公開されています。",
+   "part": 3
+  },
+  {
+   "start": 49.038,
+   "end": 55.036,
+   "show": "そしてGoogleのPixel。Geminiがアプリを操作してくれる機能が、日本でも始まりました。",
+   "part": 4
+  },
+  {
+   "start": 55.286,
+   "end": 59.229,
+   "show": "買い物や予約を任せられて、途中で止めることもできます。",
+   "part": 4
+  },
+  {
+   "start": 60.279,
+   "end": 63.804,
+   "show": "最後はNVIDIAの車載AI、Alpamayo 2 Edgeです。",
+   "part": 5
+  },
+  {
+   "start": 64.054,
+   "end": 72.874,
+   "show": "20億パラメータのモデルを、車の中で動かす技術が公開されました。必要なときだけ深く考える工夫が面白いですよ。",
+   "part": 5
+  },
+  {
+   "start": 73.924,
+   "end": 84.59,
+   "show": "今日の注目は、動かす前に予測するNTTと、動かすときの力を制御するNVIDIAの組み合わせ。計画と実行、両方が進んでいますね。",
+   "part": 6
+  },
+  {
+   "start": 84.84,
+   "end": 88.505,
+   "show": "それでは今日も一日、いってらっしゃい。ものラジオでした。",
+   "part": 6
+  }
+ ],
+ "segments": [
+  {
+   "kind": "opening",
+   "index": null,
+   "start": 0.6,
+   "end": 12.701
+  },
+  {
+   "kind": "news",
+   "index": 0,
+   "start": 12.701,
+   "end": 25.162
+  },
+  {
+   "kind": "news",
+   "index": 1,
+   "start": 25.162,
+   "end": 37.553
+  },
+  {
+   "kind": "news",
+   "index": 2,
+   "start": 37.553,
+   "end": 49.038
+  },
+  {
+   "kind": "news",
+   "index": 3,
+   "start": 49.038,
+   "end": 60.279
+  },
+  {
+   "kind": "news",
+   "index": 4,
+   "start": 60.279,
+   "end": 73.924
+  },
+  {
+   "kind": "closing",
+   "index": null,
+   "start": 73.924,
+   "end": 90.555
+  }
+ ],
+ "made_at": "2026-11-12T08:31:49"
+}
