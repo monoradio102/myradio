@@ -1,0 +1,360 @@
+{
+ "title": "Genie 4 Generates Whole Worlds, and AI Steps Into 3D Creation",
+ "opening": [
+  {
+   "say": "Good morning, and welcome to Mono Radio. It's Thursday, November nineteenth.",
+   "show": "Good morning, and welcome to Mono Radio. It's Thursday, November 19."
+  },
+  {
+   "say": "We've got five stories for you today.",
+   "show": "We've got five stories for you today."
+  }
+ ],
+ "closing": [
+  {
+   "say": "What stood out today was the push to connect generated three D models to real production workflows.",
+   "show": "What stood out today was the push to connect generated 3D models to real production workflows."
+  },
+  {
+   "say": "That's all for now. This was Mono Radio.",
+   "show": "That's all for now. This was Mono Radio."
+  }
+ ],
+ "news": [
+  {
+   "label": "Genie 4 rolls out to the public",
+   "points": [
+    "Available to eligible Ultra subscribers",
+    "Edit worlds with natural language",
+    "Sound and dialogue generated live"
+   ],
+   "details": [
+    "It began rolling out on November 18 to eligible Google AI Ultra subscribers.",
+    "While exploring, you can change the weather, characters and environment just by describing it.",
+    "A Project Genie agent that builds worlds from conversation was also added, along with a gallery for sharing and remixing."
+   ],
+   "lines": [
+    {
+     "say": "First up, Google. Genie four is now rolling out to eligible users.",
+     "show": "First up, Google. Genie 4 is now rolling out to eligible users."
+    },
+    {
+     "say": "You can walk around a generated world while changing the weather and characters with your words.",
+     "show": "You can explore a generated world while changing the weather and characters with words."
+    },
+    {
+     "say": "I love that even the sound and dialogue are created in real time.",
+     "show": "Even the sound and dialogue are created in real time. Pretty cool!"
+    }
+   ],
+   "url": "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/genie-4-now-available-project-genie/",
+   "link": {
+    "url": "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/genie-4-now-available-project-genie/",
+    "title": "Genie 4 is now available",
+    "site": "Google",
+    "description": "We are rolling out a new Project Genie experience to eligible Google AI Ultra subscribers, opening access to our new Genie 4 world model.",
+    "image": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/resized_ProjectGenie_Thumbnail_v02.width-1300.png",
+    "icon": "https://blog.google/static/blogv2/images/apple-touch-icon.png?version=pr20261117-1738"
+   }
+  },
+  {
+   "label": "AnyLab: AI 3D model generation",
+   "points": [
+    "3D models from text or images",
+    "Plans to integrate print preparation",
+    "Partnership with Thingiverse"
+   ],
+   "details": [
+    "It can generate 3D models from text or reference images, and it was shown at Formnext 2026.",
+    "The plan is to cover printability checks, orientation and support optimization, and sending print jobs. Some parts are still in development.",
+    "They're also working on adjusting existing 3D models for multicolor printing and making them easier to use as 3MF data."
+   ],
+   "lines": [
+    {
+     "say": "Next, a story about three D printers.",
+     "show": "Next, a story about 3D printers."
+    },
+    {
+     "say": "Anycubic showed off AnyLab, a tool that makes three D models with AI.",
+     "show": "Anycubic showed off AnyLab, a tool that makes 3D models with AI."
+    },
+    {
+     "say": "It can build models from text or images, and the plan is to connect it all the way to print preparation.",
+     "show": "It builds models from text or images, with plans to connect to print preparation."
+    }
+   ],
+   "url": "https://www.prnewswire.com/news-releases/anycubic-showcases-thingiverse-partnership-progress-and-anylab-ai-creation-tool-at-formnext-2026-302943506.html",
+   "link": {
+    "url": "https://www.prnewswire.com/news-releases/anycubic-showcases-thingiverse-partnership-progress-and-anylab-ai-creation-tool-at-formnext-2026-302943506.html",
+    "title": "Anycubic Showcases Thingiverse Partnership Progress and AnyLab AI Creation Tool at Formnext 2026",
+    "site": "www.prnewswire.com",
+    "description": "/PRNewswire/ -- Anycubic, a consumer 3D printing brand, is exhibiting at Formnext 2026 in Frankfurt, Germany, at Booth F01 in Hall 12.0. The company is...",
+    "image": "https://mmx.prnewswire.com/media/MS2037886/20261117104410EST_image_1.jpg?id=OA3087659&p=facebook",
+    "icon": null
+   }
+  },
+  {
+   "label": "Studio3D is now available",
+   "points": [
+    "Generates 3D models from images",
+    "Everything runs on your own PC",
+    "Send models to and from Blender"
+   ],
+   "details": [
+    "It bundles part splitting, retopology, UVs, material setup and export into one tool.",
+    "Processing runs entirely on a PC with an NVIDIA GPU. The VRAM you need ranges from 6 to 32 gigabytes, depending on the model.",
+    "An add-on lets you send models to and from Blender. It's offered through licensing or as contract production work."
+   ],
+   "lines": [
+    {
+     "say": "Here's one from Japan. MetAI has launched Studio three D.",
+     "show": "Here's one from Japan. MetAI has launched Studio3D."
+    },
+    {
+     "say": "It turns images into three D models and finishes the job right on your computer.",
+     "show": "It turns images into 3D models and finishes the job right on your computer."
+    },
+    {
+     "say": "Being able to move models back and forth with Blender sounds really handy.",
+     "show": "Moving models back and forth with Blender sounds really handy."
+    }
+   ],
+   "url": "https://prtimes.jp/main/html/rd/p/000000015.000126494.html",
+   "link": {
+    "url": "https://prtimes.jp/main/html/rd/p/000000015.000126494.html",
+    "title": "写真から「使える3Dデータ」まで。MetAI、生成・リトポ・UV・書き出しを1つにまとめたローカル3D制作アプリ「Studio3D」を提供開始",
+    "site": "プレスリリース・ニュースリリース配信シェアNo.1｜PR TIMES",
+    "description": "合同会社MetAIのプレスリリース（2026年11月18日 09時20分）写真から「使える3Dデータ」まで。MetAI、生成・リトポ・UV・書き出しを1つにまとめたローカル3D制作アプリ「Studio3D」を提供開始",
+    "image": "https://prcdn.freetls.fastly.net/release_image/126494/15/126494-15-c6ff7546eb8764f4ddbba73a24ba01fe-1920x1080.jpg?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260",
+    "icon": "https://prtimes.jp/common/v4.1/images/html/favicon/favicon-196x196.png"
+   }
+  },
+  {
+   "label": "Generating training data with Cosmos",
+   "points": [
+    "Generated with two prompts",
+    "Five types of workflows",
+    "Defect images of circuit boards too"
+   ],
+   "details": [
+    "A guide was released on using an AI coding agent to run Cosmos Data Factory and generate training data.",
+    "It can change the weather in videos, create rare accident scenes, and produce defect images for inspection.",
+    "From normal images and 3D assets, it can build training data that mimics misaligned parts and bad solder joints."
+   ],
+   "lines": [
+    {
+     "say": "Now to robotics. NVIDIA has published a guide to making training data with Cosmos.",
+     "show": "Now to robotics. NVIDIA has published a guide to making training data with Cosmos."
+    },
+    {
+     "say": "The fun part is that it can even create defect images of electronic circuit boards.",
+     "show": "It can even create defect images of electronic circuit boards."
+    }
+   ],
+   "url": "https://developer.nvidia.com/blog/build-training-ready-physical-ai-datasets-with-two-prompts-in-nvidia-cosmos/",
+   "link": {
+    "url": "https://developer.nvidia.com/blog/build-training-ready-physical-ai-datasets-with-two-prompts-in-nvidia-cosmos/",
+    "title": "Build Training-Ready Physical AI Datasets with Two Prompts in NVIDIA Cosmos | NVIDIA Technical Blog",
+    "site": "NVIDIA Technical Blog",
+    "description": "World model accuracy starts with high-quality, diverse training datasets. Yet capturing rare defects, nighttime incidents, and other challenging scenarios is costly and time-consuming.",
+    "image": "https://developer-blogs.nvidia.com/wp-content/uploads/2026/11/cosmos-gif-500x282.gif",
+    "icon": null
+   }
+  },
+  {
+   "label": "Stitch Loop announced",
+   "points": [
+    "Keeps improving published software",
+    "Even creates pull requests",
+    "Focus on security and more"
+   ],
+   "details": [
+    "It's an experimental agent that connects your codebase and operational data to keep improving software that's already live.",
+    "It analyzes GitHub, logs and behavior data to suggest improvements, then fixes the code in an isolated environment and creates a pull request.",
+    "Early features focus on security, speed and accessibility. It's currently accepting sign-ups through a waitlist."
+   ],
+   "lines": [
+    {
+     "say": "Last up, some agent news. Google Labs has announced Stitch Loop.",
+     "show": "Last up, some agent news. Google Labs has announced Stitch Loop."
+    },
+    {
+     "say": "Once your web app is live, it keeps working to improve it on its own.",
+     "show": "Once your web app is live, it keeps working to improve it on its own."
+    },
+    {
+     "say": "It will even create the pull requests for you.",
+     "show": "It will even create the pull requests for you."
+    }
+   ],
+   "url": "https://blog.google/innovation-and-ai/models-and-research/google-labs/stitch-loop/",
+   "link": {
+    "url": "https://blog.google/innovation-and-ai/models-and-research/google-labs/stitch-loop/",
+    "title": "Introducing Stitch Loop: A new way to build and evolve products",
+    "site": "Google",
+    "description": "Stitch Loop is an always-on product agent from Google Labs that works non-stop to help lean teams build better products.",
+    "image": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/frame_zjQlth4.width-1300.png",
+    "icon": "https://blog.google/static/blogv2/images/apple-touch-icon.png?version=pr20261117-1738"
+   }
+  }
+ ],
+ "format": "monoradio/news-1",
+ "date": "2026-11-19",
+ "lang": "en",
+ "seconds": 85.96,
+ "lines_timed": [
+  {
+   "start": 0.6,
+   "end": 5.293,
+   "show": "Good morning, and welcome to Mono Radio. It's Thursday, November 19.",
+   "part": 0
+  },
+  {
+   "start": 5.543,
+   "end": 7.527,
+   "show": "We've got five stories for you today.",
+   "part": 0
+  },
+  {
+   "start": 8.577,
+   "end": 12.801,
+   "show": "First up, Google. Genie 4 is now rolling out to eligible users.",
+   "part": 1
+  },
+  {
+   "start": 13.051,
+   "end": 18.065,
+   "show": "You can explore a generated world while changing the weather and characters with words.",
+   "part": 1
+  },
+  {
+   "start": 18.315,
+   "end": 22.368,
+   "show": "Even the sound and dialogue are created in real time. Pretty cool!",
+   "part": 1
+  },
+  {
+   "start": 23.418,
+   "end": 25.893,
+   "show": "Next, a story about 3D printers.",
+   "part": 2
+  },
+  {
+   "start": 26.143,
+   "end": 30.473,
+   "show": "Anycubic showed off AnyLab, a tool that makes 3D models with AI.",
+   "part": 2
+  },
+  {
+   "start": 30.723,
+   "end": 36.91,
+   "show": "It builds models from text or images, with plans to connect to print preparation.",
+   "part": 2
+  },
+  {
+   "start": 37.96,
+   "end": 41.715,
+   "show": "Here's one from Japan. MetAI has launched Studio3D.",
+   "part": 3
+  },
+  {
+   "start": 41.965,
+   "end": 46.722,
+   "show": "It turns images into 3D models and finishes the job right on your computer.",
+   "part": 3
+  },
+  {
+   "start": 46.972,
+   "end": 51.111,
+   "show": "Moving models back and forth with Blender sounds really handy.",
+   "part": 3
+  },
+  {
+   "start": 52.161,
+   "end": 57.75,
+   "show": "Now to robotics. NVIDIA has published a guide to making training data with Cosmos.",
+   "part": 4
+  },
+  {
+   "start": 58.0,
+   "end": 62.971,
+   "show": "It can even create defect images of electronic circuit boards.",
+   "part": 4
+  },
+  {
+   "start": 64.021,
+   "end": 67.711,
+   "show": "Last up, some agent news. Google Labs has announced Stitch Loop.",
+   "part": 5
+  },
+  {
+   "start": 67.961,
+   "end": 71.716,
+   "show": "Once your web app is live, it keeps working to improve it on its own.",
+   "part": 5
+  },
+  {
+   "start": 71.966,
+   "end": 74.249,
+   "show": "It will even create the pull requests for you.",
+   "part": 5
+  },
+  {
+   "start": 75.299,
+   "end": 81.123,
+   "show": "What stood out today was the push to connect generated 3D models to real production workflows.",
+   "part": 6
+  },
+  {
+   "start": 81.373,
+   "end": 83.911,
+   "show": "That's all for now. This was Mono Radio.",
+   "part": 6
+  }
+ ],
+ "segments": [
+  {
+   "kind": "opening",
+   "index": null,
+   "start": 0.6,
+   "end": 8.577
+  },
+  {
+   "kind": "news",
+   "index": 0,
+   "start": 8.577,
+   "end": 23.418
+  },
+  {
+   "kind": "news",
+   "index": 1,
+   "start": 23.418,
+   "end": 37.96
+  },
+  {
+   "kind": "news",
+   "index": 2,
+   "start": 37.96,
+   "end": 52.161
+  },
+  {
+   "kind": "news",
+   "index": 3,
+   "start": 52.161,
+   "end": 64.021
+  },
+  {
+   "kind": "news",
+   "index": 4,
+   "start": 64.021,
+   "end": 75.299
+  },
+  {
+   "kind": "closing",
+   "index": null,
+   "start": 75.299,
+   "end": 85.961
+  }
+ ],
+ "made_at": "2026-11-19T06:32:40"
+}
