@@ -1,0 +1,370 @@
+{
+ "title": "Gemini 4 Neon Arrives! Five Stories on AI and 3D",
+ "opening": [
+  {
+   "say": "Good morning, and welcome to Mono Radio! It's Friday, November 20, and here are your morning headlines.",
+   "show": "Good morning, and welcome to Mono Radio! It's Friday, November 20."
+  },
+  {
+   "say": "Today we have five stories on AI and three D.",
+   "show": "Today we have five stories on AI and 3D."
+  }
+ ],
+ "closing": [
+  {
+   "say": "Today's highlights: the Miraco two, the Formnext awards, and AI getting closer to making things.",
+   "show": "Today's highlights: MIRACO 2, the Formnext awards, and AI meeting making."
+  },
+  {
+   "say": "That's all from Mono Radio. Have a great day out there!",
+   "show": "That's all from Mono Radio. Have a great day out there!"
+  }
+ ],
+ "news": [
+  {
+   "label": "Gemini 4 Neon Announced",
+   "points": [
+    "Google unveils a new model",
+    "One million token context",
+    "Follows mid-task corrections"
+   ],
+   "details": [
+    "Google DeepMind has announced Gemini 4 Neon, built for complex software development, analysis, and science.",
+    "API pricing is 3 dollars per million input tokens and 15 dollars for output.",
+    "Google says it also follows corrections given in the middle of a task more closely."
+   ],
+   "lines": [
+    {
+     "say": "First up, Google's new model, Gemini four Neon.",
+     "show": "First up, Google's new model, Gemini 4 Neon."
+    },
+    {
+     "say": "It has a long one million token context, and it's strong at development and analysis.",
+     "show": "It has a one million token context and is strong at development and analysis."
+    },
+    {
+     "say": "It even keeps up when you change your instructions midway.",
+     "show": "It even keeps up when you change your instructions midway."
+    }
+   ],
+   "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-neon/",
+   "link": {
+    "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-neon/",
+    "title": "Introducing Gemini 4 Neon",
+    "site": "Google",
+    "description": "Today, we’re introducing Gemini 4 Neon",
+    "image": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/gemini-4-neon__blog-header__sm.width-1300.png",
+    "icon": "https://blog.google/static/blogv2/images/apple-touch-icon.png?version=pr20261117-1738"
+   }
+  },
+  {
+   "label": "MIRACO 2 Unveiled",
+   "points": [
+    "Scan to edit, no PC needed",
+    "Accuracy up to 0.02 mm",
+    "Natural language Revo Agents"
+   ],
+   "details": [
+    "This handheld device handles scanning, point cloud processing, and basic editing without a PC.",
+    "The maker says it offers six scan modes and single-frame accuracy of up to 0.02 millimeters.",
+    "It assists with scan-to-CAD and inspection tasks using natural language, and supports true-scale 3D Gaussian Splatting when connected to a PC."
+   ],
+   "lines": [
+    {
+     "say": "Next, a three D scanner: Revopoint's Miraco two.",
+     "show": "Next, a 3D scanner: Revopoint's MIRACO 2."
+    },
+    {
+     "say": "No computer needed. You can go from scanning to editing on this one device.",
+     "show": "No computer needed. Go from scanning to editing on one device."
+    },
+    {
+     "say": "And you can even ask the AI for help in plain words.",
+     "show": "And you can even ask the AI for help in plain words."
+    }
+   ],
+   "url": "https://global.revopoint3d.com/blogs/news/revopoint-launches-miraco-2-on-kickstarter-scan-in-one-create-with-agents",
+   "link": {
+    "url": "https://global.revopoint3d.com/blogs/news/revopoint-launches-miraco-2-on-kickstarter-scan-in-one-create-with-agents",
+    "title": "Revopoint Launches MIRACO 2 on Kickstarter: Scan in One, Create with Agents",
+    "site": "Revopoint 3D",
+    "description": "MIRACO 2 – Launch Announcement An all-in-one 3D scanner combining high-precision capture, powerful onboard computing, and AI-driven workflows—with Super Early Bird pricing starting at $1,425. Launch D",
+    "image": "http://global.revopoint3d.com/cdn/shop/articles/1280x720.jpg?v=1794983121&width=2048",
+    "icon": "https://global.revopoint3d.com/cdn/shop/files/revo_logo.png?v=1737617023&width=180"
+   }
+  },
+  {
+   "label": "Formnext 2026 Award Winners",
+   "points": [
+    "AI-optimized print wins an award",
+    "Dry only right before printing",
+    "No need to dry whole filament"
+   ],
+   "details": [
+    "Using CFD simulation and Bayesian optimization, a team developed cAIclone, a 3D-printed hydrocyclone for separating fine particles.",
+    "Thought3D's Drywise conditions the humidity of only the necessary section just before the nozzle.",
+    "It replaces pre-drying the entire filament, and can make drying more efficient for moisture-prone materials such as nylon."
+   ],
+   "lines": [
+    {
+     "say": "Now for some award news from Formnext.",
+     "show": "Now for some award news from Formnext."
+    },
+    {
+     "say": "A printed part with AI-optimized flow channels and a device that dries filament just before printing were both honored.",
+     "show": "An AI-optimized printed part and a just-in-time filament dryer were honored."
+    },
+    {
+     "say": "It's a clever idea you'll want to try yourself.",
+     "show": "It's a clever idea you'll want to try yourself."
+    }
+   ],
+   "url": "https://formnext.mesago.com/frankfurt/en/about-us/press/press-releases/formnext-press-releases/Formnext_Award_Winners_2026.html",
+   "link": {
+    "url": "https://formnext.mesago.com/frankfurt/en/about-us/press/press-releases/formnext-press-releases/Formnext_Award_Winners_2026.html",
+    "title": "The Winners of the Formnext Awards 2026 Demonstrate Innovation and Open New Pathways for Industrial Manufacturing",
+    "site": "formnext.mesago.com",
+    "description": "The winners of the Formnext Awards 2026 were honored on 19 November during a festive awards ceremony at Formnext in Frankfurt. The six award categories recognize different facets of Additive Manufactu",
+    "image": "https://formnext.mesago.com/content/dam/messefrankfurt-mesago/formnext/2026/presse/pressemeldungen/de/Formnext_Awards_2026_Copyright_Formnext_Mesago_Messe_Frankfurt_Marc_Jacquemin.jpg",
+    "icon": null
+   }
+  },
+  {
+   "label": "Renesas Five-Finger Robot Hand",
+   "points": [
+    "Grips an egg without breaking it",
+    "Image recognition and pressure sensors",
+    "Mimics hand gestures"
+   ],
+   "details": [
+    "In a demo, the hand picked up items like an egg, a sponge, and a can, using just the right force for each.",
+    "It identifies objects through image recognition with the RZ/V2H, then uses fingertip pressure sensors and preset grip forces.",
+    "A second demo used another camera to read hand gestures and had the robot hand copy the movements."
+   ],
+   "lines": [
+    {
+     "say": "Next, a robot hand from Renesas.",
+     "show": "Next, a robot hand from Renesas."
+    },
+    {
+     "say": "In the demo, it picked up an egg, a sponge, and a can, changing its grip force each time.",
+     "show": "In the demo, it gripped an egg, a sponge, and a can with different force."
+    },
+    {
+     "say": "Combining fingertip sensors with image recognition is a really neat approach.",
+     "show": "Combining fingertip sensors with image recognition is a neat approach."
+    }
+   ],
+   "url": "https://news.mynavi.jp/techplus/article/20261119-5361285/",
+   "link": {
+    "url": "https://news.mynavi.jp/techplus/article/20261119-5361285/",
+    "title": "卵を割らずに掴めるAIロボットハンド、ルネサスが実演　EdgeTech+ 2026",
+    "site": "TECH+（テックプラス）",
+    "description": "マクニカとルネサス エレクトロニクスは、パシフィコ横浜で開催されている「EdgeTech+ 2026」において、エッジAIからフィジカルAIまでをテーマとする共同展示を行っている。注目を集めていたのは、AI MPU「RZ/V2H」を活用し、手の動きや物体をカメラで認識して5本指のロボットハンドを制御するデモ。卵やスポンジ、缶飲料など、硬さや形状が異なる物体を、それぞれに適した力で把持する様子を披露",
+    "image": "https://news.mynavi.jp/techplus/article/20261119-5361285/ogp_images/ogp.jpg",
+    "icon": null
+   }
+  },
+  {
+   "label": "Foundry Dev Pack Now Available",
+   "points": [
+    "Agent dev tools in one install",
+    "Check traces in VS Code",
+    "CLI and plugins set up too"
+   ],
+   "details": [
+    "A bundled development environment for building, debugging, evaluating, and deploying AI agents is now generally available.",
+    "From the Agent Inspector in VS Code, you can examine traces of requests and tool calls.",
+    "Along with the CLI (azd ai) and Foundry Skill, it also sets up the VS Code Toolkit and plugins for GitHub Copilot in supported environments."
+   ],
+   "lines": [
+    {
+     "say": "And finally, some news from Microsoft.",
+     "show": "And finally, some news from Microsoft."
+    },
+    {
+     "say": "The Foundry Dev Pack, a bundle of tools for building agents, is now generally available.",
+     "show": "The Foundry Dev Pack, a bundle of agent-building tools, is now available."
+    },
+    {
+     "say": "You can check how things run and even evaluate them, all in one workflow.",
+     "show": "You can check behavior and evaluate it, all in one workflow."
+    }
+   ],
+   "url": "https://devblogs.microsoft.com/foundry/the-foundry-dev-pack-is-here-build-foundry-agents-your-way/",
+   "link": {
+    "url": "https://devblogs.microsoft.com/foundry/the-foundry-dev-pack-is-here-build-foundry-agents-your-way/",
+    "title": "The Foundry Dev Pack is here: build Foundry agents your way | Microsoft Foundry Blog",
+    "site": "Microsoft Foundry Blog",
+    "description": "Your next agent can start wherever you like to build: in your editor, at the terminal, or with your favorite coding agent. At Microsoft Ignite, we're",
+    "image": "https://devblogs.microsoft.com/foundry/wp-content/uploads/sites/89/2026/11/Foundry-dev-pack.webp",
+    "icon": "https://devblogs.microsoft.com/foundry/wp-content/themes/devblogs-evo/images/favicon/favicon-512.png?ver=1789493481"
+   }
+  }
+ ],
+ "format": "monoradio/news-1",
+ "date": "2026-11-20",
+ "lang": "en",
+ "seconds": 88.86,
+ "lines_timed": [
+  {
+   "start": 0.6,
+   "end": 6.979,
+   "show": "Good morning, and welcome to Mono Radio! It's Friday, November 20.",
+   "part": 0
+  },
+  {
+   "start": 7.229,
+   "end": 10.151,
+   "show": "Today we have five stories on AI and 3D.",
+   "part": 0
+  },
+  {
+   "start": 11.201,
+   "end": 14.337,
+   "show": "First up, Google's new model, Gemini 4 Neon.",
+   "part": 1
+  },
+  {
+   "start": 14.587,
+   "end": 19.771,
+   "show": "It has a one million token context and is strong at development and analysis.",
+   "part": 1
+  },
+  {
+   "start": 20.021,
+   "end": 23.115,
+   "show": "It even keeps up when you change your instructions midway.",
+   "part": 1
+  },
+  {
+   "start": 24.165,
+   "end": 27.407,
+   "show": "Next, a 3D scanner: Revopoint's MIRACO 2.",
+   "part": 2
+  },
+  {
+   "start": 27.657,
+   "end": 32.116,
+   "show": "No computer needed. Go from scanning to editing on one device.",
+   "part": 2
+  },
+  {
+   "start": 32.366,
+   "end": 35.203,
+   "show": "And you can even ask the AI for help in plain words.",
+   "part": 2
+  },
+  {
+   "start": 36.253,
+   "end": 38.408,
+   "show": "Now for some award news from Formnext.",
+   "part": 3
+  },
+  {
+   "start": 38.658,
+   "end": 46.103,
+   "show": "An AI-optimized printed part and a just-in-time filament dryer were honored.",
+   "part": 3
+  },
+  {
+   "start": 46.353,
+   "end": 48.956,
+   "show": "It's a clever idea you'll want to try yourself.",
+   "part": 3
+  },
+  {
+   "start": 50.006,
+   "end": 52.182,
+   "show": "Next, a robot hand from Renesas.",
+   "part": 4
+  },
+  {
+   "start": 52.432,
+   "end": 57.787,
+   "show": "In the demo, it gripped an egg, a sponge, and a can with different force.",
+   "part": 4
+  },
+  {
+   "start": 58.037,
+   "end": 62.73,
+   "show": "Combining fingertip sensors with image recognition is a neat approach.",
+   "part": 4
+  },
+  {
+   "start": 63.78,
+   "end": 66.212,
+   "show": "And finally, some news from Microsoft.",
+   "part": 5
+  },
+  {
+   "start": 66.462,
+   "end": 71.902,
+   "show": "The Foundry Dev Pack, a bundle of agent-building tools, is now available.",
+   "part": 5
+  },
+  {
+   "start": 72.152,
+   "end": 76.355,
+   "show": "You can check behavior and evaluate it, all in one workflow.",
+   "part": 5
+  },
+  {
+   "start": 77.405,
+   "end": 83.335,
+   "show": "Today's highlights: MIRACO 2, the Formnext awards, and AI meeting making.",
+   "part": 6
+  },
+  {
+   "start": 83.585,
+   "end": 86.807,
+   "show": "That's all from Mono Radio. Have a great day out there!",
+   "part": 6
+  }
+ ],
+ "segments": [
+  {
+   "kind": "opening",
+   "index": null,
+   "start": 0.6,
+   "end": 11.201
+  },
+  {
+   "kind": "news",
+   "index": 0,
+   "start": 11.201,
+   "end": 24.165
+  },
+  {
+   "kind": "news",
+   "index": 1,
+   "start": 24.165,
+   "end": 36.253
+  },
+  {
+   "kind": "news",
+   "index": 2,
+   "start": 36.253,
+   "end": 50.006
+  },
+  {
+   "kind": "news",
+   "index": 3,
+   "start": 50.006,
+   "end": 63.78
+  },
+  {
+   "kind": "news",
+   "index": 4,
+   "start": 63.78,
+   "end": 77.405
+  },
+  {
+   "kind": "closing",
+   "index": null,
+   "start": 77.405,
+   "end": 88.857
+  }
+ ],
+ "made_at": "2026-11-20T06:52:32"
+}
