@@ -1,0 +1,379 @@
+{
+ "title": "写真から3D世界、アトラス一般公開",
+ "opening": [
+  {
+   "say": "おはようございます、ものラジオです。十一月十六日、月曜日の朝です。",
+   "show": "おはようございます、ものラジオです。11月16日、月曜日の朝です。"
+  },
+  {
+   "say": "今日のニュースは五本です。",
+   "show": "今日のニュースは5本です。"
+  }
+ ],
+ "news": [
+  {
+   "label": "World Labs「Atlas」公開",
+   "points": [
+    "写真から3Dシーンを生成",
+    "Gaussian Splattingをメッシュ化",
+    "開発者APIも公開"
+   ],
+   "url": "https://ai.nexsight.co/articles/2026/11/13/world-labs-atlas-ga/",
+   "lines": [
+    {
+     "say": "まずは、ワールドラボズの世界生成エーアイ、アトラスが一般公開です。",
+     "show": "まずは、World Labsの世界生成AI、Atlasが一般公開です。"
+    },
+    {
+     "say": "写真から三ディーの空間が作れて、ブレンダーにも持ち出せます。",
+     "show": "写真から3Dの空間が作れて、Blenderにも持ち出せます。"
+    },
+    {
+     "say": "編集できるデータなのがいいですね。",
+     "show": "編集できるデータなのがいいですね。"
+    }
+   ],
+   "details": [
+    "写真から探索可能な3Dシーンを構築する「Viewfinder」などのツールを提供しています。",
+    "Gaussian Splattingをメッシュに変換するツールが用意されています。",
+    "生成した空間をBlenderやゲームエンジンの制作工程に持ち込めます。"
+   ],
+   "link": {
+    "url": "https://ai.nexsight.co/articles/2026/11/13/world-labs-atlas-ga/",
+    "title": "World Labsが世界モデル「Atlas」を一般提供 — Viewfinder・Chiselと開発者APIで3D生成を開放 | NEXSIGHT AI WIRE",
+    "site": "NEXSIGHT AI WIRE",
+    "description": "World Labsが2026年11月12日にAtlasの一般提供を開始。公式Atlasページと公式X告知で確認できる範囲で、Viewfinder・Chisel、開発者API、9月の発表からの変化を整理する。",
+    "image": "https://ai.nexsight.co/images/categories/models-1.webp",
+    "icon": "https://ai.nexsight.co/apple-touch-icon.png"
+   }
+  },
+  {
+   "label": "Unreal Engine 5.9",
+   "points": [
+    "人とAIが共有作業場で制作",
+    "Blueprintをスクリプト編集",
+    "WebGPUターゲットが追加"
+   ],
+   "url": "https://dev.epicgames.com/documentation/en-us/unreal-engine/unreal-engine-5-9-release-notes",
+   "lines": [
+    {
+     "say": "続いて、アンリアルエンジン五点九のプレビューです。",
+     "show": "続いて、Unreal Engine 5.9のプレビューです。"
+    },
+    {
+     "say": "人とエーアイが同じ作業場で、三ディーのメッシュなども作り直せます。",
+     "show": "人とAIが同じ作業場で、3Dのメッシュなども作り直せます。"
+    },
+    {
+     "say": "ブループリントの編集も、スクリプトからできるそうです。",
+     "show": "Blueprintの編集も、スクリプトからできるそうです。"
+    }
+   ],
+   "details": [
+    "実験機能「Unreal Canvas」で、テキスト・画像・動画・3Dメッシュを生成・修正できます。",
+    "Blueprint、StateTree、Dataflowグラフをスクリプトから編集できます。",
+    "実験的なWebAssembly・WebGPUターゲットが追加されています。"
+   ],
+   "link": {
+    "url": "https://dev.epicgames.com/documentation/en-us/unreal-engine/unreal-engine-5-9-release-notes",
+    "title": "Unreal Engine 5.9 Release Notes | Unreal Engine 5.9 Documentation | Epic Developer Community",
+    "site": "Epic Games Developer",
+    "description": "Overview of new and updated features in Unreal Engine 5.9 Preview.",
+    "image": "https://dev.epicgames.com/community/api/documentation/image/meta_tag?path=en-us/unreal-engine/unreal-engine-5-9-release-notes&application_version=5.9",
+    "icon": null
+   }
+  },
+  {
+   "label": "ロボット基盤モデルAIRoA-0",
+   "points": [
+    "1.6万時間超の操作データ",
+    "10種類の双腕作業で評価",
+    "重みとコードを公開"
+   ],
+   "url": "https://airoa.org/ja/updates/20261106/845/",
+   "lines": [
+    {
+     "say": "次は日本のロボットの話題。エーアイロアが、基盤モデルのエーアイロアゼロを公開しました。",
+     "show": "次は日本のロボットの話題。AIRoAが、基盤モデルのAIRoA-0を公開しました。"
+    },
+    {
+     "say": "一万六千時間以上の人の操作データで学習しています。",
+     "show": "1万6千時間以上の人の操作データで学習しています。"
+    },
+    {
+     "say": "平均成功率は七十八パーセントです。",
+     "show": "平均成功率は78％です。"
+    }
+   ],
+   "details": [
+    "手持ちグリッパー「YUBI」で記録した16,151時間のデータを利用しています。",
+    "タオル畳みや細かな部品の仕分けなどで、平均成功率78％を報告しています。",
+    "事前学習・事後学習済みの重みと、追加学習・推論に使う関連コードが公開されています。"
+   ],
+   "link": {
+    "url": "https://airoa.org/ja/updates/20261106/845/",
+    "title": "AIRoA、ロボット基盤モデル「AIRoA-0」を公開 | AIRoA",
+    "site": "AIRoA (AI Robot Association) |",
+    "description": "〜ロボットを使わずに収集した16,151時間の操作データから、細かい部品の仕分けやタオル畳みなどの双腕作業を学",
+    "image": "https://airoa.org/wp-content/themes/airoa/assets/img/common/ogp.png",
+    "icon": null
+   }
+  },
+  {
+   "label": "Adobe MAX AI連携",
+   "points": [
+    "外部AIからMCPで操作",
+    "ネイティブファイルを編集",
+    "Fireflyにツールを集約"
+   ],
+   "url": "https://news.adobe.com/ja/news/2026/11/20261111-adobe-powers-new-era-of-creativity",
+   "lines": [
+    {
+     "say": "そして、アドビマックスから。",
+     "show": "そして、Adobe MAXから。"
+    },
+    {
+     "say": "フォトショップなどを、外部のエーアイからエムシーピーで操作できるプレビューが出ました。",
+     "show": "Photoshopなどを、外部のAIからMCPで操作できるプレビューが出ました。"
+    },
+    {
+     "say": "編集できるデータのまま、エーアイと共同作業できる方向ですね。",
+     "show": "編集できるデータのまま、AIと共同作業できる方向ですね。"
+    }
+   ],
+   "details": [
+    "Photoshop、Illustrator、Premiere、After Effects向けのローカルMCP連携のプレビューです。",
+    "外部エージェントがネイティブのプロジェクトファイルに変更を加える仕組みを示しています。",
+    "画像・動画・音声・デザインの制作ツールと各社モデルを集約する方針です。"
+   ],
+   "link": {
+    "url": "https://news.adobe.com/ja/news/2026/11/20261111-adobe-powers-new-era-of-creativity",
+    "title": "アドビ、AIエージェントと新機能を通じて、場所や方法を問わず創作できるクリエイティビティの新時代を開拓",
+    "site": "news.adobe.com",
+    "description": "アドビ（Nasdaq: ADBE）（本社：米国カリフォルニア州サンノゼ、以下アドビ）は本日、世界最大級のクリエイティビティカンファレンスAdobe MAXにおいて、Adobe Firefly、Adobe Creative Cloud、および、Adobe GenStudioに新たに導入するAIエージェントならびに新機能を発表しました。",
+    "image": "https://news.adobe.com/ja/news/2026/11/media_194f62215cc674a3099d1a6f6b08199d16183a1ba.jpg?width=1200&format=pjpg&optimize=medium",
+    "icon": null
+   }
+  },
+  {
+   "label": "BlenderFORGE研究公開",
+   "points": [
+    "bpyで3D編集をAIに学習",
+    "操作結果を自動で検証",
+    "コード一式は未公開"
+   ],
+   "url": "https://sensetime-fvg.github.io/BlenderFORGE/",
+   "lines": [
+    {
+     "say": "最後は研究です。ブレンダーの操作を学ぶエーアイ、ブレンダーフォージが発表されました。",
+     "show": "最後は研究です。Blenderの操作を学ぶAI、BlenderFORGEが発表されました。"
+    },
+    {
+     "say": "操作後の三ディーの状態が正しいかを、自動で確かめて学習するのがポイントです。",
+     "show": "操作後の3Dの状態が正しいかを、自動で確かめて学習するのがポイントです。"
+    },
+    {
+     "say": "コード一式はまだ未公開です。",
+     "show": "コード一式はまだ未公開です。"
+    }
+   ],
+   "details": [
+    "Blender Pythonを使った3D編集を、AIに学習させる研究です。",
+    "物体配置、シェイプキー、照明、マテリアル変更の4タスクを隔離環境で検証します。",
+    "確認時点でGitHubには概要READMEなどしかなく、すぐ試せる状態ではありません。"
+   ],
+   "link": {
+    "url": "https://github.com/SenseTime-FVG/BlenderFORGE",
+    "title": "GitHub - SenseTime-FVG/BlenderFORGE",
+    "site": "GitHub",
+    "description": "Contribute to SenseTime-FVG/BlenderFORGE development by creating an account on GitHub.",
+    "image": "https://opengraph.githubassets.com/8ba40b8d2ffc88d53f0e8d8c7f9192ee0843885b658b047f09f60b7e2098b971/SenseTime-FVG/BlenderFORGE",
+    "icon": null,
+    "found_by": "search"
+   },
+   "source_link": {
+    "url": "https://sensetime-fvg.github.io/BlenderFORGE/",
+    "title": "BlenderFORGE",
+    "site": "sensetime-fvg.github.io",
+    "description": "BlenderFORGE: Framework for Optimizing Reactive 3D-Graphics Editing Ability of MLLMs.",
+    "image": null,
+    "icon": null
+   }
+  }
+ ],
+ "closing": [
+  {
+   "say": "今日の注目は、すぐ試せるアトラスと、ロボット学習のエーアイロアゼロです。",
+   "show": "今日の注目は、すぐ試せるAtlasと、ロボット学習のAIRoA-0です。"
+  },
+  {
+   "say": "ものラジオでした。また明日。",
+   "show": "ものラジオでした。また明日。"
+  }
+ ],
+ "format": "monoradio/news-1",
+ "date": "2026-11-16",
+ "lang": "ja",
+ "seconds": 86.3,
+ "lines_timed": [
+  {
+   "start": 0.6,
+   "end": 6.215,
+   "show": "おはようございます、ものラジオです。11月16日、月曜日の朝です。",
+   "part": 0
+  },
+  {
+   "start": 6.465,
+   "end": 7.994,
+   "show": "今日のニュースは5本です。",
+   "part": 0
+  },
+  {
+   "start": 9.044,
+   "end": 13.951,
+   "show": "まずは、World Labsの世界生成AI、Atlasが一般公開です。",
+   "part": 1
+  },
+  {
+   "start": 14.201,
+   "end": 18.319,
+   "show": "写真から3Dの空間が作れて、Blenderにも持ち出せます。",
+   "part": 1
+  },
+  {
+   "start": 18.569,
+   "end": 20.841,
+   "show": "編集できるデータなのがいいですね。",
+   "part": 1
+  },
+  {
+   "start": 21.891,
+   "end": 25.126,
+   "show": "続いて、Unreal Engine 5.9のプレビューです。",
+   "part": 2
+  },
+  {
+   "start": 25.376,
+   "end": 29.737,
+   "show": "人とAIが同じ作業場で、3Dのメッシュなども作り直せます。",
+   "part": 2
+  },
+  {
+   "start": 29.987,
+   "end": 33.559,
+   "show": "Blueprintの編集も、スクリプトからできるそうです。",
+   "part": 2
+  },
+  {
+   "start": 34.609,
+   "end": 40.712,
+   "show": "次は日本のロボットの話題。AIRoAが、基盤モデルのAIRoA-0を公開しました。",
+   "part": 3
+  },
+  {
+   "start": 40.962,
+   "end": 44.998,
+   "show": "1万6千時間以上の人の操作データで学習しています。",
+   "part": 3
+  },
+  {
+   "start": 45.248,
+   "end": 48.088,
+   "show": "平均成功率は78％です。",
+   "part": 3
+  },
+  {
+   "start": 49.138,
+   "end": 51.026,
+   "show": "そして、Adobe MAXから。",
+   "part": 4
+  },
+  {
+   "start": 51.276,
+   "end": 56.288,
+   "show": "Photoshopなどを、外部のAIからMCPで操作できるプレビューが出ました。",
+   "part": 4
+  },
+  {
+   "start": 56.538,
+   "end": 61.108,
+   "show": "編集できるデータのまま、AIと共同作業できる方向ですね。",
+   "part": 4
+  },
+  {
+   "start": 62.158,
+   "end": 67.913,
+   "show": "最後は研究です。Blenderの操作を学ぶAI、BlenderFORGEが発表されました。",
+   "part": 5
+  },
+  {
+   "start": 68.163,
+   "end": 73.639,
+   "show": "操作後の3Dの状態が正しいかを、自動で確かめて学習するのがポイントです。",
+   "part": 5
+  },
+  {
+   "start": 73.889,
+   "end": 75.859,
+   "show": "コード一式はまだ未公開です。",
+   "part": 5
+  },
+  {
+   "start": 76.909,
+   "end": 81.979,
+   "show": "今日の注目は、すぐ試せるAtlasと、ロボット学習のAIRoA-0です。",
+   "part": 6
+  },
+  {
+   "start": 82.229,
+   "end": 84.245,
+   "show": "ものラジオでした。また明日。",
+   "part": 6
+  }
+ ],
+ "segments": [
+  {
+   "kind": "opening",
+   "index": null,
+   "start": 0.6,
+   "end": 9.044
+  },
+  {
+   "kind": "news",
+   "index": 0,
+   "start": 9.044,
+   "end": 21.891
+  },
+  {
+   "kind": "news",
+   "index": 1,
+   "start": 21.891,
+   "end": 34.609
+  },
+  {
+   "kind": "news",
+   "index": 2,
+   "start": 34.609,
+   "end": 49.138
+  },
+  {
+   "kind": "news",
+   "index": 3,
+   "start": 49.138,
+   "end": 62.158
+  },
+  {
+   "kind": "news",
+   "index": 4,
+   "start": 62.158,
+   "end": 76.909
+  },
+  {
+   "kind": "closing",
+   "index": null,
+   "start": 76.909,
+   "end": 86.295
+  }
+ ],
+ "made_at": "2026-11-16T06:52:12"
+}

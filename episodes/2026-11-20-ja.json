@@ -1,0 +1,370 @@
+{
+ "title": "ジェミニ4ネオン登場！AIと3Dの5本",
+ "opening": [
+  {
+   "say": "ものラジオです。11月20日金曜日、朝のニュースをお届けします。",
+   "show": "ものラジオです。11月20日金曜日、朝のニュースをお届けします。"
+  },
+  {
+   "say": "今日はAIとスリーディーの話題を5本どうぞ。",
+   "show": "今日はAIと3Dの話題を5本どうぞ。"
+  }
+ ],
+ "news": [
+  {
+   "label": "Gemini 4 Neon 発表",
+   "points": [
+    "Googleが新モデルを発表",
+    "100万トークンの文脈",
+    "途中の修正指示に追従"
+   ],
+   "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-neon/",
+   "lines": [
+    {
+     "say": "まずはグーグルの新モデル、ジェミニ4ネオンです。",
+     "show": "まずはGoogleの新モデル、Gemini 4 Neonです。"
+    },
+    {
+     "say": "ひゃくまんトークンの長い文脈で、開発や分析に強いそうです。",
+     "show": "100万トークンの長い文脈で、開発や分析に強いそうです。"
+    },
+    {
+     "say": "途中の修正指示にも付いてきますよ。",
+     "show": "途中の修正指示にも付いてきますよ。"
+    }
+   ],
+   "details": [
+    "Google DeepMindが、複雑なソフトウェア開発、分析、科学分野向けの「Gemini 4 Neon」を発表しました。",
+    "API価格は100万入力トークンあたり3ドル、出力15ドルです。",
+    "タスク途中の修正指示への追従も強化したとしています。"
+   ],
+   "link": {
+    "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-neon/",
+    "title": "Introducing Gemini 4 Neon",
+    "site": "Google",
+    "description": "Today, we’re introducing Gemini 4 Neon",
+    "image": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/gemini-4-neon__blog-header__sm.width-1300.png",
+    "icon": "https://blog.google/static/blogv2/images/apple-touch-icon.png?version=pr20261117-1738"
+   }
+  },
+  {
+   "label": "MIRACO 2 公開",
+   "points": [
+    "PCなしで scan から編集",
+    "最大0.02mmの精度",
+    "自然言語のRevo Agents"
+   ],
+   "url": "https://global.revopoint3d.com/blogs/news/revopoint-launches-miraco-2-on-kickstarter-scan-in-one-create-with-agents",
+   "lines": [
+    {
+     "say": "続いてはスリーディースキャナー、レボポイントのミラコ2です。",
+     "show": "続いては3Dスキャナー、RevopointのMIRACO 2です。"
+    },
+    {
+     "say": "パソコンなしで、スキャンから編集までこれ一台でできます。",
+     "show": "パソコンなしで、スキャンから編集までこれ一台でできます。"
+    },
+    {
+     "say": "AIに言葉で頼める機能もあるんですよ。",
+     "show": "AIに言葉で頼める機能もあるんですよ。"
+    }
+   ],
+   "details": [
+    "スキャン・点群処理・基本編集までをPCなしで行える携帯型です。",
+    "メーカー公称で、6種類のスキャンモードと最大0.02mmの単一フレーム精度を特徴とします。",
+    "Scan-to-CADや検査処理を自然言語で支援します。PC接続時には実寸スケールの3D Gaussian Splattingにも対応します。"
+   ],
+   "link": {
+    "url": "https://global.revopoint3d.com/blogs/news/revopoint-launches-miraco-2-on-kickstarter-scan-in-one-create-with-agents",
+    "title": "Revopoint Launches MIRACO 2 on Kickstarter: Scan in One, Create with Agents",
+    "site": "Revopoint 3D",
+    "description": "MIRACO 2 – Launch Announcement An all-in-one 3D scanner combining high-precision capture, powerful onboard computing, and AI-driven workflows—with Super Early Bird pricing starting at $1,425. Launch D",
+    "image": "http://global.revopoint3d.com/cdn/shop/articles/1280x720.jpg?v=1794983121&width=2048",
+    "icon": "https://global.revopoint3d.com/cdn/shop/files/revo_logo.png?v=1737617023&width=180"
+   }
+  },
+  {
+   "label": "Formnext 2026 受賞",
+   "points": [
+    "AI最適化の造形物が受賞",
+    "印刷直前だけ乾燥",
+    "フィラメント全体は乾燥不要"
+   ],
+   "url": "https://formnext.mesago.com/frankfurt/en/about-us/press/press-releases/formnext-press-releases/Formnext_Award_Winners_2026.html",
+   "lines": [
+    {
+     "say": "さて次は、フォームネクストの受賞ニュースです。",
+     "show": "さて次は、Formnextの受賞ニュースです。"
+    },
+    {
+     "say": "AIで流路を最適化した造形物と、印刷の直前だけ乾燥させる装置が選ばれました。",
+     "show": "AIで流路を最適化した造形物と、印刷の直前だけ乾燥させる装置が選ばれました。"
+    },
+    {
+     "say": "真似したくなる工夫ですね。",
+     "show": "真似したくなる工夫ですね。"
+    }
+   ],
+   "details": [
+    "CFDシミュレーションとベイズ最適化で、微粒子分離用の3D造形ハイドロサイクロン「cAIclone」を開発しました。",
+    "Thought3Dの「Drywise」は、ノズル直前の必要部分だけを調湿します。",
+    "フィラメント全体を事前乾燥する代わりになる工夫で、ナイロンなど吸湿しやすい材料の乾燥工程を効率化できます。"
+   ],
+   "link": {
+    "url": "https://formnext.mesago.com/frankfurt/en/about-us/press/press-releases/formnext-press-releases/Formnext_Award_Winners_2026.html",
+    "title": "The Winners of the Formnext Awards 2026 Demonstrate Innovation and Open New Pathways for Industrial Manufacturing",
+    "site": "formnext.mesago.com",
+    "description": "The winners of the Formnext Awards 2026 were honored on 19 November during a festive awards ceremony at Formnext in Frankfurt. The six award categories recognize different facets of Additive Manufactu",
+    "image": "https://formnext.mesago.com/content/dam/messefrankfurt-mesago/formnext/2026/presse/pressemeldungen/de/Formnext_Awards_2026_Copyright_Formnext_Mesago_Messe_Frankfurt_Marc_Jacquemin.jpg",
+    "icon": null
+   }
+  },
+  {
+   "label": "ルネサスの5指ハンド",
+   "points": [
+    "卵を割らずにつかむ",
+    "画像認識と圧力センサー",
+    "ジェスチャーを模倣"
+   ],
+   "url": "https://news.mynavi.jp/techplus/article/20261119-5361285/",
+   "lines": [
+    {
+     "say": "お次は日本から、ルネサスのロボットハンドです。",
+     "show": "お次は日本から、ルネサスのロボットハンドです。"
+    },
+    {
+     "say": "卵もスポンジも缶も、力を変えてつかみ分けるデモでした。",
+     "show": "卵もスポンジも缶も、力を変えてつかみ分けるデモでした。"
+    },
+    {
+     "say": "指先のセンサーと画像認識の合わせ技が面白いです。",
+     "show": "指先のセンサーと画像認識の合わせ技が面白いです。"
+    }
+   ],
+   "details": [
+    "卵、スポンジ、缶などを、適した力で掴み分けるデモを行いました。",
+    "RZ/V2Hによる画像認識で対象を見分け、指先の圧力センサーと事前設定した把持力を使います。",
+    "別のカメラで手のジェスチャーを読み、ハンドに動作を模倣させるデモも行いました。"
+   ],
+   "link": {
+    "url": "https://news.mynavi.jp/techplus/article/20261119-5361285/",
+    "title": "卵を割らずに掴めるAIロボットハンド、ルネサスが実演　EdgeTech+ 2026",
+    "site": "TECH+（テックプラス）",
+    "description": "マクニカとルネサス エレクトロニクスは、パシフィコ横浜で開催されている「EdgeTech+ 2026」において、エッジAIからフィジカルAIまでをテーマとする共同展示を行っている。注目を集めていたのは、AI MPU「RZ/V2H」を活用し、手の動きや物体をカメラで認識して5本指のロボットハンドを制御するデモ。卵やスポンジ、缶飲料など、硬さや形状が異なる物体を、それぞれに適した力で把持する様子を披露",
+    "image": "https://news.mynavi.jp/techplus/article/20261119-5361285/ogp_images/ogp.jpg",
+    "icon": null
+   }
+  },
+  {
+   "label": "Foundry Dev Pack 提供",
+   "points": [
+    "エージェント開発をまとめて導入",
+    "VS Codeでトレース確認",
+    "CLIとプラグインも設定"
+   ],
+   "url": "https://devblogs.microsoft.com/foundry/the-foundry-dev-pack-is-here-build-foundry-agents-your-way/",
+   "lines": [
+    {
+     "say": "最後はマイクロソフトのニュースです。",
+     "show": "最後はMicrosoftのニュースです。"
+    },
+    {
+     "say": "エージェント開発の道具をまとめた、ファウンドリーデブパックが一般提供になりました。",
+     "show": "エージェント開発の道具をまとめた、Foundry Dev Packが一般提供になりました。"
+    },
+    {
+     "say": "動作の確認や評価まで同じ流れでできます。",
+     "show": "動作の確認や評価まで同じ流れでできます。"
+    }
+   ],
+   "details": [
+    "AIエージェントの作成・デバッグ・評価・配備に使う開発環境をまとめたものが、一般提供になりました。",
+    "VS CodeのAgent Inspectorから、リクエストやツール呼び出しのトレースを調べられます。",
+    "CLI（azd ai）とFoundry Skillに加え、対応環境ではVS Code ToolkitやGitHub Copilot向けプラグインもセットアップします。"
+   ],
+   "link": {
+    "url": "https://devblogs.microsoft.com/foundry/the-foundry-dev-pack-is-here-build-foundry-agents-your-way/",
+    "title": "The Foundry Dev Pack is here: build Foundry agents your way | Microsoft Foundry Blog",
+    "site": "Microsoft Foundry Blog",
+    "description": "Your next agent can start wherever you like to build: in your editor, at the terminal, or with your favorite coding agent. At Microsoft Ignite, we're",
+    "image": "https://devblogs.microsoft.com/foundry/wp-content/uploads/sites/89/2026/11/Foundry-dev-pack.webp",
+    "icon": "https://devblogs.microsoft.com/foundry/wp-content/themes/devblogs-evo/images/favicon/favicon-512.png?ver=1789493481"
+   }
+  }
+ ],
+ "closing": [
+  {
+   "say": "今日の注目は、ミラコ2とフォームネクストの受賞、AIがものづくりにつながる流れです。",
+   "show": "今日の注目は、MIRACO 2とFormnextの受賞、AIがものづくりにつながる流れです。"
+  },
+  {
+   "say": "それではまた、ものラジオでした。いってらっしゃい。",
+   "show": "それではまた、ものラジオでした。いってらっしゃい。"
+  }
+ ],
+ "format": "monoradio/news-1",
+ "date": "2026-11-20",
+ "lang": "ja",
+ "seconds": 82.11,
+ "lines_timed": [
+  {
+   "start": 0.6,
+   "end": 5.646,
+   "show": "ものラジオです。11月20日金曜日、朝のニュースをお届けします。",
+   "part": 0
+  },
+  {
+   "start": 5.896,
+   "end": 8.736,
+   "show": "今日はAIと3Dの話題を5本どうぞ。",
+   "part": 0
+  },
+  {
+   "start": 9.786,
+   "end": 12.986,
+   "show": "まずはGoogleの新モデル、Gemini 4 Neonです。",
+   "part": 1
+  },
+  {
+   "start": 13.236,
+   "end": 17.563,
+   "show": "100万トークンの長い文脈で、開発や分析に強いそうです。",
+   "part": 1
+  },
+  {
+   "start": 17.813,
+   "end": 20.317,
+   "show": "途中の修正指示にも付いてきますよ。",
+   "part": 1
+  },
+  {
+   "start": 21.367,
+   "end": 24.869,
+   "show": "続いては3Dスキャナー、RevopointのMIRACO 2です。",
+   "part": 2
+  },
+  {
+   "start": 25.119,
+   "end": 28.9,
+   "show": "パソコンなしで、スキャンから編集までこれ一台でできます。",
+   "part": 2
+  },
+  {
+   "start": 29.15,
+   "end": 31.886,
+   "show": "AIに言葉で頼める機能もあるんですよ。",
+   "part": 2
+  },
+  {
+   "start": 32.936,
+   "end": 36.02,
+   "show": "さて次は、Formnextの受賞ニュースです。",
+   "part": 3
+  },
+  {
+   "start": 36.27,
+   "end": 42.791,
+   "show": "AIで流路を最適化した造形物と、印刷の直前だけ乾燥させる装置が選ばれました。",
+   "part": 3
+  },
+  {
+   "start": 43.041,
+   "end": 44.825,
+   "show": "真似したくなる工夫ですね。",
+   "part": 3
+  },
+  {
+   "start": 45.875,
+   "end": 49.029,
+   "show": "お次は日本から、ルネサスのロボットハンドです。",
+   "part": 4
+  },
+  {
+   "start": 49.279,
+   "end": 53.373,
+   "show": "卵もスポンジも缶も、力を変えてつかみ分けるデモでした。",
+   "part": 4
+  },
+  {
+   "start": 53.623,
+   "end": 57.346,
+   "show": "指先のセンサーと画像認識の合わせ技が面白いです。",
+   "part": 4
+  },
+  {
+   "start": 58.396,
+   "end": 60.482,
+   "show": "最後はMicrosoftのニュースです。",
+   "part": 5
+  },
+  {
+   "start": 60.732,
+   "end": 66.266,
+   "show": "エージェント開発の道具をまとめた、Foundry Dev Packが一般提供になりました。",
+   "part": 5
+  },
+  {
+   "start": 66.516,
+   "end": 69.635,
+   "show": "動作の確認や評価まで同じ流れでできます。",
+   "part": 5
+  },
+  {
+   "start": 70.685,
+   "end": 76.637,
+   "show": "今日の注目は、MIRACO 2とFormnextの受賞、AIがものづくりにつながる流れです。",
+   "part": 6
+  },
+  {
+   "start": 76.887,
+   "end": 80.064,
+   "show": "それではまた、ものラジオでした。いってらっしゃい。",
+   "part": 6
+  }
+ ],
+ "segments": [
+  {
+   "kind": "opening",
+   "index": null,
+   "start": 0.6,
+   "end": 9.786
+  },
+  {
+   "kind": "news",
+   "index": 0,
+   "start": 9.786,
+   "end": 21.367
+  },
+  {
+   "kind": "news",
+   "index": 1,
+   "start": 21.367,
+   "end": 32.936
+  },
+  {
+   "kind": "news",
+   "index": 2,
+   "start": 32.936,
+   "end": 45.875
+  },
+  {
+   "kind": "news",
+   "index": 3,
+   "start": 45.875,
+   "end": 58.396
+  },
+  {
+   "kind": "news",
+   "index": 4,
+   "start": 58.396,
+   "end": 70.685
+  },
+  {
+   "kind": "closing",
+   "index": null,
+   "start": 70.685,
+   "end": 82.114
+  }
+ ],
+ "made_at": "2026-11-20T06:51:42"
+}

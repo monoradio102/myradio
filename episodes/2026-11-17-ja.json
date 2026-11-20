@@ -1,0 +1,360 @@
+{
+ "title": "シーメンスが文章からロボットの手を設計",
+ "opening": [
+  {
+   "say": "おはようございます、ものラジオです。十一月十七日火曜日の朝のニュースです。",
+   "show": "おはようございます、ものラジオです。11月17日火曜日の朝のニュースです。"
+  },
+  {
+   "say": "今日は注目の五本を、さくっとお届けします。",
+   "show": "今日は注目の5本を、さくっとお届けします。"
+  }
+ ],
+ "news": [
+  {
+   "label": "Qwen4-Max 公開",
+   "points": [
+    "総パラメータ2.4兆のMoE",
+    "100万トークンの長文脈",
+    "API経由で利用"
+   ],
+   "url": "https://qwen.ai/blog?id=qwen4-max",
+   "lines": [
+    {
+     "say": "まずはアリババから、新しい旗艦モデルのクウェンフォーマックスが登場です。",
+     "show": "まずはAlibabaから、新しい旗艦モデルのQwen4-Maxが登場です。"
+    },
+    {
+     "say": "百万トークンの長い文脈に対応して、画像も扱えますよ。",
+     "show": "100万トークンの長い文脈に対応して、画像も扱えますよ。"
+    },
+    {
+     "say": "ただしエーピーアイで使うタイプで、ローカル用ではありません。",
+     "show": "ただしAPIで使うタイプで、ローカル用ではありません。"
+    }
+   ],
+   "details": [
+    "画像を扱えるマルチモーダルモデルで、ツール呼び出しや複雑な作業の実行を重視しています。",
+    "長いコードベースや画像を含む資料を、AIエージェントにまとめて扱わせやすくなります。",
+    "ローカル実行用のオープンウェイトモデルとは異なります。"
+   ],
+   "link": {
+    "url": "https://qwen.ai/blog?id=qwen4-max",
+    "title": "Qwen",
+    "site": "qwen.ai",
+    "description": "Qwen offers comprehensive functionality spanning chatbot, image and video understanding, image generation, document processing, web search integration, tool utilization, and artifacts.",
+    "image": "https://img.alicdn.com/imgextra/i4/O1CN01OXv3EM1FN8t9W4P79_!!6000000000474-2-tps-80-80.png",
+    "icon": null
+   }
+  },
+  {
+   "label": "声と画像から長尺動画",
+   "points": [
+    "10分超の人物動画を生成",
+    "MITライセンスで公開",
+    "公式例は複数GPU構成"
+   ],
+   "url": "https://huggingface.co/meituan-longcat/LongCat-Video-Avatar-1.6",
+   "lines": [
+    {
+     "say": "続いては、メイトゥアンのロングキャット ビデオ アバター いちてんろくです。",
+     "show": "続いては、美団のLongCat-Video-Avatar 1.6です。"
+    },
+    {
+     "say": "声と画像から、十分を超える人物の話す動画を作れます。",
+     "show": "声と画像から、10分を超える人物の話す動画を作れます。"
+    },
+    {
+     "say": "重みはエムアイティーライセンスで公開、ただしジーピーユーは複数必要です。",
+     "show": "重みはMITライセンスで公開、ただしGPUは複数必要です。"
+    }
+   ],
+   "details": [
+    "口の動きと音声の同期や、長時間生成時の人物の一貫性を改善しています。",
+    "モデル重みと推論コードが公開されています。",
+    "ローカル実行のハードルは高めです。"
+   ],
+   "link": {
+    "url": "https://huggingface.co/meituan-longcat/LongCat-Video-Avatar-1.6",
+    "title": "meituan-longcat/LongCat-Video-Avatar-1.6 · Hugging Face",
+    "site": "huggingface.co",
+    "description": "Machine learning model. Download, explore files and run it on Hugging Face.",
+    "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/models/meituan-longcat/LongCat-Video-Avatar-1.6.png",
+    "icon": null
+   }
+  },
+  {
+   "label": "HFとOpenRouterが連携",
+   "points": [
+    "推論先を自動で選択",
+    "障害時は別事業者へ再試行",
+    "HFトークンで呼び出し可"
+   ],
+   "url": "https://huggingface.co/blog/openrouter",
+   "lines": [
+    {
+     "say": "次は開発者向けで、ハギングフェイスがオープンルーターと連携しました。",
+     "show": "次は開発者向けで、Hugging FaceがOpenRouterと連携しました。"
+    },
+    {
+     "say": "価格や速度に応じて推論先を自動で選び、障害時は別の事業者に切り替えます。",
+     "show": "価格や速度に応じて推論先を自動で選び、障害時は別の事業者に切り替えます。"
+    }
+   ],
+   "details": [
+    "価格・速度・信頼性に応じて推論事業者を選びます。",
+    "既存コードの変更を抑えながら、複数の推論環境を利用できます。",
+    "対応する公開ウェイトモデルを、従来のHugging Faceトークンから呼び出せます。"
+   ],
+   "link": {
+    "url": "https://huggingface.co/blog/openrouter",
+    "title": "Hugging Face and OpenRouter join forces to make open-weight models easy to run",
+    "site": "huggingface.co",
+    "description": "We’re on a journey to advance and democratize artificial intelligence through open source and open science.",
+    "image": "https://huggingface.co/blog/assets/openrouter/thumbnail.jpg",
+    "icon": null
+   }
+  },
+  {
+   "label": "Siemens AIでグリッパー設計",
+   "points": [
+    "文章からグリッパーを設計",
+    "検証から造形データまで",
+    "全工程は製品化前"
+   ],
+   "url": "https://press.siemens.com/global/en/pressrelease/siemens-combines-industrial-ai-and-additive-manufacturing-adaptive-product-development",
+   "lines": [
+    {
+     "say": "そして今日の目玉、シーメンスのAIによる設計です。",
+     "show": "そして今日の目玉、SiemensのAIによる設計です。"
+    },
+    {
+     "say": "文章で伝えるだけで、ロボットのグリッパーを設計して、シミュレーションから三Dプリント用データの準備まで進めます。",
+     "show": "文章で伝えるだけで、ロボットのグリッパーを設計して、シミュレーションから3Dプリント用データの準備まで進めます。"
+    },
+    {
+     "say": "ただし、全部が製品として使えるわけではありません。",
+     "show": "ただし、全部が製品として使えるわけではありません。"
+    }
+   ],
+   "details": [
+    "把持する物体と作業内容を指定すると、AIがMCP経由でDesigncenterを操作します。",
+    "形状変更、シミュレーション、ロボットとの接続検証、積層造形用データの準備を進めます。",
+    "適応型生産セルも構想していますが、全工程が一般向け製品として提供されたわけではありません。"
+   ],
+   "link": {
+    "url": "https://press.siemens.com/global/en/pressrelease/siemens-combines-industrial-ai-and-additive-manufacturing-adaptive-product-development",
+    "title": "Siemens combines Industrial AI and additive manufacturing for adap ...",
+    "site": "press.siemens.com",
+    "description": "Agentic AI workflow enables prompt-based engineering for task-specific, additively manufactured robotic grippers\n        ...",
+    "image": "https://assets.new.siemens.com/siemens/assets/api/uuid:4dc2118f-f587-43fa-a00d-98f43fb04abd/width:1024/di-additive-manufacturing-keyvisual-16zu9-srgb-Hero.png",
+    "icon": null
+   }
+  },
+  {
+   "label": "カメラとロボットをAI連携",
+   "points": [
+    "カメラ映像をVLMで解析",
+    "異種ロボットが役割分担",
+    "アイリスオーヤマ×NTT西日本"
+   ],
+   "url": "https://www.ntt-west.co.jp/news/2611/261116a.html",
+   "lines": [
+    {
+     "say": "最後は日本から、アイリスオーヤマとエヌティーティー西日本の実証です。",
+     "show": "最後は日本から、アイリスオーヤマとNTT西日本の実証です。"
+    },
+    {
+     "say": "カメラ映像をAIが解析して、清掃ロボットに指示を出し、ヒューマノイドとも役割分担します。",
+     "show": "カメラ映像をAIが解析して、清掃ロボットに指示を出し、ヒューマノイドとも役割分担します。"
+    }
+   ],
+   "details": [
+    "LLMが清掃ロボットJILBYへ作業指示を出す仕組みの技術的成立性を確認しました。",
+    "JILBYとヒューマノイドのugo Novaが情報を共有し、役割を分担する動作も検証しています。",
+    null
+   ],
+   "link": {
+    "url": "https://prtimes.jp/main/html/rd/p/000000655.000032702.html",
+    "title": "アイリスオーヤマとNTT西日本「マルチロボティクスプラットフォーム」※1を活用したフィジカルAIの共同実証成果を発表",
+    "site": "プレスリリース・ニュースリリース配信シェアNo.1｜PR TIMES",
+    "description": "NTT西日本株式会社のプレスリリース（2026年11月16日 11時00分）アイリスオーヤマとNTT西日本「マルチロボティクスプラットフォーム」※1を活用したフィジカルAIの共同実証成果を発表",
+    "image": "https://prcdn.freetls.fastly.net/release_image/32702/655/32702-655-02f10a7704a01fdc18ee95429d13c4cb-660x410.jpg?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260",
+    "icon": "https://prtimes.jp/common/v4.1/images/html/favicon/favicon-196x196.png",
+    "found_by": "search"
+   },
+   "source_link": {
+    "url": "https://www.ntt-west.co.jp/news/2611/261116a.html",
+    "title": "Request Rejected",
+    "site": "www.ntt-west.co.jp",
+    "description": null,
+    "image": null,
+    "icon": null
+   }
+  }
+ ],
+ "closing": [
+  {
+   "say": "今日の注目は、文章から三Dプリントまでつなぐシーメンスの発表でした。",
+   "show": "今日の注目は、文章から3Dプリントまでつなぐ Siemens の発表でした。"
+  },
+  {
+   "say": "ものラジオでした、今日もいってらっしゃい。",
+   "show": "ものラジオでした、今日もいってらっしゃい。"
+  }
+ ],
+ "highlight": 3,
+ "format": "monoradio/news-1",
+ "date": "2026-11-17",
+ "lang": "ja",
+ "seconds": 91.34,
+ "lines_timed": [
+  {
+   "start": 0.6,
+   "end": 6.238,
+   "show": "おはようございます、ものラジオです。11月17日火曜日の朝のニュースです。",
+   "part": 0
+  },
+  {
+   "start": 6.488,
+   "end": 9.63,
+   "show": "今日は注目の5本を、さくっとお届けします。",
+   "part": 0
+  },
+  {
+   "start": 10.68,
+   "end": 15.436,
+   "show": "まずはAlibabaから、新しい旗艦モデルのQwen4-Maxが登場です。",
+   "part": 1
+  },
+  {
+   "start": 15.686,
+   "end": 20.047,
+   "show": "100万トークンの長い文脈に対応して、画像も扱えますよ。",
+   "part": 1
+  },
+  {
+   "start": 20.297,
+   "end": 24.113,
+   "show": "ただしAPIで使うタイプで、ローカル用ではありません。",
+   "part": 1
+  },
+  {
+   "start": 25.163,
+   "end": 30.128,
+   "show": "続いては、美団のLongCat-Video-Avatar 1.6です。",
+   "part": 2
+  },
+  {
+   "start": 30.378,
+   "end": 34.554,
+   "show": "声と画像から、10分を超える人物の話す動画を作れます。",
+   "part": 2
+  },
+  {
+   "start": 34.804,
+   "end": 39.723,
+   "show": "重みはMITライセンスで公開、ただしGPUは複数必要です。",
+   "part": 2
+  },
+  {
+   "start": 40.773,
+   "end": 45.309,
+   "show": "次は開発者向けで、Hugging FaceがOpenRouterと連携しました。",
+   "part": 3
+  },
+  {
+   "start": 45.559,
+   "end": 51.476,
+   "show": "価格や速度に応じて推論先を自動で選び、障害時は別の事業者に切り替えます。",
+   "part": 3
+  },
+  {
+   "start": 52.526,
+   "end": 56.191,
+   "show": "そして今日の目玉、SiemensのAIによる設計です。",
+   "part": 4
+  },
+  {
+   "start": 56.441,
+   "end": 64.042,
+   "show": "文章で伝えるだけで、ロボットのグリッパーを設計して、シミュレーションから3Dプリント用データの準備まで進めます。",
+   "part": 4
+  },
+  {
+   "start": 64.292,
+   "end": 67.91,
+   "show": "ただし、全部が製品として使えるわけではありません。",
+   "part": 4
+  },
+  {
+   "start": 68.96,
+   "end": 73.577,
+   "show": "最後は日本から、アイリスオーヤマとNTT西日本の実証です。",
+   "part": 5
+  },
+  {
+   "start": 73.827,
+   "end": 80.522,
+   "show": "カメラ映像をAIが解析して、清掃ロボットに指示を出し、ヒューマノイドとも役割分担します。",
+   "part": 5
+  },
+  {
+   "start": 81.572,
+   "end": 86.595,
+   "show": "今日の注目は、文章から3Dプリントまでつなぐ Siemens の発表でした。",
+   "part": 6
+  },
+  {
+   "start": 86.845,
+   "end": 89.291,
+   "show": "ものラジオでした、今日もいってらっしゃい。",
+   "part": 6
+  }
+ ],
+ "segments": [
+  {
+   "kind": "opening",
+   "index": null,
+   "start": 0.6,
+   "end": 10.68
+  },
+  {
+   "kind": "news",
+   "index": 0,
+   "start": 10.68,
+   "end": 25.163
+  },
+  {
+   "kind": "news",
+   "index": 1,
+   "start": 25.163,
+   "end": 40.773
+  },
+  {
+   "kind": "news",
+   "index": 2,
+   "start": 40.773,
+   "end": 52.526
+  },
+  {
+   "kind": "news",
+   "index": 3,
+   "start": 52.526,
+   "end": 68.96
+  },
+  {
+   "kind": "news",
+   "index": 4,
+   "start": 68.96,
+   "end": 81.572
+  },
+  {
+   "kind": "closing",
+   "index": null,
+   "start": 81.572,
+   "end": 91.341
+  }
+ ],
+ "made_at": "2026-11-17T09:32:27"
+}

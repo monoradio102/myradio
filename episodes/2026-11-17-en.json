@@ -1,0 +1,360 @@
+{
+ "title": "Siemens Designs Robot Grippers from a Text Prompt",
+ "opening": [
+  {
+   "say": "Good morning, this is Mono Radio. Here's your news for Tuesday, November seventeenth.",
+   "show": "Good morning, this is Mono Radio. Here's your news for Tuesday, November 17."
+  },
+  {
+   "say": "We've got five top stories for you today, quick and easy.",
+   "show": "We've got five top stories for you today, quick and easy."
+  }
+ ],
+ "closing": [
+  {
+   "say": "Today's top story was Siemens connecting a simple text prompt all the way to three D printing.",
+   "show": "Today's top story was Siemens linking a text prompt all the way to 3D printing."
+  },
+  {
+   "say": "That was Mono Radio. Have a great day out there!",
+   "show": "That was Mono Radio. Have a great day out there!"
+  }
+ ],
+ "news": [
+  {
+   "label": "Qwen4-Max Is Released",
+   "points": [
+    "2.4 trillion parameter MoE model",
+    "One million token context",
+    "Available through the API"
+   ],
+   "details": [
+    "It's a multimodal model that can handle images, with a focus on tool calling and carrying out complex tasks.",
+    "That makes it easier for AI agents to work with long codebases and documents that include images.",
+    "It's different from open weight models that you can run locally."
+   ],
+   "lines": [
+    {
+     "say": "Let's start with Alibaba, which has launched its new flagship model, Qwen four Max.",
+     "show": "Let's start with Alibaba, which has launched its new flagship model, Qwen4-Max."
+    },
+    {
+     "say": "It supports a context of one million tokens, and it can work with images too.",
+     "show": "It supports a one million token context, and it can work with images too."
+    },
+    {
+     "say": "But it's an A P I model, not one you can run locally.",
+     "show": "But it's an API model, not one you can run locally."
+    }
+   ],
+   "url": "https://qwen.ai/blog?id=qwen4-max",
+   "link": {
+    "url": "https://qwen.ai/blog?id=qwen4-max",
+    "title": "Qwen",
+    "site": "qwen.ai",
+    "description": "Qwen offers comprehensive functionality spanning chatbot, image and video understanding, image generation, document processing, web search integration, tool utilization, and artifacts.",
+    "image": "https://img.alicdn.com/imgextra/i4/O1CN01OXv3EM1FN8t9W4P79_!!6000000000474-2-tps-80-80.png",
+    "icon": null
+   }
+  },
+  {
+   "label": "Long Videos from Voice and Image",
+   "points": [
+    "Generates 10-minute-plus talking videos",
+    "Released under the MIT license",
+    "Official example uses multiple GPUs"
+   ],
+   "details": [
+    "It improves lip sync with audio and keeps the person looking consistent over long videos.",
+    "Model weights and inference code are publicly available.",
+    "Running it locally is a high bar."
+   ],
+   "lines": [
+    {
+     "say": "Next up is LongCat Video Avatar version one point six from Meituan.",
+     "show": "Next up is LongCat-Video-Avatar 1.6 from Meituan."
+    },
+    {
+     "say": "From a voice recording and an image, it can create talking videos of a person lasting over ten minutes.",
+     "show": "From a voice recording and an image, it can create talking videos over ten minutes long."
+    },
+    {
+     "say": "The weights are out under the M I T license, but you'll need multiple G P Us to run it.",
+     "show": "The weights are out under the MIT license, but you'll need multiple GPUs to run it."
+    }
+   ],
+   "url": "https://huggingface.co/meituan-longcat/LongCat-Video-Avatar-1.6",
+   "link": {
+    "url": "https://huggingface.co/meituan-longcat/LongCat-Video-Avatar-1.6",
+    "title": "meituan-longcat/LongCat-Video-Avatar-1.6 · Hugging Face",
+    "site": "huggingface.co",
+    "description": "Machine learning model. Download, explore files and run it on Hugging Face.",
+    "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/models/meituan-longcat/LongCat-Video-Avatar-1.6.png",
+    "icon": null
+   }
+  },
+  {
+   "label": "Hugging Face Teams Up with OpenRouter",
+   "points": [
+    "Inference provider chosen automatically",
+    "Retries with another provider on outages",
+    "Callable with an HF token"
+   ],
+   "details": [
+    "It picks an inference provider based on price, speed, and reliability.",
+    "You can use multiple inference setups while keeping changes to your existing code small.",
+    "Supported open weight models can be called with your existing Hugging Face token."
+   ],
+   "lines": [
+    {
+     "say": "Now one for developers: Hugging Face has teamed up with OpenRouter.",
+     "show": "Now one for developers: Hugging Face has teamed up with OpenRouter."
+    },
+    {
+     "say": "It automatically picks where to run your request based on price and speed, and switches to another provider if one goes down.",
+     "show": "It automatically picks where to run your request based on price and speed, and switches providers if one goes down."
+    }
+   ],
+   "url": "https://huggingface.co/blog/openrouter",
+   "link": {
+    "url": "https://huggingface.co/blog/openrouter",
+    "title": "Hugging Face and OpenRouter join forces to make open-weight models easy to run",
+    "site": "huggingface.co",
+    "description": "We’re on a journey to advance and democratize artificial intelligence through open source and open science.",
+    "image": "https://huggingface.co/blog/assets/openrouter/thumbnail.jpg",
+    "icon": null
+   }
+  },
+  {
+   "label": "Siemens AI Designs Robot Grippers",
+   "points": [
+    "Design grippers from text",
+    "From validation to print-ready data",
+    "Full workflow not yet a product"
+   ],
+   "details": [
+    "You specify the object to grip and the task, and the AI operates Designcenter through M C P.",
+    "It moves on to shape changes, simulation, robot connection checks, and preparing data for additive manufacturing.",
+    "Siemens also envisions adaptive production cells, but the full workflow isn't available as a general product yet."
+   ],
+   "lines": [
+    {
+     "say": "And now our top story: AI-powered design from Siemens.",
+     "show": "And now our top story: AI-powered design from Siemens."
+    },
+    {
+     "say": "Just describe what you need in text, and it designs a robot gripper, then carries on from simulation to preparing data for three D printing.",
+     "show": "Just describe what you need in text, and it designs a robot gripper, then goes from simulation to preparing data for 3D printing."
+    },
+    {
+     "say": "That said, not all of it is available as a product yet.",
+     "show": "That said, not all of it is available as a product yet."
+    }
+   ],
+   "url": "https://press.siemens.com/global/en/pressrelease/siemens-combines-industrial-ai-and-additive-manufacturing-adaptive-product-development",
+   "link": {
+    "url": "https://press.siemens.com/global/en/pressrelease/siemens-combines-industrial-ai-and-additive-manufacturing-adaptive-product-development",
+    "title": "Siemens combines Industrial AI and additive manufacturing for adap ...",
+    "site": "press.siemens.com",
+    "description": "Agentic AI workflow enables prompt-based engineering for task-specific, additively manufactured robotic grippers\n        ...",
+    "image": "https://assets.new.siemens.com/siemens/assets/api/uuid:4dc2118f-f587-43fa-a00d-98f43fb04abd/width:1024/di-additive-manufacturing-keyvisual-16zu9-srgb-Hero.png",
+    "icon": null
+   }
+  },
+  {
+   "label": "AI Links Cameras and Robots",
+   "points": [
+    "Camera footage analyzed by a VLM",
+    "Different robots split up roles",
+    "Iris Ohyama and NTT West"
+   ],
+   "details": [
+    "They confirmed the technical feasibility of an LLM giving work instructions to the JILBY cleaning robot.",
+    "They also tested JILBY and the ugo Nova humanoid sharing information and dividing up roles.",
+    null
+   ],
+   "lines": [
+    {
+     "say": "Finally, a trial from Japan by Iris Ohyama and NTT West.",
+     "show": "Finally, a trial from Japan by Iris Ohyama and NTT West."
+    },
+    {
+     "say": "AI analyzes camera footage, gives instructions to a cleaning robot, and even splits up the work with a humanoid.",
+     "show": "AI analyzes camera footage, instructs a cleaning robot, and even shares the work with a humanoid."
+    }
+   ],
+   "url": "https://www.ntt-west.co.jp/news/2611/261116a.html",
+   "link": {
+    "url": "https://prtimes.jp/main/html/rd/p/000000655.000032702.html",
+    "title": "アイリスオーヤマとNTT西日本「マルチロボティクスプラットフォーム」※1を活用したフィジカルAIの共同実証成果を発表",
+    "site": "プレスリリース・ニュースリリース配信シェアNo.1｜PR TIMES",
+    "description": "NTT西日本株式会社のプレスリリース（2026年11月16日 11時00分）アイリスオーヤマとNTT西日本「マルチロボティクスプラットフォーム」※1を活用したフィジカルAIの共同実証成果を発表",
+    "image": "https://prcdn.freetls.fastly.net/release_image/32702/655/32702-655-02f10a7704a01fdc18ee95429d13c4cb-660x410.jpg?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260",
+    "icon": "https://prtimes.jp/common/v4.1/images/html/favicon/favicon-196x196.png",
+    "found_by": "search"
+   },
+   "source_link": {
+    "url": "https://www.ntt-west.co.jp/news/2611/261116a.html",
+    "title": "Request Rejected",
+    "site": "www.ntt-west.co.jp",
+    "description": null,
+    "image": null,
+    "icon": null
+   }
+  }
+ ],
+ "highlight": 3,
+ "format": "monoradio/news-1",
+ "date": "2026-11-17",
+ "lang": "en",
+ "seconds": 95.01,
+ "lines_timed": [
+  {
+   "start": 0.6,
+   "end": 5.763,
+   "show": "Good morning, this is Mono Radio. Here's your news for Tuesday, November 17.",
+   "part": 0
+  },
+  {
+   "start": 6.013,
+   "end": 9.277,
+   "show": "We've got five top stories for you today, quick and easy.",
+   "part": 0
+  },
+  {
+   "start": 10.327,
+   "end": 15.169,
+   "show": "Let's start with Alibaba, which has launched its new flagship model, Qwen4-Max.",
+   "part": 1
+  },
+  {
+   "start": 15.419,
+   "end": 20.049,
+   "show": "It supports a one million token context, and it can work with images too.",
+   "part": 1
+  },
+  {
+   "start": 20.299,
+   "end": 23.285,
+   "show": "But it's an API model, not one you can run locally.",
+   "part": 1
+  },
+  {
+   "start": 24.335,
+   "end": 28.943,
+   "show": "Next up is LongCat-Video-Avatar 1.6 from Meituan.",
+   "part": 2
+  },
+  {
+   "start": 29.193,
+   "end": 35.039,
+   "show": "From a voice recording and an image, it can create talking videos over ten minutes long.",
+   "part": 2
+  },
+  {
+   "start": 35.289,
+   "end": 40.515,
+   "show": "The weights are out under the MIT license, but you'll need multiple GPUs to run it.",
+   "part": 2
+  },
+  {
+   "start": 41.565,
+   "end": 45.683,
+   "show": "Now one for developers: Hugging Face has teamed up with OpenRouter.",
+   "part": 3
+  },
+  {
+   "start": 45.933,
+   "end": 53.037,
+   "show": "It automatically picks where to run your request based on price and speed, and switches providers if one goes down.",
+   "part": 3
+  },
+  {
+   "start": 54.087,
+   "end": 57.607,
+   "show": "And now our top story: AI-powered design from Siemens.",
+   "part": 4
+  },
+  {
+   "start": 57.857,
+   "end": 66.625,
+   "show": "Just describe what you need in text, and it designs a robot gripper, then goes from simulation to preparing data for 3D printing.",
+   "part": 4
+  },
+  {
+   "start": 66.875,
+   "end": 69.904,
+   "show": "That said, not all of it is available as a product yet.",
+   "part": 4
+  },
+  {
+   "start": 70.954,
+   "end": 75.541,
+   "show": "Finally, a trial from Japan by Iris Ohyama and NTT West.",
+   "part": 5
+  },
+  {
+   "start": 75.791,
+   "end": 82.916,
+   "show": "AI analyzes camera footage, instructs a cleaning robot, and even shares the work with a humanoid.",
+   "part": 5
+  },
+  {
+   "start": 83.966,
+   "end": 89.897,
+   "show": "Today's top story was Siemens linking a text prompt all the way to 3D printing.",
+   "part": 6
+  },
+  {
+   "start": 90.147,
+   "end": 92.963,
+   "show": "That was Mono Radio. Have a great day out there!",
+   "part": 6
+  }
+ ],
+ "segments": [
+  {
+   "kind": "opening",
+   "index": null,
+   "start": 0.6,
+   "end": 10.327
+  },
+  {
+   "kind": "news",
+   "index": 0,
+   "start": 10.327,
+   "end": 24.335
+  },
+  {
+   "kind": "news",
+   "index": 1,
+   "start": 24.335,
+   "end": 41.565
+  },
+  {
+   "kind": "news",
+   "index": 2,
+   "start": 41.565,
+   "end": 54.087
+  },
+  {
+   "kind": "news",
+   "index": 3,
+   "start": 54.087,
+   "end": 70.954
+  },
+  {
+   "kind": "news",
+   "index": 4,
+   "start": 70.954,
+   "end": 83.966
+  },
+  {
+   "kind": "closing",
+   "index": null,
+   "start": 83.966,
+   "end": 95.013
+  }
+ ],
+ "made_at": "2026-11-17T09:33:10"
+}

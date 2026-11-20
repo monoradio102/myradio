@@ -1,0 +1,320 @@
+{
+ "title": "NTT's Robot AI That Predicts Falling Boxes",
+ "opening": [
+  {
+   "say": "Good morning, and welcome to Mono Radio! Here are your news headlines for this Thursday morning, November twelfth.",
+   "show": "Good morning, and welcome to Mono Radio! Here are your headlines for Thursday, November 12."
+  },
+  {
+   "say": "We have five stories today, from robots to three D graphics, so let's jump right in.",
+   "show": "We have five stories today, from robots to 3D graphics, so let's jump right in."
+  }
+ ],
+ "news": [
+  {
+   "label": "NTT's AI predicts stack collapses",
+   "points": [
+    "Predicts collapses before acting",
+    "Better success at shelf stacking",
+    "Useful for grasp and placement planning"
+   ],
+   "details": [
+    "A physics control adapter that handles weight, orientation, and speed is built into a video generation model, so it can evaluate several candidate actions in advance.",
+    "In shelf stacking tests with a small robot, the task success rate rose from 73.1 percent to 92.3 percent.",
+    "Instead of judging by how a video looks, it predicts outcomes using the laws of physics, which could help with robot arm grasping and placement planning."
+   ],
+   "lines": [
+    {
+     "say": "Let's start with NTT, which has unveiled an AI that predicts when a stack of boxes will collapse before the robot even moves.",
+     "show": "Let's start with NTT, which has unveiled an AI that predicts stack collapses before a robot moves."
+    },
+    {
+     "say": "By working with physical quantities, it raised the success rate of shelf stacking by a big margin.",
+     "show": "By working with physical quantities, it raised the shelf stacking success rate by a big margin."
+    }
+   ],
+   "url": "https://group.ntt/jp/newsrelease/2026/11/11/261111b.html",
+   "link": {
+    "url": "https://group.ntt/jp/newsrelease/2026/11/11/261111b.html",
+    "title": "ロボットが「動く前に未来を予測」、失敗を回避するフィジカルAI技術を開発 ～物理法則に基づき荷崩れや落下を予測、空港手荷物など多様な物品の積込み・積降ろし自動化へ～ | ニュースリリース | NTT",
+    "site": "NTT",
+    "description": "発表のポイント：     ◆NTTは、ロボットが動く前に、複数の行動候補について荷崩れや落下の可能性を予測・評価し、成功につながる行動を選択可能にする技術を実現...",
+    "image": "https://group.ntt/common/img/ogp.jpg?20250701",
+    "icon": null
+   }
+  },
+  {
+   "label": "hdUE is now available",
+   "points": [
+    "Use UE as a Hydra renderer",
+    "Render with Lumen",
+    "Proof of concept for Windows"
+   ],
+   "details": [
+    "Unreal Engine can be used as an OpenUSD Hydra renderer, and it's released under the MIT license.",
+    "From Houdini Solaris or usdview, you can render U S D scenes with Unreal Engine's Lumen or its path tracer.",
+    "It's currently a proof of concept for Windows x sixty-four, and the project was released on October twenty-seventh."
+   ],
+   "lines": [
+    {
+     "say": "Next, a story from the world of three D. A project called h d U E has been released.",
+     "show": "Next, a story from the world of 3D. A project called hdUE has been released."
+    },
+    {
+     "say": "It lets you use Unreal Engine as a renderer for Houdini. It's still at the prototype stage, but it's pretty exciting!",
+     "show": "It lets you use Unreal Engine as a renderer for Houdini. It's still a prototype, but it's pretty exciting!"
+    }
+   ],
+   "url": "https://cgworld.jp/flashnews/01-202611-hdUE.html",
+   "link": {
+    "url": "https://cgworld.jp/flashnews/01-202611-hdUE.html",
+    "title": "Hideki Suzuki氏、Unreal EngineをHydraレンダラーとして利用する「hdUE」をオープンソース化　Houdini Solaris、Lumen、パストレーサに対応",
+    "site": "CG・映像の専門情報サイト | CGWORLD.jp",
+    "description": "月刊CGWORLDがお届けする、日本で唯一無二のCG＆映像に特化した情報サイトです。3DCG、VFX、撮影、編集などに関する国内外さまざまな話題をお届けします。",
+    "image": "https://cgworld.jp/flashnews/assets_c/2026/11/hdUE-01-thumb-1920x960-91010.jpg",
+    "icon": null
+   }
+  },
+  {
+   "label": "A robot arm that feels weightless",
+   "points": [
+    "Gravity compensation control example",
+    "400 Hz control loop",
+    "Python and C++ implementation"
+   ],
+   "details": [
+    "The work is split into three parts: reading joint states, calculating gravity torque with Pinocchio, and sending commands to the motors.",
+    "It explains concrete details like control cycle jitter and safe stop mechanisms, making it a valuable implementation reference.",
+    "The behavior has been verified on devices such as the Jetson Orin Nano."
+   ],
+   "lines": [
+    {
+     "say": "Up next, NVIDIA shows how to build a robot arm that feels weightless and can be moved by hand.",
+     "show": "Up next, NVIDIA shows how to build a robot arm that feels weightless and can be moved by hand."
+    },
+    {
+     "say": "An implementation example is available that uses Holoscan five to build the control loop.",
+     "show": "An implementation example is available that uses Holoscan 5 to build the control loop."
+    }
+   ],
+   "url": "https://developer.nvidia.com/blog/make-a-robot-arm-feel-weightless-with-nvidia-holoscan-5/",
+   "link": {
+    "url": "https://developer.nvidia.com/blog/make-a-robot-arm-feel-weightless-with-nvidia-holoscan-5/",
+    "title": "Make a Robot Arm Feel Weightless with NVIDIA Holoscan 5 | NVIDIA Technical Blog",
+    "site": "NVIDIA Technical Blog",
+    "description": "Picture guiding a robot arm by hand while its motors supply just enough torque to support its weight and keep the robot upright. This simple interaction, a useful starting point for robots that learn…",
+    "image": "https://developer-blogs.nvidia.com/wp-content/uploads/2026/11/featured-image.webp",
+    "icon": null
+   }
+  },
+  {
+   "label": "Gemini on Pixel operates apps",
+   "points": [
+    "Coming to Pixel 10 and 11 in Japan",
+    "Handles shopping and bookings",
+    "Check progress or stop midway"
+   ],
+   "details": [
+    "It will roll out gradually to supported models over the next few weeks.",
+    "It helps with things like shopping, ride hailing, takeout orders, and restaurant reservations.",
+    "Users can check progress and stop the task partway through."
+   ],
+   "lines": [
+    {
+     "say": "And now to Google Pixel. A feature where Gemini operates apps for you has now started in Japan too.",
+     "show": "And now to Google Pixel. A feature where Gemini operates apps for you has now started in Japan too."
+    },
+    {
+     "say": "You can hand off shopping and reservations, and you can stop it partway if you want.",
+     "show": "You can hand off shopping and reservations, and you can stop it partway if you want."
+    }
+   ],
+   "url": "https://blog.google/intl/ja-jp/products/devices-services/november-2026-pixel-drop/",
+   "link": {
+    "url": "https://blog.google/intl/ja-jp/products/devices-services/november-2026-pixel-drop/",
+    "title": "11 月の Pixel Drop：Gemini で毎日のタスクをもっとスマートに。Google Pixel Tag も新発売",
+    "site": "Google",
+    "description": "Gemini Intelligence のアップデートや Google Pixel Tag の発売など、Google Pixel の最新機能をご紹介します。",
+    "image": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/header_Pixel_drop_image.width-1300.jpg",
+    "icon": "https://blog.google/static/blogv2/images/apple-touch-icon.png?version=pr20261029-2131"
+   }
+  },
+  {
+   "label": "In-car AI Alpamayo 2 Edge",
+   "points": [
+    "Two billion parameter in-car AI",
+    "Skips unneeded reasoning",
+    "Latency of about 160 to 190 ms"
+   ],
+   "details": [
+    "It's a vision language action model that combines a reasoning model with a motion generation model.",
+    "During normal driving, it skips unneeded reasoning to cut down on computation.",
+    "Optimized for DRIVE AGX Thor, the latency is the time from camera video to generating a driving trajectory."
+   ],
+   "lines": [
+    {
+     "say": "Last up is NVIDIA's in-car AI, Alpamayo two Edge.",
+     "show": "Last up is NVIDIA's in-car AI, Alpamayo 2 Edge."
+    },
+    {
+     "say": "The technology for running a two billion parameter model inside a car has been released. I love the idea of thinking deeply only when it's needed.",
+     "show": "Technology for running a 2 billion parameter model inside a car has been released, thinking deeply only when needed."
+    }
+   ],
+   "url": "https://developer.nvidia.com/blog/running-av-reasoning-models-within-onboard-compute-and-latency-limits",
+   "link": {
+    "url": "https://developer.nvidia.com/blog/running-av-reasoning-models-within-onboard-compute-and-latency-limits",
+    "title": "Running AV Reasoning Models Within Onboard Compute and Latency Limits | NVIDIA Technical Blog",
+    "site": "NVIDIA Technical Blog",
+    "description": "Autonomous vehicle (AV) developers need reasoning models that can operate within the compute and latency constraints of an onboard system. Larger models provide a foundation for developing these…",
+    "image": "https://developer-blogs.nvidia.com/wp-content/uploads/2026/11/auto-alpamayo-2-edge-tech-blog-promo-600x338_r2-1-500x282.gif",
+    "icon": null
+   }
+  }
+ ],
+ "closing": [
+  {
+   "say": "Today's highlight is the pairing of NTT, which predicts before moving, and NVIDIA, which controls force while moving. Both planning and execution are moving forward.",
+   "show": "Today's highlight: NTT predicts before moving, and NVIDIA controls force while moving. Planning and execution are both advancing."
+  },
+  {
+   "say": "Have a great day out there. This was Mono Radio.",
+   "show": "Have a great day out there. This was Mono Radio."
+  }
+ ],
+ "format": "monoradio/news-1",
+ "date": "2026-11-12",
+ "lang": "en",
+ "seconds": 97.83,
+ "lines_timed": [
+  {
+   "start": 0.6,
+   "end": 7.171,
+   "show": "Good morning, and welcome to Mono Radio! Here are your headlines for Thursday, November 12.",
+   "part": 0
+  },
+  {
+   "start": 7.421,
+   "end": 12.562,
+   "show": "We have five stories today, from robots to 3D graphics, so let's jump right in.",
+   "part": 0
+  },
+  {
+   "start": 13.612,
+   "end": 21.633,
+   "show": "Let's start with NTT, which has unveiled an AI that predicts stack collapses before a robot moves.",
+   "part": 1
+  },
+  {
+   "start": 21.883,
+   "end": 27.494,
+   "show": "By working with physical quantities, it raised the shelf stacking success rate by a big margin.",
+   "part": 1
+  },
+  {
+   "start": 28.544,
+   "end": 34.24,
+   "show": "Next, a story from the world of 3D. A project called hdUE has been released.",
+   "part": 2
+  },
+  {
+   "start": 34.49,
+   "end": 41.637,
+   "show": "It lets you use Unreal Engine as a renderer for Houdini. It's still a prototype, but it's pretty exciting!",
+   "part": 2
+  },
+  {
+   "start": 42.687,
+   "end": 48.276,
+   "show": "Up next, NVIDIA shows how to build a robot arm that feels weightless and can be moved by hand.",
+   "part": 3
+  },
+  {
+   "start": 48.526,
+   "end": 54.286,
+   "show": "An implementation example is available that uses Holoscan 5 to build the control loop.",
+   "part": 3
+  },
+  {
+   "start": 55.336,
+   "end": 61.821,
+   "show": "And now to Google Pixel. A feature where Gemini operates apps for you has now started in Japan too.",
+   "part": 4
+  },
+  {
+   "start": 62.071,
+   "end": 66.701,
+   "show": "You can hand off shopping and reservations, and you can stop it partway if you want.",
+   "part": 4
+  },
+  {
+   "start": 67.751,
+   "end": 71.463,
+   "show": "Last up is NVIDIA's in-car AI, Alpamayo 2 Edge.",
+   "part": 5
+  },
+  {
+   "start": 71.713,
+   "end": 80.822,
+   "show": "Technology for running a 2 billion parameter model inside a car has been released, thinking deeply only when needed.",
+   "part": 5
+  },
+  {
+   "start": 81.872,
+   "end": 92.581,
+   "show": "Today's highlight: NTT predicts before moving, and NVIDIA controls force while moving. Planning and execution are both advancing.",
+   "part": 6
+  },
+  {
+   "start": 92.831,
+   "end": 95.775,
+   "show": "Have a great day out there. This was Mono Radio.",
+   "part": 6
+  }
+ ],
+ "segments": [
+  {
+   "kind": "opening",
+   "index": null,
+   "start": 0.6,
+   "end": 13.612
+  },
+  {
+   "kind": "news",
+   "index": 0,
+   "start": 13.612,
+   "end": 28.544
+  },
+  {
+   "kind": "news",
+   "index": 1,
+   "start": 28.544,
+   "end": 42.687
+  },
+  {
+   "kind": "news",
+   "index": 2,
+   "start": 42.687,
+   "end": 55.336
+  },
+  {
+   "kind": "news",
+   "index": 3,
+   "start": 55.336,
+   "end": 67.751
+  },
+  {
+   "kind": "news",
+   "index": 4,
+   "start": 67.751,
+   "end": 81.872
+  },
+  {
+   "kind": "closing",
+   "index": null,
+   "start": 81.872,
+   "end": 97.825
+  }
+ ],
+ "made_at": "2026-11-12T08:32:33"
+}
