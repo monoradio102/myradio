@@ -1,0 +1,351 @@
+{
+ "title": "New Local AI Model Inkling 2 Mini Arrives",
+ "opening": [
+  {
+   "say": "Good morning, this is Mono Radio. It's Sunday morning, November twenty-second.",
+   "show": "Good morning, this is Mono Radio. It's Sunday morning, November 22."
+  },
+  {
+   "say": "Today we have five stories on AI and three D printing.",
+   "show": "Today we have five stories on AI and 3D printing."
+  }
+ ],
+ "closing": [
+  {
+   "say": "Our pick today is the looped model Inkling two Mini. We're curious how far it can go running locally.",
+   "show": "Our pick today is the looped model Inkling 2 Mini. We're curious how far it can go locally."
+  },
+  {
+   "say": "That was Mono Radio. Have a great Sunday.",
+   "show": "That was Mono Radio. Have a great Sunday."
+  }
+ ],
+ "news": [
+  {
+   "label": "Inkling 2 Mini released",
+   "points": [
+    "26.4B open-weight model",
+    "Loops middle layers three times",
+    "Runs on about 20GB of memory"
+   ],
+   "details": [
+    "It's an open-weight model with 26.4 billion total parameters and 3.4 billion active at a time.",
+    "The middle layers of the Transformer are run three times for each token.",
+    "It runs with Ollama on Macs with 32GB or more, and also supports inference with vLLM and llama.cpp-based tools."
+   ],
+   "lines": [
+    {
+     "say": "First up, Inkling two Mini, released by Thinking Machines Lab.",
+     "show": "First up, Inkling 2 Mini, released by Thinking Machines Lab."
+    },
+    {
+     "say": "It loops through its middle layers three times, and needs about twenty gigabytes of memory.",
+     "show": "It loops through its middle layers three times and needs about 20GB of memory."
+    },
+    {
+     "say": "It's also getting high marks for coding performance.",
+     "show": "It's also getting high marks for coding performance."
+    }
+   ],
+   "url": "https://thinkingmachines.ai/news/inkling-2-mini/",
+   "link": {
+    "url": "https://thinkingmachines.ai/news/inkling-2-mini/",
+    "title": "Introducing Inkling 2 Mini",
+    "site": "Thinking Machines Lab",
+    "description": "Inkling 2 Mini is an open-weights model small enough to run on your laptop. It loops its middle layers to reason more per token and reach answers in fewer tokens.",
+    "image": "https://thinkingmachines.ai/news/inkling-2-mini/images/cover-social.png",
+    "icon": "https://thinkingmachines.ai/images/apple-touch-icon.png"
+   }
+  },
+  {
+   "label": "Gemini on Mac controls the screen",
+   "points": [
+    "Operates apps and the web",
+    "Butterfly modeling in Blender",
+    "US English version only for now"
+   ],
+   "details": [
+    "It clicks and types in a separate window, so you can keep working while checking its progress.",
+    "The official demo shows a butterfly being modeled and rigged in Blender.",
+    "It requires conditions such as a Mac with Apple silicon and macOS 15 or later."
+   ],
+   "lines": [
+    {
+     "say": "Next, Google's Gemini can now operate your Mac's screen.",
+     "show": "Next, Google's Gemini can now operate your Mac's screen."
+    },
+    {
+     "say": "A demo showed it modeling a butterfly in Blender, but for now it's only available in US English.",
+     "show": "A demo showed it modeling a butterfly in Blender, but for now it's US English only."
+    }
+   ],
+   "url": "https://blog.google/innovation-and-ai/products/gemini-app/computer-use-mac/",
+   "link": {
+    "url": "https://blog.google/innovation-and-ai/products/gemini-app/computer-use-mac/",
+    "title": "Let Gemini tackle repetitive chores on your Mac",
+    "site": "Google",
+    "description": "The Gemini app for Mac now has computer use to help you with repetitive tasks.",
+    "image": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/hero_header_CU_copy.width-1300.png",
+    "icon": "https://blog.google/static/blogv2/images/apple-touch-icon.png?version=pr20261117-1738"
+   }
+  },
+  {
+   "label": "Eight-head 3D printer MC8",
+   "points": [
+    "Eight independent heads",
+    "Head swap in about 4 seconds, claimed",
+    "Shipping planned for Q1 2027"
+   ],
+   "details": [
+    "Axiloop showed off the MC8 with eight independent heads, plus the enclosed MC8 Pro.",
+    "The maker claims a preheated head can be swapped in about four seconds.",
+    "It's currently at the crowdfunding stage, with shipping planned for the first quarter of 2027."
+   ],
+   "lines": [
+    {
+     "say": "Now to three D printing, with the MC eight from Axiloop.",
+     "show": "Now to 3D printing, with the MC8 from Axiloop."
+    },
+    {
+     "say": "It has eight heads, and swapping them takes a claimed four seconds or so.",
+     "show": "It has eight heads, and swapping takes a claimed four seconds or so."
+    },
+    {
+     "say": "Shipping is planned for the first quarter of twenty twenty-seven.",
+     "show": "Shipping is planned for the first quarter of 2027."
+    }
+   ],
+   "url": "https://www.3dnatives.com/en/axiloop-mc8-20112026/",
+   "link": {
+    "url": "https://www.3dnatives.com/en/axiloop-mc8-20112026/",
+    "title": "Axiloop launches the MC8 and MC8 Pro, with eight toolheads and four-second tool changes - 3Dnatives",
+    "site": "3Dnatives",
+    "description": "The MC8 and its enclosed version, the MC8 Pro, are desktop FDM 3D printers with eight independent toolheads, one for each color or material.",
+    "image": "https://www.3dnatives.com/en/wp-content/uploads/sites/2/2026/11/Axiloop-Cover.jpg",
+    "icon": "https://www.3dnatives.com/en/wp-content/uploads/sites/2/2026/06/cropped-favicon-192x192.png"
+   }
+  },
+  {
+   "label": "Joint study on physical AI platform",
+   "points": [
+    "J-Power, Hitachi and Macnica",
+    "Aiming for a sim-to-real loop",
+    "Power line inspection drone trial"
+   ],
+   "details": [
+    "They agreed to jointly study a physical AI development platform for inspecting and maintaining power facilities.",
+    "The idea is to put AI trained in simulation onto real machines, then feed field data back into retraining.",
+    "At this stage it's a plan to build the platform, not a finished product."
+   ],
+   "lines": [
+    {
+     "say": "Now a story from Japan. J-Power, Hitachi and Macnica will jointly study a physical AI platform.",
+     "show": "Now a story from Japan. J-Power, Hitachi and Macnica will study a physical AI platform."
+    },
+    {
+     "say": "It's still at the planning stage, starting with a possible trial using power line inspection drones.",
+     "show": "It's still at the planning stage, starting with a possible power line drone trial."
+    }
+   ],
+   "url": "https://prtimes.jp/main/html/rd/p/000000657.000067590.html",
+   "link": {
+    "url": "https://prtimes.jp/main/html/rd/p/000000657.000067590.html",
+    "title": "Ｊパワー、日立、マクニカが重要社会インフラ分野におけるフィジカルAIの社会実装をめざし、フィジカルAI開発基盤の構築に向けた共同検討に合意",
+    "site": "プレスリリース・ニュースリリース配信シェアNo.1｜PR TIMES",
+    "description": "株式会社 日立製作所のプレスリリース（2026年11月19日 13時00分）Ｊパワー、日立、マクニカが重要社会インフラ分野におけるフィジカルAIの社会実装をめざし、フィジカルAI開発基盤の構築に向けた共同検討に合意",
+    "image": "https://prcdn.freetls.fastly.net/release_image/67590/657/67590-657-ffdcad607bbc9dabe2e0e60600bcc671-507x522.png?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260",
+    "icon": "https://prtimes.jp/common/v4.1/images/html/favicon/favicon-196x196.png"
+   }
+  },
+  {
+   "label": "Gemini analyzes fire radio",
+   "points": [
+    "Watch Duty built it with Google",
+    "Error rate cut from 38% to 22.34%",
+    "Some detected within 30 seconds"
+   ],
+   "details": [
+    "Using over twenty thousand hours of past recordings, it transcribes noisy VHF radio speech to detect signs of fire.",
+    "Google says the word error rate on degraded radio audio improved by this much.",
+    null
+   ],
+   "lines": [
+    {
+     "say": "Last up, Google used Gemini to analyze noisy fire department radio.",
+     "show": "Last up, Google used Gemini to analyze noisy fire department radio."
+    },
+    {
+     "say": "The word error rate improved from thirty-eight percent to about twenty-two percent.",
+     "show": "The word error rate improved from 38% to about 22%."
+    },
+    {
+     "say": "Some fire reports were detected within thirty seconds.",
+     "show": "Some fire reports were detected within 30 seconds."
+    }
+   ],
+   "url": "https://blog.google/company-news/outreach-and-initiatives/google-org/watch-duty-gemini-tool/",
+   "link": {
+    "url": "https://blog.google/company-news/outreach-and-initiatives/google-org/watch-duty-gemini-tool/",
+    "title": "How Watch Duty is using Gemini to get wildfire alerts out faster",
+    "site": "Google",
+    "description": "Watch Duty uses Gemini to turn noisy fire radio into text, spotting wildfire dispatches in under 30 seconds so alerts go out faster.",
+    "image": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Watch_Duty_Hero_Higher_Res.width-1300.png",
+    "icon": "https://blog.google/static/blogv2/images/apple-touch-icon.png?version=pr20261117-1738"
+   }
+  }
+ ],
+ "highlight": 0,
+ "format": "monoradio/news-1",
+ "date": "2026-11-22",
+ "lang": "en",
+ "seconds": 84.22,
+ "lines_timed": [
+  {
+   "start": 0.6,
+   "end": 5.464,
+   "show": "Good morning, this is Mono Radio. It's Sunday morning, November 22.",
+   "part": 0
+  },
+  {
+   "start": 5.714,
+   "end": 9.213,
+   "show": "Today we have five stories on AI and 3D printing.",
+   "part": 0
+  },
+  {
+   "start": 10.263,
+   "end": 14.017,
+   "show": "First up, Inkling 2 Mini, released by Thinking Machines Lab.",
+   "part": 1
+  },
+  {
+   "start": 14.267,
+   "end": 19.067,
+   "show": "It loops through its middle layers three times and needs about 20GB of memory.",
+   "part": 1
+  },
+  {
+   "start": 19.317,
+   "end": 22.048,
+   "show": "It's also getting high marks for coding performance.",
+   "part": 1
+  },
+  {
+   "start": 23.098,
+   "end": 26.405,
+   "show": "Next, Google's Gemini can now operate your Mac's screen.",
+   "part": 2
+  },
+  {
+   "start": 26.655,
+   "end": 32.756,
+   "show": "A demo showed it modeling a butterfly in Blender, but for now it's US English only.",
+   "part": 2
+  },
+  {
+   "start": 33.806,
+   "end": 37.305,
+   "show": "Now to 3D printing, with the MC8 from Axiloop.",
+   "part": 3
+  },
+  {
+   "start": 37.555,
+   "end": 41.48,
+   "show": "It has eight heads, and swapping takes a claimed four seconds or so.",
+   "part": 3
+  },
+  {
+   "start": 41.73,
+   "end": 44.909,
+   "show": "Shipping is planned for the first quarter of 2027.",
+   "part": 3
+  },
+  {
+   "start": 45.959,
+   "end": 52.913,
+   "show": "Now a story from Japan. J-Power, Hitachi and Macnica will study a physical AI platform.",
+   "part": 4
+  },
+  {
+   "start": 53.163,
+   "end": 58.731,
+   "show": "It's still at the planning stage, starting with a possible power line drone trial.",
+   "part": 4
+  },
+  {
+   "start": 59.781,
+   "end": 64.389,
+   "show": "Last up, Google used Gemini to analyze noisy fire department radio.",
+   "part": 5
+  },
+  {
+   "start": 64.639,
+   "end": 69.119,
+   "show": "The word error rate improved from 38% to about 22%.",
+   "part": 5
+  },
+  {
+   "start": 69.369,
+   "end": 72.463,
+   "show": "Some fire reports were detected within 30 seconds.",
+   "part": 5
+  },
+  {
+   "start": 73.513,
+   "end": 79.401,
+   "show": "Our pick today is the looped model Inkling 2 Mini. We're curious how far it can go locally.",
+   "part": 6
+  },
+  {
+   "start": 79.651,
+   "end": 82.168,
+   "show": "That was Mono Radio. Have a great Sunday.",
+   "part": 6
+  }
+ ],
+ "segments": [
+  {
+   "kind": "opening",
+   "index": null,
+   "start": 0.6,
+   "end": 10.263
+  },
+  {
+   "kind": "news",
+   "index": 0,
+   "start": 10.263,
+   "end": 23.098
+  },
+  {
+   "kind": "news",
+   "index": 1,
+   "start": 23.098,
+   "end": 33.806
+  },
+  {
+   "kind": "news",
+   "index": 2,
+   "start": 33.806,
+   "end": 45.959
+  },
+  {
+   "kind": "news",
+   "index": 3,
+   "start": 45.959,
+   "end": 59.781
+  },
+  {
+   "kind": "news",
+   "index": 4,
+   "start": 59.781,
+   "end": 73.513
+  },
+  {
+   "kind": "closing",
+   "index": null,
+   "start": 73.513,
+   "end": 84.218
+  }
+ ],
+ "made_at": "2026-11-22T06:32:36"
+}
