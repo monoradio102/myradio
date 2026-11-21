@@ -1,0 +1,351 @@
+{
+ "title": "ローカルで動く新型AI、Inkling 2 Mini登場",
+ "opening": [
+  {
+   "say": "おはようございます、ものラジオです。十一月二十二日、日曜日の朝です。",
+   "show": "おはようございます、ものラジオです。11月22日、日曜日の朝です。"
+  },
+  {
+   "say": "今日はエーアイと三Dの話題を五本どうぞ。",
+   "show": "今日はAIと3Dの話題を5本どうぞ。"
+  }
+ ],
+ "news": [
+  {
+   "label": "Inkling 2 Mini公開",
+   "points": [
+    "26.4Bのオープンウェイト",
+    "中間層を3回通すループ型",
+    "メモリ約20GBで動作"
+   ],
+   "url": "https://thinkingmachines.ai/news/inkling-2-mini/",
+   "lines": [
+    {
+     "say": "まずは、シンキングマシーンズラボが公開したインクリングツーミニ。",
+     "show": "まずは、Thinking Machines Labが公開したInkling 2 Mini。"
+    },
+    {
+     "say": "中間層を三回くり返し通すループ型で、メモリは約二十ギガバイトです。",
+     "show": "中間層を3回くり返し通すループ型で、メモリは約20GBです。"
+    },
+    {
+     "say": "コーディング性能も高いと評価されています。",
+     "show": "コーディング性能も高いと評価されています。"
+    }
+   ],
+   "details": [
+    "総パラメータ264億、同時活性化34億のオープンウェイトモデルです。",
+    "Transformerの中間層をトークンごとに3回通す構造です。",
+    "32GB以上のMacでOllama実行ができ、vLLMやllama.cpp系の推論にも対応します。"
+   ],
+   "link": {
+    "url": "https://thinkingmachines.ai/news/inkling-2-mini/",
+    "title": "Introducing Inkling 2 Mini",
+    "site": "Thinking Machines Lab",
+    "description": "Inkling 2 Mini is an open-weights model small enough to run on your laptop. It loops its middle layers to reason more per token and reach answers in fewer tokens.",
+    "image": "https://thinkingmachines.ai/news/inkling-2-mini/images/cover-social.png",
+    "icon": "https://thinkingmachines.ai/images/apple-touch-icon.png"
+   }
+  },
+  {
+   "label": "Mac版Geminiが画面操作",
+   "points": [
+    "アプリやWebを操作",
+    "Blenderの蝶モデリング",
+    "今は米国の英語版のみ"
+   ],
+   "url": "https://blog.google/innovation-and-ai/products/gemini-app/computer-use-mac/",
+   "lines": [
+    {
+     "say": "続いて、グーグルのジェミニがマックの画面を操作できるように。",
+     "show": "続いて、GoogleのGeminiがMacの画面を操作できるように。"
+    },
+    {
+     "say": "ブレンダーで蝶をモデリングするデモも出ましたが、今は米国の英語版のみです。",
+     "show": "Blenderで蝶をモデリングするデモも出ましたが、今は米国の英語版のみです。"
+    }
+   ],
+   "details": [
+    "別のウィンドウでクリックや入力を行い、利用者は作業を続けながら実行状況を確認できます。",
+    "公式デモでは、子どもの蝶のスケッチをBlenderでモデリング・リギングします。",
+    "Apple Silicon搭載MacとmacOS 15以降などの利用条件があります。"
+   ],
+   "link": {
+    "url": "https://blog.google/innovation-and-ai/products/gemini-app/computer-use-mac/",
+    "title": "Let Gemini tackle repetitive chores on your Mac",
+    "site": "Google",
+    "description": "The Gemini app for Mac now has computer use to help you with repetitive tasks.",
+    "image": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/hero_header_CU_copy.width-1300.png",
+    "icon": "https://blog.google/static/blogv2/images/apple-touch-icon.png?version=pr20261117-1738"
+   }
+  },
+  {
+   "label": "8ヘッド3Dプリンタ MC8",
+   "points": [
+    "独立ヘッドが8つ",
+    "ヘッド交換は公称約4秒",
+    "2027年Q1出荷予定"
+   ],
+   "url": "https://www.3dnatives.com/en/axiloop-mc8-20112026/",
+   "lines": [
+    {
+     "say": "お次は三Dプリンター、アクシループのエムシーエイトです。",
+     "show": "お次は3Dプリンター、AxiloopのMC8です。"
+    },
+    {
+     "say": "ヘッドが八つあって、交換は公称で約四秒と速いんです。",
+     "show": "ヘッドが8つあって、交換は公称で約4秒と速いんです。"
+    },
+    {
+     "say": "二千二十七年第一四半期の出荷予定です。",
+     "show": "2027年第1四半期の出荷予定です。"
+    }
+   ],
+   "details": [
+    "Axiloopが8つの独立ヘッドを持つMC8と、密閉型のMC8 Proを展示しました。",
+    "予熱済みヘッドの交換はメーカー公称で約4秒です。",
+    "現在はクラウドファンディング段階で、2027年第1四半期の出荷予定とされています。"
+   ],
+   "link": {
+    "url": "https://www.3dnatives.com/en/axiloop-mc8-20112026/",
+    "title": "Axiloop launches the MC8 and MC8 Pro, with eight toolheads and four-second tool changes - 3Dnatives",
+    "site": "3Dnatives",
+    "description": "The MC8 and its enclosed version, the MC8 Pro, are desktop FDM 3D printers with eight independent toolheads, one for each color or material.",
+    "image": "https://www.3dnatives.com/en/wp-content/uploads/sites/2/2026/11/Axiloop-Cover.jpg",
+    "icon": "https://www.3dnatives.com/en/wp-content/uploads/sites/2/2026/06/cropped-favicon-192x192.png"
+   }
+  },
+  {
+   "label": "フィジカルAI基盤を共同検討",
+   "points": [
+    "Jパワー・日立・マクニカ",
+    "Sim2Realの循環を目指す",
+    "送電線点検ドローンで実証"
+   ],
+   "url": "https://prtimes.jp/main/html/rd/p/000000657.000067590.html",
+   "lines": [
+    {
+     "say": "ここで国内の話題。ジェイパワーと日立とマクニカが、フィジカルエーアイの基盤を共同検討します。",
+     "show": "ここで国内の話題。Jパワーと日立とマクニカが、フィジカルAIの基盤を共同検討します。"
+    },
+    {
+     "say": "まずは送電線点検ドローンの実証を検討する、計画段階の話です。",
+     "show": "まずは送電線点検ドローンの実証を検討する、計画段階の話です。"
+    }
+   ],
+   "details": [
+    "電力設備などの点検・保守に使うフィジカルAI開発基盤の共同検討に合意しました。",
+    "シミュレーションで学習したAIを実機に載せ、現場のデータを再学習に戻す流れです。",
+    "現時点では実用化ではなく、基盤構築に向けた計画段階です。"
+   ],
+   "link": {
+    "url": "https://prtimes.jp/main/html/rd/p/000000657.000067590.html",
+    "title": "Ｊパワー、日立、マクニカが重要社会インフラ分野におけるフィジカルAIの社会実装をめざし、フィジカルAI開発基盤の構築に向けた共同検討に合意",
+    "site": "プレスリリース・ニュースリリース配信シェアNo.1｜PR TIMES",
+    "description": "株式会社 日立製作所のプレスリリース（2026年11月19日 13時00分）Ｊパワー、日立、マクニカが重要社会インフラ分野におけるフィジカルAIの社会実装をめざし、フィジカルAI開発基盤の構築に向けた共同検討に合意",
+    "image": "https://prcdn.freetls.fastly.net/release_image/67590/657/67590-657-ffdcad607bbc9dabe2e0e60600bcc671-507x522.png?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260",
+    "icon": "https://prtimes.jp/common/v4.1/images/html/favicon/favicon-196x196.png"
+   }
+  },
+  {
+   "label": "消防無線をGeminiで解析",
+   "points": [
+    "Watch DutyがGoogleと開発",
+    "誤り率38%から22.34%へ",
+    "一部は30秒以内に検知"
+   ],
+   "url": "https://blog.google/company-news/outreach-and-initiatives/google-org/watch-duty-gemini-tool/",
+   "lines": [
+    {
+     "say": "最後は、グーグルが雑音だらけの消防無線をジェミニで解析しました。",
+     "show": "最後は、Googleが雑音だらけの消防無線をGeminiで解析しました。"
+    },
+    {
+     "say": "単語誤り率は三十八パーセントから約二十二パーセントに改善です。",
+     "show": "単語誤り率は38％から約22％に改善です。"
+    },
+    {
+     "say": "一部の火災通報は三十秒以内に検知できました。",
+     "show": "一部の火災通報は30秒以内に検知できました。"
+    }
+   ],
+   "details": [
+    "2万時間以上の過去録音を使い、雑音の多いVHF無線の発話を文字起こしして火災の兆候を検出します。",
+    "劣化した無線音声の単語誤り率がここまで改善したとGoogleは述べています。",
+    null
+   ],
+   "link": {
+    "url": "https://blog.google/company-news/outreach-and-initiatives/google-org/watch-duty-gemini-tool/",
+    "title": "How Watch Duty is using Gemini to get wildfire alerts out faster",
+    "site": "Google",
+    "description": "Watch Duty uses Gemini to turn noisy fire radio into text, spotting wildfire dispatches in under 30 seconds so alerts go out faster.",
+    "image": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Watch_Duty_Hero_Higher_Res.width-1300.png",
+    "icon": "https://blog.google/static/blogv2/images/apple-touch-icon.png?version=pr20261117-1738"
+   }
+  }
+ ],
+ "closing": [
+  {
+   "say": "今日の注目は、ループ型のインクリングツーミニ。ローカルでどこまで動くか気になります。",
+   "show": "今日の注目は、ループ型のInkling 2 Mini。ローカルでどこまで動くか気になります。"
+  },
+  {
+   "say": "ものラジオでした、よい日曜日を。",
+   "show": "ものラジオでした、よい日曜日を。"
+  }
+ ],
+ "highlight": 0,
+ "format": "monoradio/news-1",
+ "date": "2026-11-22",
+ "lang": "ja",
+ "seconds": 85.4,
+ "lines_timed": [
+  {
+   "start": 0.6,
+   "end": 6.366,
+   "show": "おはようございます、ものラジオです。11月22日、日曜日の朝です。",
+   "part": 0
+  },
+  {
+   "start": 6.616,
+   "end": 9.364,
+   "show": "今日はAIと3Dの話題を5本どうぞ。",
+   "part": 0
+  },
+  {
+   "start": 10.414,
+   "end": 14.624,
+   "show": "まずは、Thinking Machines Labが公開したInkling 2 Mini。",
+   "part": 1
+  },
+  {
+   "start": 14.874,
+   "end": 19.978,
+   "show": "中間層を3回くり返し通すループ型で、メモリは約20GBです。",
+   "part": 1
+  },
+  {
+   "start": 20.228,
+   "end": 22.871,
+   "show": "コーディング性能も高いと評価されています。",
+   "part": 1
+  },
+  {
+   "start": 23.921,
+   "end": 27.946,
+   "show": "続いて、GoogleのGeminiがMacの画面を操作できるように。",
+   "part": 2
+  },
+  {
+   "start": 28.196,
+   "end": 33.254,
+   "show": "Blenderで蝶をモデリングするデモも出ましたが、今は米国の英語版のみです。",
+   "part": 2
+  },
+  {
+   "start": 34.304,
+   "end": 38.038,
+   "show": "お次は3Dプリンター、AxiloopのMC8です。",
+   "part": 3
+  },
+  {
+   "start": 38.288,
+   "end": 42.452,
+   "show": "ヘッドが8つあって、交換は公称で約4秒と速いんです。",
+   "part": 3
+  },
+  {
+   "start": 42.702,
+   "end": 45.984,
+   "show": "2027年第1四半期の出荷予定です。",
+   "part": 3
+  },
+  {
+   "start": 47.034,
+   "end": 53.601,
+   "show": "ここで国内の話題。Jパワーと日立とマクニカが、フィジカルAIの基盤を共同検討します。",
+   "part": 4
+  },
+  {
+   "start": 53.851,
+   "end": 59.072,
+   "show": "まずは送電線点検ドローンの実証を検討する、計画段階の話です。",
+   "part": 4
+  },
+  {
+   "start": 60.122,
+   "end": 64.808,
+   "show": "最後は、Googleが雑音だらけの消防無線をGeminiで解析しました。",
+   "part": 5
+  },
+  {
+   "start": 65.058,
+   "end": 69.872,
+   "show": "単語誤り率は38％から約22％に改善です。",
+   "part": 5
+  },
+  {
+   "start": 70.122,
+   "end": 73.787,
+   "show": "一部の火災通報は30秒以内に検知できました。",
+   "part": 5
+  },
+  {
+   "start": 74.837,
+   "end": 80.684,
+   "show": "今日の注目は、ループ型のInkling 2 Mini。ローカルでどこまで動くか気になります。",
+   "part": 6
+  },
+  {
+   "start": 80.934,
+   "end": 83.345,
+   "show": "ものラジオでした、よい日曜日を。",
+   "part": 6
+  }
+ ],
+ "segments": [
+  {
+   "kind": "opening",
+   "index": null,
+   "start": 0.6,
+   "end": 10.414
+  },
+  {
+   "kind": "news",
+   "index": 0,
+   "start": 10.414,
+   "end": 23.921
+  },
+  {
+   "kind": "news",
+   "index": 1,
+   "start": 23.921,
+   "end": 34.304
+  },
+  {
+   "kind": "news",
+   "index": 2,
+   "start": 34.304,
+   "end": 47.034
+  },
+  {
+   "kind": "news",
+   "index": 3,
+   "start": 47.034,
+   "end": 60.122
+  },
+  {
+   "kind": "news",
+   "index": 4,
+   "start": 60.122,
+   "end": 74.837
+  },
+  {
+   "kind": "closing",
+   "index": null,
+   "start": 74.837,
+   "end": 85.395
+  }
+ ],
+ "made_at": "2026-11-22T06:31:47"
+}
