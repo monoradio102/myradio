@@ -1,0 +1,344 @@
+{
+ "title": "線じゃなく面で造形！ゼリー菓子発の3Dプリント",
+ "opening": [
+  {
+   "say": "おはようございます、ものラジオです。十一月二十五日水曜日の朝のニュースです。",
+   "show": "おはようございます、ものラジオです。11月25日水曜日の朝のニュースです。"
+  },
+  {
+   "say": "今日はエーアイと三ディーの話題を、五本お届けします。",
+   "show": "今日はAIと3Dの話題を、5本お届けします。"
+  }
+ ],
+ "news": [
+  {
+   "label": "Claude Ship ベータ開始",
+   "points": [
+    "PRの修正から承認まで自動化",
+    "GitHub利用のTeam・Enterprise向け",
+    "人間の承認が要る変更は指定可"
+   ],
+   "url": "https://claude.com/resources/articles/introducing-claude-ship",
+   "lines": [
+    {
+     "say": "まずはアンソロピックから、クロードシップのベータ提供が始まりました。",
+     "show": "まずはAnthropicから、Claude Shipのベータ提供が始まりました。"
+    },
+    {
+     "say": "プルリクの失敗対応から承認まで、レビューの流れをまとめて任せられるそうです。",
+     "show": "プルリクの失敗対応から承認まで、レビューの流れをまとめて任せられるそうです。"
+    }
+   ],
+   "details": [
+    "CIの失敗やマージ競合に対処するPR Stewardと、ポリシーに沿って承認を判断するClaude Approvalsを組み合わせます。",
+    null,
+    "人間の承認が必要な変更は、チーム側で指定できます。自動承認はまず監視のみのモードから試すのがよいとされています。"
+   ],
+   "link": {
+    "url": "https://claude.com/resources/articles/introducing-claude-ship",
+    "title": "Introducing Claude Ship",
+    "site": "Claude",
+    "description": "Open a pull request and get back to building. Claude can now review pull requests, fix them, and approve the ones that a team's policy allows.",
+    "image": "https://claude.com/ja/resources/articles/introducing-claude-ship/opengraph-image/og",
+    "icon": "https://claude.com/icon.png"
+   }
+  },
+  {
+   "label": "RobotBrain Warehouse",
+   "points": [
+    "倉庫を3Dでブラウザ上に再現",
+    "8時間分の作業を数秒で試算",
+    "AIに配置変更を相談できる"
+   ],
+   "url": "https://prtimes.jp/main/html/rd/p/000000288.000080352.html",
+   "lines": [
+    {
+     "say": "続いては国内、スペースデータのロボットブレイン ウェアハウスです。",
+     "show": "続いては国内、スペースデータのRobotBrain Warehouseです。"
+    },
+    {
+     "say": "倉庫を三ディーで再現して、ロボットの動きまで試せるんですよ。",
+     "show": "倉庫を3Dで再現して、ロボットの動きまで試せるんですよ。"
+    },
+    {
+     "say": "八時間分の作業を数秒で試算できるのが面白いですね。",
+     "show": "8時間分の作業を数秒で試算できるのが面白いですね。"
+    }
+   ],
+   "details": [
+    "360度カメラの映像や図面をもとに倉庫を3Dで再現し、搬送ロボットや設備の動作を物理エンジンで検証します。",
+    "現時点の試算は入力条件に基づくもので、実績データとの照合による精度検証は今後の予定です。",
+    null
+   ],
+   "link": {
+    "url": "https://prtimes.jp/main/html/rd/p/000000288.000080352.html",
+    "title": "スペースデータ、配置から人員まで倉庫を最適化する「RobotBrain Warehouse」を開発",
+    "site": "プレスリリース・ニュースリリース配信シェアNo.1｜PR TIMES",
+    "description": "株式会社スペースデータのプレスリリース（2026年11月24日 11時00分）スペースデータ、配置から人員まで倉庫を最適化する「RobotBrain Warehouse」を開発",
+    "image": "https://prcdn.freetls.fastly.net/release_image/80352/288/80352-288-f004eec95615a219d5110926cd43bd4d-1920x1080.jpg?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260",
+    "icon": "https://prtimes.jp/common/v4.1/images/html/favicon/favicon-196x196.png"
+   }
+  },
+  {
+   "label": "面を押し出す3Dプリント",
+   "points": [
+    "壁厚27μmの構造を造形",
+    "薄い面を直接押し出すLE3DP",
+    "軽量構造やロボット部品に期待"
+   ],
+   "url": "https://engineering.jhu.edu/case/news/jelly-cakes-inspire-new-approach-to-3d-printing-thin-walled-structures/",
+   "lines": [
+    {
+     "say": "三ディープリンターの話題もどうぞ。",
+     "show": "3Dプリンターの話題もどうぞ。"
+    },
+    {
+     "say": "ジョンズ・ホプキンズ大学が、ゼリー菓子をヒントにした造形方法を紹介しました。",
+     "show": "ジョンズ・ホプキンズ大学が、ゼリー菓子をヒントにした造形方法を紹介しました。"
+    },
+    {
+     "say": "線を積むのではなく、薄い面をそのまま押し出すという発想です。",
+     "show": "線を積むのではなく、薄い面をそのまま押し出すという発想です。"
+    }
+   ],
+   "details": [
+    "研究では壁厚27μmを実現し、表面のうねりなどの欠陥を最大78%削減したと報告されています。",
+    "特殊なノズルで樹脂を帯状に吐出し、自己修復性のあるカルボマーゲル内で硬化まで形状を支えます。",
+    "ただし、まだ研究段階です。"
+   ],
+   "link": {
+    "url": "https://engineering.jhu.edu/case/news/jelly-cakes-inspire-new-approach-to-3d-printing-thin-walled-structures/",
+    "error": "HTTPError",
+    "status": 403
+   }
+  },
+  {
+   "label": "Blender 5.2.5 LTS",
+   "points": [
+    "リギングのクラッシュを修正",
+    "UV選択で非表示の面を選ぶ不具合",
+    "Denoiseノードのクラッシュ修正"
+   ],
+   "url": "https://www.blender.org/releases/5-2/",
+   "lines": [
+    {
+     "say": "ブレンダーの五点二点五エルティーエスが公開されました。",
+     "show": "Blender 5.2.5 LTSが公開されました。"
+    },
+    {
+     "say": "クラッシュや選択まわりの不具合が直って、安定性重視のアップデートです。",
+     "show": "クラッシュや選択まわりの不具合が直って、安定性重視のアップデートです。"
+    }
+   ],
+   "details": [
+    "別シーンのアーマチュアデータへのアクセスによるクラッシュが修正されました。",
+    "UVの円・投げ縄選択で、非表示の面まで選ばれる不具合が修正されました。",
+    "新機能追加ではなく、長期サポート版の安定性向上が中心です。"
+   ],
+   "link": {
+    "url": "https://www.blender.org/releases/5-2/",
+    "error": "HTTPError",
+    "status": 403
+   }
+  },
+  {
+   "label": "Linuxを守るShirudo",
+   "points": [
+    "稼働中Linuxに一時的な防御策",
+    "管理者が検証・承認して導入",
+    "Elasticsearchを再起動せず阻止"
+   ],
+   "url": "https://openai.com/index/introducing-shirudo/",
+   "lines": [
+    {
+     "say": "最後はセキュリティです。",
+     "show": "最後はセキュリティです。"
+    },
+    {
+     "say": "オープンエーアイとシスコが、稼働中のリナックスを守るシルドを公開しました。",
+     "show": "OpenAIとCiscoが、稼働中のLinuxを守るShirudoを公開しました。"
+    },
+    {
+     "say": "パッチが出るまでの間、防御策を一時的に当てられる仕組みです。",
+     "show": "パッチが出るまでの間、防御策を一時的に当てられる仕組みです。"
+    }
+   ],
+   "details": [
+    "正式な修正パッチを適用するまでの間、稼働中のサービスに一時的な防御策を適用します。",
+    null,
+    "制御された実験で、Codexが生成した防御策により攻撃を阻止しました。正式なセキュリティパッチを置き換えるものではありません。"
+   ],
+   "link": {
+    "url": "https://openai.com/index/introducing-shirudo/",
+    "title": "OpenAI and Cisco introduce Shirudo",
+    "site": "OpenAI",
+    "description": "OpenAI and Cisco introduce Shirudo, an open-source runtime for Linux. It helps teams protect running systems while they roll out patches.",
+    "image": "https://images.ctfassets.net/kftzwdyauwt9/5K7gFDr3r8vgjdIcsW6RVY/aba5325ce7902e5d1499b907f8e78f0b/shirudo-partner-logos-landscape-2x.png?w=1600&h=900&fit=fill",
+    "icon": "https://openai.com/apple-icon.png?apple-icon.3o0tf8iy4mx7y.png"
+   }
+  }
+ ],
+ "closing": [
+  {
+   "say": "今日の注目は、線ではなく面を押し出す造形と、クロードシップのレビュー自動化でした。",
+   "show": "今日の注目は、線ではなく面を押し出す造形と、Claude Shipのレビュー自動化でした。"
+  },
+  {
+   "say": "ものラジオでした、今日も良い一日を。",
+   "show": "ものラジオでした、今日も良い一日を。"
+  }
+ ],
+ "format": "monoradio/news-1",
+ "date": "2026-11-25",
+ "lang": "ja",
+ "seconds": 82.74,
+ "lines_timed": [
+  {
+   "start": 0.6,
+   "end": 6.366,
+   "show": "おはようございます、ものラジオです。11月25日水曜日の朝のニュースです。",
+   "part": 0
+  },
+  {
+   "start": 6.616,
+   "end": 10.014,
+   "show": "今日はAIと3Dの話題を、5本お届けします。",
+   "part": 0
+  },
+  {
+   "start": 11.064,
+   "end": 15.634,
+   "show": "まずはAnthropicから、Claude Shipのベータ提供が始まりました。",
+   "part": 1
+  },
+  {
+   "start": 15.884,
+   "end": 21.197,
+   "show": "プルリクの失敗対応から承認まで、レビューの流れをまとめて任せられるそうです。",
+   "part": 1
+  },
+  {
+   "start": 22.247,
+   "end": 26.446,
+   "show": "続いては国内、スペースデータのRobotBrain Warehouseです。",
+   "part": 2
+  },
+  {
+   "start": 26.696,
+   "end": 30.999,
+   "show": "倉庫を3Dで再現して、ロボットの動きまで試せるんですよ。",
+   "part": 2
+  },
+  {
+   "start": 31.249,
+   "end": 35.309,
+   "show": "8時間分の作業を数秒で試算できるのが面白いですね。",
+   "part": 2
+  },
+  {
+   "start": 36.359,
+   "end": 38.433,
+   "show": "3Dプリンターの話題もどうぞ。",
+   "part": 3
+  },
+  {
+   "start": 38.683,
+   "end": 44.38,
+   "show": "ジョンズ・ホプキンズ大学が、ゼリー菓子をヒントにした造形方法を紹介しました。",
+   "part": 3
+  },
+  {
+   "start": 44.63,
+   "end": 48.945,
+   "show": "線を積むのではなく、薄い面をそのまま押し出すという発想です。",
+   "part": 3
+  },
+  {
+   "start": 49.995,
+   "end": 53.428,
+   "show": "Blender 5.2.5 LTSが公開されました。",
+   "part": 4
+  },
+  {
+   "start": 53.678,
+   "end": 58.713,
+   "show": "クラッシュや選択まわりの不具合が直って、安定性重視のアップデートです。",
+   "part": 4
+  },
+  {
+   "start": 59.763,
+   "end": 61.024,
+   "show": "最後はセキュリティです。",
+   "part": 5
+  },
+  {
+   "start": 61.274,
+   "end": 66.239,
+   "show": "OpenAIとCiscoが、稼働中のLinuxを守るShirudoを公開しました。",
+   "part": 5
+  },
+  {
+   "start": 66.489,
+   "end": 70.885,
+   "show": "パッチが出るまでの間、防御策を一時的に当てられる仕組みです。",
+   "part": 5
+  },
+  {
+   "start": 71.935,
+   "end": 77.829,
+   "show": "今日の注目は、線ではなく面を押し出す造形と、Claude Shipのレビュー自動化でした。",
+   "part": 6
+  },
+  {
+   "start": 78.079,
+   "end": 80.687,
+   "show": "ものラジオでした、今日も良い一日を。",
+   "part": 6
+  }
+ ],
+ "segments": [
+  {
+   "kind": "opening",
+   "index": null,
+   "start": 0.6,
+   "end": 11.064
+  },
+  {
+   "kind": "news",
+   "index": 0,
+   "start": 11.064,
+   "end": 22.247
+  },
+  {
+   "kind": "news",
+   "index": 1,
+   "start": 22.247,
+   "end": 36.359
+  },
+  {
+   "kind": "news",
+   "index": 2,
+   "start": 36.359,
+   "end": 49.995
+  },
+  {
+   "kind": "news",
+   "index": 3,
+   "start": 49.995,
+   "end": 59.763
+  },
+  {
+   "kind": "news",
+   "index": 4,
+   "start": 59.763,
+   "end": 71.935
+  },
+  {
+   "kind": "closing",
+   "index": null,
+   "start": 71.935,
+   "end": 82.737
+  }
+ ],
+ "made_at": "2026-11-25T06:12:43"
+}
