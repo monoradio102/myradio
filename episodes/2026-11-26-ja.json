@@ -1,0 +1,320 @@
+{
+ "title": "生成3DをPainterへ直送、制作がつながる朝",
+ "opening": [
+  {
+   "say": "おはようございます、ものラジオです。11月26日木曜日の朝のニュースです。",
+   "show": "おはようございます、ものラジオです。11月26日木曜日の朝のニュースです。"
+  },
+  {
+   "say": "今日は5本お届けします。",
+   "show": "今日は5本お届けします。"
+  }
+ ],
+ "news": [
+  {
+   "label": "RTX Blackwell高速化",
+   "points": [
+    "Attention処理が最大1.64倍",
+    "推論遅延が最大15.34％減",
+    "FlashInferに統合済み"
+   ],
+   "url": "https://developer.nvidia.com/blog/how-to-optimize-nvfp4-attention-on-nvidia-rtx-blackwell-through-register-recycling/",
+   "lines": [
+    {
+     "say": "まずはエヌビディア。アールティーエックス ブラックウェルで、4ビットのアテンションが一点六四倍まで速くなりました。",
+     "show": "まずはNVIDIA。RTX Blackwellで、4ビットのAttentionが1.64倍まで速くなりました。"
+    },
+    {
+     "say": "動画生成のリアルタイム化に効きそうです。",
+     "show": "動画生成のリアルタイム化に効きそうです。"
+    }
+   ],
+   "details": [
+    "RTX PRO 6000 BlackwellでAttention処理が最大1.64倍高速化したと報告されています。",
+    "Reactorのワールドモデル配信環境で、推論全体の遅延が最大15.34％減少したとのことです。",
+    "最適化コードはFlashInferのmainブランチに統合済みです。効果は対応GPU・モデル・実行条件に依存します。"
+   ],
+   "link": {
+    "url": "https://developer.nvidia.com/blog/how-to-optimize-nvfp4-attention-on-nvidia-rtx-blackwell-through-register-recycling/",
+    "title": "How to Optimize NVFP4 Attention on NVIDIA RTX Blackwell Through Register Recycling | NVIDIA Technical Blog",
+    "site": "NVIDIA Technical Blog",
+    "description": "Attention can be a major bottleneck when serving world foundation models, where long sequences make inference computationally demanding. On NVIDIA Hopper and NVIDIA Blackwell data center GPUs…",
+    "image": "https://developer-blogs.nvidia.com/wp-content/uploads/2025/10/floating-cubes.png",
+    "icon": null
+   }
+  },
+  {
+   "label": "TripoからPainterへ直送",
+   "points": [
+    "生成モデルをブラウザ経由で転送",
+    "Painter 10.0以降に対応",
+    "導入用プロンプトも公開"
+   ],
+   "url": "https://www.tripo3d.ai/blog/tripo-dcc-bridge-for-substance-3d-painter",
+   "lines": [
+    {
+     "say": "続いて3D制作。トリポで作ったモデルを、サブスタンスペインターへ直接送れるようになりました。",
+     "show": "続いて3D制作。Tripoで作ったモデルを、Substance 3D Painterへ直接送れるようになりました。"
+    },
+    {
+     "say": "仕上げの工程が楽になりそうです。",
+     "show": "仕上げの工程が楽になりそうです。"
+    }
+   ],
+   "details": [
+    "Tripo StudioからSubstance 3D Painterへ、生成済みのモデルをブラウザ経由で直接転送できます。",
+    "Windows・MacのPainter 10.0以降に対応し、Pythonプラグインとして導入できます。",
+    "AIエージェントにインストールを依頼するためのプロンプトも公開されています。"
+   ],
+   "link": {
+    "url": "https://www.tripo3d.ai/blog/tripo-dcc-bridge-for-substance-3d-painter",
+    "title": "Tripo DCC Bridge for Substance 3D Painter: Installation and Quick Start",
+    "site": "www.tripo3d.ai",
+    "description": "Learn how to install Tripo DCC Bridge on Windows or macOS and send 3D models directly from Tripo Studio to Adobe Substance 3D Painter.",
+    "image": "https://cdn-blog.holymolly.ai/media/production/tripo-dcc-bridge-for-substance-3d-painter-tripo-dcc-bridge-cover-with-substance-painter-and-tripo-icons-7f3aad1a818a.webp",
+    "icon": null
+   }
+  },
+  {
+   "label": "Ling-3.2-airを公開",
+   "points": [
+    "総1240億・活性55億",
+    "MITライセンスで公開",
+    "AutomationBench-AAが61％"
+   ],
+   "url": "https://huggingface.co/inclusionAI/Ling-3.2-air",
+   "lines": [
+    {
+     "say": "次はオープンなエーアイです。インクルージョンエーアイが、活性55億パラメータのリング3.2エアを公開しました。",
+     "show": "次はオープンなAIです。inclusionAIが、活性55億パラメータのLing-3.2-airを公開しました。"
+    },
+    {
+     "say": "画像や動画も扱えて、ライセンスはエムアイティーです。",
+     "show": "画像や動画も扱えて、ライセンスはMITです。"
+    }
+   ],
+   "details": [
+    "総1240億・活性55億パラメータのマルチモーダルMoEで、画像・動画入力に対応しています。",
+    null,
+    "公式評価で、前世代の15.7％から61％に向上しています。"
+   ],
+   "link": {
+    "url": "https://huggingface.co/inclusionAI/Ling-3.2-air",
+    "title": "inclusionAI/Ling-3.2-air · Hugging Face",
+    "site": "huggingface.co",
+    "description": "Machine learning model with 128B parameters. Download, explore files and run it on Hugging Face.",
+    "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/models/inclusionAI/Ling-3.2-air.png",
+    "icon": null
+   }
+  },
+  {
+   "label": "清華大×Bambu Lab制作事例",
+   "points": [
+    "音楽連動の卓上DJ Cat",
+    "遠隔操作の二足歩行ロボット",
+    "筐体と電子部品を分離"
+   ],
+   "url": "https://3dprint.com/337503/bambu-lab-and-tsinghua-university-team-up-on-interactive-3d-printing/",
+   "lines": [
+    {
+     "say": "電子工作と3Dプリントの話も。清華大学の学生が、バンブーラボのサイバーブリックで、音楽に合わせて動くディージェーキャットなどを作りました。",
+     "show": "電子工作と3Dプリントの話も。清華大学の学生が、Bambu LabのCyberBrickで、音楽に合わせて動くDJ Catなどを作りました。"
+    },
+    {
+     "say": "外装と電子部品を分けて作るのが面白いです。",
+     "show": "外装と電子部品を分けて作るのが面白いです。"
+    }
+   ],
+   "details": [
+    null,
+    null,
+    "3Dプリントした筐体や機構をモジュール型の電子部品と組み合わせ、動作する試作品に仕上げています。"
+   ],
+   "link": {
+    "url": "https://3dprint.com/337503/bambu-lab-and-tsinghua-university-team-up-on-interactive-3d-printing/",
+    "title": "Bambu Lab and Tsinghua University Team Up on Interactive 3D Printing - 3DPrint.com | Additive Manufacturing Business",
+    "site": "3DPrint.com | Additive Manufacturing Business",
+    "description": "A musical desktop companion, an interactive guessing game, and a tabletop fighting robot might seem like three very different projects. But they all have something in common: they were created...",
+    "image": "https://3dprint.com/wp-content/uploads/2026/11/image2-1.png",
+    "icon": "https://3dprint.com/wp-content/themes/lugh2019/img/favicons/apple-icon-180x180.png"
+   }
+  },
+  {
+   "label": "デンソーウェーブ参考展示",
+   "points": [
+    "音声でロボットをプログラミング",
+    "AIによる最適経路の生成",
+    "RoboNext 2026で展示"
+   ],
+   "url": "https://prtimes.jp/main/html/rd/p/000000112.000013815.html",
+   "lines": [
+    {
+     "say": "最後は国内ロボットの話題。デンソーウェーブが、声でロボットを動かす仕組みを参考展示します。",
+     "show": "最後は国内ロボットの話題。デンソーウェーブが、声でロボットを動かす仕組みを参考展示します。"
+    },
+    {
+     "say": "まだ参考展示の段階ですが、楽しみですね。",
+     "show": "まだ参考展示の段階ですが、楽しみですね。"
+    }
+   ],
+   "details": [
+    null,
+    null,
+    "12月2〜4日のRoboNext 2026での参考展示で、一般販売やAPI公開は発表されていません。"
+   ],
+   "link": {
+    "url": "https://prtimes.jp/main/html/rd/p/000000112.000013815.html",
+    "title": "デンソーウェーブ、RoboNext 2026に出展",
+    "site": "プレスリリース・ニュースリリース配信シェアNo.1｜PR TIMES",
+    "description": "株式会社デンソーウェーブのプレスリリース（2026年11月25日 11時00分）デンソーウェーブ、RoboNext 2026に出展",
+    "image": "https://prcdn.freetls.fastly.net/release_image/13815/112/13815-112-c6b4868ca3c376ff06d80534a41c44bf-519x320.jpg?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260",
+    "icon": "https://prtimes.jp/common/v4.1/images/html/favicon/favicon-196x196.png"
+   }
+  }
+ ],
+ "closing": [
+  {
+   "say": "今日の注目は、トリポのブリッジとサイバーブリックの制作事例。生成エーアイを制作ツールや実物につなぐ流れが面白いですね。",
+   "show": "今日の注目は、TripoのブリッジとCyberBrickの制作事例。生成AIを制作ツールや実物につなぐ流れが面白いですね。"
+  },
+  {
+   "say": "それでは、いってらっしゃい。",
+   "show": "それでは、いってらっしゃい。"
+  }
+ ],
+ "format": "monoradio/news-1",
+ "date": "2026-11-26",
+ "lang": "ja",
+ "seconds": 81.97,
+ "lines_timed": [
+  {
+   "start": 0.6,
+   "end": 6.447,
+   "show": "おはようございます、ものラジオです。11月26日木曜日の朝のニュースです。",
+   "part": 0
+  },
+  {
+   "start": 6.697,
+   "end": 8.353,
+   "show": "今日は5本お届けします。",
+   "part": 0
+  },
+  {
+   "start": 9.403,
+   "end": 16.945,
+   "show": "まずはNVIDIA。RTX Blackwellで、4ビットのAttentionが1.64倍まで速くなりました。",
+   "part": 1
+  },
+  {
+   "start": 17.195,
+   "end": 19.792,
+   "show": "動画生成のリアルタイム化に効きそうです。",
+   "part": 1
+  },
+  {
+   "start": 20.842,
+   "end": 27.572,
+   "show": "続いて3D制作。Tripoで作ったモデルを、Substance 3D Painterへ直接送れるようになりました。",
+   "part": 2
+  },
+  {
+   "start": 27.822,
+   "end": 30.001,
+   "show": "仕上げの工程が楽になりそうです。",
+   "part": 2
+  },
+  {
+   "start": 31.051,
+   "end": 38.466,
+   "show": "次はオープンなAIです。inclusionAIが、活性55億パラメータのLing-3.2-airを公開しました。",
+   "part": 3
+  },
+  {
+   "start": 38.716,
+   "end": 42.172,
+   "show": "画像や動画も扱えて、ライセンスはMITです。",
+   "part": 3
+  },
+  {
+   "start": 43.222,
+   "end": 53.342,
+   "show": "電子工作と3Dプリントの話も。清華大学の学生が、Bambu LabのCyberBrickで、音楽に合わせて動くDJ Catなどを作りました。",
+   "part": 4
+  },
+  {
+   "start": 53.592,
+   "end": 56.839,
+   "show": "外装と電子部品を分けて作るのが面白いです。",
+   "part": 4
+  },
+  {
+   "start": 57.889,
+   "end": 64.363,
+   "show": "最後は国内ロボットの話題。デンソーウェーブが、声でロボットを動かす仕組みを参考展示します。",
+   "part": 5
+  },
+  {
+   "start": 64.613,
+   "end": 67.976,
+   "show": "まだ参考展示の段階ですが、楽しみですね。",
+   "part": 5
+  },
+  {
+   "start": 69.026,
+   "end": 77.997,
+   "show": "今日の注目は、TripoのブリッジとCyberBrickの制作事例。生成AIを制作ツールや実物につなぐ流れが面白いですね。",
+   "part": 6
+  },
+  {
+   "start": 78.247,
+   "end": 79.915,
+   "show": "それでは、いってらっしゃい。",
+   "part": 6
+  }
+ ],
+ "segments": [
+  {
+   "kind": "opening",
+   "index": null,
+   "start": 0.6,
+   "end": 9.403
+  },
+  {
+   "kind": "news",
+   "index": 0,
+   "start": 9.403,
+   "end": 20.842
+  },
+  {
+   "kind": "news",
+   "index": 1,
+   "start": 20.842,
+   "end": 31.051
+  },
+  {
+   "kind": "news",
+   "index": 2,
+   "start": 31.051,
+   "end": 43.222
+  },
+  {
+   "kind": "news",
+   "index": 3,
+   "start": 43.222,
+   "end": 57.889
+  },
+  {
+   "kind": "news",
+   "index": 4,
+   "start": 57.889,
+   "end": 69.026
+  },
+  {
+   "kind": "closing",
+   "index": null,
+   "start": 69.026,
+   "end": 81.965
+  }
+ ],
+ "made_at": "2026-11-26T06:11:40"
+}
