@@ -1,0 +1,370 @@
+{
+ "title": "Bambu Lab's first 3D scanner, the S1, arrives",
+ "opening": [
+  {
+   "say": "Good morning, and happy Friday! It's November twenty-seventh, and this is Mono Radio.",
+   "show": "Good morning, and happy Friday! It's November 27, and this is Mono Radio."
+  },
+  {
+   "say": "Today we have five stories on three D and A I.",
+   "show": "Today we have five stories on 3D and AI."
+  }
+ ],
+ "closing": [
+  {
+   "say": "Today's highlights were Bonsai two point five, which you can try at home, and the S one, which takes real parts toward three D printing.",
+   "show": "Today's highlights: Bonsai 2.5, which you can try at home, and the S1, which takes real parts toward 3D printing."
+  },
+  {
+   "say": "That was Mono Radio. See you again tomorrow morning!",
+   "show": "That was Mono Radio. See you again tomorrow morning!"
+  }
+ ],
+ "news": [
+  {
+   "label": "Bambu Lab's first 3D scanner",
+   "points": [
+    "Blue lasers and infrared onboard",
+    "Laser accuracy up to 0.02mm",
+    "US price is $1,699"
+   ],
+   "details": [
+    "The S1 is a wireless 3D scanner with three blue laser modes and an infrared mode.",
+    "The accuracy is a stated single-frame figure, measured under the maker's test conditions. Real-world verification is still needed.",
+    "It weighs 710 grams."
+   ],
+   "lines": [
+    {
+     "say": "First up, Bambu Lab's very first three D scanner, the S one.",
+     "show": "First up, Bambu Lab's very first 3D scanner, the S1."
+    },
+    {
+     "say": "It works wirelessly, and the laser accuracy is said to reach zero point zero two millimeters.",
+     "show": "It works wirelessly, and laser accuracy is said to reach 0.02mm."
+    },
+    {
+     "say": "Capturing a real object and tweaking it sounds like a lot of fun.",
+     "show": "Capturing a real object and tweaking it sounds like a lot of fun."
+    }
+   ],
+   "url": "https://blog.bambulab.com/easy-in-hand-pro-in-every-scan-bambu-lab-introduces-the-s1-3d-scanner/",
+   "link": {
+    "url": "https://blog.bambulab.com/easy-in-hand-pro-in-every-scan-bambu-lab-introduces-the-s1-3d-scanner/",
+    "title": "Easy in Hand, Pro in Every Scan: Bambu Lab introduces the S1 3D scanner",
+    "site": "Bambu Lab Blog",
+    "description": "Professional scan processing without additional licenses",
+    "image": "https://storage.ghost.io/c/8d/d9/8dd9f85b-21c3-4782-bba8-8778cd8f2f93/content/images/size/w1200/2026/11/S1-000.jpg",
+    "icon": null
+   }
+  },
+  {
+   "label": "27B model in 5.9GB released",
+   "points": [
+    "A 27B model fits in 5.9GB",
+    "SWE-bench rises from 60.8 to 75.6",
+    "Works with llama.cpp and MLX"
+   ],
+   "details": [
+    "It's a ternary-weight model based on Qwen3.8 27B, released under the Apache 2.0 license.",
+    "On the official SWE-bench Verified evaluation, it improved from 60.8 for the previous generation to 75.6.",
+    "You can run it with llama.cpp on NVIDIA and Intel GPUs, and with MLX on Apple devices."
+   ],
+   "lines": [
+    {
+     "say": "Next, local A I: Ternary Bonsai two point five.",
+     "show": "Next, local AI: Ternary Bonsai 2.5."
+    },
+    {
+     "say": "A twenty-seven billion parameter model now fits in five point nine gigabytes.",
+     "show": "A 27 billion parameter model now fits in 5.9GB."
+    },
+    {
+     "say": "It's great that it might run on a regular G P U.",
+     "show": "It's great that it might run on a regular GPU."
+    }
+   ],
+   "url": "https://prismml.com/news/prismml-launches-ternary-bonsai-2-5-27b",
+   "link": {
+    "url": "https://prismml.com/news/prismml-launches-ternary-bonsai-2-5-27b",
+    "title": "PrismML — PrismML Launches Ternary Bonsai 2.5 27B for Agentic Coding and Private Knowledge Work",
+    "site": "prismml.com",
+    "description": "New release strengthens multi-turn tool use and long-horizon task execution within the same compact footprint",
+    "image": "https://cdn.prod.website-files.com/699604cc2b9dd89bdbda0608/6a6d0e0bc0d5f9a97a5164c0_69cc089669ab0df26e921aac_prism-og-img%2520(2).png",
+    "icon": "https://cdn.prod.website-files.com/697a3312d33c2cc715ec3899/69cc265e2bd7afe8b30d9ca8_fav-light-192.png"
+   }
+  },
+  {
+   "label": "Bambu Lab P3C pre-orders open",
+   "points": [
+    "Supports up to 7 tools",
+    "Material switch in as little as 6 seconds",
+    "Japan pre-orders opened on the 26th"
+   ],
+   "details": [
+    "Five tools come standard, and going up to seven requires additional purchases.",
+    "These are the manufacturer's stated figures. Cutting, drawing, and debossing are also supported as options.",
+    "APPLE TREE has opened pre-orders in Japan. The US price is $1,149."
+   ],
+   "lines": [
+    {
+     "say": "One more from Bambu Lab: pre-orders for the P three C have started in Japan.",
+     "show": "One more from Bambu Lab: P3C pre-orders have started in Japan."
+    },
+    {
+     "say": "It supports up to seven tools, and switching materials takes as little as six seconds.",
+     "show": "It supports up to seven tools, and switching materials takes as little as 6 seconds."
+    },
+    {
+     "say": "That opens up ways to play beyond just changing colors.",
+     "show": "That opens up ways to play beyond just changing colors."
+    }
+   ],
+   "url": "https://blog.bambulab.com/bambu-lab-p3c-brings-home-its-h3c-technology-at-half-the-price/",
+   "link": {
+    "url": "https://blog.bambulab.com/bambu-lab-p3c-brings-home-its-h3c-technology-at-half-the-price/",
+    "title": "Bambu Lab P3C brings home its H3C technology at half the price",
+    "site": "Bambu Lab Blog",
+    "description": "Flagship architecture, engineered for everyone. The Bambu Lab P3C is designed to offer the best value of any tool changer on the market.",
+    "image": "https://storage.ghost.io/c/8d/d9/8dd9f85b-21c3-4782-bba8-8778cd8f2f93/content/images/size/w1200/2026/11/P3C-001.jpg",
+    "icon": null
+   }
+  },
+  {
+   "label": "Artifacts becomes a standalone app",
+   "points": [
+    "Installs on Mac and Windows",
+    "Supports notifications and shortcuts",
+    "Edits to the original carry into the app"
+   ],
+   "details": [
+    "Anthropic has released a beta feature that turns Artifacts into desktop apps.",
+    "With your permission, they can also use global shortcuts, work with files, and run programs.",
+    "Requests to Claude count against your plan's usage limits."
+   ],
+   "lines": [
+    {
+     "say": "Back to A I now. Claude's Artifacts can become standalone apps.",
+     "show": "Back to AI now. Claude's Artifacts can become standalone apps."
+    },
+    {
+     "say": "You can install them on Mac and Windows, and they support notifications and shortcuts.",
+     "show": "You can install them on Mac and Windows, with notifications and shortcuts."
+    },
+    {
+     "say": "Being able to use your little tools every day is a nice touch.",
+     "show": "Being able to use your little tools every day is a nice touch."
+    }
+   ],
+   "url": "https://claude.com/resources/articles/install-as-app",
+   "link": {
+    "url": "https://claude.com/resources/articles/install-as-app",
+    "title": "Turn artifacts into Mac and Windows apps",
+    "site": "Claude",
+    "description": "Open the artifacts you use every day like any other app, and let them do more on your computer. Rolling out in beta in Claude for Mac and Windows.",
+    "image": "https://claude.com/ja/resources/articles/install-as-app/opengraph-image/og",
+    "icon": "https://claude.com/icon.png"
+   }
+  },
+  {
+   "label": "skyACE links LiDAR to design",
+   "points": [
+    "Measures interiors with iPhone LiDAR",
+    "Compare multiple AI layouts in 3D",
+    "Scanned 200 sq m in about 7 minutes"
+   ],
+   "details": [
+    "Scan2BIM generates 2D drawings with dimensions and 3D models.",
+    "It connects with VinaCAD Web Engine and can export DXF drawings.",
+    "A case study of scanning an office of about 200 square meters has been published."
+   ],
+   "lines": [
+    {
+     "say": "Last, from Japan: sky ACE and Scan to BIM.",
+     "show": "Last, from Japan: skyACE and Scan2BIM."
+    },
+    {
+     "say": "It measures a room with iPhone lidar and creates drawings and three D models.",
+     "show": "It measures a room with iPhone LiDAR and creates drawings and 3D models."
+    },
+    {
+     "say": "There's even a case of scanning an office of about two hundred square meters in seven minutes.",
+     "show": "One case scanned an office of about 200 square meters in 7 minutes."
+    }
+   ],
+   "url": "https://prtimes.jp/main/html/rd/p/000000008.000181991.html",
+   "link": {
+    "url": "https://prtimes.jp/main/html/rd/p/000000008.000181991.html",
+    "title": "スマホで建物の現況をBIM化、AIでレイアウト設計へ。skyACE株式会社、「Scan2BIM」を提供開始",
+    "site": "プレスリリース・ニュースリリース配信シェアNo.1｜PR TIMES",
+    "description": "skyACE株式会社のプレスリリース（2026年11月24日 10時00分）スマホで建物の現況をBIM化、AIでレイアウト設計へ。skyACE株式会社、「Scan2BIM」を提供開始",
+    "image": "https://prcdn.freetls.fastly.net/release_image/181991/8/181991-8-123d984c091ac277d14bc295ed1197d3-1536x1024.png?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260",
+    "icon": "https://prtimes.jp/common/v4.1/images/html/favicon/favicon-196x196.png"
+   }
+  }
+ ],
+ "format": "monoradio/news-1",
+ "date": "2026-11-27",
+ "lang": "en",
+ "seconds": 93.14,
+ "lines_timed": [
+  {
+   "start": 0.6,
+   "end": 5.741,
+   "show": "Good morning, and happy Friday! It's November 27, and this is Mono Radio.",
+   "part": 0
+  },
+  {
+   "start": 5.991,
+   "end": 8.829,
+   "show": "Today we have five stories on 3D and AI.",
+   "part": 0
+  },
+  {
+   "start": 9.879,
+   "end": 13.505,
+   "show": "First up, Bambu Lab's very first 3D scanner, the S1.",
+   "part": 1
+  },
+  {
+   "start": 13.755,
+   "end": 19.558,
+   "show": "It works wirelessly, and laser accuracy is said to reach 0.02mm.",
+   "part": 1
+  },
+  {
+   "start": 19.808,
+   "end": 23.691,
+   "show": "Capturing a real object and tweaking it sounds like a lot of fun.",
+   "part": 1
+  },
+  {
+   "start": 24.741,
+   "end": 27.919,
+   "show": "Next, local AI: Ternary Bonsai 2.5.",
+   "part": 2
+  },
+  {
+   "start": 28.169,
+   "end": 32.884,
+   "show": "A 27 billion parameter model now fits in 5.9GB.",
+   "part": 2
+  },
+  {
+   "start": 33.134,
+   "end": 36.014,
+   "show": "It's great that it might run on a regular GPU.",
+   "part": 2
+  },
+  {
+   "start": 37.064,
+   "end": 41.907,
+   "show": "One more from Bambu Lab: P3C pre-orders have started in Japan.",
+   "part": 3
+  },
+  {
+   "start": 42.157,
+   "end": 47.085,
+   "show": "It supports up to seven tools, and switching materials takes as little as 6 seconds.",
+   "part": 3
+  },
+  {
+   "start": 47.335,
+   "end": 50.321,
+   "show": "That opens up ways to play beyond just changing colors.",
+   "part": 3
+  },
+  {
+   "start": 51.371,
+   "end": 55.147,
+   "show": "Back to AI now. Claude's Artifacts can become standalone apps.",
+   "part": 4
+  },
+  {
+   "start": 55.397,
+   "end": 60.283,
+   "show": "You can install them on Mac and Windows, with notifications and shortcuts.",
+   "part": 4
+  },
+  {
+   "start": 60.533,
+   "end": 63.882,
+   "show": "Being able to use your little tools every day is a nice touch.",
+   "part": 4
+  },
+  {
+   "start": 64.932,
+   "end": 68.495,
+   "show": "Last, from Japan: skyACE and Scan2BIM.",
+   "part": 5
+  },
+  {
+   "start": 68.745,
+   "end": 73.289,
+   "show": "It measures a room with iPhone LiDAR and creates drawings and 3D models.",
+   "part": 5
+  },
+  {
+   "start": 73.539,
+   "end": 78.637,
+   "show": "One case scanned an office of about 200 square meters in 7 minutes.",
+   "part": 5
+  },
+  {
+   "start": 79.687,
+   "end": 87.751,
+   "show": "Today's highlights: Bonsai 2.5, which you can try at home, and the S1, which takes real parts toward 3D printing.",
+   "part": 6
+  },
+  {
+   "start": 88.001,
+   "end": 91.095,
+   "show": "That was Mono Radio. See you again tomorrow morning!",
+   "part": 6
+  }
+ ],
+ "segments": [
+  {
+   "kind": "opening",
+   "index": null,
+   "start": 0.6,
+   "end": 9.879
+  },
+  {
+   "kind": "news",
+   "index": 0,
+   "start": 9.879,
+   "end": 24.741
+  },
+  {
+   "kind": "news",
+   "index": 1,
+   "start": 24.741,
+   "end": 37.064
+  },
+  {
+   "kind": "news",
+   "index": 2,
+   "start": 37.064,
+   "end": 51.371
+  },
+  {
+   "kind": "news",
+   "index": 3,
+   "start": 51.371,
+   "end": 64.932
+  },
+  {
+   "kind": "news",
+   "index": 4,
+   "start": 64.932,
+   "end": 79.687
+  },
+  {
+   "kind": "closing",
+   "index": null,
+   "start": 79.687,
+   "end": 93.145
+  }
+ ],
+ "made_at": "2026-11-27T06:12:42"
+}
