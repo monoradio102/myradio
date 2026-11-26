@@ -1,0 +1,370 @@
+{
+ "title": "Bambu Lab初の3DスキャナーS1が登場",
+ "opening": [
+  {
+   "say": "おはようございます、11月27日金曜日のものラジオです。",
+   "show": "おはようございます、11月27日金曜日のものラジオです。"
+  },
+  {
+   "say": "今日はスリーディーとエーアイの話題を5本お届けします。",
+   "show": "今日は3DとAIの話題を5本お届けします。"
+  }
+ ],
+ "news": [
+  {
+   "label": "Bambu Lab初の3Dスキャナー",
+   "points": [
+    "青色レーザーと赤外線を搭載",
+    "精度はレーザーで最大0.02mm",
+    "米国価格は1,699ドル"
+   ],
+   "url": "https://blog.bambulab.com/easy-in-hand-pro-in-every-scan-bambu-lab-introduces-the-s1-3d-scanner/",
+   "lines": [
+    {
+     "say": "まずはバンブーラボ初の3Dスキャナー、エスワンです。",
+     "show": "まずはBambu Lab初の3Dスキャナー、S1です。"
+    },
+    {
+     "say": "ワイヤレスで使えて、精度はレーザーで最大ゼロ点ゼロ二ミリだそうです。",
+     "show": "ワイヤレスで使えて、精度はレーザーで最大0.02mmだそうです。"
+    },
+    {
+     "say": "実物を取り込んで修正できるのが楽しみですね。",
+     "show": "実物を取り込んで修正できるのが楽しみですね。"
+    }
+   ],
+   "details": [
+    "青色レーザー3方式と赤外線方式を備えたワイヤレスの3DスキャナーS1です。",
+    "公称の単一フレーム精度で、メーカーの試験条件での値です。実物での検証は必要です。",
+    "重量は710gです。"
+   ],
+   "link": {
+    "url": "https://blog.bambulab.com/easy-in-hand-pro-in-every-scan-bambu-lab-introduces-the-s1-3d-scanner/",
+    "title": "Easy in Hand, Pro in Every Scan: Bambu Lab introduces the S1 3D scanner",
+    "site": "Bambu Lab Blog",
+    "description": "Professional scan processing without additional licenses",
+    "image": "https://storage.ghost.io/c/8d/d9/8dd9f85b-21c3-4782-bba8-8778cd8f2f93/content/images/size/w1200/2026/11/S1-000.jpg",
+    "icon": null
+   }
+  },
+  {
+   "label": "5.9GBの27Bモデル公開",
+   "points": [
+    "27Bモデルが5.9GBに収まる",
+    "SWE-benchが60.8から75.6",
+    "llama.cppとMLXに対応"
+   ],
+   "url": "https://prismml.com/news/prismml-launches-ternary-bonsai-2-5-27b",
+   "lines": [
+    {
+     "say": "続いてはローカルエーアイ、ターナリーボンサイ2.5です。",
+     "show": "続いてはローカルAI、Ternary Bonsai 2.5です。"
+    },
+    {
+     "say": "270億パラメータのモデルが、5.9ギガバイトに収まりました。",
+     "show": "270億パラメータのモデルが、5.9GBに収まりました。"
+    },
+    {
+     "say": "手元のジーピーユーで試せそうなのが嬉しいですね。",
+     "show": "手元のGPUで試せそうなのが嬉しいですね。"
+    }
+   ],
+   "details": [
+    "Qwen3.8 27Bをベースにした三値重みモデルで、Apache 2.0ライセンスで公開されました。",
+    "公式評価のSWE-bench Verifiedが、前世代の60.8から75.6へ改善しました。",
+    "NVIDIA・Intel GPUではllama.cpp、Apple端末ではMLXで推論できます。"
+   ],
+   "link": {
+    "url": "https://prismml.com/news/prismml-launches-ternary-bonsai-2-5-27b",
+    "title": "PrismML — PrismML Launches Ternary Bonsai 2.5 27B for Agentic Coding and Private Knowledge Work",
+    "site": "prismml.com",
+    "description": "New release strengthens multi-turn tool use and long-horizon task execution within the same compact footprint",
+    "image": "https://cdn.prod.website-files.com/699604cc2b9dd89bdbda0608/6a6d0e0bc0d5f9a97a5164c0_69cc089669ab0df26e921aac_prism-og-img%2520(2).png",
+    "icon": "https://cdn.prod.website-files.com/697a3312d33c2cc715ec3899/69cc265e2bd7afe8b30d9ca8_fav-light-192.png"
+   }
+  },
+  {
+   "label": "Bambu Lab P3C 予約開始",
+   "points": [
+    "最大7ツールに対応",
+    "材料切り替えは最短6秒",
+    "国内予約は26日に開始"
+   ],
+   "url": "https://blog.bambulab.com/bambu-lab-p3c-brings-home-its-h3c-technology-at-half-the-price/",
+   "lines": [
+    {
+     "say": "もう一つバンブーラボから、ピースリーシーの国内予約が始まりました。",
+     "show": "もう一つBambu Labから、P3Cの国内予約が始まりました。"
+    },
+    {
+     "say": "最大7つのツールに対応して、材料の切り替えは最短6秒です。",
+     "show": "最大7つのツールに対応して、材料の切り替えは最短6秒です。"
+    },
+    {
+     "say": "色替えだけじゃない遊び方が広がりそうです。",
+     "show": "色替えだけじゃない遊び方が広がりそうです。"
+    }
+   ],
+   "details": [
+    "標準で5つを搭載し、最大7ツールには追加購入が必要です。",
+    "公称値です。オプションでカット、描画、デボス加工にも対応します。",
+    "国内ではAPPLE TREEが予約を開始しました。米国価格は1,149ドルです。"
+   ],
+   "link": {
+    "url": "https://blog.bambulab.com/bambu-lab-p3c-brings-home-its-h3c-technology-at-half-the-price/",
+    "title": "Bambu Lab P3C brings home its H3C technology at half the price",
+    "site": "Bambu Lab Blog",
+    "description": "Flagship architecture, engineered for everyone. The Bambu Lab P3C is designed to offer the best value of any tool changer on the market.",
+    "image": "https://storage.ghost.io/c/8d/d9/8dd9f85b-21c3-4782-bba8-8778cd8f2f93/content/images/size/w1200/2026/11/P3C-001.jpg",
+    "icon": null
+   }
+  },
+  {
+   "label": "Artifactsが独立アプリに",
+   "points": [
+    "MacとWindowsに導入可能",
+    "通知やショートカットに対応",
+    "元の編集がアプリに反映"
+   ],
+   "url": "https://claude.com/resources/articles/install-as-app",
+   "lines": [
+    {
+     "say": "ここでエーアイに戻って、クロードのアーティファクトが独立アプリになります。",
+     "show": "ここでAIに戻って、ClaudeのArtifactsが独立アプリになります。"
+    },
+    {
+     "say": "マックとウィンドウズに入れられて、通知やショートカットも使えます。",
+     "show": "MacとWindowsに入れられて、通知やショートカットも使えます。"
+    },
+    {
+     "say": "作った小さなツールを毎日使えるのがいいですね。",
+     "show": "作った小さなツールを毎日使えるのがいいですね。"
+    }
+   ],
+   "details": [
+    "Anthropicがデスクトップアプリ化機能をベータ公開しました。",
+    "許可に応じて、グローバルショートカットやファイル操作、プログラム実行もできます。",
+    "Claudeへのリクエストはプランの利用枠を消費します。"
+   ],
+   "link": {
+    "url": "https://claude.com/resources/articles/install-as-app",
+    "title": "Turn artifacts into Mac and Windows apps",
+    "site": "Claude",
+    "description": "Open the artifacts you use every day like any other app, and let them do more on your computer. Rolling out in beta in Claude for Mac and Windows.",
+    "image": "https://claude.com/ja/resources/articles/install-as-app/opengraph-image/og",
+    "icon": "https://claude.com/icon.png"
+   }
+  },
+  {
+   "label": "skyACEがLiDARで設計連携",
+   "points": [
+    "iPhoneのLiDARで室内計測",
+    "複数のAI配置案を3Dで比較",
+    "200㎡を約7分でスキャン"
+   ],
+   "url": "https://prtimes.jp/main/html/rd/p/000000008.000181991.html",
+   "lines": [
+    {
+     "say": "最後は日本から、スカイエースのスキャンツービムです。",
+     "show": "最後は日本から、skyACEのScan2BIMです。"
+    },
+    {
+     "say": "アイフォーンのライダーで部屋を測って、図面と3Dモデルを作れます。",
+     "show": "iPhoneのLiDARで部屋を測って、図面と3Dモデルを作れます。"
+    },
+    {
+     "say": "約200平米のオフィスを7分でスキャンした事例も出ています。",
+     "show": "約200㎡のオフィスを7分でスキャンした事例も出ています。"
+    }
+   ],
+   "details": [
+    "Scan2BIMが寸法入りの2D図面と3Dモデルを生成します。",
+    "VinaCAD Web Engineと連携し、DXF図面に出力できます。",
+    "約200㎡のオフィスをスキャンした事例が公開されました。"
+   ],
+   "link": {
+    "url": "https://prtimes.jp/main/html/rd/p/000000008.000181991.html",
+    "title": "スマホで建物の現況をBIM化、AIでレイアウト設計へ。skyACE株式会社、「Scan2BIM」を提供開始",
+    "site": "プレスリリース・ニュースリリース配信シェアNo.1｜PR TIMES",
+    "description": "skyACE株式会社のプレスリリース（2026年11月24日 10時00分）スマホで建物の現況をBIM化、AIでレイアウト設計へ。skyACE株式会社、「Scan2BIM」を提供開始",
+    "image": "https://prcdn.freetls.fastly.net/release_image/181991/8/181991-8-123d984c091ac277d14bc295ed1197d3-1536x1024.png?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260",
+    "icon": "https://prtimes.jp/common/v4.1/images/html/favicon/favicon-196x196.png"
+   }
+  }
+ ],
+ "closing": [
+  {
+   "say": "今日の注目は、手元で試せるボンサイ2.5と、実物の部品から3Dプリントにつなげるエスワンでした。",
+   "show": "今日の注目は、手元で試せるBonsai 2.5と、実物の部品から3Dプリントにつなげる S1でした。"
+  },
+  {
+   "say": "ものラジオでした、また明日の朝に会いましょう。",
+   "show": "ものラジオでした、また明日の朝に会いましょう。"
+  }
+ ],
+ "format": "monoradio/news-1",
+ "date": "2026-11-27",
+ "lang": "ja",
+ "seconds": 89.23,
+ "lines_timed": [
+  {
+   "start": 0.6,
+   "end": 5.112,
+   "show": "おはようございます、11月27日金曜日のものラジオです。",
+   "part": 0
+  },
+  {
+   "start": 5.362,
+   "end": 8.597,
+   "show": "今日は3DとAIの話題を5本お届けします。",
+   "part": 0
+  },
+  {
+   "start": 9.647,
+   "end": 13.196,
+   "show": "まずはBambu Lab初の3Dスキャナー、S1です。",
+   "part": 1
+  },
+  {
+   "start": 13.446,
+   "end": 18.121,
+   "show": "ワイヤレスで使えて、精度はレーザーで最大0.02mmだそうです。",
+   "part": 1
+  },
+  {
+   "start": 18.371,
+   "end": 21.664,
+   "show": "実物を取り込んで修正できるのが楽しみですね。",
+   "part": 1
+  },
+  {
+   "start": 22.714,
+   "end": 26.332,
+   "show": "続いてはローカルAI、Ternary Bonsai 2.5です。",
+   "part": 2
+  },
+  {
+   "start": 26.582,
+   "end": 31.466,
+   "show": "270億パラメータのモデルが、5.9GBに収まりました。",
+   "part": 2
+  },
+  {
+   "start": 31.716,
+   "end": 34.963,
+   "show": "手元のGPUで試せそうなのが嬉しいですね。",
+   "part": 2
+  },
+  {
+   "start": 36.013,
+   "end": 40.688,
+   "show": "もう一つBambu Labから、P3Cの国内予約が始まりました。",
+   "part": 3
+  },
+  {
+   "start": 40.938,
+   "end": 45.659,
+   "show": "最大7つのツールに対応して、材料の切り替えは最短6秒です。",
+   "part": 3
+  },
+  {
+   "start": 45.909,
+   "end": 48.715,
+   "show": "色替えだけじゃない遊び方が広がりそうです。",
+   "part": 3
+  },
+  {
+   "start": 49.765,
+   "end": 54.382,
+   "show": "ここでAIに戻って、ClaudeのArtifactsが独立アプリになります。",
+   "part": 4
+  },
+  {
+   "start": 54.632,
+   "end": 58.575,
+   "show": "MacとWindowsに入れられて、通知やショートカットも使えます。",
+   "part": 4
+  },
+  {
+   "start": 58.825,
+   "end": 62.095,
+   "show": "作った小さなツールを毎日使えるのがいいですね。",
+   "part": 4
+  },
+  {
+   "start": 63.145,
+   "end": 66.473,
+   "show": "最後は日本から、skyACEのScan2BIMです。",
+   "part": 5
+  },
+  {
+   "start": 66.723,
+   "end": 71.2,
+   "show": "iPhoneのLiDARで部屋を測って、図面と3Dモデルを作れます。",
+   "part": 5
+  },
+  {
+   "start": 71.45,
+   "end": 75.44,
+   "show": "約200㎡のオフィスを7分でスキャンした事例も出ています。",
+   "part": 5
+  },
+  {
+   "start": 76.49,
+   "end": 83.974,
+   "show": "今日の注目は、手元で試せるBonsai 2.5と、実物の部品から3Dプリントにつなげる S1でした。",
+   "part": 6
+  },
+  {
+   "start": 84.224,
+   "end": 87.181,
+   "show": "ものラジオでした、また明日の朝に会いましょう。",
+   "part": 6
+  }
+ ],
+ "segments": [
+  {
+   "kind": "opening",
+   "index": null,
+   "start": 0.6,
+   "end": 9.647
+  },
+  {
+   "kind": "news",
+   "index": 0,
+   "start": 9.647,
+   "end": 22.714
+  },
+  {
+   "kind": "news",
+   "index": 1,
+   "start": 22.714,
+   "end": 36.013
+  },
+  {
+   "kind": "news",
+   "index": 2,
+   "start": 36.013,
+   "end": 49.765
+  },
+  {
+   "kind": "news",
+   "index": 3,
+   "start": 49.765,
+   "end": 63.145
+  },
+  {
+   "kind": "news",
+   "index": 4,
+   "start": 63.145,
+   "end": 76.49
+  },
+  {
+   "kind": "closing",
+   "index": null,
+   "start": 76.49,
+   "end": 89.231
+  }
+ ],
+ "made_at": "2026-11-27T06:11:44"
+}
