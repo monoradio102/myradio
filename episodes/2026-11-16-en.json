@@ -1,0 +1,379 @@
+{
+ "title": "From Photos to 3D Worlds: Atlas Goes Public",
+ "opening": [
+  {
+   "say": "Good morning, this is Mono Radio. It's Monday morning, November sixteenth.",
+   "show": "Good morning, this is Mono Radio. It's Monday morning, November 16."
+  },
+  {
+   "say": "We have five stories for you today.",
+   "show": "We have five stories for you today."
+  }
+ ],
+ "news": [
+  {
+   "label": "World Labs launches Atlas",
+   "points": [
+    "Generate 3D scenes from photos",
+    "Convert Gaussian Splatting to meshes",
+    "Developer API also available"
+   ],
+   "details": [
+    "It offers tools like Viewfinder, which builds explorable 3D scenes from photos.",
+    "A tool is included for converting Gaussian Splatting into meshes.",
+    "You can bring the generated spaces into Blender or game engine workflows."
+   ],
+   "lines": [
+    {
+     "say": "First up, World Labs' world-generating AI, Atlas, is now open to the public.",
+     "show": "First up, World Labs' world-generating AI, Atlas, is now public."
+    },
+    {
+     "say": "You can build 3D spaces from photos and take them into Blender.",
+     "show": "You can build 3D spaces from photos and take them into Blender."
+    },
+    {
+     "say": "I like that the results are data you can actually edit.",
+     "show": "I like that the results are data you can actually edit."
+    }
+   ],
+   "url": "https://ai.nexsight.co/articles/2026/11/13/world-labs-atlas-ga/",
+   "link": {
+    "url": "https://ai.nexsight.co/articles/2026/11/13/world-labs-atlas-ga/",
+    "title": "World Labsが世界モデル「Atlas」を一般提供 — Viewfinder・Chiselと開発者APIで3D生成を開放 | NEXSIGHT AI WIRE",
+    "site": "NEXSIGHT AI WIRE",
+    "description": "World Labsが2026年11月12日にAtlasの一般提供を開始。公式Atlasページと公式X告知で確認できる範囲で、Viewfinder・Chisel、開発者API、9月の発表からの変化を整理する。",
+    "image": "https://ai.nexsight.co/images/categories/models-1.webp",
+    "icon": "https://ai.nexsight.co/apple-touch-icon.png"
+   }
+  },
+  {
+   "label": "Unreal Engine 5.9 preview",
+   "points": [
+    "Humans and AI share one workspace",
+    "Edit Blueprints through scripts",
+    "WebGPU target added"
+   ],
+   "details": [
+    "The experimental Unreal Canvas lets you generate and modify text, images, video and 3D meshes.",
+    "Blueprint, StateTree and Dataflow graphs can be edited from scripts.",
+    "Experimental WebAssembly and WebGPU targets have been added."
+   ],
+   "lines": [
+    {
+     "say": "Next, the preview of Unreal Engine five point nine.",
+     "show": "Next, the preview of Unreal Engine 5.9."
+    },
+    {
+     "say": "People and AI can work in the same space, and even rework things like 3D meshes.",
+     "show": "People and AI can work in the same space, even reworking 3D meshes."
+    },
+    {
+     "say": "Apparently you can edit Blueprints from scripts too.",
+     "show": "Apparently you can edit Blueprints from scripts too."
+    }
+   ],
+   "url": "https://dev.epicgames.com/documentation/en-us/unreal-engine/unreal-engine-5-9-release-notes",
+   "link": {
+    "url": "https://dev.epicgames.com/documentation/en-us/unreal-engine/unreal-engine-5-9-release-notes",
+    "title": "Unreal Engine 5.9 Release Notes | Unreal Engine 5.9 Documentation | Epic Developer Community",
+    "site": "Epic Games Developer",
+    "description": "Overview of new and updated features in Unreal Engine 5.9 Preview.",
+    "image": "https://dev.epicgames.com/community/api/documentation/image/meta_tag?path=en-us/unreal-engine/unreal-engine-5-9-release-notes&application_version=5.9",
+    "icon": null
+   }
+  },
+  {
+   "label": "Robot foundation model AIRoA-0",
+   "points": [
+    "Over 16,000 hours of manipulation data",
+    "Tested on 10 dual-arm tasks",
+    "Weights and code released"
+   ],
+   "details": [
+    "It uses 16,151 hours of data recorded with a handheld gripper called YUBI.",
+    "It reports an average success rate of 78 percent on tasks like folding towels and sorting small parts.",
+    "Pretrained and post-trained weights are available, along with code for further training and inference."
+   ],
+   "lines": [
+    {
+     "say": "Now a robotics story from Japan. AIRoA has released a foundation model called AIRoA zero.",
+     "show": "Now a robotics story from Japan. AIRoA has released a foundation model, AIRoA-0."
+    },
+    {
+     "say": "It was trained on more than sixteen thousand hours of human manipulation data.",
+     "show": "It was trained on over 16,000 hours of human manipulation data."
+    },
+    {
+     "say": "The average success rate is seventy-eight percent.",
+     "show": "The average success rate is 78 percent."
+    }
+   ],
+   "url": "https://airoa.org/ja/updates/20261106/845/",
+   "link": {
+    "url": "https://airoa.org/ja/updates/20261106/845/",
+    "title": "AIRoA、ロボット基盤モデル「AIRoA-0」を公開 | AIRoA",
+    "site": "AIRoA (AI Robot Association) |",
+    "description": "〜ロボットを使わずに収集した16,151時間の操作データから、細かい部品の仕分けやタオル畳みなどの双腕作業を学",
+    "image": "https://airoa.org/wp-content/themes/airoa/assets/img/common/ogp.png",
+    "icon": null
+   }
+  },
+  {
+   "label": "Adobe MAX: AI integration",
+   "points": [
+    "External AI controls apps via MCP",
+    "Edits native project files",
+    "Tools gathered in Firefly"
+   ],
+   "details": [
+    "A preview of local MCP integration is available for Photoshop, Illustrator, Premiere and After Effects.",
+    "It shows how outside agents can make changes to native project files.",
+    "The plan is to bring creative tools for images, video, audio and design together with models from various companies."
+   ],
+   "lines": [
+    {
+     "say": "And from Adobe MAX.",
+     "show": "And from Adobe MAX."
+    },
+    {
+     "say": "There's a preview that lets outside AI control apps like Photoshop through M C P.",
+     "show": "A preview lets outside AI control apps like Photoshop through MCP."
+    },
+    {
+     "say": "It looks like the direction is working with AI while keeping your files fully editable.",
+     "show": "The direction seems to be working with AI while keeping files editable."
+    }
+   ],
+   "url": "https://news.adobe.com/ja/news/2026/11/20261111-adobe-powers-new-era-of-creativity",
+   "link": {
+    "url": "https://news.adobe.com/ja/news/2026/11/20261111-adobe-powers-new-era-of-creativity",
+    "title": "アドビ、AIエージェントと新機能を通じて、場所や方法を問わず創作できるクリエイティビティの新時代を開拓",
+    "site": "news.adobe.com",
+    "description": "アドビ（Nasdaq: ADBE）（本社：米国カリフォルニア州サンノゼ、以下アドビ）は本日、世界最大級のクリエイティビティカンファレンスAdobe MAXにおいて、Adobe Firefly、Adobe Creative Cloud、および、Adobe GenStudioに新たに導入するAIエージェントならびに新機能を発表しました。",
+    "image": "https://news.adobe.com/ja/news/2026/11/media_194f62215cc674a3099d1a6f6b08199d16183a1ba.jpg?width=1200&format=pjpg&optimize=medium",
+    "icon": null
+   }
+  },
+  {
+   "label": "BlenderFORGE research released",
+   "points": [
+    "AI learns 3D editing with bpy",
+    "Results are verified automatically",
+    "Full code not yet released"
+   ],
+   "details": [
+    "This research teaches AI to do 3D editing using Blender Python.",
+    "It checks four tasks in an isolated environment: object placement, shape keys, lighting and material changes.",
+    "At the time of checking, GitHub only had an overview README and little else, so it isn't ready to try yet."
+   ],
+   "lines": [
+    {
+     "say": "Last up is research. An AI that learns to operate Blender, called Blender Forge, has been announced.",
+     "show": "Last up is research. An AI that learns to operate Blender, BlenderFORGE, has been announced."
+    },
+    {
+     "say": "The key idea is that it automatically checks whether the 3D state is correct after each action, and learns from that.",
+     "show": "The key idea is that it automatically checks the 3D state after each action and learns from it."
+    },
+    {
+     "say": "The full code hasn't been released yet.",
+     "show": "The full code hasn't been released yet."
+    }
+   ],
+   "url": "https://sensetime-fvg.github.io/BlenderFORGE/",
+   "link": {
+    "url": "https://github.com/SenseTime-FVG/BlenderFORGE",
+    "title": "GitHub - SenseTime-FVG/BlenderFORGE",
+    "site": "GitHub",
+    "description": "Contribute to SenseTime-FVG/BlenderFORGE development by creating an account on GitHub.",
+    "image": "https://opengraph.githubassets.com/8ba40b8d2ffc88d53f0e8d8c7f9192ee0843885b658b047f09f60b7e2098b971/SenseTime-FVG/BlenderFORGE",
+    "icon": null,
+    "found_by": "search"
+   },
+   "source_link": {
+    "url": "https://sensetime-fvg.github.io/BlenderFORGE/",
+    "title": "BlenderFORGE",
+    "site": "sensetime-fvg.github.io",
+    "description": "BlenderFORGE: Framework for Optimizing Reactive 3D-Graphics Editing Ability of MLLMs.",
+    "image": null,
+    "icon": null
+   }
+  }
+ ],
+ "closing": [
+  {
+   "say": "Today's highlights are Atlas, which you can try right away, and AIRoA zero, a robot learning model.",
+   "show": "Today's highlights are Atlas, which you can try right away, and AIRoA-0, a robot learning model."
+  },
+  {
+   "say": "That was Mono Radio. See you tomorrow.",
+   "show": "That was Mono Radio. See you tomorrow."
+  }
+ ],
+ "format": "monoradio/news-1",
+ "date": "2026-11-16",
+ "lang": "en",
+ "seconds": 91.69,
+ "lines_timed": [
+  {
+   "start": 0.6,
+   "end": 5.165,
+   "show": "Good morning, this is Mono Radio. It's Monday morning, November 16.",
+   "part": 0
+  },
+  {
+   "start": 5.415,
+   "end": 7.357,
+   "show": "We have five stories for you today.",
+   "part": 0
+  },
+  {
+   "start": 8.407,
+   "end": 13.74,
+   "show": "First up, World Labs' world-generating AI, Atlas, is now public.",
+   "part": 1
+  },
+  {
+   "start": 13.99,
+   "end": 17.83,
+   "show": "You can build 3D spaces from photos and take them into Blender.",
+   "part": 1
+  },
+  {
+   "start": 18.08,
+   "end": 21.216,
+   "show": "I like that the results are data you can actually edit.",
+   "part": 1
+  },
+  {
+   "start": 22.266,
+   "end": 25.722,
+   "show": "Next, the preview of Unreal Engine 5.9.",
+   "part": 2
+  },
+  {
+   "start": 25.972,
+   "end": 31.199,
+   "show": "People and AI can work in the same space, even reworking 3D meshes.",
+   "part": 2
+  },
+  {
+   "start": 31.449,
+   "end": 34.115,
+   "show": "Apparently you can edit Blueprints from scripts too.",
+   "part": 2
+  },
+  {
+   "start": 35.165,
+   "end": 42.141,
+   "show": "Now a robotics story from Japan. AIRoA has released a foundation model, AIRoA-0.",
+   "part": 3
+  },
+  {
+   "start": 42.391,
+   "end": 46.871,
+   "show": "It was trained on over 16,000 hours of human manipulation data.",
+   "part": 3
+  },
+  {
+   "start": 47.121,
+   "end": 49.959,
+   "show": "The average success rate is 78 percent.",
+   "part": 3
+  },
+  {
+   "start": 51.009,
+   "end": 52.673,
+   "show": "And from Adobe MAX.",
+   "part": 4
+  },
+  {
+   "start": 52.923,
+   "end": 57.957,
+   "show": "A preview lets outside AI control apps like Photoshop through MCP.",
+   "part": 4
+  },
+  {
+   "start": 58.207,
+   "end": 63.029,
+   "show": "The direction seems to be working with AI while keeping files editable.",
+   "part": 4
+  },
+  {
+   "start": 64.079,
+   "end": 70.372,
+   "show": "Last up is research. An AI that learns to operate Blender, BlenderFORGE, has been announced.",
+   "part": 5
+  },
+  {
+   "start": 70.622,
+   "end": 77.363,
+   "show": "The key idea is that it automatically checks the 3D state after each action and learns from it.",
+   "part": 5
+  },
+  {
+   "start": 77.613,
+   "end": 79.661,
+   "show": "The full code hasn't been released yet.",
+   "part": 5
+  },
+  {
+   "start": 80.711,
+   "end": 86.983,
+   "show": "Today's highlights are Atlas, which you can try right away, and AIRoA-0, a robot learning model.",
+   "part": 6
+  },
+  {
+   "start": 87.233,
+   "end": 89.644,
+   "show": "That was Mono Radio. See you tomorrow.",
+   "part": 6
+  }
+ ],
+ "segments": [
+  {
+   "kind": "opening",
+   "index": null,
+   "start": 0.6,
+   "end": 8.407
+  },
+  {
+   "kind": "news",
+   "index": 0,
+   "start": 8.407,
+   "end": 22.266
+  },
+  {
+   "kind": "news",
+   "index": 1,
+   "start": 22.266,
+   "end": 35.165
+  },
+  {
+   "kind": "news",
+   "index": 2,
+   "start": 35.165,
+   "end": 51.009
+  },
+  {
+   "kind": "news",
+   "index": 3,
+   "start": 51.009,
+   "end": 64.079
+  },
+  {
+   "kind": "news",
+   "index": 4,
+   "start": 64.079,
+   "end": 80.711
+  },
+  {
+   "kind": "closing",
+   "index": null,
+   "start": 80.711,
+   "end": 91.694
+  }
+ ],
+ "made_at": "2026-11-16T06:52:58"
+}

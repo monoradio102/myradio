@@ -1,0 +1,340 @@
+{
+ "title": "Tencentが3D制作AI「Hy4」を公開",
+ "opening": [
+  {
+   "say": "ものラジオです。十一月二十三日月曜日の朝、おはようございます。",
+   "show": "ものラジオです。11月23日月曜日の朝、おはようございます。"
+  },
+  {
+   "say": "今日はエーアイとスリーディーまわりのニュースを、五本お届けします。",
+   "show": "今日はAIと3Dまわりのニュースを、5本お届けします。"
+  }
+ ],
+ "news": [
+  {
+   "label": "Tencent「Hy4」公開",
+   "points": [
+    "モデル重みを公開",
+    "Blender・CAD操作を学習",
+    "個人用GPUでは動かせない"
+   ],
+   "url": "https://huggingface.co/tencent/Hy4",
+   "lines": [
+    {
+     "say": "まずはテンセントから。ハイフォーというエーアイモデルの重みが公開されました。",
+     "show": "まずはTencentから。Hy4というAIモデルの重みが公開されました。"
+    },
+    {
+     "say": "ブレンダーやキャドの画面操作まで学習しているのが、面白いところです。",
+     "show": "BlenderやCADの画面操作まで学習しているのが、面白いところです。"
+    },
+    {
+     "say": "ただ、とても大きいので、ふつうのパソコンでは動かせません。",
+     "show": "ただ、とても大きいので、ふつうのパソコンでは動かせません。"
+    }
+   ],
+   "details": [
+    "大規模マルチモーダルMoEモデルで、言語モデル部分は総7700億パラメータ、100万トークンの長文脈に対応します。",
+    "BlenderやCADなど専門ソフトの画面操作と、Unreal Engine・Unity・Godot向けのゲーム開発の学習も強化しています。",
+    "重みは公開されていますが非常に巨大で、一般的な個人用GPUで動かせる軽量モデルではありません。"
+   ],
+   "link": {
+    "url": "https://huggingface.co/tencent/Hy4",
+    "title": "tencent/Hy4 · Hugging Face",
+    "site": "huggingface.co",
+    "description": "Image-Text-to-Text model with 774B parameters. Download, explore files and run it on Hugging Face.",
+    "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/models/tencent/Hy4.png",
+    "icon": null
+   }
+  },
+  {
+   "label": "AIが半導体回路を改善",
+   "points": [
+    "OpenAIとAMDが共同作業",
+    "一部ブロックで最大14％改善",
+    "提案の一部が製造工程へ"
+   ],
+   "url": "https://openai.com/ja-JP/index/advancing-chip-design-with-our-models/",
+   "lines": [
+    {
+     "say": "続いては半導体の話。オープンエーアイとエーエムディーが、エーアイで回路の設計を改善しました。",
+     "show": "続いては半導体の話。OpenAIとAMDが、AIで回路の設計を改善しました。"
+    },
+    {
+     "say": "ジーピーユーの一部のブロックで、最大十四パーセントよくなったそうです。",
+     "show": "GPUの一部のブロックで、最大14％よくなったそうです。"
+    },
+    {
+     "say": "しかも提案の一部は、実際の製造に進んだ設計に取り込まれています。",
+     "show": "しかも提案の一部は、実際の製造に進んだ設計に取り込まれています。"
+    }
+   ],
+   "details": [
+    "モデルがRTLコードを修正し、Synopsysのツールで機能の同等性を検証しながら改善する手法です。",
+    "フラッグシップGPUの特定IPブロックで、高度に最適化された設計に対しPPAが最大14％改善しました。",
+    "ただしGPU全体の性能が14％向上したという意味ではありません。"
+   ],
+   "link": {
+    "url": "https://openai.com/ja-JP/index/advancing-chip-design-with-our-models/",
+    "title": "OpenAI モデルによるチップ設計の進化",
+    "site": "OpenAI",
+    "description": "OpenAI モデルが Jalapeño チップの回路を最適化し、RISC‑V コアの設計を改良。GPT‑6 Astra による AI 支援型チップ設計の進歩を紹介します。",
+    "image": "https://images.ctfassets.net/kftzwdyauwt9/658zg0FHAg7zuL73DTFCfC/fff21fd18c260ce64a10a14ee8d4e851/advancing-chip-design-social.png?w=1600&h=900&fit=fill",
+    "icon": "https://openai.com/apple-icon.png?apple-icon.3o0tf8iy4mx7y.png"
+   }
+  },
+  {
+   "label": "XJet Atelier発表",
+   "points": [
+    "文章や写真からチャーム設計",
+    "金属の実物製造につなぐ",
+    "委託製造XPARTSも紹介"
+   ],
+   "url": "https://www.incus-media.com/xjet-expands-access-to-nanoparticle-jetting-with-xparts-and-xjet-atelier-at-formnext-2026/",
+   "lines": [
+    {
+     "say": "次は金属の三Dプリントです。エックスジェットが、文章や写真から金属のアクセサリーを作る、アトリエを発表しました。",
+     "show": "次は金属の3Dプリントです。XJetが、文章や写真から金属のアクセサリーを作る、Atelierを発表しました。"
+    },
+    {
+     "say": "形を三百六十度で確認して、そのまま実物の製造までつながるのがいいですね。",
+     "show": "形を360度で確認して、そのまま実物の製造までつながるのがいいですね。"
+    }
+   ],
+   "details": [
+    "短い文章や写真からデザインし、調整した形状を360度プレビューできます。",
+    "同社のNanoParticle Jetting方式を使う実物の製造工程につながります。",
+    "プリンタを所有しなくても部品を委託製造できるサービスです。"
+   ],
+   "link": {
+    "url": "https://www.incus-media.com/xjet-expands-access-to-nanoparticle-jetting-with-xparts-and-xjet-atelier-at-formnext-2026/",
+    "title": "XJet Expands Access to NanoParticle Jetting with XPARTS and XJet Atelier at Formnext 2026",
+    "site": "Incus",
+    "description": null,
+    "image": "https://secure.gravatar.com/avatar/f48d527f73524ac9330faae89cc46784198b819a840aba5db932a464ad00e238?s=96&d=mm&r=g",
+    "icon": null
+   }
+  },
+  {
+   "label": "病院にフィジカルAI導入",
+   "points": [
+    "開封済み薬箱にも対応",
+    "JCHO大阪病院に導入",
+    "読み取り・搬送を自動化"
+   ],
+   "url": "https://prtimes.jp/main/html/rd/p/000000007.000145330.html",
+   "lines": [
+    {
+     "say": "さて、ロボットの話題です。大阪の病院が、開封済みの薬箱にも対応する、フィジカルエーアイの設備を導入しました。",
+     "show": "さて、ロボットの話題です。大阪の病院が、開封済みの薬箱にも対応する、フィジカルAIの設備を導入しました。"
+    },
+    {
+     "say": "形や状態がばらばらな実物を扱えるのは、すごいですよね。",
+     "show": "形や状態がばらばらな実物を扱えるのは、すごいですよね。"
+    }
+   ],
+   "details": [
+    "箱のゆがみや光沢反射が原因で、従来の自動設備では扱いづらかった開封済み医薬品に対応します。",
+    "在庫・出庫を管理するリードルファシスと、自動入庫装置ウルトラファシスを導入しました。",
+    "スタッフが箱ごとに行っていた読み取り・搬送作業の自動化を目指しています。"
+   ],
+   "link": {
+    "url": "https://prtimes.jp/main/html/rd/p/000000007.000145330.html",
+    "title": "日本の病院調剤室に初めてフィジカルAIを導入※",
+    "site": "プレスリリース・ニュースリリース配信シェアNo.1｜PR TIMES",
+    "description": "株式会社メディカルユアーズロボティクスのプレスリリース（2026年11月19日 21時15分）日本の病院調剤室に初めてフィジカルAIを導入※",
+    "image": "https://prcdn.freetls.fastly.net/release_image/145330/7/145330-7-613034af480c4fe56b4be5668c9c2b8c-3900x2925.jpg?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260",
+    "icon": "https://prtimes.jp/common/v4.1/images/html/favicon/favicon-196x196.png"
+   }
+  },
+  {
+   "label": "ChatGPT Space提供開始",
+   "points": [
+    "Plusユーザーへ順次展開",
+    "ページや資料を共同で作成",
+    "接続アプリの情報で更新"
+   ],
+   "url": "https://help.openai.com/ja-jp/articles/20001549-getting-started-with-space-in-chatgpt",
+   "lines": [
+    {
+     "say": "最後はツールのニュース。チャットジーピーティーのスペースが、プラスの利用者に順次提供されます。",
+     "show": "最後はツールのニュース。ChatGPT Spaceが、Plusの利用者に順次提供されます。"
+    },
+    {
+     "say": "エーアイと一緒にページやプレゼンを作って、共有しながら更新できるんです。",
+     "show": "AIと一緒にページやプレゼンを作って、共有しながら更新できるんです。"
+    }
+   ],
+   "details": [
+    "対象となる18歳以上のPlusユーザーに順次展開されます。",
+    "ChatGPTと編集可能なページやプレゼンテーションを作り、共同作業者と共有できます。",
+    "接続済みアプリなどの情報を利用して内容を更新でき、グラフやインタラクティブな要素も組み込めます。"
+   ],
+   "link": {
+    "url": "https://help.openai.com/ja-jp/articles/20001549-getting-started-with-space-in-chatgpt",
+    "title": "ChatGPT Space 入門 | OpenAI Help Center",
+    "site": "OpenAI Help Center",
+    "description": "ページを作成・整理し、ChatGPT を活用しながらドキュメントを共同編集できます。",
+    "image": "https://help.openai.com/og-image.png",
+    "icon": "https://help.openai.com/apple-touch-icon.png"
+   }
+  }
+ ],
+ "closing": [
+  {
+   "say": "今日の注目は、ブレンダーやキャドを操るハイフォーと、エーアイから金属の実物までつなぐアトリエです。",
+   "show": "今日の注目は、BlenderやCADを操るHy4と、AIから金属の実物までつなぐAtelierです。"
+  },
+  {
+   "say": "ものづくりの現場に近いニュースが多い朝でした。それでは、ものラジオでした。",
+   "show": "ものづくりの現場に近いニュースが多い朝でした。それでは、ものラジオでした。"
+  }
+ ],
+ "format": "monoradio/news-1",
+ "date": "2026-11-23",
+ "lang": "ja",
+ "seconds": 100.02,
+ "lines_timed": [
+  {
+   "start": 0.6,
+   "end": 5.728,
+   "show": "ものラジオです。11月23日月曜日の朝、おはようございます。",
+   "part": 0
+  },
+  {
+   "start": 5.978,
+   "end": 9.887,
+   "show": "今日はAIと3Dまわりのニュースを、5本お届けします。",
+   "part": 0
+  },
+  {
+   "start": 10.937,
+   "end": 15.867,
+   "show": "まずはTencentから。Hy4というAIモデルの重みが公開されました。",
+   "part": 1
+  },
+  {
+   "start": 16.117,
+   "end": 20.722,
+   "show": "BlenderやCADの画面操作まで学習しているのが、面白いところです。",
+   "part": 1
+  },
+  {
+   "start": 20.972,
+   "end": 25.066,
+   "show": "ただ、とても大きいので、ふつうのパソコンでは動かせません。",
+   "part": 1
+  },
+  {
+   "start": 26.116,
+   "end": 32.614,
+   "show": "続いては半導体の話。OpenAIとAMDが、AIで回路の設計を改善しました。",
+   "part": 2
+  },
+  {
+   "start": 32.864,
+   "end": 37.469,
+   "show": "GPUの一部のブロックで、最大14％よくなったそうです。",
+   "part": 2
+  },
+  {
+   "start": 37.719,
+   "end": 42.777,
+   "show": "しかも提案の一部は、実際の製造に進んだ設計に取り込まれています。",
+   "part": 2
+  },
+  {
+   "start": 43.827,
+   "end": 52.031,
+   "show": "次は金属の3Dプリントです。XJetが、文章や写真から金属のアクセサリーを作る、Atelierを発表しました。",
+   "part": 3
+  },
+  {
+   "start": 52.281,
+   "end": 58.314,
+   "show": "形を360度で確認して、そのまま実物の製造までつながるのがいいですね。",
+   "part": 3
+  },
+  {
+   "start": 59.364,
+   "end": 67.859,
+   "show": "さて、ロボットの話題です。大阪の病院が、開封済みの薬箱にも対応する、フィジカルAIの設備を導入しました。",
+   "part": 4
+  },
+  {
+   "start": 68.109,
+   "end": 72.586,
+   "show": "形や状態がばらばらな実物を扱えるのは、すごいですよね。",
+   "part": 4
+  },
+  {
+   "start": 73.636,
+   "end": 79.762,
+   "show": "最後はツールのニュース。ChatGPT Spaceが、Plusの利用者に順次提供されます。",
+   "part": 5
+  },
+  {
+   "start": 80.012,
+   "end": 84.861,
+   "show": "AIと一緒にページやプレゼンを作って、共有しながら更新できるんです。",
+   "part": 5
+  },
+  {
+   "start": 85.911,
+   "end": 92.571,
+   "show": "今日の注目は、BlenderやCADを操るHy4と、AIから金属の実物までつなぐAtelierです。",
+   "part": 6
+  },
+  {
+   "start": 92.821,
+   "end": 97.972,
+   "show": "ものづくりの現場に近いニュースが多い朝でした。それでは、ものラジオでした。",
+   "part": 6
+  }
+ ],
+ "segments": [
+  {
+   "kind": "opening",
+   "index": null,
+   "start": 0.6,
+   "end": 10.937
+  },
+  {
+   "kind": "news",
+   "index": 0,
+   "start": 10.937,
+   "end": 26.116
+  },
+  {
+   "kind": "news",
+   "index": 1,
+   "start": 26.116,
+   "end": 43.827
+  },
+  {
+   "kind": "news",
+   "index": 2,
+   "start": 43.827,
+   "end": 59.364
+  },
+  {
+   "kind": "news",
+   "index": 3,
+   "start": 59.364,
+   "end": 73.636
+  },
+  {
+   "kind": "news",
+   "index": 4,
+   "start": 73.636,
+   "end": 85.911
+  },
+  {
+   "kind": "closing",
+   "index": null,
+   "start": 85.911,
+   "end": 100.022
+  }
+ ],
+ "made_at": "2026-11-23T07:11:53"
+}

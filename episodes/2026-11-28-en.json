@@ -1,0 +1,341 @@
+{
+ "title": "AI Meets the Real World: The OpenFlaps Split-Flap Display",
+ "opening": [
+  {
+   "say": "Good morning, this is Mono Radio. It's Saturday, November twenty-eighth, and here's your news.",
+   "show": "Good morning, this is Mono Radio. It's Saturday, November 28, and here's your news."
+  },
+  {
+   "say": "We have five stories today, so let's jump right in.",
+   "show": "We have five stories today, so let's jump right in."
+  }
+ ],
+ "closing": [
+  {
+   "say": "Today's pick is Open Flaps. It's an especially fun project that connects AI with something you can actually see and hear.",
+   "show": "Today's pick is OpenFlaps, an especially fun project connecting AI to the real world."
+  },
+  {
+   "say": "That's all from Mono Radio. See you next time.",
+   "show": "That's all from Mono Radio. See you next time."
+  }
+ ],
+ "news": [
+  {
+   "label": "OpenFlaps released",
+   "points": [
+    "Split-flap display you can run from Claude",
+    "45 flaps per character",
+    "STL and PCB files also released"
+   ],
+   "details": [
+    "Besides a web UI and a JSON API, an MCP server for controlling it from Claude is also available.",
+    "A Pico W connects over I2C to character modules built with an ATtiny84 and a stepper motor.",
+    "STL files, PCB manufacturing data, firmware, and an assembly guide are all included."
+   ],
+   "lines": [
+    {
+     "say": "First up, a mechanical split-flap display you can control from Claude. It's called Open Flaps.",
+     "show": "First up, a mechanical split-flap display you can control from Claude: OpenFlaps."
+    },
+    {
+     "say": "The design files and assembly instructions are all public, and watching an AI's reply flip into place is a lot of fun.",
+     "show": "All design files and assembly steps are public, and watching AI replies flip into place is fun."
+    }
+   ],
+   "url": "https://github.com/ivan-marchand/openflaps#features",
+   "link": {
+    "url": "https://github.com/ivan-marchand/openflaps#features",
+    "title": "GitHub - ivan-marchand/openflaps: Open-source 3D-printed split-flap display: a Raspberry Pi Pico W with a WiFi web UI drives ATtiny84 character modules over I²C",
+    "site": "GitHub",
+    "description": "Open-source 3D-printed split-flap display: a Raspberry Pi Pico W with a WiFi web UI drives ATtiny84 character modules over I²C. Includes firmware, STL models, PCB files and an illustrated build gui...",
+    "image": "https://repository-images.githubusercontent.com/1170296774/0e09b487-1159-4ea5-9a33-df53a581fd9f",
+    "icon": null
+   }
+  },
+  {
+   "label": "SenseTime releases robot AI",
+   "points": [
+    "27B model built for robots",
+    "Block stacking: 9 of 10 trials",
+    "Weights released under Apache 2.0"
+   ],
+   "details": [
+    "It switches between VLA-based motion generation and a control method where it writes its own code to calculate target positions.",
+    "These results come without extra training on real robots, and grasping and moving objects reportedly succeeded in 6 of 10 trials.",
+    "Note that the success rates are manufacturer-reported, from limited experiments."
+   ],
+   "lines": [
+    {
+     "say": "Next, robots. SenseTime has released an AI that learned in simulation.",
+     "show": "Next, robots. SenseTime has released an AI that learned in simulation."
+    },
+    {
+     "say": "Without any extra training on real robots, it reportedly stacked blocks successfully nine times out of ten.",
+     "show": "With no extra training on real robots, it reportedly stacked blocks 9 times out of 10."
+    },
+    {
+     "say": "The weights are public too.",
+     "show": "The weights are public too."
+    }
+   ],
+   "url": "https://sensetime.com/en/news/sensenova-roborsi-27b-full-release-20261126-1138",
+   "link": {
+    "url": "https://sensetime.com/en/news/sensenova-roborsi-27b-full-release-20261126-1138",
+    "title": "SenseNova-RoboRSI-27B Full Release Outscores GPT-6-Astra, Pu",
+    "site": "SenseTime",
+    "description": "SenseNova-RoboRSI-27B Full Release Outscores GPT-6-Astra, Pushing the Limits of a 27B Model with Recursive Self-ImprovementCan a robotic arm learn entirely in s",
+    "image": "https://oss.sensetime.com/strapi/uploads/Sense_Nova_Robo_RSI_27_B_English_16x9_539518c042.jpg",
+    "icon": null
+   }
+  },
+  {
+   "label": "Video generation on Trainium3",
+   "points": [
+    "10-second video in 22 to 23 seconds",
+    "LTX-2.5 running on AWS",
+    "Shots defined in JSON"
+   ],
+   "details": [
+    "In this example, a 10-second video with audio at 2048 by 1024 was generated using 32 NeuronCores.",
+    "The timings are measured after the model is loaded, and they don't reflect the performance of personal GPUs.",
+    "It also covers a method for building continuous scenes by referencing frames before and after each shot."
+   ],
+   "lines": [
+    {
+     "say": "Now for video generation. Hugging Face showed an example of making a ten-second video in about twenty-two seconds on Trainium three.",
+     "show": "Now, video generation. Hugging Face showed a 10-second video made in about 22 seconds on Trainium3."
+    },
+    {
+     "say": "The fact that it comes with audio is pretty neat too.",
+     "show": "The fact that it comes with audio is pretty neat too."
+    }
+   ],
+   "url": "https://huggingface.co/blog/video-trainium3",
+   "link": {
+    "url": "https://huggingface.co/blog/video-trainium3",
+    "title": "Taking Trainium3 to the Track: Generating Videos with LTX-2.5",
+    "site": "huggingface.co",
+    "description": "We’re on a journey to advance and democratize artificial intelligence through open source and open science.",
+    "image": "https://huggingface.co/blog/assets/video-trainium3/thumbnail.jpg",
+    "icon": null
+   }
+  },
+  {
+   "label": "Wanderer CAD update",
+   "points": [
+    "Free Blender add-on",
+    "Improved toolbar switching",
+    "Works with Blender 4.2 LTS or later"
+   ],
+   "details": [
+    "This GPL add-on brings Rhino and AutoCAD style command input, coordinate and dimension entry, snapping, and drawing output to Blender.",
+    "Version 2.96.130 improves switching between the standard and dedicated toolbars, along with choosing display tools.",
+    null
+   ],
+   "lines": [
+    {
+     "say": "Next, an update to Wanderer CAD, a free add-on for Blender.",
+     "show": "Next, an update to Wanderer CAD, a free add-on for Blender."
+    },
+    {
+     "say": "Switching between precise drafting and your everyday workflow is now easier.",
+     "show": "Switching between precise drafting and everyday work is now easier."
+    },
+    {
+     "say": "It works with Blender four point two L T S or later.",
+     "show": "It works with Blender 4.2 LTS or later."
+    }
+   ],
+   "url": "https://extensions.blender.org/add-ons/wanderer/",
+   "link": {
+    "url": "https://extensions.blender.org/add-ons/wanderer/",
+    "title": "Wanderer CAD",
+    "site": "Blender Extensions",
+    "description": "Precision CAD modeling with snapping and a command line",
+    "image": "https://extensions.blender.org//media/thumbnails/90/903e79b1809ca4c36b8f970e4a6f2718ebc970768405220c0f0f082bdd6a74b4_1920x1080.webp",
+    "icon": "https://extensions.blender.org/static/icons/apple-touch-icon.1131f253faf5.png"
+   }
+  },
+  {
+   "label": "ToughONE BlackS launches",
+   "points": [
+    "Black added to the tough material line",
+    "For enclosures and jigs",
+    "On sale in Japan November 25"
+   ],
+   "details": [
+    "It's a material for the PolyJet based J55 Prime, J55 Pro, and J35 Pro printers.",
+    "It can be used for appearance checks and functional testing of electronics enclosures, snap-fits, jigs, and more.",
+    "This is a new color for an existing material, not a resin for home MSLA printers."
+   ],
+   "lines": [
+    {
+     "say": "Last up, materials news from Japan. Stratasys Japan has added a black color to its tough material.",
+     "show": "Last up, materials news from Japan: Stratasys Japan adds black to its tough material."
+    },
+    {
+     "say": "That gives you one more color for prototyping enclosures and testing how parts fit together.",
+     "show": "That's one more color for prototyping enclosures and testing how parts fit together."
+    }
+   ],
+   "url": "https://prtimes.jp/main/html/rd/p/000000099.000050375.html",
+   "link": {
+    "url": "https://prtimes.jp/main/html/rd/p/000000099.000050375.html",
+    "title": "ストラタシス、PolyJet方式 J5シリーズ、J3シリーズ3Dプリンタ向け高靭性材料「ToughONE」に新色「ToughONE BlackS」を追加",
+    "site": "プレスリリース・ニュースリリース配信シェアNo.1｜PR TIMES",
+    "description": "株式会社ストラタシス・ジャパンのプレスリリース（2026年11月25日 10時10分）ストラタシス、PolyJet方式 J5シリーズ、J3シリーズ3Dプリンタ向け高靭性材料「ToughONE」に新色「ToughONE BlackS」を追加",
+    "image": "https://prcdn.freetls.fastly.net/release_image/50375/99/50375-99-4f30c089e18815ab203083fdf8526fb9-3900x2925.jpg?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260",
+    "icon": "https://prtimes.jp/common/v4.1/images/html/favicon/favicon-196x196.png"
+   }
+  }
+ ],
+ "highlight": 0,
+ "format": "monoradio/news-1",
+ "date": "2026-11-28",
+ "lang": "en",
+ "seconds": 90.52,
+ "lines_timed": [
+  {
+   "start": 0.6,
+   "end": 5.955,
+   "show": "Good morning, this is Mono Radio. It's Saturday, November 28, and here's your news.",
+   "part": 0
+  },
+  {
+   "start": 6.205,
+   "end": 9.149,
+   "show": "We have five stories today, so let's jump right in.",
+   "part": 0
+  },
+  {
+   "start": 10.199,
+   "end": 16.065,
+   "show": "First up, a mechanical split-flap display you can control from Claude: OpenFlaps.",
+   "part": 1
+  },
+  {
+   "start": 16.315,
+   "end": 23.974,
+   "show": "All design files and assembly steps are public, and watching AI replies flip into place is fun.",
+   "part": 1
+  },
+  {
+   "start": 25.024,
+   "end": 29.973,
+   "show": "Next, robots. SenseTime has released an AI that learned in simulation.",
+   "part": 2
+  },
+  {
+   "start": 30.223,
+   "end": 36.879,
+   "show": "With no extra training on real robots, it reportedly stacked blocks 9 times out of 10.",
+   "part": 2
+  },
+  {
+   "start": 37.129,
+   "end": 38.559,
+   "show": "The weights are public too.",
+   "part": 2
+  },
+  {
+   "start": 39.609,
+   "end": 47.929,
+   "show": "Now, video generation. Hugging Face showed a 10-second video made in about 22 seconds on Trainium3.",
+   "part": 3
+  },
+  {
+   "start": 48.179,
+   "end": 50.888,
+   "show": "The fact that it comes with audio is pretty neat too.",
+   "part": 3
+  },
+  {
+   "start": 51.938,
+   "end": 55.778,
+   "show": "Next, an update to Wanderer CAD, a free add-on for Blender.",
+   "part": 4
+  },
+  {
+   "start": 56.028,
+   "end": 60.444,
+   "show": "Switching between precise drafting and everyday work is now easier.",
+   "part": 4
+  },
+  {
+   "start": 60.694,
+   "end": 63.958,
+   "show": "It works with Blender 4.2 LTS or later.",
+   "part": 4
+  },
+  {
+   "start": 65.008,
+   "end": 71.451,
+   "show": "Last up, materials news from Japan: Stratasys Japan adds black to its tough material.",
+   "part": 5
+  },
+  {
+   "start": 71.701,
+   "end": 76.97,
+   "show": "That's one more color for prototyping enclosures and testing how parts fit together.",
+   "part": 5
+  },
+  {
+   "start": 78.02,
+   "end": 85.487,
+   "show": "Today's pick is OpenFlaps, an especially fun project connecting AI to the real world.",
+   "part": 6
+  },
+  {
+   "start": 85.737,
+   "end": 88.467,
+   "show": "That's all from Mono Radio. See you next time.",
+   "part": 6
+  }
+ ],
+ "segments": [
+  {
+   "kind": "opening",
+   "index": null,
+   "start": 0.6,
+   "end": 10.199
+  },
+  {
+   "kind": "news",
+   "index": 0,
+   "start": 10.199,
+   "end": 25.024
+  },
+  {
+   "kind": "news",
+   "index": 1,
+   "start": 25.024,
+   "end": 39.609
+  },
+  {
+   "kind": "news",
+   "index": 2,
+   "start": 39.609,
+   "end": 51.938
+  },
+  {
+   "kind": "news",
+   "index": 3,
+   "start": 51.938,
+   "end": 65.008
+  },
+  {
+   "kind": "news",
+   "index": 4,
+   "start": 65.008,
+   "end": 78.02
+  },
+  {
+   "kind": "closing",
+   "index": null,
+   "start": 78.02,
+   "end": 90.517
+  }
+ ],
+ "made_at": "2026-11-28T06:12:41"
+}

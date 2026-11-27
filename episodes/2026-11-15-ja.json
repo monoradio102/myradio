@@ -1,0 +1,360 @@
+{
+ "title": "ローカル音声合成ゾノス登場！",
+ "opening": [
+  {
+   "say": "おはようございます、ものラジオです。11月15日日曜日の朝をお届けします。",
+   "show": "おはようございます、ものラジオです。11月15日日曜日の朝をお届けします。"
+  },
+  {
+   "say": "今日は音声合成にロボット、AIの評価、3Dプリントまで、五本のニュースです。",
+   "show": "今日は音声合成にロボット、AIの評価、3Dプリントまで、5本のニュースです。"
+  }
+ ],
+ "news": [
+  {
+   "label": "ローカル音声合成ZONOS3-Mini",
+   "points": [
+    "43言語対応の音声合成",
+    "重みはApache 2.0で公開",
+    "最初の音声まで150ms未満"
+   ],
+   "url": "https://www.zyphra.com/our-work/zonos3-mini",
+   "lines": [
+    {
+     "say": "まずは、ジフィラが公開した音声合成モデル、ゾノススリーミニ。",
+     "show": "まずは、Zyphraが公開した音声合成モデル、ZONOS3-Mini。"
+    },
+    {
+     "say": "四十三の言語に対応していて、重みはアパッチ二・ゼロで公開されています。",
+     "show": "43の言語に対応していて、重みはApache 2.0で公開されています。"
+    },
+    {
+     "say": "手元のパソコンで動かせる軽さが、うれしいところですね。",
+     "show": "手元のパソコンで動かせる軽さが、うれしいところですね。"
+    }
+   ],
+   "details": [
+    "ZyphraのテキストTTSモデルで、短い音声からのゼロショット音声クローンや話し方の調整にも対応します。",
+    "WebGPU、Apple Silicon向けMLX、ggmlなどの実行環境も提供されています。",
+    "開発元の測定で、M3 MacBook Airでの値です。総パラメータ約8億、推論時の稼働分は約1億です。"
+   ],
+   "link": {
+    "url": "https://www.zyphra.com/our-work/zonos3-mini",
+    "title": "ZONOS3-Mini | Zyphra",
+    "site": "Zyphra",
+    "description": "Introducing ZONOS3-Mini, a compact zero-shot voice-cloning Text To Speech (TTS) model with state-of-the-art performance as well as leading voice control capabilities which can run in real-time on-devi",
+    "image": "https://cdn.sanity.io/images/6pyafx7r/production/c4f7e31f9d0ad18bdd83895f31e848555d044963-2400x1256.png?rect=4,0,2392,1256&w=1200&h=630&fm=jpg&q=85&fit=crop",
+    "icon": null
+   }
+  },
+  {
+   "label": "NVIDIAのロボット実装ガイド",
+   "points": [
+    "SimReadyでピック＆プレース",
+    "AIエージェントがシーン構築",
+    "缶の把持・移動・解放まで"
+   ],
+   "url": "https://huggingface.co/blog/nvidia/simready-assets-robot-pick-and-place",
+   "lines": [
+    {
+     "say": "続いて、エヌビディアのロボット向け実装ガイド。",
+     "show": "続いて、NVIDIAのロボット向け実装ガイド。"
+    },
+    {
+     "say": "エーアイエージェントを使って、アームが缶をつかんで運ぶ作業を、シミュレーション上で組み立てます。",
+     "show": "AIエージェントを使って、アームが缶をつかんで運ぶ作業を、シミュレーション上で組み立てます。"
+    },
+    {
+     "say": "ロボットを買う前に動きを試せるのが、面白いですね。",
+     "show": "ロボットを買う前に動きを試せるのが、面白いですね。"
+    }
+   ],
+   "details": [
+    "物理設定済みOpenUSDアセットを使い、Isaac Sim 6.2上に作業を構築する手順です。",
+    "AIエージェントからIsaac SimのスキルとPython操作を呼び出し、構築と動作検証を行います。",
+    "固定位置を前提としたスクリプト操作で、実機の信頼性を実証したものではありません。"
+   ],
+   "link": {
+    "url": "https://huggingface.co/blog/nvidia/simready-assets-robot-pick-and-place",
+    "title": "Build a Robot Pick-and-Place Simulation with SimReady Assets",
+    "site": "huggingface.co",
+    "description": "A Blog post by NVIDIA on Hugging Face",
+    "image": "https://cdn-uploads.huggingface.co/production/uploads/6abfe9e7d7cf09a9b38ef308/HFZWtQ2i9VN_agjeUw2HB.gif",
+    "icon": null
+   }
+  },
+  {
+   "label": "送電トンネル点検の実験",
+   "points": [
+    "四足ロボットとドローン",
+    "点検面積37%から100%へ",
+    "所要時間は約2倍以上に"
+   ],
+   "url": "https://prtimes.jp/main/html/rd/p/000000276.000080352.html",
+   "lines": [
+    {
+     "say": "次は、スペースデータの送電トンネル点検シミュレーション。",
+     "show": "次は、スペースデータの送電トンネル点検シミュレーション。"
+    },
+    {
+     "say": "四足ロボットとドローンが、床と天井を分担して見て回ります。",
+     "show": "四足ロボットとドローンが、床と天井を分担して見て回ります。"
+    },
+    {
+     "say": "目視より見落としが減る一方で、時間はかかる、という結果も出ています。",
+     "show": "目視より見落としが減る一方で、時間はかかる、という結果も出ています。"
+    }
+   ],
+   "details": [
+    "ロボットが床や下段を、ドローンが上段や天井を担当する分担点検です。",
+    "仮定した条件のシミュレーションで、人の目視は異常発見1/8件、組み合わせ方式は8/8件でした。",
+    "8分49秒から20分44秒に増えました。実設備での実証数値ではありません。"
+   ],
+   "link": {
+    "url": "https://prtimes.jp/main/html/rd/p/000000276.000080352.html",
+    "title": "スペースデータ、地中の送電トンネルを四足ロボットとドローンが分担して点検するシミュレーションを開発",
+    "site": "プ\u0000\u0000レスリリース・ニュースリリース配信シェアNo.1｜PR TIMES",
+    "description": "株式会社スペースデータのプレスリリース（2026年11月13日 12時00分）スペースデータ、地中の送電トンネルを四足ロボットとドローンが分担して点検するシミュレーションを開発",
+    "image": "https://prcdn.freetls.fastly.net/release_image/80352/276/80352-276-c9cc18a34bf28cd014c6f58727029b13-1920x1080.png?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260",
+    "icon": "https://prtimes.jp/common/v4.1/images/html/favicon/favicon-196x196.png"
+   }
+  },
+  {
+   "label": "AI評価ベンチXYBench",
+   "points": [
+    "質問の裏の目的を見抜けるか",
+    "8,115件の設問を収録",
+    "誤った前提に沿う傾向"
+   ],
+   "url": "https://huggingface.co/blog/allenai/xybench",
+   "lines": [
+    {
+     "say": "もうひとつ、AIの評価の話題。アレンAIなどが、エックスワイベンチを公開しました。",
+     "show": "もうひとつ、AIの評価の話題。Allen Institute for AIなどが、XYBenchを公開しました。"
+    },
+    {
+     "say": "質問の裏にある本当の目的を見抜けるかを測るもので、八千百十五問が用意されています。",
+     "show": "質問の裏にある本当の目的を見抜けるかを測るもので、8,115問が用意されています。"
+    }
+   ],
+   "details": [
+    "依頼された手段と、本当に達成したい目的を区別できるかを評価します。",
+    "プログラミングや日常のトラブル解決から収集した設問です。データセットと評価コードも公開されています。",
+    "評価した主要モデルは、本来の目的に触れても、誤った前提に沿った解決法を中心に答えがちでした。"
+   ],
+   "link": {
+    "url": "https://huggingface.co/blog/allenai/xybench",
+    "title": "XYBench: Helping with the problem behind the question",
+    "site": "huggingface.co",
+    "description": "A Blog post by Ai2 on Hugging Face",
+    "image": "https://cdn-uploads.huggingface.co/production/uploads/638e39b249de7ae552d977b5/aOWdQgZ8ioJcx9Eii4iob.png",
+    "icon": null
+   }
+  },
+  {
+   "label": "Disneyの3Dプリント製カヌー",
+   "points": [
+    "ジャングルクルーズの常設品",
+    "CADデータなしで再現",
+    "11月12日公開の取材記事"
+   ],
+   "url": "https://3dprint.com/325078/how-haddy-landed-disney-and-why-that-matters-for-3d-printing/",
+   "lines": [
+    {
+     "say": "最後は、ディズニーのジャングルクルーズ。大型のスリーディープリントで、カヌーが作られています。",
+     "show": "最後は、ディズニーのジャングルクルーズ。大型の3Dプリントで、カヌーが作られています。"
+    },
+    {
+     "say": "元のデータがなく、昔の写真から形を再現したそうです。",
+     "show": "元のデータがなく、昔の写真から形を再現したそうです。"
+    }
+   ],
+   "details": [
+    "HaddyがWalt Disney Imagineeringと協力し、カヌーの小道具を大型3Dプリントで製作しています。",
+    "昔の写真を参照して形状を再現し、プリント後に塗装で仕上げました。",
+    "3DPrint.comのインタビューで、カヌーの設置自体が今週初めて発表されたわけではありません。"
+   ],
+   "link": {
+    "url": "https://blooloop.com/disney-haddy-ai-3d-printing/",
+    "title": "Disney Imagineers working with AI-driven 3D printing company Haddy",
+    "site": "blooloop",
+    "description": "New 3D printed Jungle Cruise prop arrives at Disneyland",
+    "image": "https://blooloop.com/media-library/disney-haddy-3d-printing.png?id=62821735&width=1200&height=600&coordinates=0%2C151%2C0%2C152",
+    "icon": "https://assets.rebelmouse.io/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpbWFnZSI6Imh0dHBzOi8vYXNzZXRzLnJibC5tcy81NjE0NTUwNy9vcmlnaW4ucG5nIiwiZXhwaXJlc19hdCI6MTgzMzk3ODMwMX0.74Jhh4pyYOmtB2JGDikBshSm1Xsk5oRLk45s1zNYCGA/img.png?width=192&height=192",
+    "found_by": "search"
+   },
+   "source_link": {
+    "url": "https://3dprint.com/325078/how-haddy-landed-disney-and-why-that-matters-for-3d-printing/",
+    "title": "How Haddy Landed Disney, and Why That Matters for 3D Printing - 3DPrint.com | Additive Manufacturing Business",
+    "site": "3DPrint.com | Additive Manufacturing Business",
+    "description": "The Walt Disney Company relies on a wide network of partners to build its parks and attractions. But bringing a new way of making things into that system—and putting it...",
+    "image": null,
+    "icon": "https://3dprint.com/wp-content/themes/lugh2019/img/favicons/apple-icon-180x180.png"
+   }
+  }
+ ],
+ "closing": [
+  {
+   "say": "今日の注目は、ゾノススリーミニ。ブラウザのデモで音質を試せます。",
+   "show": "今日の注目は、ZONOS3-Mini。ブラウザのデモで音質を試せます。"
+  },
+  {
+   "say": "それでは、よい日曜日を。ものラジオでした。",
+   "show": "それでは、よい日曜日を。ものラジオでした。"
+  }
+ ],
+ "highlight": 0,
+ "format": "monoradio/news-1",
+ "date": "2026-11-15",
+ "lang": "ja",
+ "seconds": 94.46,
+ "lines_timed": [
+  {
+   "start": 0.6,
+   "end": 6.54,
+   "show": "おはようございます、ものラジオです。11月15日日曜日の朝をお届けします。",
+   "part": 0
+  },
+  {
+   "start": 6.79,
+   "end": 12.974,
+   "show": "今日は音声合成にロボット、AIの評価、3Dプリントまで、5本のニュースです。",
+   "part": 0
+  },
+  {
+   "start": 14.024,
+   "end": 18.525,
+   "show": "まずは、Zyphraが公開した音声合成モデル、ZONOS3-Mini。",
+   "part": 1
+  },
+  {
+   "start": 18.775,
+   "end": 24.123,
+   "show": "43の言語に対応していて、重みはApache 2.0で公開されています。",
+   "part": 1
+  },
+  {
+   "start": 24.373,
+   "end": 28.351,
+   "show": "手元のパソコンで動かせる軽さが、うれしいところですね。",
+   "part": 1
+  },
+  {
+   "start": 29.401,
+   "end": 32.555,
+   "show": "続いて、NVIDIAのロボット向け実装ガイド。",
+   "part": 2
+  },
+  {
+   "start": 32.805,
+   "end": 38.769,
+   "show": "AIエージェントを使って、アームが缶をつかんで運ぶ作業を、シミュレーション上で組み立てます。",
+   "part": 2
+  },
+  {
+   "start": 39.019,
+   "end": 42.904,
+   "show": "ロボットを買う前に動きを試せるのが、面白いですね。",
+   "part": 2
+  },
+  {
+   "start": 43.954,
+   "end": 47.746,
+   "show": "次は、スペースデータの送電トンネル点検シミュレーション。",
+   "part": 3
+  },
+  {
+   "start": 47.996,
+   "end": 52.357,
+   "show": "四足ロボットとドローンが、床と天井を分担して見て回ります。",
+   "part": 3
+  },
+  {
+   "start": 52.607,
+   "end": 57.56,
+   "show": "目視より見落としが減る一方で、時間はかかる、という結果も出ています。",
+   "part": 3
+  },
+  {
+   "start": 58.61,
+   "end": 64.666,
+   "show": "もうひとつ、AIの評価の話題。Allen Institute for AIなどが、XYBenchを公開しました。",
+   "part": 4
+  },
+  {
+   "start": 64.916,
+   "end": 71.599,
+   "show": "質問の裏にある本当の目的を見抜けるかを測るもので、8,115問が用意されています。",
+   "part": 4
+  },
+  {
+   "start": 72.649,
+   "end": 78.717,
+   "show": "最後は、ディズニーのジャングルクルーズ。大型の3Dプリントで、カヌーが作られています。",
+   "part": 5
+  },
+  {
+   "start": 78.967,
+   "end": 83.189,
+   "show": "元のデータがなく、昔の写真から形を再現したそうです。",
+   "part": 5
+  },
+  {
+   "start": 84.239,
+   "end": 89.042,
+   "show": "今日の注目は、ZONOS3-Mini。ブラウザのデモで音質を試せます。",
+   "part": 6
+  },
+  {
+   "start": 89.292,
+   "end": 92.411,
+   "show": "それでは、よい日曜日を。ものラジオでした。",
+   "part": 6
+  }
+ ],
+ "segments": [
+  {
+   "kind": "opening",
+   "index": null,
+   "start": 0.6,
+   "end": 14.024
+  },
+  {
+   "kind": "news",
+   "index": 0,
+   "start": 14.024,
+   "end": 29.401
+  },
+  {
+   "kind": "news",
+   "index": 1,
+   "start": 29.401,
+   "end": 43.954
+  },
+  {
+   "kind": "news",
+   "index": 2,
+   "start": 43.954,
+   "end": 58.61
+  },
+  {
+   "kind": "news",
+   "index": 3,
+   "start": 58.61,
+   "end": 72.649
+  },
+  {
+   "kind": "news",
+   "index": 4,
+   "start": 72.649,
+   "end": 84.239
+  },
+  {
+   "kind": "closing",
+   "index": null,
+   "start": 84.239,
+   "end": 94.461
+  }
+ ],
+ "made_at": "2026-11-15T06:32:09"
+}

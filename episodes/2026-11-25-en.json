@@ -1,0 +1,344 @@
+{
+ "title": "Shaping Surfaces, Not Lines: 3D Printing Inspired by Jelly Candy",
+ "opening": [
+  {
+   "say": "Good morning, this is Mono Radio. Here is your news for Wednesday, November twenty fifth.",
+   "show": "Good morning, this is Mono Radio. Here is your news for Wednesday, November 25."
+  },
+  {
+   "say": "Today we have five stories on A I and three D.",
+   "show": "Today we have five stories on AI and 3D."
+  }
+ ],
+ "closing": [
+  {
+   "say": "Today's highlights were a printing method that extrudes surfaces instead of lines, and review automation with Claude Ship.",
+   "show": "Today's highlights: printing surfaces instead of lines, and review automation with Claude Ship."
+  },
+  {
+   "say": "That was Mono Radio. Have a great day!",
+   "show": "That was Mono Radio. Have a great day!"
+  }
+ ],
+ "news": [
+  {
+   "label": "Claude Ship Enters Beta",
+   "points": [
+    "Automates PR fixes through approval",
+    "For Team and Enterprise plans on GitHub",
+    "Teams can require human sign-off on changes"
+   ],
+   "details": [
+    "It combines PR Steward, which handles CI failures and merge conflicts, with Claude Approvals, which decides on approvals based on your policies.",
+    null,
+    "Teams can designate which changes need human approval. Starting auto-approval in monitor-only mode is recommended."
+   ],
+   "lines": [
+    {
+     "say": "First up, Anthropic has started the beta for Claude Ship.",
+     "show": "First up, Anthropic has started the beta for Claude Ship."
+    },
+    {
+     "say": "It can take over the whole review flow, from fixing failing pull requests to approving them.",
+     "show": "It can handle the whole review flow, from fixing failing pull requests to approving them."
+    }
+   ],
+   "url": "https://claude.com/resources/articles/introducing-claude-ship",
+   "link": {
+    "url": "https://claude.com/resources/articles/introducing-claude-ship",
+    "title": "Introducing Claude Ship",
+    "site": "Claude",
+    "description": "Open a pull request and get back to building. Claude can now review pull requests, fix them, and approve the ones that a team's policy allows.",
+    "image": "https://claude.com/ja/resources/articles/introducing-claude-ship/opengraph-image/og",
+    "icon": "https://claude.com/icon.png"
+   }
+  },
+  {
+   "label": "RobotBrain Warehouse",
+   "points": [
+    "Recreates warehouses in 3D in your browser",
+    "Estimates eight hours of work in seconds",
+    "Ask AI about layout changes"
+   ],
+   "details": [
+    "It rebuilds a warehouse in 3D from 360 degree camera footage and floor plans, then uses a physics engine to check how transport robots and equipment behave.",
+    "Current estimates are based on the input conditions, and accuracy checks against real-world data are planned for the future.",
+    null
+   ],
+   "lines": [
+    {
+     "say": "Next, a story from Japan: Space Data's RobotBrain Warehouse.",
+     "show": "Next, a story from Japan: Space Data's RobotBrain Warehouse."
+    },
+    {
+     "say": "It recreates a warehouse in three D and lets you test even how the robots move.",
+     "show": "It recreates a warehouse in 3D and lets you test even how the robots move."
+    },
+    {
+     "say": "Estimating eight hours of work in just a few seconds is pretty neat.",
+     "show": "Estimating eight hours of work in just seconds is pretty neat."
+    }
+   ],
+   "url": "https://prtimes.jp/main/html/rd/p/000000288.000080352.html",
+   "link": {
+    "url": "https://prtimes.jp/main/html/rd/p/000000288.000080352.html",
+    "title": "スペースデータ、配置から人員まで倉庫を最適化する「RobotBrain Warehouse」を開発",
+    "site": "プレスリリース・ニュースリリース配信シェアNo.1｜PR TIMES",
+    "description": "株式会社スペースデータのプレスリリース（2026年11月24日 11時00分）スペースデータ、配置から人員まで倉庫を最適化する「RobotBrain Warehouse」を開発",
+    "image": "https://prcdn.freetls.fastly.net/release_image/80352/288/80352-288-f004eec95615a219d5110926cd43bd4d-1920x1080.jpg?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260",
+    "icon": "https://prtimes.jp/common/v4.1/images/html/favicon/favicon-196x196.png"
+   }
+  },
+  {
+   "label": "Printing Surfaces, Not Lines",
+   "points": [
+    "Builds structures with 27 μm walls",
+    "LE3DP extrudes thin sheets directly",
+    "Promising for light structures and robot parts"
+   ],
+   "details": [
+    "The study achieved 27 micrometer walls and reportedly cut defects such as surface waviness by up to 78 percent.",
+    "A special nozzle extrudes resin as a ribbon, and a self-healing carbomer gel holds the shape until it cures.",
+    "It is still at the research stage, though."
+   ],
+   "lines": [
+    {
+     "say": "Here is a three D printing story too.",
+     "show": "Here is a 3D printing story too."
+    },
+    {
+     "say": "Johns Hopkins University has introduced a fabrication method inspired by jelly candy.",
+     "show": "Johns Hopkins University has introduced a method inspired by jelly candy."
+    },
+    {
+     "say": "The idea is to extrude a thin sheet directly, instead of stacking up lines.",
+     "show": "The idea is to extrude a thin sheet directly, instead of stacking up lines."
+    }
+   ],
+   "url": "https://engineering.jhu.edu/case/news/jelly-cakes-inspire-new-approach-to-3d-printing-thin-walled-structures/",
+   "link": {
+    "url": "https://engineering.jhu.edu/case/news/jelly-cakes-inspire-new-approach-to-3d-printing-thin-walled-structures/",
+    "error": "HTTPError",
+    "status": 403
+   }
+  },
+  {
+   "label": "Blender 5.2.5 LTS",
+   "points": [
+    "Rigging crash fixed",
+    "UV select picking hidden faces fixed",
+    "Denoise node crash fixed"
+   ],
+   "details": [
+    "A crash caused by accessing armature data from another scene has been fixed.",
+    "A bug where UV circle and lasso select also picked hidden faces has been fixed.",
+    "The focus is on stability for the long term support release, not new features."
+   ],
+   "lines": [
+    {
+     "say": "Blender five point two point five L T S has been released.",
+     "show": "Blender 5.2.5 LTS has been released."
+    },
+    {
+     "say": "It fixes crashes and selection bugs, so this is an update focused on stability.",
+     "show": "It fixes crashes and selection bugs, so this update is focused on stability."
+    }
+   ],
+   "url": "https://www.blender.org/releases/5-2/",
+   "link": {
+    "url": "https://www.blender.org/releases/5-2/",
+    "error": "HTTPError",
+    "status": 403
+   }
+  },
+  {
+   "label": "Shirudo Protects Live Linux",
+   "points": [
+    "Temporary defenses for running Linux",
+    "Admins verify and approve before use",
+    "Blocked an attack without restarting Elasticsearch"
+   ],
+   "details": [
+    "It applies a temporary defense to running services until an official patch is installed.",
+    null,
+    "In a controlled experiment, a defense generated by Codex blocked the attack. It does not replace official security patches."
+   ],
+   "lines": [
+    {
+     "say": "Last, a story on security.",
+     "show": "Last, a story on security."
+    },
+    {
+     "say": "Open A I and Cisco have released Shirudo, which protects running Linux systems.",
+     "show": "OpenAI and Cisco have released Shirudo, which protects running Linux systems."
+    },
+    {
+     "say": "It lets you apply a temporary defense until a patch becomes available.",
+     "show": "It lets you apply a temporary defense until a patch becomes available."
+    }
+   ],
+   "url": "https://openai.com/index/introducing-shirudo/",
+   "link": {
+    "url": "https://openai.com/index/introducing-shirudo/",
+    "title": "OpenAI and Cisco introduce Shirudo",
+    "site": "OpenAI",
+    "description": "OpenAI and Cisco introduce Shirudo, an open-source runtime for Linux. It helps teams protect running systems while they roll out patches.",
+    "image": "https://images.ctfassets.net/kftzwdyauwt9/5K7gFDr3r8vgjdIcsW6RVY/aba5325ce7902e5d1499b907f8e78f0b/shirudo-partner-logos-landscape-2x.png?w=1600&h=900&fit=fill",
+    "icon": "https://openai.com/apple-icon.png?apple-icon.3o0tf8iy4mx7y.png"
+   }
+  }
+ ],
+ "format": "monoradio/news-1",
+ "date": "2026-11-25",
+ "lang": "en",
+ "seconds": 81.7,
+ "lines_timed": [
+  {
+   "start": 0.6,
+   "end": 5.869,
+   "show": "Good morning, this is Mono Radio. Here is your news for Wednesday, November 25.",
+   "part": 0
+  },
+  {
+   "start": 6.119,
+   "end": 8.722,
+   "show": "Today we have five stories on AI and 3D.",
+   "part": 0
+  },
+  {
+   "start": 9.772,
+   "end": 12.865,
+   "show": "First up, Anthropic has started the beta for Claude Ship.",
+   "part": 1
+  },
+  {
+   "start": 13.115,
+   "end": 18.257,
+   "show": "It can handle the whole review flow, from fixing failing pull requests to approving them.",
+   "part": 1
+  },
+  {
+   "start": 19.307,
+   "end": 23.573,
+   "show": "Next, a story from Japan: Space Data's RobotBrain Warehouse.",
+   "part": 2
+  },
+  {
+   "start": 23.823,
+   "end": 28.815,
+   "show": "It recreates a warehouse in 3D and lets you test even how the robots move.",
+   "part": 2
+  },
+  {
+   "start": 29.065,
+   "end": 32.927,
+   "show": "Estimating eight hours of work in just seconds is pretty neat.",
+   "part": 2
+  },
+  {
+   "start": 33.977,
+   "end": 36.174,
+   "show": "Here is a 3D printing story too.",
+   "part": 3
+  },
+  {
+   "start": 36.424,
+   "end": 42.333,
+   "show": "Johns Hopkins University has introduced a method inspired by jelly candy.",
+   "part": 3
+  },
+  {
+   "start": 42.583,
+   "end": 47.085,
+   "show": "The idea is to extrude a thin sheet directly, instead of stacking up lines.",
+   "part": 3
+  },
+  {
+   "start": 48.135,
+   "end": 51.889,
+   "show": "Blender 5.2.5 LTS has been released.",
+   "part": 4
+  },
+  {
+   "start": 52.139,
+   "end": 56.79,
+   "show": "It fixes crashes and selection bugs, so this update is focused on stability.",
+   "part": 4
+  },
+  {
+   "start": 57.84,
+   "end": 59.739,
+   "show": "Last, a story on security.",
+   "part": 5
+  },
+  {
+   "start": 59.989,
+   "end": 64.853,
+   "show": "OpenAI and Cisco have released Shirudo, which protects running Linux systems.",
+   "part": 5
+  },
+  {
+   "start": 65.103,
+   "end": 69.135,
+   "show": "It lets you apply a temporary defense until a patch becomes available.",
+   "part": 5
+  },
+  {
+   "start": 70.185,
+   "end": 77.011,
+   "show": "Today's highlights: printing surfaces instead of lines, and review automation with Claude Ship.",
+   "part": 6
+  },
+  {
+   "start": 77.261,
+   "end": 79.651,
+   "show": "That was Mono Radio. Have a great day!",
+   "part": 6
+  }
+ ],
+ "segments": [
+  {
+   "kind": "opening",
+   "index": null,
+   "start": 0.6,
+   "end": 9.772
+  },
+  {
+   "kind": "news",
+   "index": 0,
+   "start": 9.772,
+   "end": 19.307
+  },
+  {
+   "kind": "news",
+   "index": 1,
+   "start": 19.307,
+   "end": 33.977
+  },
+  {
+   "kind": "news",
+   "index": 2,
+   "start": 33.977,
+   "end": 48.135
+  },
+  {
+   "kind": "news",
+   "index": 3,
+   "start": 48.135,
+   "end": 57.84
+  },
+  {
+   "kind": "news",
+   "index": 4,
+   "start": 57.84,
+   "end": 70.185
+  },
+  {
+   "kind": "closing",
+   "index": null,
+   "start": 70.185,
+   "end": 81.701
+  }
+ ],
+ "made_at": "2026-11-25T06:13:38"
+}

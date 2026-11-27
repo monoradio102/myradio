@@ -1,0 +1,371 @@
+{
+ "title": "GLM-5.4がFreeCADでロボットアーム設計",
+ "opening": [
+  {
+   "say": "おはようございます、ものラジオです。十一月二十四日、火曜日の朝です。",
+   "show": "おはようございます、ものラジオです。11月24日、火曜日の朝です。"
+  },
+  {
+   "say": "今日のニュースは五本です。",
+   "show": "今日のニュースは5本です。"
+  }
+ ],
+ "news": [
+  {
+   "label": "GLM-5.4、CAD設計にも対応",
+   "points": [
+    "同じ層を2回通す構造",
+    "FreeCADでアーム設計",
+    "性能評価はメーカー主張"
+   ],
+   "url": "https://z.ai/blog/glm-5.4",
+   "lines": [
+    {
+     "say": "まずは、ゼットドットエーアイのジーエルエム五・四。",
+     "show": "まずは、Z.aiのGLM-5.4。"
+    },
+    {
+     "say": "同じ層を二回通して、考える深さを上げたモデルです。",
+     "show": "同じ層を2回通して、考える深さを上げたモデルです。"
+    },
+    {
+     "say": "フリーキャドでロボットアームを設計する実演が面白いです。",
+     "show": "FreeCADでロボットアームを設計する実演が面白いです。"
+    }
+   ],
+   "details": [
+    "7500億パラメータ規模のモデルのうち28層を2回通すLoop Transformerで、パラメータを増やさず推論の深さを高めています。",
+    "ゲーム制作やGLSLシェーダーの3Dシーンに加え、FreeCADでの6軸ロボットアーム設計も実演しました。",
+    "2〜3兆パラメータ級に匹敵するという評価はメーカー主張で、モデル重みと従量課金APIはまだ公開予定段階です。"
+   ],
+   "link": {
+    "url": "https://z.ai/blog/glm-5.4",
+    "title": "Toward Generalized Coding with Our First Loop Transformer",
+    "site": "z.ai",
+    "description": null,
+    "image": "https://z-ai-bj.oss-cn-beijing.aliyuncs.com/prompts-rich-media-resources/5.4-blog/20261123-173242.jpeg?w=1280&h=720&fit=fill",
+    "icon": null
+   }
+  },
+  {
+   "label": "Gemini APIでファイル部分読込",
+   "points": [
+    "必要な部分だけ読み込み",
+    "ページや時間を指定",
+    "PDFのトークン67％減"
+   ],
+   "url": "https://blog.google/innovation-and-ai/technology/developers-tools/file-slicing-controls/",
+   "lines": [
+    {
+     "say": "続いて、グーグルのジェミニエーピーアイ。",
+     "show": "続いて、GoogleのGemini API。"
+    },
+    {
+     "say": "資料の必要な部分だけを読み込めるようになりました。",
+     "show": "資料の必要な部分だけを読み込めるようになりました。"
+    },
+    {
+     "say": "大きな資料でもコストを抑えられそうです。",
+     "show": "大きな資料でもコストを抑えられそうです。"
+    }
+   ],
+   "details": [
+    "PDFやOffice文書、音声、動画などの必要部分だけをサーバー側で読み込めます。",
+    "ページ範囲、セル範囲、動画の時間範囲や解像度を指定でき、一度アップロードしたファイルは複数の処理で再利用できます。",
+    "LiteLLMの事前検証では、PDFのプロンプトトークンを67％削減した事例が紹介されています。"
+   ],
+   "link": {
+    "url": "https://blog.google/innovation-and-ai/technology/developers-tools/file-slicing-controls/",
+    "title": "Introducing file slicing controls in the Gemini API",
+    "site": "Google",
+    "description": "New file slicing controls and native Office file support in the Gemini API let agents inspect targeted slices across Google AI Studio and Vertex AI while paying only for…",
+    "image": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Introducing-File-Slicing-Controls-2784x1566.width-1300.png",
+    "icon": "https://blog.google/static/blogv2/images/apple-touch-icon.png?version=pr20261117-1738"
+   }
+  },
+  {
+   "label": "VDC Viewerで3DGS共有",
+   "points": [
+    "数千万点を自動最適化",
+    "設計モデルと重ね合わせ",
+    "月額5万円から"
+   ],
+   "url": "https://prtimes.jp/main/html/rd/p/000000001.000194723.html",
+   "lines": [
+    {
+     "say": "三つ目は、ブイディーシービューアです。",
+     "show": "3つ目は、VDC Viewerです。"
+    },
+    {
+     "say": "数千万点規模のガウシアンスプラッティングを、ブラウザで共有できます。",
+     "show": "数千万点規模のガウシアンスプラッティングを、ブラウザで共有できます。"
+    },
+    {
+     "say": "設計モデルとの重ね合わせにも使えるのが面白いですね。",
+     "show": "設計モデルとの重ね合わせにも使えるのが面白いですね。"
+    }
+   ],
+   "details": [
+    "数千万点規模の3D Gaussian Splattingデータを自動的に最適化し、ブラウザやタブレットで表示・共有できます。",
+    "3DGSと設計モデルの重ね合わせ、距離計測、注釈に対応しています。",
+    "PLY、SPZ、GLB、FBX、STLなどに対応するクラウドサービスで、料金は月額5万円からです。"
+   ],
+   "link": {
+    "url": "https://prtimes.jp/main/html/rd/p/000000001.000194723.html",
+    "title": "月額5万円から、大規模3DGSをWebブラウザで軽快に閲覧・共有。建築実務から生まれた「VDC Viewer」がJAPAN BUILD 2026に出展",
+    "site": "プレス\u0000\u0000リリース・ニュースリリース配信シェアNo.1｜PR TIMES",
+    "description": "株式会社VDCのプレスリリース（2026年11月20日 14時26分）月額5万円から、大規模3DGSをWebブラウザで軽快に閲覧・共有。建築実務から生まれた「VDC Viewer」がJAPAN BUILD 2026に出展",
+    "image": "https://prcdn.freetls.fastly.net/release_image/194723/1/194723-1-d215ff0d4af50fb03c930d192fbf27d9-2266x1358.png?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260",
+    "icon": "https://prtimes.jp/common/v4.1/images/html/favicon/favicon-196x196.png"
+   }
+  },
+  {
+   "label": "NVIDIA、DuckDBをGPU化",
+   "points": [
+    "拡張機能Sirius公開",
+    "2コマンドで導入",
+    "最大5.5倍の高速化"
+   ],
+   "url": "https://developer.nvidia.com/blog/get-started-with-gpu-accelerated-duckdb-analytics-using-the-sirius-core-extension/",
+   "lines": [
+    {
+     "say": "四つ目は、エヌビディアのシリウス。",
+     "show": "4つ目は、NVIDIAのSirius。"
+    },
+    {
+     "say": "ダックディービーをジーピーユーで速くする拡張機能です。",
+     "show": "DuckDBをGPUで速くする拡張機能です。"
+    },
+    {
+     "say": "二つのコマンドで入れられる手軽さがいいですね。",
+     "show": "2つのコマンドで入れられる手軽さがいいですね。"
+    }
+   ],
+   "details": [
+    "NVIDIAとDuckLabsが、DuckDB用のGPUネイティブSQLエンジンSiriusの利用手順を公開しました。",
+    "DuckDB 2.0と対応GPUがあれば、INSTALL siriusとLOAD siriusの2つで導入でき、SQLの書き換えは不要です。",
+    "TPC-Hベンチマークで、2GPU構成がCPU構成に対し3.25〜5.50倍と報告されています。効果はデータ量やクエリによって変わります。"
+   ],
+   "link": {
+    "url": "https://developer.nvidia.com/blog/get-started-with-gpu-accelerated-duckdb-analytics-using-the-sirius-core-extension/",
+    "title": "Get Started with GPU-Accelerated DuckDB Analytics Using the Sirius Core Extension | NVIDIA Technical Blog",
+    "site": "NVIDIA Technical Blog",
+    "description": "Learn how to install Sirius, run supported DuckDB SQL queries on NVIDIA GPUs, and compare analytical query performance and compute costs.",
+    "image": "https://developer-blogs.nvidia.com/wp-content/uploads/2026/11/sirius-duckdb-gpu-analytics.gif",
+    "icon": null
+   }
+  },
+  {
+   "label": "cuDSS 1.0でCAEをGPU化",
+   "points": [
+    "疎行列ソルバーを解説",
+    "構造・熱・流体に対応",
+    "処理段階で最大151倍"
+   ],
+   "url": "https://developer.nvidia.com/blog/accelerating-direct-sparse-solvers-for-computational-engineering-with-nvidia-cudss-1-0/",
+   "lines": [
+    {
+     "say": "最後も、エヌビディアのシーユーディーエス一・〇。",
+     "show": "最後も、NVIDIAのcuDSS 1.0。"
+    },
+    {
+     "say": "構造や熱の解析をジーピーユーで速くする技術です。",
+     "show": "構造や熱の解析をGPUで速くする技術です。"
+    },
+    {
+     "say": "ものづくりの検証にも、ジーピーユーが広がっています。",
+     "show": "ものづくりの検証にも、GPUが広がっています。"
+    }
+   ],
+   "details": [
+    "製品設計や科学計算で使う疎な連立一次方程式をGPUで解くcuDSS 1.0の技術解説が公開されました。",
+    "構造解析、流体解析、熱解析、回路シミュレーションなどが対象です。",
+    "Intel MKLとの比較で、三角方程式求解部分が151倍高速でした。シミュレーション全体が151倍になるわけではありません。"
+   ],
+   "link": {
+    "url": "https://developer.nvidia.com/blog/accelerating-direct-sparse-solvers-for-computational-engineering-with-nvidia-cudss-1-0/",
+    "title": "Accelerating Direct Sparse Solvers for Computational Engineering with NVIDIA cuDSS 1.0 | NVIDIA Technical Blog",
+    "site": "NVIDIA Technical Blog",
+    "description": "Sparse linear systems are at the core of nearly every engineering and scientific simulation, from structural mechanics and computational fluid dynamics to circuit simulation and power grid analysis.",
+    "image": "https://developer-blogs.nvidia.com/wp-content/uploads/2024/06/DatacenterKV-2.png",
+    "icon": null
+   }
+  }
+ ],
+ "closing": [
+  {
+   "say": "今日の注目は、ジーエルエム五・四のロボットアーム設計。言葉から機械の設計まで、ものづくりが変わりそうですね。",
+   "show": "今日の注目は、GLM-5.4のロボットアーム設計。言葉から機械の設計まで、ものづくりが変わりそうですね。"
+  },
+  {
+   "say": "それでは、ものラジオでした。いってらっしゃい。",
+   "show": "それでは、ものラジオでした。いってらっしゃい。"
+  }
+ ],
+ "highlight": 0,
+ "format": "monoradio/news-1",
+ "date": "2026-11-24",
+ "lang": "ja",
+ "seconds": 79.14,
+ "lines_timed": [
+  {
+   "start": 0.6,
+   "end": 6.053,
+   "show": "おはようございます、ものラジオです。11月24日、火曜日の朝です。",
+   "part": 0
+  },
+  {
+   "start": 6.303,
+   "end": 7.832,
+   "show": "今日のニュースは5本です。",
+   "part": 0
+  },
+  {
+   "start": 8.882,
+   "end": 12.233,
+   "show": "まずは、Z.aiのGLM-5.4。",
+   "part": 1
+  },
+  {
+   "start": 12.483,
+   "end": 16.368,
+   "show": "同じ層を2回通して、考える深さを上げたモデルです。",
+   "part": 1
+  },
+  {
+   "start": 16.618,
+   "end": 20.236,
+   "show": "FreeCADでロボットアームを設計する実演が面白いです。",
+   "part": 1
+  },
+  {
+   "start": 21.286,
+   "end": 23.883,
+   "show": "続いて、GoogleのGemini API。",
+   "part": 2
+  },
+  {
+   "start": 24.133,
+   "end": 27.461,
+   "show": "資料の必要な部分だけを読み込めるようになりました。",
+   "part": 2
+  },
+  {
+   "start": 27.711,
+   "end": 30.354,
+   "show": "大きな資料でもコストを抑えられそうです。",
+   "part": 2
+  },
+  {
+   "start": 31.404,
+   "end": 33.745,
+   "show": "3つ目は、VDC Viewerです。",
+   "part": 3
+  },
+  {
+   "start": 33.995,
+   "end": 38.507,
+   "show": "数千万点規模のガウシアンスプラッティングを、ブラウザで共有できます。",
+   "part": 3
+  },
+  {
+   "start": 38.757,
+   "end": 42.561,
+   "show": "設計モデルとの重ね合わせにも使えるのが面白いですね。",
+   "part": 3
+  },
+  {
+   "start": 43.611,
+   "end": 45.987,
+   "show": "4つ目は、NVIDIAのSirius。",
+   "part": 4
+  },
+  {
+   "start": 46.237,
+   "end": 49.588,
+   "show": "DuckDBをGPUで速くする拡張機能です。",
+   "part": 4
+  },
+  {
+   "start": 49.838,
+   "end": 52.841,
+   "show": "2つのコマンドで入れられる手軽さがいいですね。",
+   "part": 4
+  },
+  {
+   "start": 53.891,
+   "end": 57.103,
+   "show": "最後も、NVIDIAのcuDSS 1.0。",
+   "part": 5
+  },
+  {
+   "start": 57.353,
+   "end": 61.006,
+   "show": "構造や熱の解析をGPUで速くする技術です。",
+   "part": 5
+  },
+  {
+   "start": 61.256,
+   "end": 64.828,
+   "show": "ものづくりの検証にも、GPUが広がっています。",
+   "part": 5
+  },
+  {
+   "start": 65.878,
+   "end": 73.978,
+   "show": "今日の注目は、GLM-5.4のロボットアーム設計。言葉から機械の設計まで、ものづくりが変わりそうですね。",
+   "part": 6
+  },
+  {
+   "start": 74.228,
+   "end": 77.092,
+   "show": "それでは、ものラジオでした。いってらっしゃい。",
+   "part": 6
+  }
+ ],
+ "segments": [
+  {
+   "kind": "opening",
+   "index": null,
+   "start": 0.6,
+   "end": 8.882
+  },
+  {
+   "kind": "news",
+   "index": 0,
+   "start": 8.882,
+   "end": 21.286
+  },
+  {
+   "kind": "news",
+   "index": 1,
+   "start": 21.286,
+   "end": 31.404
+  },
+  {
+   "kind": "news",
+   "index": 2,
+   "start": 31.404,
+   "end": 43.611
+  },
+  {
+   "kind": "news",
+   "index": 3,
+   "start": 43.611,
+   "end": 53.891
+  },
+  {
+   "kind": "news",
+   "index": 4,
+   "start": 53.891,
+   "end": 65.878
+  },
+  {
+   "kind": "closing",
+   "index": null,
+   "start": 65.878,
+   "end": 79.142
+  }
+ ],
+ "made_at": "2026-11-24T07:11:39"
+}

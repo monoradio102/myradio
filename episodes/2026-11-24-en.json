@@ -1,0 +1,371 @@
+{
+ "title": "GLM-5.4 Designs a Robot Arm in FreeCAD",
+ "opening": [
+  {
+   "say": "Good morning, and welcome to Mono Radio. It's Tuesday morning, November twenty-fourth.",
+   "show": "Good morning, and welcome to Mono Radio. It's Tuesday morning, November 24."
+  },
+  {
+   "say": "We've got five stories for you today.",
+   "show": "We've got five stories for you today."
+  }
+ ],
+ "news": [
+  {
+   "label": "GLM-5.4 Now Handles CAD Design Too",
+   "points": [
+    "Reuses the same layers twice",
+    "Designs an arm in FreeCAD",
+    "Performance claims are the maker's"
+   ],
+   "details": [
+    "It's a Loop Transformer in a model of about 750 billion parameters, passing 28 layers through twice to deepen reasoning without adding parameters.",
+    "Beyond game creation and GLSL shader 3D scenes, it also demonstrated designing a six axis robot arm in FreeCAD.",
+    "The claim that it rivals models with two to three trillion parameters comes from the maker, and the model weights and pay as you go API are still only planned for release."
+   ],
+   "lines": [
+    {
+     "say": "First up, GLM five point four from Z dot A I.",
+     "show": "First up, GLM-5.4 from Z.ai."
+    },
+    {
+     "say": "It runs the same layers twice to think more deeply.",
+     "show": "It runs the same layers twice to think more deeply."
+    },
+    {
+     "say": "The demo of it designing a robot arm in Free CAD is really fun to watch.",
+     "show": "The demo of it designing a robot arm in FreeCAD is really fun to watch."
+    }
+   ],
+   "url": "https://z.ai/blog/glm-5.4",
+   "link": {
+    "url": "https://z.ai/blog/glm-5.4",
+    "title": "Toward Generalized Coding with Our First Loop Transformer",
+    "site": "z.ai",
+    "description": null,
+    "image": "https://z-ai-bj.oss-cn-beijing.aliyuncs.com/prompts-rich-media-resources/5.4-blog/20261123-173242.jpeg?w=1280&h=720&fit=fill",
+    "icon": null
+   }
+  },
+  {
+   "label": "Gemini API Can Read Parts of Files",
+   "points": [
+    "Loads only the parts you need",
+    "Specify pages or time ranges",
+    "67 percent fewer tokens for PDFs"
+   ],
+   "details": [
+    "On the server side, it can load just the needed parts of PDFs, Office documents, audio, video, and more.",
+    "You can specify page ranges, cell ranges, and video time ranges or resolution, and a file you upload once can be reused across multiple tasks.",
+    "In pre-release testing by LiteLLM, one example cut PDF prompt tokens by 67 percent."
+   ],
+   "lines": [
+    {
+     "say": "Next, Google's Gemini A P I.",
+     "show": "Next, Google's Gemini API."
+    },
+    {
+     "say": "It can now load just the parts of a document that you need.",
+     "show": "It can now load just the parts of a document that you need."
+    },
+    {
+     "say": "That could help keep costs down, even with big files.",
+     "show": "That could help keep costs down, even with big files."
+    }
+   ],
+   "url": "https://blog.google/innovation-and-ai/technology/developers-tools/file-slicing-controls/",
+   "link": {
+    "url": "https://blog.google/innovation-and-ai/technology/developers-tools/file-slicing-controls/",
+    "title": "Introducing file slicing controls in the Gemini API",
+    "site": "Google",
+    "description": "New file slicing controls and native Office file support in the Gemini API let agents inspect targeted slices across Google AI Studio and Vertex AI while paying only for…",
+    "image": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Introducing-File-Slicing-Controls-2784x1566.width-1300.png",
+    "icon": "https://blog.google/static/blogv2/images/apple-touch-icon.png?version=pr20261117-1738"
+   }
+  },
+  {
+   "label": "Share 3DGS with VDC Viewer",
+   "points": [
+    "Auto-optimizes tens of millions of points",
+    "Overlay on design models",
+    "Starts at 50,000 yen a month"
+   ],
+   "details": [
+    "It automatically optimizes 3D Gaussian Splatting data with tens of millions of points, so you can view and share it in a browser or on a tablet.",
+    "It supports overlaying 3DGS on design models, distance measurement, and annotations.",
+    "It's a cloud service supporting PLY, SPZ, GLB, FBX, STL, and more, with pricing starting at 50,000 yen a month."
+   ],
+   "lines": [
+    {
+     "say": "Story number three is V D C Viewer.",
+     "show": "Story number three is VDC Viewer."
+    },
+    {
+     "say": "It lets you share Gaussian Splatting data with tens of millions of points right in your browser.",
+     "show": "It lets you share Gaussian Splatting data with tens of millions of points right in your browser."
+    },
+    {
+     "say": "Being able to overlay it on design models is pretty cool.",
+     "show": "Being able to overlay it on design models is pretty cool."
+    }
+   ],
+   "url": "https://prtimes.jp/main/html/rd/p/000000001.000194723.html",
+   "link": {
+    "url": "https://prtimes.jp/main/html/rd/p/000000001.000194723.html",
+    "title": "月額5万円から、大規模3DGSをWebブラウザで軽快に閲覧・共有。建築実務から生まれた「VDC Viewer」がJAPAN BUILD 2026に出展",
+    "site": "プレス\u0000\u0000リリース・ニュースリリース配信シェアNo.1｜PR TIMES",
+    "description": "株式会社VDCのプレスリリース（2026年11月20日 14時26分）月額5万円から、大規模3DGSをWebブラウザで軽快に閲覧・共有。建築実務から生まれた「VDC Viewer」がJAPAN BUILD 2026に出展",
+    "image": "https://prcdn.freetls.fastly.net/release_image/194723/1/194723-1-d215ff0d4af50fb03c930d192fbf27d9-2266x1358.png?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260",
+    "icon": "https://prtimes.jp/common/v4.1/images/html/favicon/favicon-196x196.png"
+   }
+  },
+  {
+   "label": "NVIDIA Brings GPUs to DuckDB",
+   "points": [
+    "Sirius extension released",
+    "Install with two commands",
+    "Up to 5.5 times faster"
+   ],
+   "details": [
+    "NVIDIA and DuckLabs have published how to use Sirius, a GPU native SQL engine for DuckDB.",
+    "With DuckDB two point zero and a supported GPU, you install it with just two commands, INSTALL sirius and LOAD sirius, and you don't need to rewrite your SQL.",
+    "On the TPC-H benchmark, a two GPU setup is reported to be 3.25 to 5.50 times faster than a CPU setup. Results vary with data size and queries."
+   ],
+   "lines": [
+    {
+     "say": "Number four is NVIDIA's Sirius.",
+     "show": "Number four is NVIDIA's Sirius."
+    },
+    {
+     "say": "It's an extension that speeds up DuckDB using your GPU.",
+     "show": "It's an extension that speeds up DuckDB using your GPU."
+    },
+    {
+     "say": "Installing it with just two commands is nice and easy.",
+     "show": "Installing it with just two commands is nice and easy."
+    }
+   ],
+   "url": "https://developer.nvidia.com/blog/get-started-with-gpu-accelerated-duckdb-analytics-using-the-sirius-core-extension/",
+   "link": {
+    "url": "https://developer.nvidia.com/blog/get-started-with-gpu-accelerated-duckdb-analytics-using-the-sirius-core-extension/",
+    "title": "Get Started with GPU-Accelerated DuckDB Analytics Using the Sirius Core Extension | NVIDIA Technical Blog",
+    "site": "NVIDIA Technical Blog",
+    "description": "Learn how to install Sirius, run supported DuckDB SQL queries on NVIDIA GPUs, and compare analytical query performance and compute costs.",
+    "image": "https://developer-blogs.nvidia.com/wp-content/uploads/2026/11/sirius-duckdb-gpu-analytics.gif",
+    "icon": null
+   }
+  },
+  {
+   "label": "cuDSS 1.0 Brings GPUs to CAE",
+   "points": [
+    "Sparse matrix solver explained",
+    "Covers structures, heat, and fluids",
+    "Up to 151 times faster in one stage"
+   ],
+   "details": [
+    "A technical explainer has been published on cuDSS 1.0, which solves the sparse systems of linear equations used in product design and scientific computing on the GPU.",
+    "It targets structural analysis, fluid analysis, thermal analysis, circuit simulation, and more.",
+    "Compared with Intel MKL, the triangular solve stage ran 151 times faster. That doesn't mean the whole simulation is 151 times faster."
+   ],
+   "lines": [
+    {
+     "say": "And last, another one from NVIDIA, cuDSS one point zero.",
+     "show": "And last, another one from NVIDIA, cuDSS 1.0."
+    },
+    {
+     "say": "It's a technology that speeds up structural and thermal analysis on the GPU.",
+     "show": "It's a technology that speeds up structural and thermal analysis on the GPU."
+    },
+    {
+     "say": "GPUs are spreading into design verification, too.",
+     "show": "GPUs are spreading into design verification, too."
+    }
+   ],
+   "url": "https://developer.nvidia.com/blog/accelerating-direct-sparse-solvers-for-computational-engineering-with-nvidia-cudss-1-0/",
+   "link": {
+    "url": "https://developer.nvidia.com/blog/accelerating-direct-sparse-solvers-for-computational-engineering-with-nvidia-cudss-1-0/",
+    "title": "Accelerating Direct Sparse Solvers for Computational Engineering with NVIDIA cuDSS 1.0 | NVIDIA Technical Blog",
+    "site": "NVIDIA Technical Blog",
+    "description": "Sparse linear systems are at the core of nearly every engineering and scientific simulation, from structural mechanics and computational fluid dynamics to circuit simulation and power grid analysis.",
+    "image": "https://developer-blogs.nvidia.com/wp-content/uploads/2024/06/DatacenterKV-2.png",
+    "icon": null
+   }
+  }
+ ],
+ "closing": [
+  {
+   "say": "Today's highlight is GLM five point four designing a robot arm. From words to machine design, it looks like making things is about to change.",
+   "show": "Today's highlight is GLM-5.4 designing a robot arm. Making things may be about to change."
+  },
+  {
+   "say": "That's all from Mono Radio. Have a great day out there.",
+   "show": "That's all from Mono Radio. Have a great day out there."
+  }
+ ],
+ "highlight": 0,
+ "format": "monoradio/news-1",
+ "date": "2026-11-24",
+ "lang": "en",
+ "seconds": 83.35,
+ "lines_timed": [
+  {
+   "start": 0.6,
+   "end": 5.997,
+   "show": "Good morning, and welcome to Mono Radio. It's Tuesday morning, November 24.",
+   "part": 0
+  },
+  {
+   "start": 6.247,
+   "end": 8.231,
+   "show": "We've got five stories for you today.",
+   "part": 0
+  },
+  {
+   "start": 9.281,
+   "end": 12.716,
+   "show": "First up, GLM-5.4 from Z.ai.",
+   "part": 1
+  },
+  {
+   "start": 12.966,
+   "end": 15.782,
+   "show": "It runs the same layers twice to think more deeply.",
+   "part": 1
+  },
+  {
+   "start": 16.032,
+   "end": 21.003,
+   "show": "The demo of it designing a robot arm in FreeCAD is really fun to watch.",
+   "part": 1
+  },
+  {
+   "start": 22.053,
+   "end": 24.058,
+   "show": "Next, Google's Gemini API.",
+   "part": 2
+  },
+  {
+   "start": 24.308,
+   "end": 27.444,
+   "show": "It can now load just the parts of a document that you need.",
+   "part": 2
+  },
+  {
+   "start": 27.694,
+   "end": 30.681,
+   "show": "That could help keep costs down, even with big files.",
+   "part": 2
+  },
+  {
+   "start": 31.731,
+   "end": 34.184,
+   "show": "Story number three is VDC Viewer.",
+   "part": 3
+  },
+  {
+   "start": 34.434,
+   "end": 39.533,
+   "show": "It lets you share Gaussian Splatting data with tens of millions of points right in your browser.",
+   "part": 3
+  },
+  {
+   "start": 39.783,
+   "end": 43.068,
+   "show": "Being able to overlay it on design models is pretty cool.",
+   "part": 3
+  },
+  {
+   "start": 44.118,
+   "end": 46.145,
+   "show": "Number four is NVIDIA's Sirius.",
+   "part": 4
+  },
+  {
+   "start": 46.395,
+   "end": 50.171,
+   "show": "It's an extension that speeds up DuckDB using your GPU.",
+   "part": 4
+  },
+  {
+   "start": 50.421,
+   "end": 53.621,
+   "show": "Installing it with just two commands is nice and easy.",
+   "part": 4
+  },
+  {
+   "start": 54.671,
+   "end": 58.745,
+   "show": "And last, another one from NVIDIA, cuDSS 1.0.",
+   "part": 5
+  },
+  {
+   "start": 58.995,
+   "end": 63.795,
+   "show": "It's a technology that speeds up structural and thermal analysis on the GPU.",
+   "part": 5
+  },
+  {
+   "start": 64.045,
+   "end": 67.352,
+   "show": "GPUs are spreading into design verification, too.",
+   "part": 5
+  },
+  {
+   "start": 68.402,
+   "end": 77.81,
+   "show": "Today's highlight is GLM-5.4 designing a robot arm. Making things may be about to change.",
+   "part": 6
+  },
+  {
+   "start": 78.06,
+   "end": 81.303,
+   "show": "That's all from Mono Radio. Have a great day out there.",
+   "part": 6
+  }
+ ],
+ "segments": [
+  {
+   "kind": "opening",
+   "index": null,
+   "start": 0.6,
+   "end": 9.281
+  },
+  {
+   "kind": "news",
+   "index": 0,
+   "start": 9.281,
+   "end": 22.053
+  },
+  {
+   "kind": "news",
+   "index": 1,
+   "start": 22.053,
+   "end": 31.731
+  },
+  {
+   "kind": "news",
+   "index": 2,
+   "start": 31.731,
+   "end": 44.118
+  },
+  {
+   "kind": "news",
+   "index": 3,
+   "start": 44.118,
+   "end": 54.671
+  },
+  {
+   "kind": "news",
+   "index": 4,
+   "start": 54.671,
+   "end": 68.402
+  },
+  {
+   "kind": "closing",
+   "index": null,
+   "start": 68.402,
+   "end": 83.353
+  }
+ ],
+ "made_at": "2026-11-24T07:12:28"
+}

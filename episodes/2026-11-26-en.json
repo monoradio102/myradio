@@ -1,0 +1,321 @@
+{
+ "title": "Generated 3D Goes Straight to Painter, Linking Up Your Workflow",
+ "opening": [
+  {
+   "say": "Good morning, and welcome to Mono Radio. It's Thursday, November 26.",
+   "show": "Good morning, and welcome to Mono Radio. It's Thursday, November 26."
+  },
+  {
+   "say": "We have five stories for you today.",
+   "show": "We have five stories for you today."
+  }
+ ],
+ "closing": [
+  {
+   "say": "Today's highlights are the Tripo bridge and the CyberBrick build stories. It's exciting to see generative A I connecting to creative tools and real objects.",
+   "show": "Today's highlights are the Tripo bridge and the CyberBrick builds. Generative AI is reaching creative tools and real objects."
+  },
+  {
+   "say": "That's all for this morning. Have a great day out there!",
+   "show": "That's all for this morning. Have a great day out there!"
+  }
+ ],
+ "news": [
+  {
+   "label": "RTX Blackwell speedup",
+   "points": [
+    "Attention up to 1.64x faster",
+    "Inference latency cut by up to 15.34%",
+    "Merged into FlashInfer"
+   ],
+   "details": [
+    "Attention processing on the RTX PRO 6000 Blackwell is reported to run up to 1.64 times faster.",
+    "In Reactor's world model serving setup, overall inference latency dropped by up to 15.34 percent.",
+    "The optimized code has been merged into FlashInfer's main branch. Results depend on the GPU, model, and runtime conditions."
+   ],
+   "lines": [
+    {
+     "say": "First up, NVIDIA. Four bit attention on R T X Blackwell is now up to one point six four times faster.",
+     "show": "First up, NVIDIA. Four-bit attention on RTX Blackwell is now up to 1.64 times faster."
+    },
+    {
+     "say": "This could help bring video generation closer to real time.",
+     "show": "This could help bring video generation closer to real time."
+    }
+   ],
+   "url": "https://developer.nvidia.com/blog/how-to-optimize-nvfp4-attention-on-nvidia-rtx-blackwell-through-register-recycling/",
+   "link": {
+    "url": "https://developer.nvidia.com/blog/how-to-optimize-nvfp4-attention-on-nvidia-rtx-blackwell-through-register-recycling/",
+    "title": "How to Optimize NVFP4 Attention on NVIDIA RTX Blackwell Through Register Recycling | NVIDIA Technical Blog",
+    "site": "NVIDIA Technical Blog",
+    "description": "Attention can be a major bottleneck when serving world foundation models, where long sequences make inference computationally demanding. On NVIDIA Hopper and NVIDIA Blackwell data center GPUs…",
+    "image": "https://developer-blogs.nvidia.com/wp-content/uploads/2025/10/floating-cubes.png",
+    "icon": null
+   }
+  },
+  {
+   "label": "Tripo to Painter, direct",
+   "points": [
+    "Send generated models via browser",
+    "Works with Painter 10.0 or later",
+    "Setup prompt also published"
+   ],
+   "details": [
+    "You can now send generated models directly from Tripo Studio to Substance 3D Painter through your browser.",
+    "It supports Painter 10.0 or later on Windows and Mac, and installs as a Python plugin.",
+    "A prompt for asking an AI agent to handle the installation has also been published."
+   ],
+   "lines": [
+    {
+     "say": "Next, 3D creation. Models made in Tripo can now be sent straight to Substance three D Painter.",
+     "show": "Next, 3D creation. Models made in Tripo can now go straight to Substance 3D Painter."
+    },
+    {
+     "say": "That should make the finishing steps a lot smoother.",
+     "show": "That should make the finishing steps a lot smoother."
+    }
+   ],
+   "_": null,
+   "url": "https://www.tripo3d.ai/blog/tripo-dcc-bridge-for-substance-3d-painter",
+   "link": {
+    "url": "https://www.tripo3d.ai/blog/tripo-dcc-bridge-for-substance-3d-painter",
+    "title": "Tripo DCC Bridge for Substance 3D Painter: Installation and Quick Start",
+    "site": "www.tripo3d.ai",
+    "description": "Learn how to install Tripo DCC Bridge on Windows or macOS and send 3D models directly from Tripo Studio to Adobe Substance 3D Painter.",
+    "image": "https://cdn-blog.holymolly.ai/media/production/tripo-dcc-bridge-for-substance-3d-painter-tripo-dcc-bridge-cover-with-substance-painter-and-tripo-icons-7f3aad1a818a.webp",
+    "icon": null
+   }
+  },
+  {
+   "label": "Ling-3.2-air released",
+   "points": [
+    "124B total, 5.5B active parameters",
+    "Released under the MIT license",
+    "AutomationBench-AA hits 61%"
+   ],
+   "details": [
+    "Ling-3.2-air is a multimodal mixture of experts model with 124 billion total and 5.5 billion active parameters, and it accepts image and video input.",
+    null,
+    "In official evaluations, its AutomationBench-AA score rose from 15.7 percent in the previous generation to 61 percent."
+   ],
+   "lines": [
+    {
+     "say": "Now for open A I. inclusion A I has released Ling three point two air, with five point five billion active parameters.",
+     "show": "Now for open AI. inclusionAI has released Ling-3.2-air, with 5.5 billion active parameters."
+    },
+    {
+     "say": "It handles images and video too, and it's released under the M I T license.",
+     "show": "It handles images and video too, and it's released under the MIT license."
+    }
+   ],
+   "url": "https://huggingface.co/inclusionAI/Ling-3.2-air",
+   "link": {
+    "url": "https://huggingface.co/inclusionAI/Ling-3.2-air",
+    "title": "inclusionAI/Ling-3.2-air · Hugging Face",
+    "site": "huggingface.co",
+    "description": "Machine learning model with 128B parameters. Download, explore files and run it on Hugging Face.",
+    "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/models/inclusionAI/Ling-3.2-air.png",
+    "icon": null
+   }
+  },
+  {
+   "label": "Tsinghua x Bambu Lab builds",
+   "points": [
+    "Music-synced desktop DJ Cat",
+    "Remote-controlled biped robot",
+    "Enclosure separate from electronics"
+   ],
+   "details": [
+    null,
+    null,
+    "3D-printed enclosures and mechanisms are combined with modular electronic parts to make working prototypes."
+   ],
+   "lines": [
+    {
+     "say": "Now a story about electronics and 3D printing. Tsinghua University students used Bambu Lab's CyberBrick to build projects like a D J Cat that moves to music.",
+     "show": "Now, electronics and 3D printing. Tsinghua University students used Bambu Lab's CyberBrick to build a DJ Cat that moves to music."
+    },
+    {
+     "say": "I love how the outer shell and the electronics are built separately.",
+     "show": "I love how the outer shell and the electronics are built separately."
+    }
+   ],
+   "url": "https://3dprint.com/337503/bambu-lab-and-tsinghua-university-team-up-on-interactive-3d-printing/",
+   "link": {
+    "url": "https://3dprint.com/337503/bambu-lab-and-tsinghua-university-team-up-on-interactive-3d-printing/",
+    "title": "Bambu Lab and Tsinghua University Team Up on Interactive 3D Printing - 3DPrint.com | Additive Manufacturing Business",
+    "site": "3DPrint.com | Additive Manufacturing Business",
+    "description": "A musical desktop companion, an interactive guessing game, and a tabletop fighting robot might seem like three very different projects. But they all have something in common: they were created...",
+    "image": "https://3dprint.com/wp-content/uploads/2026/11/image2-1.png",
+    "icon": "https://3dprint.com/wp-content/themes/lugh2019/img/favicons/apple-icon-180x180.png"
+   }
+  },
+  {
+   "label": "Denso Wave preview exhibit",
+   "points": [
+    "Program robots by voice",
+    "AI-generated optimal paths",
+    "On show at RoboNext 2026"
+   ],
+   "details": [
+    null,
+    null,
+    "It's a reference exhibit at RoboNext 2026 on December 2 to 4, and no general sale or API release has been announced."
+   ],
+   "lines": [
+    {
+     "say": "Last up, robotics from Japan. Denso Wave will show a system that lets you control a robot with your voice.",
+     "show": "Last up, robotics from Japan. Denso Wave will show a system for controlling a robot by voice."
+    },
+    {
+     "say": "It's still a preview exhibit, but it's something to look forward to.",
+     "show": "It's still a preview exhibit, but it's something to look forward to."
+    }
+   ],
+   "url": "https://prtimes.jp/main/html/rd/p/000000112.000013815.html",
+   "link": {
+    "url": "https://prtimes.jp/main/html/rd/p/000000112.000013815.html",
+    "title": "デンソーウェーブ、RoboNext 2026に出展",
+    "site": "プレスリリース・ニュースリリース配信シェアNo.1｜PR TIMES",
+    "description": "株式会社デンソーウェーブのプレスリリース（2026年11月25日 11時00分）デンソーウェーブ、RoboNext 2026に出展",
+    "image": "https://prcdn.freetls.fastly.net/release_image/13815/112/13815-112-c6b4868ca3c376ff06d80534a41c44bf-519x320.jpg?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260",
+    "icon": "https://prtimes.jp/common/v4.1/images/html/favicon/favicon-196x196.png"
+   }
+  }
+ ],
+ "format": "monoradio/news-1",
+ "date": "2026-11-26",
+ "lang": "en",
+ "seconds": 87.63,
+ "lines_timed": [
+  {
+   "start": 0.6,
+   "end": 5.507,
+   "show": "Good morning, and welcome to Mono Radio. It's Thursday, November 26.",
+   "part": 0
+  },
+  {
+   "start": 5.757,
+   "end": 7.698,
+   "show": "We have five stories for you today.",
+   "part": 0
+  },
+  {
+   "start": 8.748,
+   "end": 16.343,
+   "show": "First up, NVIDIA. Four-bit attention on RTX Blackwell is now up to 1.64 times faster.",
+   "part": 1
+  },
+  {
+   "start": 16.593,
+   "end": 19.921,
+   "show": "This could help bring video generation closer to real time.",
+   "part": 1
+  },
+  {
+   "start": 20.971,
+   "end": 27.477,
+   "show": "Next, 3D creation. Models made in Tripo can now go straight to Substance 3D Painter.",
+   "part": 2
+  },
+  {
+   "start": 27.727,
+   "end": 30.138,
+   "show": "That should make the finishing steps a lot smoother.",
+   "part": 2
+  },
+  {
+   "start": 31.188,
+   "end": 39.209,
+   "show": "Now for open AI. inclusionAI has released Ling-3.2-air, with 5.5 billion active parameters.",
+   "part": 3
+  },
+  {
+   "start": 39.459,
+   "end": 44.345,
+   "show": "It handles images and video too, and it's released under the MIT license.",
+   "part": 3
+  },
+  {
+   "start": 45.395,
+   "end": 56.616,
+   "show": "Now, electronics and 3D printing. Tsinghua University students used Bambu Lab's CyberBrick to build a DJ Cat that moves to music.",
+   "part": 4
+  },
+  {
+   "start": 56.866,
+   "end": 60.386,
+   "show": "I love how the outer shell and the electronics are built separately.",
+   "part": 4
+  },
+  {
+   "start": 61.436,
+   "end": 68.305,
+   "show": "Last up, robotics from Japan. Denso Wave will show a system for controlling a robot by voice.",
+   "part": 5
+  },
+  {
+   "start": 68.555,
+   "end": 71.819,
+   "show": "It's still a preview exhibit, but it's something to look forward to.",
+   "part": 5
+  },
+  {
+   "start": 72.869,
+   "end": 82.555,
+   "show": "Today's highlights are the Tripo bridge and the CyberBrick builds. Generative AI is reaching creative tools and real objects.",
+   "part": 6
+  },
+  {
+   "start": 82.805,
+   "end": 85.578,
+   "show": "That's all for this morning. Have a great day out there!",
+   "part": 6
+  }
+ ],
+ "segments": [
+  {
+   "kind": "opening",
+   "index": null,
+   "start": 0.6,
+   "end": 8.748
+  },
+  {
+   "kind": "news",
+   "index": 0,
+   "start": 8.748,
+   "end": 20.971
+  },
+  {
+   "kind": "news",
+   "index": 1,
+   "start": 20.971,
+   "end": 31.188
+  },
+  {
+   "kind": "news",
+   "index": 2,
+   "start": 31.188,
+   "end": 45.395
+  },
+  {
+   "kind": "news",
+   "index": 3,
+   "start": 45.395,
+   "end": 61.436
+  },
+  {
+   "kind": "news",
+   "index": 4,
+   "start": 61.436,
+   "end": 72.869
+  },
+  {
+   "kind": "closing",
+   "index": null,
+   "start": 72.869,
+   "end": 87.628
+  }
+ ],
+ "made_at": "2026-11-26T06:12:36"
+}

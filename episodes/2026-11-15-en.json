@@ -1,0 +1,360 @@
+{
+ "title": "Meet Zonos, a Local Text-to-Speech Model!",
+ "opening": [
+  {
+   "say": "Good morning, this is Mono Radio, bringing you your Sunday morning, November fifteenth.",
+   "show": "Good morning, this is Mono Radio, bringing you your Sunday morning, November 15."
+  },
+  {
+   "say": "Today we have five stories, from speech synthesis and robots to AI evaluation and three D printing.",
+   "show": "Today we have five stories, from speech synthesis and robots to AI evaluation and 3D printing."
+  }
+ ],
+ "closing": [
+  {
+   "say": "Our pick of the day is Zonos three Mini. You can try the sound quality in a browser demo.",
+   "show": "Our pick of the day is ZONOS3-Mini. You can try the sound quality in a browser demo."
+  },
+  {
+   "say": "That's all for now. Have a lovely Sunday. This was Mono Radio.",
+   "show": "That's all for now. Have a lovely Sunday. This was Mono Radio."
+  }
+ ],
+ "news": [
+  {
+   "label": "ZONOS3-Mini: Local Text-to-Speech",
+   "points": [
+    "Speech synthesis in 43 languages",
+    "Weights released under Apache 2.0",
+    "First audio in under 150ms"
+   ],
+   "details": [
+    "Zyphra's text-to-speech model also supports zero-shot voice cloning from a short audio clip and speaking style adjustment.",
+    "Runtimes including WebGPU, MLX for Apple Silicon, and ggml are also available.",
+    "The latency figure comes from the developer's own measurement on an M3 MacBook Air. The model has about 800 million parameters in total, with roughly 100 million active at inference."
+   ],
+   "lines": [
+    {
+     "say": "First up, a new text-to-speech model from Zyphra called Zonos three Mini.",
+     "show": "First up, a new text-to-speech model from Zyphra called ZONOS3-Mini."
+    },
+    {
+     "say": "It supports forty-three languages, and the weights are released under Apache two point oh.",
+     "show": "It supports 43 languages, and the weights are released under Apache 2.0."
+    },
+    {
+     "say": "What's nice is that it's light enough to run on your own computer.",
+     "show": "What's nice is that it's light enough to run on your own computer."
+    }
+   ],
+   "url": "https://www.zyphra.com/our-work/zonos3-mini",
+   "link": {
+    "url": "https://www.zyphra.com/our-work/zonos3-mini",
+    "title": "ZONOS3-Mini | Zyphra",
+    "site": "Zyphra",
+    "description": "Introducing ZONOS3-Mini, a compact zero-shot voice-cloning Text To Speech (TTS) model with state-of-the-art performance as well as leading voice control capabilities which can run in real-time on-devi",
+    "image": "https://cdn.sanity.io/images/6pyafx7r/production/c4f7e31f9d0ad18bdd83895f31e848555d044963-2400x1256.png?rect=4,0,2392,1256&w=1200&h=630&fm=jpg&q=85&fit=crop",
+    "icon": null
+   }
+  },
+  {
+   "label": "NVIDIA's Robot Implementation Guide",
+   "points": [
+    "Pick and place with SimReady assets",
+    "An AI agent builds the scene",
+    "Grasps, moves, and releases a can"
+   ],
+   "details": [
+    "This is a walkthrough of building the task in Isaac Sim 6.2 using physics-ready OpenUSD assets.",
+    "An AI agent calls Isaac Sim skills and Python operations to build the scene and verify the motion.",
+    "It relies on scripted moves from fixed positions and does not demonstrate real-world reliability."
+   ],
+   "lines": [
+    {
+     "say": "Next, an implementation guide for robotics from NVIDIA.",
+     "show": "Next, an implementation guide for robotics from NVIDIA."
+    },
+    {
+     "say": "Using an AI agent, it sets up a task in simulation where a robot arm picks up a can and carries it over.",
+     "show": "Using an AI agent, it sets up a simulated task where a robot arm picks up and moves a can."
+    },
+    {
+     "say": "It's pretty cool that you can test the motion before you ever buy a robot.",
+     "show": "It's pretty cool that you can test the motion before you ever buy a robot."
+    }
+   ],
+   "url": "https://huggingface.co/blog/nvidia/simready-assets-robot-pick-and-place",
+   "link": {
+    "url": "https://huggingface.co/blog/nvidia/simready-assets-robot-pick-and-place",
+    "title": "Build a Robot Pick-and-Place Simulation with SimReady Assets",
+    "site": "huggingface.co",
+    "description": "A Blog post by NVIDIA on Hugging Face",
+    "image": "https://cdn-uploads.huggingface.co/production/uploads/6abfe9e7d7cf09a9b38ef308/HFZWtQ2i9VN_agjeUw2HB.gif",
+    "icon": null
+   }
+  },
+  {
+   "label": "Power Tunnel Inspection Experiment",
+   "points": [
+    "Quadruped robot and drone team up",
+    "Coverage rises from 37% to 100%",
+    "Takes over twice as long"
+   ],
+   "details": [
+    "The robot covers the floor and lower levels, while the drone handles the upper levels and the ceiling.",
+    "In a simulation with assumed conditions, human visual inspection found 1 of 8 anomalies, while the combined approach found all 8.",
+    "Inspection time rose from 8 minutes 49 seconds to 20 minutes 44 seconds. These are not figures from real facilities."
+   ],
+   "lines": [
+    {
+     "say": "Now, a power tunnel inspection simulation from Space Data.",
+     "show": "Now, a power tunnel inspection simulation from Space Data."
+    },
+    {
+     "say": "A four-legged robot and a drone split the work, one watching the floor and the other the ceiling.",
+     "show": "A four-legged robot and a drone split the work, one on the floor and one on the ceiling."
+    },
+    {
+     "say": "The results show fewer missed problems than visual inspection, but it takes more time.",
+     "show": "The results show fewer missed problems than visual inspection, but it takes more time."
+    }
+   ],
+   "url": "https://prtimes.jp/main/html/rd/p/000000276.000080352.html",
+   "link": {
+    "url": "https://prtimes.jp/main/html/rd/p/000000276.000080352.html",
+    "title": "スペースデータ、地中の送電トンネルを四足ロボットとドローンが分担して点検するシミュレーションを開発",
+    "site": "プ\u0000\u0000レスリリース・ニュースリリース配信シェアNo.1｜PR TIMES",
+    "description": "株式会社スペースデータのプレスリリース（2026年11月13日 12時00分）スペースデータ、地中の送電トンネルを四足ロボットとドローンが分担して点検するシミュレーションを開発",
+    "image": "https://prcdn.freetls.fastly.net/release_image/80352/276/80352-276-c9cc18a34bf28cd014c6f58727029b13-1920x1080.png?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260",
+    "icon": "https://prtimes.jp/common/v4.1/images/html/favicon/favicon-196x196.png"
+   }
+  },
+  {
+   "label": "XYBench: A New AI Evaluation",
+   "points": [
+    "Can AI spot the goal behind a question?",
+    "8,115 questions included",
+    "Tendency to follow false premises"
+   ],
+   "details": [
+    "It evaluates whether a model can tell the method someone asked for apart from the goal they truly want to achieve.",
+    "The questions were collected from programming and everyday problem solving. The dataset and evaluation code are also public.",
+    "The leading models tested often mentioned the real goal, yet mostly answered with solutions that followed the flawed premise."
+   ],
+   "lines": [
+    {
+     "say": "One more story on AI evaluation. The Allen Institute for AI and others have released X Y Bench.",
+     "show": "One more AI evaluation story. The Allen Institute for AI and others have released XYBench."
+    },
+    {
+     "say": "It measures whether a model can see the real goal behind a question, with eight thousand, one hundred fifteen questions prepared.",
+     "show": "It measures whether a model can see the real goal behind a question, with 8,115 questions."
+    }
+   ],
+   "url": "https://huggingface.co/blog/allenai/xybench",
+   "link": {
+    "url": "https://huggingface.co/blog/allenai/xybench",
+    "title": "XYBench: Helping with the problem behind the question",
+    "site": "huggingface.co",
+    "description": "A Blog post by Ai2 on Hugging Face",
+    "image": "https://cdn-uploads.huggingface.co/production/uploads/638e39b249de7ae552d977b5/aOWdQgZ8ioJcx9Eii4iob.png",
+    "icon": null
+   }
+  },
+  {
+   "label": "Disney's 3D-Printed Canoes",
+   "points": [
+    "Permanent fixtures on the Jungle Cruise",
+    "Recreated without any CAD data",
+    "Interview published November 12"
+   ],
+   "details": [
+    "Haddy worked with Walt Disney Imagineering to make the canoe props using large-format 3D printing.",
+    "The shapes were recreated from old photos and finished with paint after printing.",
+    "This comes from an interview on 3DPrint.com. The canoe installation itself wasn't first announced this week."
+   ],
+   "lines": [
+    {
+     "say": "Finally, Disney's Jungle Cruise, where canoes have been made with large-format three D printing.",
+     "show": "Finally, Disney's Jungle Cruise, where canoes have been made with large-format 3D printing."
+    },
+    {
+     "say": "With no original data available, the shapes were recreated from old photographs.",
+     "show": "With no original data available, the shapes were recreated from old photographs."
+    }
+   ],
+   "url": "https://3dprint.com/325078/how-haddy-landed-disney-and-why-that-matters-for-3d-printing/",
+   "link": {
+    "url": "https://blooloop.com/disney-haddy-ai-3d-printing/",
+    "title": "Disney Imagineers working with AI-driven 3D printing company Haddy",
+    "site": "blooloop",
+    "description": "New 3D printed Jungle Cruise prop arrives at Disneyland",
+    "image": "https://blooloop.com/media-library/disney-haddy-3d-printing.png?id=62821735&width=1200&height=600&coordinates=0%2C151%2C0%2C152",
+    "icon": "https://assets.rebelmouse.io/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpbWFnZSI6Imh0dHBzOi8vYXNzZXRzLnJibC5tcy81NjE0NTUwNy9vcmlnaW4ucG5nIiwiZXhwaXJlc19hdCI6MTgzMzk3ODMwMX0.74Jhh4pyYOmtB2JGDikBshSm1Xsk5oRLk45s1zNYCGA/img.png?width=192&height=192",
+    "found_by": "search"
+   },
+   "source_link": {
+    "url": "https://3dprint.com/325078/how-haddy-landed-disney-and-why-that-matters-for-3d-printing/",
+    "title": "How Haddy Landed Disney, and Why That Matters for 3D Printing - 3DPrint.com | Additive Manufacturing Business",
+    "site": "3DPrint.com | Additive Manufacturing Business",
+    "description": "The Walt Disney Company relies on a wide network of partners to build its parks and attractions. But bringing a new way of making things into that system—and putting it...",
+    "image": null,
+    "icon": "https://3dprint.com/wp-content/themes/lugh2019/img/favicons/apple-icon-180x180.png"
+   }
+  }
+ ],
+ "highlight": 0,
+ "format": "monoradio/news-1",
+ "date": "2026-11-15",
+ "lang": "en",
+ "seconds": 98.38,
+ "lines_timed": [
+  {
+   "start": 0.6,
+   "end": 5.592,
+   "show": "Good morning, this is Mono Radio, bringing you your Sunday morning, November 15.",
+   "part": 0
+  },
+  {
+   "start": 5.842,
+   "end": 12.477,
+   "show": "Today we have five stories, from speech synthesis and robots to AI evaluation and 3D printing.",
+   "part": 0
+  },
+  {
+   "start": 13.527,
+   "end": 17.985,
+   "show": "First up, a new text-to-speech model from Zyphra called ZONOS3-Mini.",
+   "part": 1
+  },
+  {
+   "start": 18.235,
+   "end": 23.291,
+   "show": "It supports 43 languages, and the weights are released under Apache 2.0.",
+   "part": 1
+  },
+  {
+   "start": 23.541,
+   "end": 26.933,
+   "show": "What's nice is that it's light enough to run on your own computer.",
+   "part": 1
+  },
+  {
+   "start": 27.983,
+   "end": 31.759,
+   "show": "Next, an implementation guide for robotics from NVIDIA.",
+   "part": 2
+  },
+  {
+   "start": 32.009,
+   "end": 39.156,
+   "show": "Using an AI agent, it sets up a simulated task where a robot arm picks up and moves a can.",
+   "part": 2
+  },
+  {
+   "start": 39.406,
+   "end": 43.395,
+   "show": "It's pretty cool that you can test the motion before you ever buy a robot.",
+   "part": 2
+  },
+  {
+   "start": 44.445,
+   "end": 48.115,
+   "show": "Now, a power tunnel inspection simulation from Space Data.",
+   "part": 3
+  },
+  {
+   "start": 48.365,
+   "end": 53.762,
+   "show": "A four-legged robot and a drone split the work, one on the floor and one on the ceiling.",
+   "part": 3
+  },
+  {
+   "start": 54.012,
+   "end": 58.791,
+   "show": "The results show fewer missed problems than visual inspection, but it takes more time.",
+   "part": 3
+  },
+  {
+   "start": 59.841,
+   "end": 67.094,
+   "show": "One more AI evaluation story. The Allen Institute for AI and others have released XYBench.",
+   "part": 4
+  },
+  {
+   "start": 67.344,
+   "end": 74.64,
+   "show": "It measures whether a model can see the real goal behind a question, with 8,115 questions.",
+   "part": 4
+  },
+  {
+   "start": 75.69,
+   "end": 81.194,
+   "show": "Finally, Disney's Jungle Cruise, where canoes have been made with large-format 3D printing.",
+   "part": 5
+  },
+  {
+   "start": 81.444,
+   "end": 86.052,
+   "show": "With no original data available, the shapes were recreated from old photographs.",
+   "part": 5
+  },
+  {
+   "start": 87.102,
+   "end": 92.265,
+   "show": "Our pick of the day is ZONOS3-Mini. You can try the sound quality in a browser demo.",
+   "part": 6
+  },
+  {
+   "start": 92.515,
+   "end": 96.333,
+   "show": "That's all for now. Have a lovely Sunday. This was Mono Radio.",
+   "part": 6
+  }
+ ],
+ "segments": [
+  {
+   "kind": "opening",
+   "index": null,
+   "start": 0.6,
+   "end": 13.527
+  },
+  {
+   "kind": "news",
+   "index": 0,
+   "start": 13.527,
+   "end": 27.983
+  },
+  {
+   "kind": "news",
+   "index": 1,
+   "start": 27.983,
+   "end": 44.445
+  },
+  {
+   "kind": "news",
+   "index": 2,
+   "start": 44.445,
+   "end": 59.841
+  },
+  {
+   "kind": "news",
+   "index": 3,
+   "start": 59.841,
+   "end": 75.69
+  },
+  {
+   "kind": "news",
+   "index": 4,
+   "start": 75.69,
+   "end": 87.102
+  },
+  {
+   "kind": "closing",
+   "index": null,
+   "start": 87.102,
+   "end": 98.383
+  }
+ ],
+ "made_at": "2026-11-15T06:33:08"
+}

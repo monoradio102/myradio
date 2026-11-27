@@ -1,0 +1,379 @@
+{
+ "title": "高速AIとロボットAIが登場！ジェミニ4とプラクシスワン",
+ "opening": [
+  {
+   "say": "おはようございます、ものラジオです。十一月十三日、金曜日の朝です。",
+   "show": "おはようございます、ものラジオです。11月13日、金曜日の朝です。"
+  },
+  {
+   "say": "今日はAIとスリーディーの話題を五本お届けします。",
+   "show": "今日はAIと3Dの話題を5本お届けします。"
+  }
+ ],
+ "news": [
+  {
+   "label": "Gemini 4 Hydrogen公開",
+   "points": [
+    "日常のコーディング向けに最適化",
+    "モデルを自動で切り替え",
+    "クォータ消費を平均24%削減"
+   ],
+   "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-hydrogen/",
+   "lines": [
+    {
+     "say": "まずはグーグル、ジェミニフォー ハイドロジェンの登場です。",
+     "show": "まずはGoogle、Gemini 4 Hydrogenの登場です。"
+    },
+    {
+     "say": "日常のコーディング向けに速さを重視したモデルです。",
+     "show": "日常のコーディング向けに速さを重視したモデルです。"
+    },
+    {
+     "say": "高性能モデルと自動で使い分けて、消費を減らせるそうです。",
+     "show": "高性能モデルと自動で使い分けて、消費を減らせるそうです。"
+    }
+   ],
+   "details": [
+    "コーディング、デバッグ、エージェント処理向けに最適化され、100万トークンのコンテキストと4段階の推論レベルに対応します。",
+    "Google Antigravityに追加されたOrchestratorが、高性能モデルとHydrogenを同一セッションで自動的に切り替えます。",
+    "Googleの評価では、成功率を単一モデルに近く保ちつつ、完了時間も19%短縮したとしています。"
+   ],
+   "link": {
+    "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-hydrogen/",
+    "title": "Introducing Gemini 4 Hydrogen",
+    "site": "Google",
+    "description": "Today, we’re introducing Gemini 4 Hydrogen, our daily driver for agentic workflows",
+    "image": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/gemini-4-hydrogen__key-art__lockup__16-9.width-1300.jpg",
+    "icon": "https://blog.google/static/blogv2/images/apple-touch-icon.png?version=pr20261029-2131"
+   }
+  },
+  {
+   "label": "Runway Praxis-1公開",
+   "points": [
+    "ロボット制御モデルの重みを公開",
+    "動画と行動を同時に予測",
+    "作業成功率46.2%を記録"
+   ],
+   "url": "https://runway.com/news/company-news/praxis-1-is-now-available",
+   "lines": [
+    {
+     "say": "続いてロボットの話、ランウェイがプラクシスワンを公開しました。",
+     "show": "続いてロボットの話、RunwayがPraxis-1を公開しました。"
+    },
+    {
+     "say": "動画と行動を一緒に予測する、オープンなモデルです。",
+     "show": "動画と行動を一緒に予測する、オープンなモデルです。"
+    },
+    {
+     "say": "動画の知識がロボットに活きるのが面白いですね。",
+     "show": "動画の知識がロボットに活きるのが面白いですね。"
+    }
+   ],
+   "details": [
+    "重みと推論・ファインチューニングコードがApache 2.0ライセンスで公開されました。",
+    "270億パラメータのMoE型拡散Transformerで、動画とロボットの行動を同時に予測します。",
+    "NVIDIAのRoboLab-120評価で1,200エピソード中の成功率で、比較対象の公開モデルを上回りました。実行には高性能なNVIDIA GPUが必要です。"
+   ],
+   "link": {
+    "url": "https://runway.com/news/company-news/praxis-1-is-now-available",
+    "title": "Runway Praxis-1 Is Now Available: Open-Weight Robotics Model",
+    "site": "runway.com",
+    "description": "Runway Praxis-1, our open-weight world action model for robotics, is now available under Apache 2.0. Download the weights on Hugging Face and GitHub.",
+    "image": "https://d3phaj0sisr2ct.cloudfront.net/site/images/sanity/2026/11/frame-8-bddb7fbc-4647-44e5-bf65-1fbb7e559b24-af3f1b60-26e7-4a91-afda-ee27b0a4674b.webp",
+    "icon": "https://runway.com/icon.png?icon.35ps9bmugbe1e.png"
+   }
+  },
+  {
+   "label": "Gemini Decisions API",
+   "points": [
+    "最大1,000件の判断を一括処理",
+    "応答は150〜250ミリ秒",
+    "入力100万トークン0.10ドル"
+   ],
+   "url": "https://blog.google/innovation-and-ai/technology/developers-tools/gemini-decisions-api/",
+   "lines": [
+    {
+     "say": "もう一つグーグルから、ジェミニ・ディシジョンズ・エーピーアイです。",
+     "show": "もう一つGoogleから、Gemini Decisions APIです。"
+    },
+    {
+     "say": "最大千件の質問をまとめて判定し、確信度を返します。",
+     "show": "最大1,000件の質問をまとめて判定し、確信度を返します。"
+    },
+    {
+     "say": "応答が百五十から二百五十ミリ秒と速いのが魅力です。",
+     "show": "応答が150〜250ミリ秒と速いのが魅力です。"
+    }
+   ],
+   "details": [
+    "テキスト・画像・音声・動画・PDFに対し、Yes/Noや選択肢、段階評価などの質問をまとめて判定し、確信度を返します。",
+    "Google公表値の一般的な応答時間です。文章は生成しません。",
+    "出力トークン課金はありません。ツール選択や画像分類、検査判定などを高速・低コストに実装できます。"
+   ],
+   "link": {
+    "url": "https://blog.google/innovation-and-ai/technology/developers-tools/gemini-decisions-api/",
+    "title": "Gemini Decisions API: Fast, calibrated multimodal decisions",
+    "site": "Google",
+    "description": "Meet the Gemini Decisions API, powered by our state-of-the-art model Gemini Decision for fast, calibrated multimodal decisions.",
+    "image": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/gemini__decisions__blog-header_2784x1566.width-1300.png",
+    "icon": "https://blog.google/static/blogv2/images/apple-touch-icon.png?version=pr20261029-2131"
+   }
+  },
+  {
+   "label": "NVIDIA Déjà View",
+   "points": [
+    "複数の写真から3D空間を復元",
+    "パラメータはわずか1.17億",
+    "速度と精度を調整可能"
+   ],
+   "url": "https://research.nvidia.com/labs/dvl/projects/dvlt/",
+   "lines": [
+    {
+     "say": "次はスリーディーの研究、エヌビディアのデジャビューです。",
+     "show": "次は3Dの研究、NVIDIAのDéjà Viewです。"
+    },
+    {
+     "say": "複数の写真から3D空間を復元するモデルで、パラメータは一億一千七百万。",
+     "show": "複数の写真から3D空間を復元するモデルで、パラメータは1.17億。"
+    },
+    {
+     "say": "小さいのに大きなモデルに迫るのがすごいです。",
+     "show": "小さいのに大きなモデルに迫るのがすごいです。"
+    }
+   ],
+   "details": [
+    "カメラ位置と密な3D形状を推定します。NeurIPS 2026に採択されています。",
+    "同じTransformerブロックを繰り返し実行する構造で、パラメータ数を抑えています。",
+    "推論時の反復回数を変えて調整できます。ただし確認時点では学習済み重みの公開が完了していません。"
+   ],
+   "link": {
+    "url": "https://huggingface.co/nvidia/dvlt",
+    "title": "nvidia/dvlt · Hugging Face",
+    "site": "huggingface.co",
+    "description": "Image-to-3D model with 0.1B parameters. Download, explore files and run it on Hugging Face.",
+    "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/models/nvidia/dvlt.png",
+    "icon": null,
+    "found_by": "search"
+   },
+   "source_link": {
+    "url": "https://research.nvidia.com/labs/dvl/projects/dvlt/",
+    "title": "Déjà View",
+    "site": "research.nvidia.com",
+    "description": "Déjà View — a 117M-parameter looped transformer for multi-view 3D reconstruction that matches or beats >1B-parameter feed-forward baselines and exposes inference compute as a slider.",
+    "image": null,
+    "icon": null
+   }
+  },
+  {
+   "label": "日本語AI評価「Kurabe」",
+   "points": [
+    "ELEMENTSが無償提供を開始",
+    "精度・速度・コストで比較",
+    "分野別評価も拡充予定"
+   ],
+   "url": "https://prtimes.jp/main/html/rd/p/000000171.000061051.html",
+   "lines": [
+    {
+     "say": "最後は日本から、エレメンツが無料のクラベを公開しました。",
+     "show": "最後は日本から、ELEMENTSが無料のKurabeを公開しました。"
+    },
+    {
+     "say": "日本語の業務向けにAIモデルを比べられるサービスです。",
+     "show": "日本語の業務向けにAIモデルを比べられるサービスです。"
+    },
+    {
+     "say": "モデル選びの参考になりそうですね。",
+     "show": "モデル選びの参考になりそうですね。"
+    }
+   ],
+   "details": [
+    "国内業務向けのAIリーダーボードで、Webサービスとして使えます。",
+    "日本語や国内業務のユースケースを前提に、AIモデルと実行環境の組み合わせを比べられます。",
+    "産総研を代表機関とするNEDO関連研究プロジェクトの成果の一部で、今後は金融・製造業などの分野別評価も拡充する予定です。"
+   ],
+   "link": {
+    "url": "https://prtimes.jp/main/html/rd/p/000000171.000061051.html",
+    "title": "ELEMENTS、国内業務向けAIリーダーボード「Kurabe（クラベ）」のサービス提供開始",
+    "site": "プレスリリース・ニュースリリース配信シェアNo.1｜PR TIMES",
+    "description": "株式会社ELEMENTSのプレスリリース（2026年11月12日 10時00分）ELEMENTS、国内業務向けAIリーダーボード「Kurabe（クラベ）」のサービス提供開始",
+    "image": "https://prcdn.freetls.fastly.net/release_image/61051/171/61051-171-fa1908599bdff62e58c0b529b2252787-1200x400.png?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260",
+    "icon": "https://prtimes.jp/common/v4.1/images/html/favicon/favicon-196x196.png"
+   }
+  }
+ ],
+ "closing": [
+  {
+   "say": "今日の注目は、すぐ試せるディシジョンズ・エーピーアイと、ロボットの未来を感じるプラクシスワンです。",
+   "show": "今日の注目は、すぐ試せるDecisions APIと、ロボットの未来を感じるPraxis-1です。"
+  },
+  {
+   "say": "それでは、ものラジオでした。",
+   "show": "それでは、ものラジオでした。"
+  }
+ ],
+ "format": "monoradio/news-1",
+ "date": "2026-11-13",
+ "lang": "ja",
+ "seconds": 86.94,
+ "lines_timed": [
+  {
+   "start": 0.6,
+   "end": 6.122,
+   "show": "おはようございます、ものラジオです。11月13日、金曜日の朝です。",
+   "part": 0
+  },
+  {
+   "start": 6.372,
+   "end": 9.619,
+   "show": "今日はAIと3Dの話題を5本お届けします。",
+   "part": 0
+  },
+  {
+   "start": 10.669,
+   "end": 14.485,
+   "show": "まずはGoogle、Gemini 4 Hydrogenの登場です。",
+   "part": 1
+  },
+  {
+   "start": 14.735,
+   "end": 18.028,
+   "show": "日常のコーディング向けに速さを重視したモデルです。",
+   "part": 1
+  },
+  {
+   "start": 18.278,
+   "end": 22.396,
+   "show": "高性能モデルと自動で使い分けて、消費を減らせるそうです。",
+   "part": 1
+  },
+  {
+   "start": 23.446,
+   "end": 27.784,
+   "show": "続いてロボットの話、RunwayがPraxis-1を公開しました。",
+   "part": 2
+  },
+  {
+   "start": 28.034,
+   "end": 31.536,
+   "show": "動画と行動を一緒に予測する、オープンなモデルです。",
+   "part": 2
+  },
+  {
+   "start": 31.786,
+   "end": 34.905,
+   "show": "動画の知識がロボットに活きるのが面白いですね。",
+   "part": 2
+  },
+  {
+   "start": 35.955,
+   "end": 40.328,
+   "show": "もう一つGoogleから、Gemini Decisions APIです。",
+   "part": 3
+  },
+  {
+   "start": 40.578,
+   "end": 44.974,
+   "show": "最大1,000件の質問をまとめて判定し、確信度を返します。",
+   "part": 3
+  },
+  {
+   "start": 45.224,
+   "end": 49.33,
+   "show": "応答が150〜250ミリ秒と速いのが魅力です。",
+   "part": 3
+  },
+  {
+   "start": 50.38,
+   "end": 53.708,
+   "show": "次は3Dの研究、NVIDIAのDéjà Viewです。",
+   "part": 4
+  },
+  {
+   "start": 53.958,
+   "end": 60.177,
+   "show": "複数の写真から3D空間を復元するモデルで、パラメータは1.17億。",
+   "part": 4
+  },
+  {
+   "start": 60.427,
+   "end": 63.418,
+   "show": "小さいのに大きなモデルに迫るのがすごいです。",
+   "part": 4
+  },
+  {
+   "start": 64.468,
+   "end": 68.586,
+   "show": "最後は日本から、ELEMENTSが無料のKurabeを公開しました。",
+   "part": 5
+  },
+  {
+   "start": 68.836,
+   "end": 72.443,
+   "show": "日本語の業務向けにAIモデルを比べられるサービスです。",
+   "part": 5
+  },
+  {
+   "start": 72.693,
+   "end": 75.127,
+   "show": "モデル選びの参考になりそうですね。",
+   "part": 5
+  },
+  {
+   "start": 76.177,
+   "end": 82.744,
+   "show": "今日の注目は、すぐ試せるDecisions APIと、ロボットの未来を感じるPraxis-1です。",
+   "part": 6
+  },
+  {
+   "start": 82.994,
+   "end": 84.894,
+   "show": "それでは、ものラジオでした。",
+   "part": 6
+  }
+ ],
+ "segments": [
+  {
+   "kind": "opening",
+   "index": null,
+   "start": 0.6,
+   "end": 10.669
+  },
+  {
+   "kind": "news",
+   "index": 0,
+   "start": 10.669,
+   "end": 23.446
+  },
+  {
+   "kind": "news",
+   "index": 1,
+   "start": 23.446,
+   "end": 35.955
+  },
+  {
+   "kind": "news",
+   "index": 2,
+   "start": 35.955,
+   "end": 50.38
+  },
+  {
+   "kind": "news",
+   "index": 3,
+   "start": 50.38,
+   "end": 64.468
+  },
+  {
+   "kind": "news",
+   "index": 4,
+   "start": 64.468,
+   "end": 76.177
+  },
+  {
+   "kind": "closing",
+   "index": null,
+   "start": 76.177,
+   "end": 86.944
+  }
+ ],
+ "made_at": "2026-11-13T06:32:07"
+}

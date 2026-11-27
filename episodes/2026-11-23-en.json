@@ -1,0 +1,340 @@
+{
+ "title": "Tencent Releases Hy4, an AI Model for 3D Creation",
+ "opening": [
+  {
+   "say": "This is Mono Radio. Good morning, it's Monday, November twenty-third.",
+   "show": "This is Mono Radio. Good morning, it's Monday, November 23."
+  },
+  {
+   "say": "Today we have five stories from the world of A I and three D.",
+   "show": "Today we have five stories from the world of AI and 3D."
+  }
+ ],
+ "news": [
+  {
+   "label": "Tencent Releases Hy4",
+   "points": [
+    "Model weights released",
+    "Trained on Blender and CAD use",
+    "Too big for personal GPUs"
+   ],
+   "details": [
+    "It is a large multimodal MoE model, with a language component of 770 billion total parameters and support for a one million token context.",
+    "Training also strengthens on-screen operation of specialist software such as Blender and CAD, plus game development for Unreal Engine, Unity and Godot.",
+    "The weights are public, but the model is huge and is not a lightweight one that runs on a typical personal GPU."
+   ],
+   "lines": [
+    {
+     "say": "First up, Tencent. The weights for an A I model called Hy four have been released.",
+     "show": "First up, Tencent. The weights for an AI model called Hy4 have been released."
+    },
+    {
+     "say": "What's interesting is that it has learned to operate Blender and CAD on screen.",
+     "show": "What's interesting is that it has learned to operate Blender and CAD on screen."
+    },
+    {
+     "say": "But it's very large, so it won't run on an ordinary computer.",
+     "show": "But it's very large, so it won't run on an ordinary computer."
+    }
+   ],
+   "url": "https://huggingface.co/tencent/Hy4",
+   "link": {
+    "url": "https://huggingface.co/tencent/Hy4",
+    "title": "tencent/Hy4 · Hugging Face",
+    "site": "huggingface.co",
+    "description": "Image-Text-to-Text model with 774B parameters. Download, explore files and run it on Hugging Face.",
+    "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/models/tencent/Hy4.png",
+    "icon": null
+   }
+  },
+  {
+   "label": "AI Improves Chip Circuit Design",
+   "points": [
+    "OpenAI and AMD work together",
+    "Up to 14% gain in some blocks",
+    "Some ideas reach manufacturing"
+   ],
+   "details": [
+    "The model edits RTL code and improves it while checking functional equivalence with Synopsys tools.",
+    "On a specific IP block of a flagship GPU, PPA improved by up to 14 percent over a highly optimized design.",
+    "That does not mean the whole GPU got 14 percent faster."
+   ],
+   "lines": [
+    {
+     "say": "Next, semiconductors. OpenAI and A M D used A I to improve a circuit design.",
+     "show": "Next, semiconductors. OpenAI and AMD used AI to improve a circuit design."
+    },
+    {
+     "say": "In some blocks of a G P U, they saw gains of up to fourteen percent.",
+     "show": "In some blocks of a GPU, they saw gains of up to 14 percent."
+    },
+    {
+     "say": "And some of the suggestions were included in a design that went on to manufacturing.",
+     "show": "And some of the suggestions were included in a design that went on to manufacturing."
+    }
+   ],
+   "url": "https://openai.com/ja-JP/index/advancing-chip-design-with-our-models/",
+   "link": {
+    "url": "https://openai.com/ja-JP/index/advancing-chip-design-with-our-models/",
+    "title": "OpenAI モデルによるチップ設計の進化",
+    "site": "OpenAI",
+    "description": "OpenAI モデルが Jalapeño チップの回路を最適化し、RISC‑V コアの設計を改良。GPT‑6 Astra による AI 支援型チップ設計の進歩を紹介します。",
+    "image": "https://images.ctfassets.net/kftzwdyauwt9/658zg0FHAg7zuL73DTFCfC/fff21fd18c260ce64a10a14ee8d4e851/advancing-chip-design-social.png?w=1600&h=900&fit=fill",
+    "icon": "https://openai.com/apple-icon.png?apple-icon.3o0tf8iy4mx7y.png"
+   }
+  },
+  {
+   "label": "XJet Announces Atelier",
+   "points": [
+    "Charm designs from text or photos",
+    "Connects to real metal production",
+    "XPARTS contract service too"
+   ],
+   "details": [
+    "You can design from a short description or a photo, then preview the adjusted shape in 360 degrees.",
+    "It connects to a real manufacturing process using the company's NanoParticle Jetting method.",
+    "It is a service that lets you have parts made on contract without owning a printer."
+   ],
+   "lines": [
+    {
+     "say": "Now, metal three D printing. XJet has announced Atelier, which makes metal jewelry from text or photos.",
+     "show": "Now, metal 3D printing. XJet has announced Atelier, which makes metal jewelry from text or photos."
+    },
+    {
+     "say": "I like that you can check the shape in three hundred sixty degrees and go straight to making the real thing.",
+     "show": "I like that you can check the shape in 360 degrees and go straight to making the real thing."
+    }
+   ],
+   "url": "https://www.incus-media.com/xjet-expands-access-to-nanoparticle-jetting-with-xparts-and-xjet-atelier-at-formnext-2026/",
+   "link": {
+    "url": "https://www.incus-media.com/xjet-expands-access-to-nanoparticle-jetting-with-xparts-and-xjet-atelier-at-formnext-2026/",
+    "title": "XJet Expands Access to NanoParticle Jetting with XPARTS and XJet Atelier at Formnext 2026",
+    "site": "Incus",
+    "description": null,
+    "image": "https://secure.gravatar.com/avatar/f48d527f73524ac9330faae89cc46784198b819a840aba5db932a464ad00e238?s=96&d=mm&r=g",
+    "icon": null
+   }
+  },
+  {
+   "label": "Physical AI Arrives in a Hospital",
+   "points": [
+    "Handles opened medicine boxes",
+    "Introduced at JCHO Osaka Hospital",
+    "Automates scanning and transport"
+   ],
+   "details": [
+    "It handles opened medicine boxes, which were hard for conventional automated equipment because of warped boxes and glossy reflections.",
+    "The hospital introduced a system that manages stock and dispensing, along with an automatic storage device called Ultra Facis.",
+    "It aims to automate the scanning and transport work that staff used to do box by box."
+   ],
+   "lines": [
+    {
+     "say": "Now for some robot news. A hospital in Osaka has introduced physical A I equipment that can even handle opened medicine boxes.",
+     "show": "Now for some robot news. A hospital in Osaka has introduced physical AI equipment that can even handle opened medicine boxes."
+    },
+    {
+     "say": "Handling real objects that vary in shape and condition is impressive, isn't it?",
+     "show": "Handling real objects that vary in shape and condition is impressive, isn't it?"
+    }
+   ],
+   "url": "https://prtimes.jp/main/html/rd/p/000000007.000145330.html",
+   "link": {
+    "url": "https://prtimes.jp/main/html/rd/p/000000007.000145330.html",
+    "title": "日本の病院調剤室に初めてフィジカルAIを導入※",
+    "site": "プレスリリース・ニュースリリース配信シェアNo.1｜PR TIMES",
+    "description": "株式会社メディカルユアーズロボティクスのプレスリリース（2026年11月19日 21時15分）日本の病院調剤室に初めてフィジカルAIを導入※",
+    "image": "https://prcdn.freetls.fastly.net/release_image/145330/7/145330-7-613034af480c4fe56b4be5668c9c2b8c-3900x2925.jpg?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260",
+    "icon": "https://prtimes.jp/common/v4.1/images/html/favicon/favicon-196x196.png"
+   }
+  },
+  {
+   "label": "ChatGPT Space Starts Rolling Out",
+   "points": [
+    "Rolling out to Plus users",
+    "Build pages and decks together",
+    "Updates from connected apps"
+   ],
+   "details": [
+    "It is rolling out gradually to eligible Plus users aged 18 and over.",
+    "You can create editable pages and presentations with ChatGPT and share them with collaborators.",
+    "Content can be updated using information from connected apps, and charts and interactive elements can be included."
+   ],
+   "lines": [
+    {
+     "say": "Last, a tool update. Space in ChatGPT is rolling out to Plus users.",
+     "show": "Last, a tool update. Space in ChatGPT is rolling out to Plus users."
+    },
+    {
+     "say": "You can build pages and presentations with A I, then share them and keep them updated.",
+     "show": "You can build pages and presentations with AI, then share them and keep them updated."
+    }
+   ],
+   "url": "https://help.openai.com/ja-jp/articles/20001549-getting-started-with-space-in-chatgpt",
+   "link": {
+    "url": "https://help.openai.com/ja-jp/articles/20001549-getting-started-with-space-in-chatgpt",
+    "title": "ChatGPT Space 入門 | OpenAI Help Center",
+    "site": "OpenAI Help Center",
+    "description": "ページを作成・整理し、ChatGPT を活用しながらドキュメントを共同編集できます。",
+    "image": "https://help.openai.com/og-image.png",
+    "icon": "https://help.openai.com/apple-touch-icon.png"
+   }
+  }
+ ],
+ "closing": [
+  {
+   "say": "Today's highlights were Hy four, which can operate Blender and CAD, and Atelier, which links A I all the way to real metal parts.",
+   "show": "Today's highlights were Hy4, which can operate Blender and CAD, and Atelier, which links AI to real metal parts."
+  },
+  {
+   "say": "Many of this morning's stories were close to the world of making things. That was Mono Radio.",
+   "show": "Many of this morning's stories were close to the world of making things. That was Mono Radio."
+  }
+ ],
+ "format": "monoradio/news-1",
+ "date": "2026-11-23",
+ "lang": "en",
+ "seconds": 96.13,
+ "lines_timed": [
+  {
+   "start": 0.6,
+   "end": 4.931,
+   "show": "This is Mono Radio. Good morning, it's Monday, November 23.",
+   "part": 0
+  },
+  {
+   "start": 5.181,
+   "end": 8.765,
+   "show": "Today we have five stories from the world of AI and 3D.",
+   "part": 0
+  },
+  {
+   "start": 9.815,
+   "end": 14.551,
+   "show": "First up, Tencent. The weights for an AI model called Hy4 have been released.",
+   "part": 1
+  },
+  {
+   "start": 14.801,
+   "end": 19.43,
+   "show": "What's interesting is that it has learned to operate Blender and CAD on screen.",
+   "part": 1
+  },
+  {
+   "start": 19.68,
+   "end": 23.221,
+   "show": "But it's very large, so it won't run on an ordinary computer.",
+   "part": 1
+  },
+  {
+   "start": 24.271,
+   "end": 30.138,
+   "show": "Next, semiconductors. OpenAI and AMD used AI to improve a circuit design.",
+   "part": 2
+  },
+  {
+   "start": 30.388,
+   "end": 34.633,
+   "show": "In some blocks of a GPU, they saw gains of up to 14 percent.",
+   "part": 2
+  },
+  {
+   "start": 34.883,
+   "end": 39.513,
+   "show": "And some of the suggestions were included in a design that went on to manufacturing.",
+   "part": 2
+  },
+  {
+   "start": 40.563,
+   "end": 47.304,
+   "show": "Now, metal 3D printing. XJet has announced Atelier, which makes metal jewelry from text or photos.",
+   "part": 3
+  },
+  {
+   "start": 47.554,
+   "end": 53.015,
+   "show": "I like that you can check the shape in 360 degrees and go straight to making the real thing.",
+   "part": 3
+  },
+  {
+   "start": 54.065,
+   "end": 62.641,
+   "show": "Now for some robot news. A hospital in Osaka has introduced physical AI equipment that can even handle opened medicine boxes.",
+   "part": 4
+  },
+  {
+   "start": 62.891,
+   "end": 67.585,
+   "show": "Handling real objects that vary in shape and condition is impressive, isn't it?",
+   "part": 4
+  },
+  {
+   "start": 68.635,
+   "end": 73.947,
+   "show": "Last, a tool update. Space in ChatGPT is rolling out to Plus users.",
+   "part": 5
+  },
+  {
+   "start": 74.197,
+   "end": 79.295,
+   "show": "You can build pages and presentations with AI, then share them and keep them updated.",
+   "part": 5
+  },
+  {
+   "start": 80.345,
+   "end": 88.537,
+   "show": "Today's highlights were Hy4, which can operate Blender and CAD, and Atelier, which links AI to real metal parts.",
+   "part": 6
+  },
+  {
+   "start": 88.787,
+   "end": 94.078,
+   "show": "Many of this morning's stories were close to the world of making things. That was Mono Radio.",
+   "part": 6
+  }
+ ],
+ "segments": [
+  {
+   "kind": "opening",
+   "index": null,
+   "start": 0.6,
+   "end": 9.815
+  },
+  {
+   "kind": "news",
+   "index": 0,
+   "start": 9.815,
+   "end": 24.271
+  },
+  {
+   "kind": "news",
+   "index": 1,
+   "start": 24.271,
+   "end": 40.563
+  },
+  {
+   "kind": "news",
+   "index": 2,
+   "start": 40.563,
+   "end": 54.065
+  },
+  {
+   "kind": "news",
+   "index": 3,
+   "start": 54.065,
+   "end": 68.635
+  },
+  {
+   "kind": "news",
+   "index": 4,
+   "start": 68.635,
+   "end": 80.345
+  },
+  {
+   "kind": "closing",
+   "index": null,
+   "start": 80.345,
+   "end": 96.128
+  }
+ ],
+ "made_at": "2026-11-23T07:12:45"
+}

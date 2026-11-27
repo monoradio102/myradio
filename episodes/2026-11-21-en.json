@@ -1,0 +1,321 @@
+{
+ "title": "GPT-Live-1.1 Cuts Standby Costs",
+ "opening": [
+  {
+   "say": "Good morning, and welcome to Mono Radio. It's Saturday, November twenty-first.",
+   "show": "Good morning, and welcome to Mono Radio. It's Saturday, November 21."
+  },
+  {
+   "say": "Today we have five stories on A I and three D.",
+   "show": "Today we have five stories on AI and 3D."
+  }
+ ],
+ "closing": [
+  {
+   "say": "Today's one to watch is Standby for GPT Live. Can it balance low waiting costs with a quick return to conversation? I'm curious.",
+   "show": "One to watch: GPT-Live's Standby. Can it balance low costs and a quick return to chat?"
+  },
+  {
+   "say": "Have a wonderful Saturday. This was Mono Radio.",
+   "show": "Have a wonderful Saturday. This was Mono Radio."
+  }
+ ],
+ "news": [
+  {
+   "label": "GPT-Live-1.1 now available in the API",
+   "points": [
+    "Voice conversation model in the API",
+    "Standby costs $0.02 per minute",
+    "New model ID is gpt-live-1.1"
+   ],
+   "details": [
+    "It improves multilingual accents, recognition of letters and numbers, and instruction following.",
+    "Standby pauses the model after 5 to 60 seconds of silence while keeping the WebRTC connection alive. The regular rate is $0.05 per minute.",
+    "For always-listening voice AI devices, it speaks directly to balancing waiting cost with how fast a conversation resumes."
+   ],
+   "lines": [
+    {
+     "say": "Let's start with voice A I. Open A I has released GPT Live one point one in the A P I.",
+     "show": "Let's start with voice AI. OpenAI has released GPT-Live-1.1 in the API."
+    },
+    {
+     "say": "There's also a new feature called Standby, which lowers the price while waiting. It's a nice fit for voice devices that stay on standby.",
+     "show": "A new Standby feature lowers the price while waiting, great for always-on voice devices."
+    }
+   ],
+   "url": "https://community.openai.com/t/gpt-live-1-1-has-arrived-in-the-api/1418537",
+   "link": {
+    "url": "https://community.openai.com/t/gpt-live-1-1-has-arrived-in-the-api/1418537",
+    "title": "GPT-Live-1.1 has arrived in the API",
+    "site": "OpenAI Developer Community",
+    "description": "Hi developers,  GPT-Live-1.1 is now available in the API! You can use it to build voice agents that speak with more natural and consistent accents across languages, understand precise details like let",
+    "image": "https://us1.discourse-cdn.com/openai1/optimized/4X/6/9/9/699cac0e1f80dd6e23486444abeffbb9310d0ad5_2_1024x576.jpeg",
+    "icon": "https://us1.discourse-cdn.com/openai1/optimized/4X/e/5/d/e5d0db747b8673d263cea6db3e4736ae59f34731_2_180x180.png"
+   }
+  },
+  {
+   "label": "Genie 4 available through the API",
+   "points": [
+    "Generates worlds at 720p and 24 fps",
+    "Change weather and lighting by text",
+    "Gemini API and AI Studio"
+   ],
+   "details": [
+    "From text or reference images, it can create continuous worlds with sound.",
+    "You can explore with the keyboard and change objects and events using words.",
+    "Developers can build it into their own apps through the Interactions API."
+   ],
+   "lines": [
+    {
+     "say": "Next, news from Google. Genie four, which creates explorable virtual worlds, is now available in the Gemini A P I.",
+     "show": "Next, Google. Genie 4, which creates explorable virtual worlds, is now in the Gemini API."
+    },
+    {
+     "say": "What's new is that you can change the weather and lighting with words, and build it into your own apps.",
+     "show": "You can change weather and lighting with words, and build it into your own apps."
+    }
+   ],
+   "url": "https://blog.google/innovation-and-ai/technology/developers-tools/genie-4-in-gemini-api/",
+   "link": {
+    "url": "https://blog.google/innovation-and-ai/technology/developers-tools/genie-4-in-gemini-api/",
+    "title": "Genie 4 is now available on the Gemini API.",
+    "site": "Google",
+    "description": "Build interactive 720p worlds with Genie 4 on the Google Gemini API. Generate coherent environments with native audio and real-time controls. Get started.",
+    "image": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Genie_4_Social_Share.max-1440x810.png",
+    "icon": "https://blog.google/static/blogv2/images/apple-touch-icon.png?version=pr20261117-1738"
+   }
+  },
+  {
+   "label": "Prusa Connect Local",
+   "points": [
+    "Manage printers without the cloud",
+    "Runs on a PC or Raspberry Pi",
+    "Works with Home Assistant"
+   ],
+   "details": [
+    "An account or internet connection isn't required, and your history and files stay on your own network.",
+    "You can set up the server on a PC, a Raspberry Pi, or a NAS.",
+    "It supports user-made extensions, and Klipper machines can connect through Moonraker using a sample driver."
+   ],
+   "lines": [
+    {
+     "say": "Now a three D printing story. Prusa has opened a public beta of Prusa Connect Local, which lets you manage printers without the cloud.",
+     "show": "A 3D printing story. Prusa has opened a public beta of Prusa Connect Local, no cloud needed."
+    },
+    {
+     "say": "It can run on your own computer, and it works with Home Assistant too.",
+     "show": "It runs on your own computer and works with Home Assistant too."
+    }
+   ],
+   "url": "https://www.prusa3d.com/p/connect/connect-local/",
+   "link": {
+    "url": "https://www.prusa3d.com/p/connect/connect-local/",
+    "title": "Prusa Connect Local | Self-Hosted 3D Printer fleet management | Prusa",
+    "site": "Prusa Research",
+    "description": "Run Prusa Connect Local on a Raspberry Pi, PC or NAS. One screen for all your printers, no cloud and no Prusa Account. Source code on GitHub.",
+    "image": "https://assets.prusa3d.com/cdn-cgi/image/width=1200,format=auto,quality=85,height=630,fit=cover,trim.left=0,trim.top=98,trim.width=2101,trim.height=1103/https%3A%2F%2Fstorage.googleapis.com%2Fprusa3d-content-prod-14e8-asset-manager-prod%2Ff740f0e1-3011-4acc-ae8b-a5c7caef4a6d.png",
+    "icon": "https://www.prusa3d.com/apple-touch-icon.png"
+   }
+  },
+  {
+   "label": "ELEGOO four-head printer",
+   "points": [
+    "Four independent print heads",
+    "Combines rigid and flexible materials",
+    "Price and release date not announced"
+   ],
+   "details": [
+    "It switches whole heads when colors or materials change, aiming to cut the waste from purging.",
+    "The idea is to support prints that combine both kinds of material.",
+    null
+   ],
+   "lines": [
+    {
+     "say": "More from Formnext. Elegoo has unveiled the Centauri X Ultra, which has four print heads.",
+     "show": "More from Formnext. ELEGOO has unveiled the Centauri X Ultra, with four print heads."
+    },
+    {
+     "say": "Since it switches whole heads, it could cut down on wasted material. Price and release date haven't been announced.",
+     "show": "Switching whole heads could cut wasted material. Price and release date are not announced."
+    }
+   ],
+   "url": "https://www.prnewswire.com/news-releases/elegoo-showcases-new-solutions-across-resin-printing-fdm-printing-and-3d-scanning-at-formnext-2026-302942939.html",
+   "link": {
+    "url": "https://www.prnewswire.com/news-releases/elegoo-showcases-new-solutions-across-resin-printing-fdm-printing-and-3d-scanning-at-formnext-2026-302942939.html",
+    "title": "ELEGOO Showcases New Solutions Across Resin Printing, FDM Printing and 3D Scanning at Formnext 2026",
+    "site": "www.prnewswire.com",
+    "description": "/PRNewswire/ -- ELEGOO, a rapidly developing brand in the global smart manufacturing industry, kicked off its participation at Formnext 2026 today, showcasing...",
+    "image": "https://mmx.prnewswire.com/media/MS2038281/20261117172205EST_image_1.jpg?id=OA3086442&p=facebook",
+    "icon": null
+   }
+  },
+  {
+   "label": "MOKO: 3D creation by AI and people",
+   "points": [
+    "Modelers refine AI-made drafts",
+    "Check in a 3D viewer",
+    "From 19,800 yen"
+   ],
+   "details": [
+    "A generative AI makes a draft from your illustration, and people refine the shape and details.",
+    "It includes a review and up to two revisions, with delivery in formats such as STL, OBJ, FBX, and GLB.",
+    "Prices include tax. A standard rig for bipedal humanoids is an optional extra at 6,980 yen, tax included."
+   ],
+   "lines": [
+    {
+     "say": "Last, a story from Japan. Mono Studio has launched Moko, a three D creation service combining A I with human refinement.",
+     "show": "Last, from Japan. Mono Studio has launched MOKO, a 3D creation service mixing AI and human touch."
+    },
+    {
+     "say": "A I makes a draft from your illustration, and a modeler finishes it.",
+     "show": "AI makes a draft from your illustration, and a modeler finishes it."
+    }
+   ],
+   "url": "https://prtimes.jp/main/html/rd/p/000000001.000190688.html",
+   "link": {
+    "url": "https://prtimes.jp/main/html/rd/p/000000001.000190688.html",
+    "title": "イラストをアップするだけで本格3Dモデルに。生成AI×プロの手修正の3D制作サービス「MOKO」を提供開始",
+    "site": "プレスリリース・ニュースリリース配信シェ\u0000アNo.1｜PR TIMES",
+    "description": "株式会社モノスタジオのプレスリリース（2026年11月19日 11時10分）イラストをアップするだけで本格3Dモデルに。生成AI×プロの手修正の3D制作サービス「MOKO」を提供開始",
+    "image": "https://prcdn.freetls.fastly.net/release_image/190688/1/190688-1-822c6f2576317f10f098d0480b6ff00b-2300x1254.png?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260",
+    "icon": "https://prtimes.jp/common/v4.1/images/html/favicon/favicon-196x196.png"
+   }
+  }
+ ],
+ "highlight": 0,
+ "format": "monoradio/news-1",
+ "date": "2026-11-21",
+ "lang": "en",
+ "seconds": 93.71,
+ "lines_timed": [
+  {
+   "start": 0.6,
+   "end": 5.613,
+   "show": "Good morning, and welcome to Mono Radio. It's Saturday, November 21.",
+   "part": 0
+  },
+  {
+   "start": 5.863,
+   "end": 8.466,
+   "show": "Today we have five stories on AI and 3D.",
+   "part": 0
+  },
+  {
+   "start": 9.516,
+   "end": 15.447,
+   "show": "Let's start with voice AI. OpenAI has released GPT-Live-1.1 in the API.",
+   "part": 1
+  },
+  {
+   "start": 15.697,
+   "end": 23.889,
+   "show": "A new Standby feature lowers the price while waiting, great for always-on voice devices.",
+   "part": 1
+  },
+  {
+   "start": 24.939,
+   "end": 32.725,
+   "show": "Next, Google. Genie 4, which creates explorable virtual worlds, is now in the Gemini API.",
+   "part": 2
+  },
+  {
+   "start": 32.975,
+   "end": 37.903,
+   "show": "You can change weather and lighting with words, and build it into your own apps.",
+   "part": 2
+  },
+  {
+   "start": 38.953,
+   "end": 47.444,
+   "show": "A 3D printing story. Prusa has opened a public beta of Prusa Connect Local, no cloud needed.",
+   "part": 3
+  },
+  {
+   "start": 47.694,
+   "end": 51.406,
+   "show": "It runs on your own computer and works with Home Assistant too.",
+   "part": 3
+  },
+  {
+   "start": 52.456,
+   "end": 58.173,
+   "show": "More from Formnext. ELEGOO has unveiled the Centauri X Ultra, with four print heads.",
+   "part": 4
+  },
+  {
+   "start": 58.423,
+   "end": 65.037,
+   "show": "Switching whole heads could cut wasted material. Price and release date are not announced.",
+   "part": 4
+  },
+  {
+   "start": 66.087,
+   "end": 74.705,
+   "show": "Last, from Japan. Mono Studio has launched MOKO, a 3D creation service mixing AI and human touch.",
+   "part": 5
+  },
+  {
+   "start": 74.955,
+   "end": 78.71,
+   "show": "AI makes a draft from your illustration, and a modeler finishes it.",
+   "part": 5
+  },
+  {
+   "start": 79.76,
+   "end": 88.293,
+   "show": "One to watch: GPT-Live's Standby. Can it balance low costs and a quick return to chat?",
+   "part": 6
+  },
+  {
+   "start": 88.543,
+   "end": 91.658,
+   "show": "Have a wonderful Saturday. This was Mono Radio.",
+   "part": 6
+  }
+ ],
+ "segments": [
+  {
+   "kind": "opening",
+   "index": null,
+   "start": 0.6,
+   "end": 9.516
+  },
+  {
+   "kind": "news",
+   "index": 0,
+   "start": 9.516,
+   "end": 24.939
+  },
+  {
+   "kind": "news",
+   "index": 1,
+   "start": 24.939,
+   "end": 38.953
+  },
+  {
+   "kind": "news",
+   "index": 2,
+   "start": 38.953,
+   "end": 52.456
+  },
+  {
+   "kind": "news",
+   "index": 3,
+   "start": 52.456,
+   "end": 66.087
+  },
+  {
+   "kind": "news",
+   "index": 4,
+   "start": 66.087,
+   "end": 79.76
+  },
+  {
+   "kind": "closing",
+   "index": null,
+   "start": 79.76,
+   "end": 93.708
+  }
+ ],
+ "made_at": "2026-11-21T06:52:44"
+}

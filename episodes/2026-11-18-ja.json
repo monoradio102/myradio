@@ -1,0 +1,327 @@
+{
+ "title": "3D生成AIがプリント対応へ、Tripo H3.5",
+ "opening": [
+  {
+   "say": "おはようございます、ものラジオです。十一月十八日水曜日の朝のニュースです。",
+   "show": "おはようございます、ものラジオです。11月18日水曜日の朝のニュースです。"
+  },
+  {
+   "say": "今日はエーアイとスリーディーの新発表を、五本お届けします。",
+   "show": "今日はAIと3Dの新発表を、5本お届けします。"
+  }
+ ],
+ "news": [
+  {
+   "label": "GPT-6.2 Astra / Sol公開",
+   "points": [
+    "Astraは高難度の開発向け",
+    "Solは日常の開発向け",
+    "Astraは単価が20%低下"
+   ],
+   "url": "https://openai.com/index/introducing-gpt-6-2-astra-sol/",
+   "lines": [
+    {
+     "say": "まずはオープンエーアイから。ジーピーティーロクテンニの、アストラとソルが登場しました。",
+     "show": "まずはOpenAIから。GPT-6.2の、AstraとSolが登場しました。"
+    },
+    {
+     "say": "アストラはスリーディー設計やコード修正が得意になって、料金も前のモデルより二十パーセント安いんです。",
+     "show": "Astraは3D設計やコード修正が得意になって、料金も前のモデルより20パーセント安いんです。"
+    }
+   ],
+   "details": [
+    "高難度の開発・専門業務向けのモデルで、Webサイトやゲーム、3Dデザインの制作能力が改善されています。",
+    "日常的な開発やエージェント作業向けのモデルです。",
+    "APIでは gpt-6.2-astra として使え、標準の入出力単価は従来のGPT-6 Astraより20％低くなっています。"
+   ],
+   "link": {
+    "url": "https://www.digitaltrends.com/computing/openai-gpt-6-2-astra-sol-launch/",
+    "title": "OpenAI’s GPT-6.2 Astra finally arrives, promising better performance and fewer safety problems",
+    "site": "Digital Trends",
+    "description": "OpenAI has introduced two of its most powerful AI models yet, GPT-6.2 Astra and GPT-6.2 Sol, nearly two months after canceling GPT-6.1 Astra over safety concerns. According to the company, the new mod",
+    "image": "https://i0.wp.com/cdn.dtmg.xyz/uploads/2026/11/GPT-6.2-Astra.jpg?resize=1200%2C630&ssl=1",
+    "icon": "https://i0.wp.com/cdn.dtmg.xyz/uploads/2020/08/dt-site-icon.png?fit=144%2C144&ssl=1",
+    "found_by": "search"
+   },
+   "source_link": {
+    "url": "https://openai.com/index/introducing-gpt-6-2-astra-sol/",
+    "error": "HTTPError",
+    "status": 403
+   }
+  },
+  {
+   "label": "Tripo AI H3.5を予告",
+   "points": [
+    "3Dプリント向けの新モデル",
+    "近日公開予定の予告段階",
+    "造形機への橋渡しエージェント"
+   ],
+   "url": "https://www.prnewswire.com/de/pressemitteilungen/tripo-ai-gives-a-first-look-at-its-upcoming-print-ready-generative-model-with-intricate-true-to-life-3d-printed-creations-at-formnext-302939779.html",
+   "lines": [
+    {
+     "say": "続いては、トリポエーアイの新モデル、エイチスリーテンゴです。",
+     "show": "続いては、Tripo AIの新モデル、H3.5です。"
+    },
+    {
+     "say": "プリントできる形をめざして生成する、予告段階のモデルで、造形機へ橋渡しする専用エージェントも発表されました。",
+     "show": "プリントできる形をめざして生成する、予告段階のモデルで、造形機へ橋渡しする専用エージェントも発表されました。"
+    }
+   ],
+   "details": [
+    "従来のH3.1から細部の形状再現と視覚的な忠実度を改善し、後編集を最小限に抑えたモデルの生成を目指しています。",
+    "実際のメッシュ品質や造形可能性は、公開後の検証が必要です。",
+    "生成データから3Dプリンタへの橋渡しを行う専用AIエージェントも発表されました。"
+   ],
+   "link": {
+    "url": "https://www.prnewswire.com/de/pressemitteilungen/tripo-ai-gives-a-first-look-at-its-upcoming-print-ready-generative-model-with-intricate-true-to-life-3d-printed-creations-at-formnext-302939779.html",
+    "title": "Tripo AI Gives A First Look at Its Upcoming Print-Ready Generative Model with Intricate, True-to-Life 3D-Printed Creations at Formnext",
+    "site": "www.prnewswire.com",
+    "description": "/PRNewswire/ -- At Formnext, Tripo AI offers a glimpse of its upcoming generative model, capable of faithfully reproducing intricate details and visual nuances...",
+    "image": "https://mmx.prnewswire.com/media/MS1979309/TRIPO-AI-Logo.jpg?id=OA3079015&p=facebook",
+    "icon": null
+   }
+  },
+  {
+   "label": "ミマキ 色域1.4倍の3D機",
+   "points": [
+    "UV硬化インクジェット式",
+    "色域が約1.4倍に拡大",
+    "内部充填インクでコスト減"
+   ],
+   "url": "https://japan.mimaki.com/news/product/entry-471548.html",
+   "lines": [
+    {
+     "say": "ここからは実機の話です。ミマキエンジニアリングが、フルカラーのスリーディープリンターを発表しました。",
+     "show": "ここからは実機の話です。ミマキエンジニアリングが、フルカラーの3Dプリンターを発表しました。"
+    },
+    {
+     "say": "色域が約一・四倍に広がって、濃い色や表面の模様まで、より本物らしく再現できます。",
+     "show": "色域が約1.4倍に広がって、濃い色や表面の模様まで、より本物らしく再現できます。"
+    }
+   ],
+   "details": [
+    "ミマキエンジニアリングの「3DUJ-553MkII」は、UV硬化インクジェット式のフルカラー3Dプリンタです。",
+    "従来機の1,000万色以上の表現能力を引き継ぎつつ、濃色や素材表面の模様をより忠実に再現します。",
+    "新しい内部充填用インクによるコスト削減や、連続造形の効率化も図っています。"
+   ],
+   "link": {
+    "url": "https://japan.mimaki.com/news/product/entry-471548.html",
+    "title": "「もっと鮮やかに。もっとリアルに。」  進化した色表現力で、フルカラー3Dプリントの用途を拡大：UV硬化インクジェット方式フルカラー3Dプリンタ「3DUJ-553MkII」を発表、独・Formnext 2026で世界初公開",
+    "site": "ミマキ",
+    "description": null,
+    "image": "https://japan.mimaki.com/archives/052/202611/3cd89cc3b631dfd1e3b0e42d7b8e96e5175b87f8ffeab8b88916a995cf449cb0.jpg",
+    "icon": null
+   }
+  },
+  {
+   "label": "NVIDIA Sparse Attention",
+   "points": [
+    "長文脈LLM向けの設計手法",
+    "参照する情報を絞り込む",
+    "モデルとGPUを一体で最適化"
+   ],
+   "url": "https://developer.nvidia.com/blog/co-designing-sparse-attention-for-efficient-long-context-inference/",
+   "lines": [
+    {
+     "say": "お次はエヌビディアの技術記事です。",
+     "show": "お次はNVIDIAの技術記事です。"
+    },
+    {
+     "say": "長い文章を扱うエーアイ向けに、見る情報を絞って計算を軽くするスパースアテンションの設計を解説しています。",
+     "show": "長い文章を扱うAI向けに、見る情報を絞って計算を軽くするSparse Attentionの設計を解説しています。"
+    }
+   ],
+   "details": [
+    "長いコンテキストを扱うLLM向けのSparse Attention設計について、技術記事が公開されました。",
+    "通常のAttentionは入力が長いほど計算とメモリアクセスが増えますが、Sparse Attentionでは各トークンが参照する情報を絞ります。",
+    "モデル側の設計とGPUカーネル側の実装を一体で最適化する考え方を解説しています。"
+   ],
+   "link": {
+    "url": "https://developer.nvidia.com/blog/co-designing-sparse-attention-for-efficient-long-context-inference/",
+    "title": "Co-Designing Sparse Attention for Efficient Long-Context Inference | NVIDIA Technical Blog",
+    "site": "NVIDIA Technical Blog",
+    "description": "Agentic workloads, long documents, and large codebases are pushing context lengths from tens of thousands of tokens to hundreds of thousands. At those lengths, attention becomes the most expensive…",
+    "image": "https://developer-blogs.nvidia.com/wp-content/uploads/2026/11/llm-optimize-deploy.webp",
+    "icon": null
+   }
+  },
+  {
+   "label": "3D Systems新型MJP 300",
+   "points": [
+    "新型MultiJetプリンタ",
+    "金属用の粉末管理システム",
+    "造形ソフトも更新"
+   ],
+   "url": "https://www.3dsystems.com/press-releases/3d-systems-announces-year-milestones-3d-printing-culminating-formnext-2026",
+   "lines": [
+    {
+     "say": "最後はスリーディーシステムズ。新しいマルチジェットプリンターと、金属用の粉末管理システムを発表しました。",
+     "show": "最後は3D Systems。新しいMultiJetプリンターと、金属用の粉末管理システムを発表しました。"
+    },
+    {
+     "say": "造形機だけでなく、材料やデータの管理まで含めて効率化をねらっています。",
+     "show": "造形機だけでなく、材料やデータの管理まで含めて効率化をねらっています。"
+    }
+   ],
+   "details": [
+    "Formnext 2026に合わせて、新型MultiJetプリンタ「MJP 300」が発表されました。",
+    "金属3Dプリント向けの粉末管理システム「TSR」も発表されました。",
+    "造形ソフト「3D Sprint」にも、デジタル著作権管理機能などの更新が加わっています。"
+   ],
+   "link": {
+    "url": "https://www.3dsystems.com/press-releases/3d-systems-announces-year-milestones-3d-printing-culminating-formnext-2026",
+    "title": "3D Systems Announces a Year of Milestones in 3D Printing Culminating at Formnext 2026 | 3D Systems",
+    "site": "3D Systems",
+    "description": null,
+    "image": "https://www.3dsystems.com/sites/default/files/styles/thumbnail_social_media_940_x_494_/public/2026-11/dmp-closed-loop-flex-350-and-tsr-front.png?itok=LRE_OhN1",
+    "icon": null
+   }
+  }
+ ],
+ "closing": [
+  {
+   "say": "今日の注目は、トリポエーアイのエイチスリーテンゴ。見た目だけでなく、本当にプリントできるスリーディーモデルへ進化するか、公開が楽しみです。",
+   "show": "今日の注目は、Tripo AIのH3.5。見た目だけでなく、本当にプリントできる3Dモデルへ進化するか、公開が楽しみです。"
+  },
+  {
+   "say": "それではまた、ものラジオでお会いしましょう。",
+   "show": "それではまた、ものラジオでお会いしましょう。"
+  }
+ ],
+ "highlight": 1,
+ "format": "monoradio/news-1",
+ "date": "2026-11-18",
+ "lang": "ja",
+ "seconds": 93.11,
+ "lines_timed": [
+  {
+   "start": 0.6,
+   "end": 6.389,
+   "show": "おはようございます、ものラジオです。11月18日水曜日の朝のニュースです。",
+   "part": 0
+  },
+  {
+   "start": 6.639,
+   "end": 10.466,
+   "show": "今日はAIと3Dの新発表を、5本お届けします。",
+   "part": 0
+  },
+  {
+   "start": 11.516,
+   "end": 17.004,
+   "show": "まずはOpenAIから。GPT-6.2の、AstraとSolが登場しました。",
+   "part": 1
+  },
+  {
+   "start": 17.254,
+   "end": 24.251,
+   "show": "Astraは3D設計やコード修正が得意になって、料金も前のモデルより20パーセント安いんです。",
+   "part": 1
+  },
+  {
+   "start": 25.301,
+   "end": 29.279,
+   "show": "続いては、Tripo AIの新モデル、H3.5です。",
+   "part": 2
+  },
+  {
+   "start": 29.529,
+   "end": 37.884,
+   "show": "プリントできる形をめざして生成する、予告段階のモデルで、造形機へ橋渡しする専用エージェントも発表されました。",
+   "part": 2
+  },
+  {
+   "start": 38.934,
+   "end": 45.315,
+   "show": "ここからは実機の話です。ミマキエンジニアリングが、フルカラーの3Dプリンターを発表しました。",
+   "part": 3
+  },
+  {
+   "start": 45.565,
+   "end": 52.457,
+   "show": "色域が約1.4倍に広がって、濃い色や表面の模様まで、より本物らしく再現できます。",
+   "part": 3
+  },
+  {
+   "start": 53.507,
+   "end": 55.732,
+   "show": "お次はNVIDIAの技術記事です。",
+   "part": 4
+  },
+  {
+   "start": 55.982,
+   "end": 63.513,
+   "show": "長い文章を扱うAI向けに、見る情報を絞って計算を軽くするSparse Attentionの設計を解説しています。",
+   "part": 4
+  },
+  {
+   "start": 64.563,
+   "end": 71.897,
+   "show": "最後は3D Systems。新しいMultiJetプリンターと、金属用の粉末管理システムを発表しました。",
+   "part": 5
+  },
+  {
+   "start": 72.147,
+   "end": 77.228,
+   "show": "造形機だけでなく、材料やデータの管理まで含めて効率化をねらっています。",
+   "part": 5
+  },
+  {
+   "start": 78.278,
+   "end": 88.026,
+   "show": "今日の注目は、Tripo AIのH3.5。見た目だけでなく、本当にプリントできる3Dモデルへ進化するか、公開が楽しみです。",
+   "part": 6
+  },
+  {
+   "start": 88.276,
+   "end": 91.058,
+   "show": "それではまた、ものラジオでお会いしましょう。",
+   "part": 6
+  }
+ ],
+ "segments": [
+  {
+   "kind": "opening",
+   "index": null,
+   "start": 0.6,
+   "end": 11.516
+  },
+  {
+   "kind": "news",
+   "index": 0,
+   "start": 11.516,
+   "end": 25.301
+  },
+  {
+   "kind": "news",
+   "index": 1,
+   "start": 25.301,
+   "end": 38.934
+  },
+  {
+   "kind": "news",
+   "index": 2,
+   "start": 38.934,
+   "end": 53.507
+  },
+  {
+   "kind": "news",
+   "index": 3,
+   "start": 53.507,
+   "end": 64.563
+  },
+  {
+   "kind": "news",
+   "index": 4,
+   "start": 64.563,
+   "end": 78.278
+  },
+  {
+   "kind": "closing",
+   "index": null,
+   "start": 78.278,
+   "end": 93.108
+  }
+ ],
+ "made_at": "2026-11-18T07:12:13"
+}

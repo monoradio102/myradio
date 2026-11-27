@@ -1,0 +1,360 @@
+{
+ "title": "Genie 4が世界を生成、3D制作もAIで",
+ "opening": [
+  {
+   "say": "おはようございます、ものラジオです。十一月十九日、木曜日の朝です。",
+   "show": "おはようございます、ものラジオです。11月19日、木曜日の朝です。"
+  },
+  {
+   "say": "今日はニュースを五本、お届けします。",
+   "show": "今日はニュースを5本、お届けします。"
+  }
+ ],
+ "news": [
+  {
+   "label": "Genie 4が一般向けに展開開始",
+   "points": [
+    "対象のUltra加入者に提供",
+    "自然言語で世界を編集",
+    "音や会話もリアルタイム生成"
+   ],
+   "url": "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/genie-4-now-available-project-genie/",
+   "lines": [
+    {
+     "say": "まずはグーグルから。ジーニーフォーが、対象のユーザー向けに提供開始です。",
+     "show": "まずはGoogleから。Genie 4が、対象のユーザー向けに提供開始です。"
+    },
+    {
+     "say": "言葉で天気や登場人物を変えながら、生成された世界を歩き回れます。",
+     "show": "言葉で天気や登場人物を変えながら、生成された世界を歩き回れます。"
+    },
+    {
+     "say": "音や会話までリアルタイムで生まれるのが面白いですね。",
+     "show": "音や会話までリアルタイムで生まれるのが面白いですね。"
+    }
+   ],
+   "details": [
+    "Google AI Ultraの対象加入者向けに、11月18日から提供が始まりました。",
+    "探索しながら、天候や登場人物、環境を言葉で変更できます。",
+    "会話から世界を作るProject Genieエージェントや、共有・リミックスできるギャラリーも追加されました。"
+   ],
+   "link": {
+    "url": "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/genie-4-now-available-project-genie/",
+    "title": "Genie 4 is now available",
+    "site": "Google",
+    "description": "We are rolling out a new Project Genie experience to eligible Google AI Ultra subscribers, opening access to our new Genie 4 world model.",
+    "image": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/resized_ProjectGenie_Thumbnail_v02.width-1300.png",
+    "icon": "https://blog.google/static/blogv2/images/apple-touch-icon.png?version=pr20261117-1738"
+   }
+  },
+  {
+   "label": "AnyLab：AI 3Dモデル生成",
+   "points": [
+    "文章・画像から3D生成",
+    "印刷準備まで統合の構想",
+    "Thingiverseと提携"
+   ],
+   "url": "https://www.prnewswire.com/news-releases/anycubic-showcases-thingiverse-partnership-progress-and-anylab-ai-creation-tool-at-formnext-2026-302943506.html",
+   "lines": [
+    {
+     "say": "続いては、スリーディープリンターの話題です。",
+     "show": "続いては、3Dプリンターの話題です。"
+    },
+    {
+     "say": "アニキュービックが、エーアイで三Dモデルを作るツール、アニーラボを披露しました。",
+     "show": "Anycubicが、AIで3Dモデルを作るツール、AnyLabを披露しました。"
+    },
+    {
+     "say": "文章や画像からモデルを作れて、将来は印刷の準備までつなげる構想だそうです。",
+     "show": "文章や画像からモデルを作れて、将来は印刷の準備までつなげる構想だそうです。"
+    }
+   ],
+   "details": [
+    "文章や参照画像から3Dモデルを生成できます。Formnext 2026で展示されました。",
+    "造形可能性の確認、向きとサポートの最適化、印刷ジョブの送信までを統合する構想です。一部は開発中です。",
+    "既存の3Dモデルを多色印刷向けに調整し、3MFデータとして使いやすくする取り組みも進めています。"
+   ],
+   "link": {
+    "url": "https://www.prnewswire.com/news-releases/anycubic-showcases-thingiverse-partnership-progress-and-anylab-ai-creation-tool-at-formnext-2026-302943506.html",
+    "title": "Anycubic Showcases Thingiverse Partnership Progress and AnyLab AI Creation Tool at Formnext 2026",
+    "site": "www.prnewswire.com",
+    "description": "/PRNewswire/ -- Anycubic, a consumer 3D printing brand, is exhibiting at Formnext 2026 in Frankfurt, Germany, at Booth F01 in Hall 12.0. The company is...",
+    "image": "https://mmx.prnewswire.com/media/MS2037886/20261117104410EST_image_1.jpg?id=OA3087659&p=facebook",
+    "icon": null
+   }
+  },
+  {
+   "label": "Studio3Dが提供開始",
+   "points": [
+    "画像から3Dモデル生成",
+    "PC内で処理が完結",
+    "Blenderとモデル送受信"
+   ],
+   "url": "https://prtimes.jp/main/html/rd/p/000000015.000126494.html",
+   "lines": [
+    {
+     "say": "国内からも一つ。メットエーアイが、スタジオスリーディーの提供を始めました。",
+     "show": "国内からも一つ。MetAIが、Studio3Dの提供を始めました。"
+    },
+    {
+     "say": "画像から三D化して、仕上げまでパソコンの中で完結します。",
+     "show": "画像から3D化して、仕上げまでパソコンの中で完結します。"
+    },
+    {
+     "say": "ブレンダーとも行き来できるのが便利そうです。",
+     "show": "Blenderとも行き来できるのが便利そうです。"
+    }
+   ],
+   "details": [
+    "パーツ分割、リトポロジー、UV、マテリアル設定、書き出しまで一つにまとめています。",
+    "NVIDIA GPU搭載PCで処理が完結します。必要VRAMの目安は、モデルによって6〜32GBです。",
+    "アドオンでBlenderとのモデル送受信に対応しています。ライセンス導入や受託制作として提供されます。"
+   ],
+   "link": {
+    "url": "https://prtimes.jp/main/html/rd/p/000000015.000126494.html",
+    "title": "写真から「使える3Dデータ」まで。MetAI、生成・リトポ・UV・書き出しを1つにまとめたローカル3D制作アプリ「Studio3D」を提供開始",
+    "site": "プレスリリース・ニュースリリース配信シェアNo.1｜PR TIMES",
+    "description": "合同会社MetAIのプレスリリース（2026年11月18日 09時20分）写真から「使える3Dデータ」まで。MetAI、生成・リトポ・UV・書き出しを1つにまとめたローカル3D制作アプリ「Studio3D」を提供開始",
+    "image": "https://prcdn.freetls.fastly.net/release_image/126494/15/126494-15-c6ff7546eb8764f4ddbba73a24ba01fe-1920x1080.jpg?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260",
+    "icon": "https://prtimes.jp/common/v4.1/images/html/favicon/favicon-196x196.png"
+   }
+  },
+  {
+   "label": "Cosmosで学習データ生成",
+   "points": [
+    "2つのプロンプトで生成",
+    "5種類のワークフロー",
+    "基板の不良画像も作成"
+   ],
+   "url": "https://developer.nvidia.com/blog/build-training-ready-physical-ai-datasets-with-two-prompts-in-nvidia-cosmos/",
+   "lines": [
+    {
+     "say": "ここからはロボットの話題です。エヌビディアが、コスモスで学習データを作る手順を公開しました。",
+     "show": "ここからはロボットの話題です。NVIDIAが、Cosmosで学習データを作る手順を公開しました。"
+    },
+    {
+     "say": "電子基板の不良画像まで作れるのが面白いところです。",
+     "show": "電子基板の不良画像まで作れるのが面白いところです。"
+    }
+   ],
+   "details": [
+    "Cosmos Data FactoryをAIコーディングエージェントから操作し、学習用データを生成する手順が公開されました。",
+    "動画の天候変更、珍しい事故シーンの生成、検査用の不良画像作成などを行えます。",
+    "正常画像や3Dアセットを元に、部品のずれやはんだ不良を模した教師データを作成できます。"
+   ],
+   "link": {
+    "url": "https://developer.nvidia.com/blog/build-training-ready-physical-ai-datasets-with-two-prompts-in-nvidia-cosmos/",
+    "title": "Build Training-Ready Physical AI Datasets with Two Prompts in NVIDIA Cosmos | NVIDIA Technical Blog",
+    "site": "NVIDIA Technical Blog",
+    "description": "World model accuracy starts with high-quality, diverse training datasets. Yet capturing rare defects, nighttime incidents, and other challenging scenarios is costly and time-consuming.",
+    "image": "https://developer-blogs.nvidia.com/wp-content/uploads/2026/11/cosmos-gif-500x282.gif",
+    "icon": null
+   }
+  },
+  {
+   "label": "Stitch Loopを発表",
+   "points": [
+    "公開後のソフトを改善",
+    "PRまで自動作成",
+    "セキュリティなどに重点"
+   ],
+   "url": "https://blog.google/innovation-and-ai/models-and-research/google-labs/stitch-loop/",
+   "lines": [
+    {
+     "say": "最後はエージェントのニュースです。グーグルラボが、スティッチループを発表しました。",
+     "show": "最後はエージェントのニュースです。Google Labsが、Stitch Loopを発表しました。"
+    },
+    {
+     "say": "公開したあとのウェブアプリを、自分で改善し続けてくれます。",
+     "show": "公開したあとのWebアプリを、自分で改善し続けてくれます。"
+    },
+    {
+     "say": "プルリクエストまで作ってくれるそうです。",
+     "show": "プルリクエストまで作ってくれるそうです。"
+    }
+   ],
+   "details": [
+    "コードベースと運用データを接続し、公開済みソフトウェアを継続的に改善する実験的エージェントです。",
+    "GitHubやログ、行動データを分析して改善案を出し、隔離環境でコードを修正してプルリクエストを作成します。",
+    "初期機能はセキュリティ、処理速度、アクセシビリティが中心です。現在はウェイトリストで参加を受け付けています。"
+   ],
+   "link": {
+    "url": "https://blog.google/innovation-and-ai/models-and-research/google-labs/stitch-loop/",
+    "title": "Introducing Stitch Loop: A new way to build and evolve products",
+    "site": "Google",
+    "description": "Stitch Loop is an always-on product agent from Google Labs that works non-stop to help lean teams build better products.",
+    "image": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/frame_zjQlth4.width-1300.png",
+    "icon": "https://blog.google/static/blogv2/images/apple-touch-icon.png?version=pr20261117-1738"
+   }
+  }
+ ],
+ "closing": [
+  {
+   "say": "今日は、生成した三Dモデルを実際の制作工程につなげる動きが印象的でした。",
+   "show": "今日は、生成した3Dモデルを実際の制作工程につなげる動きが印象的でした。"
+  },
+  {
+   "say": "それではまた、ものラジオでした。",
+   "show": "それではまた、ものラジオでした。"
+  }
+ ],
+ "format": "monoradio/news-1",
+ "date": "2026-11-19",
+ "lang": "ja",
+ "seconds": 88.89,
+ "lines_timed": [
+  {
+   "start": 0.6,
+   "end": 6.134,
+   "show": "おはようございます、ものラジオです。11月19日、木曜日の朝です。",
+   "part": 0
+  },
+  {
+   "start": 6.384,
+   "end": 8.841,
+   "show": "今日はニュースを5本、お届けします。",
+   "part": 0
+  },
+  {
+   "start": 9.891,
+   "end": 15.042,
+   "show": "まずはGoogleから。Genie 4が、対象のユーザー向けに提供開始です。",
+   "part": 1
+  },
+  {
+   "start": 15.292,
+   "end": 20.408,
+   "show": "言葉で天気や登場人物を変えながら、生成された世界を歩き回れます。",
+   "part": 1
+  },
+  {
+   "start": 20.658,
+   "end": 24.23,
+   "show": "音や会話までリアルタイムで生まれるのが面白いですね。",
+   "part": 1
+  },
+  {
+   "start": 25.28,
+   "end": 27.97,
+   "show": "続いては、3Dプリンターの話題です。",
+   "part": 2
+  },
+  {
+   "start": 28.22,
+   "end": 33.591,
+   "show": "Anycubicが、AIで3Dモデルを作るツール、AnyLabを披露しました。",
+   "part": 2
+  },
+  {
+   "start": 33.841,
+   "end": 39.619,
+   "show": "文章や画像からモデルを作れて、将来は印刷の準備までつなげる構想だそうです。",
+   "part": 2
+  },
+  {
+   "start": 40.669,
+   "end": 45.797,
+   "show": "国内からも一つ。MetAIが、Studio3Dの提供を始めました。",
+   "part": 3
+  },
+  {
+   "start": 46.047,
+   "end": 50.315,
+   "show": "画像から3D化して、仕上げまでパソコンの中で完結します。",
+   "part": 3
+  },
+  {
+   "start": 50.565,
+   "end": 53.162,
+   "show": "Blenderとも行き来できるのが便利そうです。",
+   "part": 3
+  },
+  {
+   "start": 54.212,
+   "end": 60.628,
+   "show": "ここからはロボットの話題です。NVIDIAが、Cosmosで学習データを作る手順を公開しました。",
+   "part": 4
+  },
+  {
+   "start": 60.878,
+   "end": 64.554,
+   "show": "電子基板の不良画像まで作れるのが面白いところです。",
+   "part": 4
+  },
+  {
+   "start": 65.604,
+   "end": 70.534,
+   "show": "最後はエージェントのニュースです。Google Labsが、Stitch Loopを発表しました。",
+   "part": 5
+  },
+  {
+   "start": 70.784,
+   "end": 74.844,
+   "show": "公開したあとのWebアプリを、自分で改善し続けてくれます。",
+   "part": 5
+  },
+  {
+   "start": 75.094,
+   "end": 77.412,
+   "show": "プルリクエストまで作ってくれるそうです。",
+   "part": 5
+  },
+  {
+   "start": 78.462,
+   "end": 84.344,
+   "show": "今日は、生成した3Dモデルを実際の制作工程につなげる動きが印象的でした。",
+   "part": 6
+  },
+  {
+   "start": 84.594,
+   "end": 86.842,
+   "show": "それではまた、ものラジオでした。",
+   "part": 6
+  }
+ ],
+ "segments": [
+  {
+   "kind": "opening",
+   "index": null,
+   "start": 0.6,
+   "end": 9.891
+  },
+  {
+   "kind": "news",
+   "index": 0,
+   "start": 9.891,
+   "end": 25.28
+  },
+  {
+   "kind": "news",
+   "index": 1,
+   "start": 25.28,
+   "end": 40.669
+  },
+  {
+   "kind": "news",
+   "index": 2,
+   "start": 40.669,
+   "end": 54.212
+  },
+  {
+   "kind": "news",
+   "index": 3,
+   "start": 54.212,
+   "end": 65.604
+  },
+  {
+   "kind": "news",
+   "index": 4,
+   "start": 65.604,
+   "end": 78.462
+  },
+  {
+   "kind": "closing",
+   "index": null,
+   "start": 78.462,
+   "end": 88.892
+  }
+ ],
+ "made_at": "2026-11-19T06:31:50"
+}

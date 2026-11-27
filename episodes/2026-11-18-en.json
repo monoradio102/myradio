@@ -1,0 +1,327 @@
+{
+ "title": "Tripo H3.5 Brings 3D Generative AI Closer to Print-Ready",
+ "opening": [
+  {
+   "say": "Good morning, and welcome to Mono Radio! It's Wednesday, November eighteenth, and here are your morning headlines.",
+   "show": "Good morning, and welcome to Mono Radio! It's Wednesday, November 18, and here are your morning headlines."
+  },
+  {
+   "say": "Today we have five new announcements from the worlds of A I and three D.",
+   "show": "Today we have five new announcements from the worlds of AI and 3D."
+  }
+ ],
+ "closing": [
+  {
+   "say": "Our pick of the day is Tripo A I's H three point five. We can't wait to see whether it grows from models that just look good into three D models you can truly print.",
+   "show": "Our pick of the day is Tripo AI's H3.5. We can't wait to see if it grows into 3D models you can truly print."
+  },
+  {
+   "say": "That's all for now. See you next time on Mono Radio!",
+   "show": "That's all for now. See you next time on Mono Radio!"
+  }
+ ],
+ "news": [
+  {
+   "label": "GPT-6.2 Astra and Sol Released",
+   "points": [
+    "Astra is for tough development work",
+    "Sol is for everyday development",
+    "Astra pricing is down 20 percent"
+   ],
+   "details": [
+    "This model is built for demanding development and professional work, with better skills in creating websites, games, and 3D designs.",
+    "This model is built for everyday development and agent tasks.",
+    "In the API it's available as gpt-6.2-astra, and its standard input and output prices are 20 percent lower than the previous GPT-6 Astra."
+   ],
+   "lines": [
+    {
+     "say": "Let's start with OpenAI. Two new models are here: Astra and Sol, part of GPT six point two.",
+     "show": "Let's start with OpenAI. Two new models are here: Astra and Sol, part of GPT-6.2."
+    },
+    {
+     "say": "Astra is better at three D design and code fixes, and it costs twenty percent less than the previous model.",
+     "show": "Astra is better at 3D design and code fixes, and it costs 20 percent less than the previous model."
+    }
+   ],
+   "url": "https://openai.com/index/introducing-gpt-6-2-astra-sol/",
+   "link": {
+    "url": "https://www.digitaltrends.com/computing/openai-gpt-6-2-astra-sol-launch/",
+    "title": "OpenAI’s GPT-6.2 Astra finally arrives, promising better performance and fewer safety problems",
+    "site": "Digital Trends",
+    "description": "OpenAI has introduced two of its most powerful AI models yet, GPT-6.2 Astra and GPT-6.2 Sol, nearly two months after canceling GPT-6.1 Astra over safety concerns. According to the company, the new mod",
+    "image": "https://i0.wp.com/cdn.dtmg.xyz/uploads/2026/11/GPT-6.2-Astra.jpg?resize=1200%2C630&ssl=1",
+    "icon": "https://i0.wp.com/cdn.dtmg.xyz/uploads/2020/08/dt-site-icon.png?fit=144%2C144&ssl=1",
+    "found_by": "search"
+   },
+   "source_link": {
+    "url": "https://openai.com/index/introducing-gpt-6-2-astra-sol/",
+    "error": "HTTPError",
+    "status": 403
+   }
+  },
+  {
+   "label": "Tripo AI Teases H3.5",
+   "points": [
+    "New model aimed at 3D printing",
+    "Teaser stage, release coming soon",
+    "Agent to bridge to printers"
+   ],
+   "details": [
+    "Compared with the earlier H3.1, it improves fine detail and visual fidelity, aiming to produce models that need minimal editing afterward.",
+    "Real mesh quality and printability will need to be checked once it's released.",
+    "A dedicated AI agent that bridges generated data to 3D printers was also announced."
+   ],
+   "lines": [
+    {
+     "say": "Next up, a new model from Tripo A I called H three point five.",
+     "show": "Next up, a new model from Tripo AI called H3.5."
+    },
+    {
+     "say": "It's still at the teaser stage, and it aims to generate shapes that can actually be printed. A dedicated agent to connect to printers was announced too.",
+     "show": "It's at the teaser stage and aims to generate printable shapes. A dedicated agent to connect to printers was announced too."
+    }
+   ],
+   "url": "https://www.prnewswire.com/de/pressemitteilungen/tripo-ai-gives-a-first-look-at-its-upcoming-print-ready-generative-model-with-intricate-true-to-life-3d-printed-creations-at-formnext-302939779.html",
+   "link": {
+    "url": "https://www.prnewswire.com/de/pressemitteilungen/tripo-ai-gives-a-first-look-at-its-upcoming-print-ready-generative-model-with-intricate-true-to-life-3d-printed-creations-at-formnext-302939779.html",
+    "title": "Tripo AI Gives A First Look at Its Upcoming Print-Ready Generative Model with Intricate, True-to-Life 3D-Printed Creations at Formnext",
+    "site": "www.prnewswire.com",
+    "description": "/PRNewswire/ -- At Formnext, Tripo AI offers a glimpse of its upcoming generative model, capable of faithfully reproducing intricate details and visual nuances...",
+    "image": "https://mmx.prnewswire.com/media/MS1979309/TRIPO-AI-Logo.jpg?id=OA3079015&p=facebook",
+    "icon": null
+   }
+  },
+  {
+   "label": "Mimaki's 3D Printer, 1.4x Color Gamut",
+   "points": [
+    "UV-curable inkjet system",
+    "Color gamut up about 1.4 times",
+    "Infill ink helps cut costs"
+   ],
+   "details": [
+    "Mimaki Engineering's 3DUJ-553MkII is a full-color 3D printer that uses UV-curable inkjet technology.",
+    "It keeps the previous model's ability to show over ten million colors, while reproducing dark colors and surface patterns more faithfully.",
+    "A new ink for internal infill helps cut costs, and it also aims to make continuous printing more efficient."
+   ],
+   "lines": [
+    {
+     "say": "Now for some real hardware. Mimaki Engineering has announced a new full-color three D printer.",
+     "show": "Now for some real hardware. Mimaki Engineering has announced a new full-color 3D printer."
+    },
+    {
+     "say": "Its color gamut is about one point four times wider, so dark colors and surface patterns look even more lifelike.",
+     "show": "Its color gamut is about 1.4 times wider, so dark colors and surface patterns look more lifelike."
+    }
+   ],
+   "url": "https://japan.mimaki.com/news/product/entry-471548.html",
+   "link": {
+    "url": "https://japan.mimaki.com/news/product/entry-471548.html",
+    "title": "「もっと鮮やかに。もっとリアルに。」  進化した色表現力で、フルカラー3Dプリントの用途を拡大：UV硬化インクジェット方式フルカラー3Dプリンタ「3DUJ-553MkII」を発表、独・Formnext 2026で世界初公開",
+    "site": "ミマキ",
+    "description": null,
+    "image": "https://japan.mimaki.com/archives/052/202611/3cd89cc3b631dfd1e3b0e42d7b8e96e5175b87f8ffeab8b88916a995cf449cb0.jpg",
+    "icon": null
+   }
+  },
+  {
+   "label": "NVIDIA on Sparse Attention",
+   "points": [
+    "Design approach for long-context LLMs",
+    "Narrowing down what to look at",
+    "Model and GPU tuned together"
+   ],
+   "details": [
+    "A technical article has been published about designing Sparse Attention for LLMs that handle long contexts.",
+    "With regular attention, computation and memory access grow as the input gets longer, but with Sparse Attention each token looks at a narrower set of information.",
+    "It explains the idea of optimizing the model design and the GPU kernel implementation together."
+   ],
+   "lines": [
+    {
+     "say": "Up next, a technical article from NVIDIA.",
+     "show": "Up next, a technical article from NVIDIA."
+    },
+    {
+     "say": "It explains sparse attention, a design that helps A I handle long text by focusing on less information and lightening the computation.",
+     "show": "It explains Sparse Attention, a design that helps AI handle long text by focusing on less information and lightening the load."
+    }
+   ],
+   "url": "https://developer.nvidia.com/blog/co-designing-sparse-attention-for-efficient-long-context-inference/",
+   "link": {
+    "url": "https://developer.nvidia.com/blog/co-designing-sparse-attention-for-efficient-long-context-inference/",
+    "title": "Co-Designing Sparse Attention for Efficient Long-Context Inference | NVIDIA Technical Blog",
+    "site": "NVIDIA Technical Blog",
+    "description": "Agentic workloads, long documents, and large codebases are pushing context lengths from tens of thousands of tokens to hundreds of thousands. At those lengths, attention becomes the most expensive…",
+    "image": "https://developer-blogs.nvidia.com/wp-content/uploads/2026/11/llm-optimize-deploy.webp",
+    "icon": null
+   }
+  },
+  {
+   "label": "3D Systems Unveils MJP 300",
+   "points": [
+    "New MultiJet printer",
+    "Powder management for metal",
+    "Print software updated too"
+   ],
+   "details": [
+    "Timed with Formnext 2026, the new MultiJet printer MJP 300 was announced.",
+    "The TSR powder management system for metal 3D printing was also announced.",
+    "The 3D Sprint print software also gets updates, including digital rights management features."
+   ],
+   "lines": [
+    {
+     "say": "Last up is three D Systems, with a new MultiJet printer and a powder management system for metal.",
+     "show": "Last up is 3D Systems, with a new MultiJet printer and a powder management system for metal."
+    },
+    {
+     "say": "They're aiming for better efficiency across not just the printer, but materials and data management too.",
+     "show": "They're aiming for better efficiency across not just the printer, but materials and data management too."
+    }
+   ],
+   "url": "https://www.3dsystems.com/press-releases/3d-systems-announces-year-milestones-3d-printing-culminating-formnext-2026",
+   "link": {
+    "url": "https://www.3dsystems.com/press-releases/3d-systems-announces-year-milestones-3d-printing-culminating-formnext-2026",
+    "title": "3D Systems Announces a Year of Milestones in 3D Printing Culminating at Formnext 2026 | 3D Systems",
+    "site": "3D Systems",
+    "description": null,
+    "image": "https://www.3dsystems.com/sites/default/files/styles/thumbnail_social_media_940_x_494_/public/2026-11/dmp-closed-loop-flex-350-and-tsr-front.png?itok=LRE_OhN1",
+    "icon": null
+   }
+  }
+ ],
+ "highlight": 1,
+ "format": "monoradio/news-1",
+ "date": "2026-11-18",
+ "lang": "en",
+ "seconds": 97.42,
+ "lines_timed": [
+  {
+   "start": 0.6,
+   "end": 7.149,
+   "show": "Good morning, and welcome to Mono Radio! It's Wednesday, November 18, and here are your morning headlines.",
+   "part": 0
+  },
+  {
+   "start": 7.399,
+   "end": 11.517,
+   "show": "Today we have five new announcements from the worlds of AI and 3D.",
+   "part": 0
+  },
+  {
+   "start": 12.567,
+   "end": 19.073,
+   "show": "Let's start with OpenAI. Two new models are here: Astra and Sol, part of GPT-6.2.",
+   "part": 1
+  },
+  {
+   "start": 19.323,
+   "end": 25.531,
+   "show": "Astra is better at 3D design and code fixes, and it costs 20 percent less than the previous model.",
+   "part": 1
+  },
+  {
+   "start": 26.581,
+   "end": 30.677,
+   "show": "Next up, a new model from Tripo AI called H3.5.",
+   "part": 2
+  },
+  {
+   "start": 30.927,
+   "end": 39.887,
+   "show": "It's at the teaser stage and aims to generate printable shapes. A dedicated agent to connect to printers was announced too.",
+   "part": 2
+  },
+  {
+   "start": 40.937,
+   "end": 46.74,
+   "show": "Now for some real hardware. Mimaki Engineering has announced a new full-color 3D printer.",
+   "part": 3
+  },
+  {
+   "start": 46.99,
+   "end": 54.265,
+   "show": "Its color gamut is about 1.4 times wider, so dark colors and surface patterns look more lifelike.",
+   "part": 3
+  },
+  {
+   "start": 55.315,
+   "end": 58.003,
+   "show": "Up next, a technical article from NVIDIA.",
+   "part": 4
+  },
+  {
+   "start": 58.253,
+   "end": 67.319,
+   "show": "It explains Sparse Attention, a design that helps AI handle long text by focusing on less information and lightening the load.",
+   "part": 4
+  },
+  {
+   "start": 68.369,
+   "end": 74.62,
+   "show": "Last up is 3D Systems, with a new MultiJet printer and a powder management system for metal.",
+   "part": 5
+  },
+  {
+   "start": 74.87,
+   "end": 81.014,
+   "show": "They're aiming for better efficiency across not just the printer, but materials and data management too.",
+   "part": 5
+  },
+  {
+   "start": 82.064,
+   "end": 92.069,
+   "show": "Our pick of the day is Tripo AI's H3.5. We can't wait to see if it grows into 3D models you can truly print.",
+   "part": 6
+  },
+  {
+   "start": 92.319,
+   "end": 95.37,
+   "show": "That's all for now. See you next time on Mono Radio!",
+   "part": 6
+  }
+ ],
+ "segments": [
+  {
+   "kind": "opening",
+   "index": null,
+   "start": 0.6,
+   "end": 12.567
+  },
+  {
+   "kind": "news",
+   "index": 0,
+   "start": 12.567,
+   "end": 26.581
+  },
+  {
+   "kind": "news",
+   "index": 1,
+   "start": 26.581,
+   "end": 40.937
+  },
+  {
+   "kind": "news",
+   "index": 2,
+   "start": 40.937,
+   "end": 55.315
+  },
+  {
+   "kind": "news",
+   "index": 3,
+   "start": 55.315,
+   "end": 68.369
+  },
+  {
+   "kind": "news",
+   "index": 4,
+   "start": 68.369,
+   "end": 82.064
+  },
+  {
+   "kind": "closing",
+   "index": null,
+   "start": 82.064,
+   "end": 97.42
+  }
+ ],
+ "made_at": "2026-11-18T07:13:01"
+}
