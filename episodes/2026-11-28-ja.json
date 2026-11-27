@@ -1,0 +1,341 @@
+{
+ "title": "AIと実物がつながる！パタパタ文字表示器OpenFlaps",
+ "opening": [
+  {
+   "say": "おはようございます、ものラジオです。十一月二十八日、土曜日のニュースです。",
+   "show": "おはようございます、ものラジオです。11月28日、土曜日のニュースです。"
+  },
+  {
+   "say": "今日は全部で五本、さっそくいきましょう。",
+   "show": "今日は全部で5本、さっそくいきましょう。"
+  }
+ ],
+ "news": [
+  {
+   "label": "OpenFlaps公開",
+   "points": [
+    "Claudeから操作できる文字表示器",
+    "1文字45枚のフラップ",
+    "STLや基板データも公開"
+   ],
+   "url": "https://github.com/ivan-marchand/openflaps#features",
+   "lines": [
+    {
+     "say": "まずは、クロードから動かせる機械式の文字表示器、オープンフラップスです。",
+     "show": "まずは、Claudeから動かせる機械式の文字表示器、OpenFlapsです。"
+    },
+    {
+     "say": "設計データも組み立て手順も全部公開で、エーアイの返事がパタパタ動くのが楽しいです。",
+     "show": "設計データも組み立て手順も全部公開で、AIの返事がパタパタ動くのが楽しいです。"
+    }
+   ],
+   "details": [
+    "Web UIやJSON APIに加え、Claudeから操作するMCPサーバーも公開されています。",
+    "Pico Wと、ATtiny84・ステッピングモーター搭載の文字モジュールをI²Cで接続します。",
+    "STL、基板製造データ、ファームウェア、組立ガイドが揃っています。"
+   ],
+   "link": {
+    "url": "https://github.com/ivan-marchand/openflaps#features",
+    "title": "GitHub - ivan-marchand/openflaps: Open-source 3D-printed split-flap display: a Raspberry Pi Pico W with a WiFi web UI drives ATtiny84 character modules over I²C",
+    "site": "GitHub",
+    "description": "Open-source 3D-printed split-flap display: a Raspberry Pi Pico W with a WiFi web UI drives ATtiny84 character modules over I²C. Includes firmware, STL models, PCB files and an illustrated build gui...",
+    "image": "https://repository-images.githubusercontent.com/1170296774/0e09b487-1159-4ea5-9a33-df53a581fd9f",
+    "icon": null
+   }
+  },
+  {
+   "label": "SenseTimeがロボットAI公開",
+   "points": [
+    "27Bのロボット向けモデル",
+    "積み木は9/10回成功",
+    "重みはApache 2.0で公開"
+   ],
+   "url": "https://sensetime.com/en/news/sensenova-roborsi-27b-full-release-20261126-1138",
+   "lines": [
+    {
+     "say": "続いてはロボット。センスタイムが、シミュレーションで学んだエーアイを公開しました。",
+     "show": "続いてはロボット。SenseTimeが、シミュレーションで学んだAIを公開しました。"
+    },
+    {
+     "say": "実機での追加学習なしで、積み木を十回中九回成功させたそうです。",
+     "show": "実機での追加学習なしで、積み木を10回中9回成功させたそうです。"
+    },
+    {
+     "say": "重みも公開されています。",
+     "show": "重みも公開されています。"
+    }
+   ],
+   "details": [
+    "VLAによる動作生成と、自らコードを書いて目標位置を計算する制御方式を使い分けます。",
+    "実機での追加学習なしの結果で、物体の把持・移動は6/10回成功と報告されています。",
+    "ただし成功率は限定的な実験でのメーカー報告です。"
+   ],
+   "link": {
+    "url": "https://sensetime.com/en/news/sensenova-roborsi-27b-full-release-20261126-1138",
+    "title": "SenseNova-RoboRSI-27B Full Release Outscores GPT-6-Astra, Pu",
+    "site": "SenseTime",
+    "description": "SenseNova-RoboRSI-27B Full Release Outscores GPT-6-Astra, Pushing the Limits of a 27B Model with Recursive Self-ImprovementCan a robotic arm learn entirely in s",
+    "image": "https://oss.sensetime.com/strapi/uploads/Sense_Nova_Robo_RSI_27_B_English_16x9_539518c042.jpg",
+    "icon": null
+   }
+  },
+  {
+   "label": "Trainium3で動画生成",
+   "points": [
+    "10秒動画を22〜23秒で生成",
+    "LTX-2.5をAWSで実行",
+    "JSONでショットを定義"
+   ],
+   "url": "https://huggingface.co/blog/video-trainium3",
+   "lines": [
+    {
+     "say": "次は動画生成。ハギングフェイスが、トレイニアムスリーで十秒の動画を二十二秒ほどで作る事例を紹介しました。",
+     "show": "次は動画生成。Hugging Faceが、Trainium3で10秒の動画を22秒ほどで作る事例を紹介しました。"
+    },
+    {
+     "say": "音声付きなのも面白いところです。",
+     "show": "音声付きなのも面白いところです。"
+    }
+   ],
+   "details": [
+    "2048×1024の音声付き10秒動画を、32 NeuronCoresで生成した事例です。",
+    "計測値はモデル読み込み後のもので、個人用GPUの性能ではありません。",
+    "前後の映像フレームを参照して、連続したシーンを作る方法も紹介されています。"
+   ],
+   "link": {
+    "url": "https://huggingface.co/blog/video-trainium3",
+    "title": "Taking Trainium3 to the Track: Generating Videos with LTX-2.5",
+    "site": "huggingface.co",
+    "description": "We’re on a journey to advance and democratize artificial intelligence through open source and open science.",
+    "image": "https://huggingface.co/blog/assets/video-trainium3/thumbnail.jpg",
+    "icon": null
+   }
+  },
+  {
+   "label": "Wanderer CAD更新",
+   "points": [
+    "無料のBlenderアドオン",
+    "ツールバー切り替えを改善",
+    "Blender 4.2 LTS以降に対応"
+   ],
+   "url": "https://extensions.blender.org/add-ons/wanderer/",
+   "lines": [
+    {
+     "say": "続いて、無料のブレンダー用アドオン、ワンダラーキャドの更新です。",
+     "show": "続いて、無料のBlender用アドオン、Wanderer CADの更新です。"
+    },
+    {
+     "say": "精密な作図と普段の操作の切り替えが使いやすくなっています。",
+     "show": "精密な作図と普段の操作の切り替えが使いやすくなっています。"
+    },
+    {
+     "say": "ブレンダー四・二エルティーエス以降で使えます。",
+     "show": "Blender 4.2 LTS以降で使えます。"
+    }
+   ],
+   "details": [
+    "RhinoやAutoCAD風のコマンド入力、座標・寸法指定、スナップ、図面出力などを追加するGPLのアドオンです。",
+    "バージョン2.96.130で、標準と専用ツールバーの切り替えや表示ツールの選択などが改善されました。",
+    null
+   ],
+   "link": {
+    "url": "https://extensions.blender.org/add-ons/wanderer/",
+    "title": "Wanderer CAD",
+    "site": "Blender Extensions",
+    "description": "Precision CAD modeling with snapping and a command line",
+    "image": "https://extensions.blender.org//media/thumbnails/90/903e79b1809ca4c36b8f970e4a6f2718ebc970768405220c0f0f082bdd6a74b4_1920x1080.webp",
+    "icon": "https://extensions.blender.org/static/icons/apple-touch-icon.1131f253faf5.png"
+   }
+  },
+  {
+   "label": "ToughONE BlackS発売",
+   "points": [
+    "高靭性材料に黒色を追加",
+    "筐体や治具の評価に",
+    "11月25日に国内発売"
+   ],
+   "url": "https://prtimes.jp/main/html/rd/p/000000099.000050375.html",
+   "lines": [
+    {
+     "say": "最後は国内の材料ニュース。ストラタシス・ジャパンが、高靭性材料に黒色を追加しました。",
+     "show": "最後は国内の材料ニュース。ストラタシス・ジャパンが、高靭性材料に黒色を追加しました。"
+    },
+    {
+     "say": "筐体の試作や、組み付けの評価に使える色が増えました。",
+     "show": "筐体の試作や、組み付けの評価に使える色が増えました。"
+    }
+   ],
+   "details": [
+    "PolyJet方式のJ55 Prime、J55 Pro、J35 Pro向けの材料です。",
+    "電子機器の筐体やスナップフィット、治具などの外観確認と機能評価に利用できます。",
+    "既存材料の色追加で、家庭用MSLA機向けのレジンではありません。"
+   ],
+   "link": {
+    "url": "https://prtimes.jp/main/html/rd/p/000000099.000050375.html",
+    "title": "ストラタシス、PolyJet方式 J5シリーズ、J3シリーズ3Dプリンタ向け高靭性材料「ToughONE」に新色「ToughONE BlackS」を追加",
+    "site": "プレスリリース・ニュースリリース配信シェアNo.1｜PR TIMES",
+    "description": "株式会社ストラタシス・ジャパンのプレスリリース（2026年11月25日 10時10分）ストラタシス、PolyJet方式 J5シリーズ、J3シリーズ3Dプリンタ向け高靭性材料「ToughONE」に新色「ToughONE BlackS」を追加",
+    "image": "https://prcdn.freetls.fastly.net/release_image/50375/99/50375-99-4f30c089e18815ab203083fdf8526fb9-3900x2925.jpg?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260",
+    "icon": "https://prtimes.jp/common/v4.1/images/html/favicon/favicon-196x196.png"
+   }
+  }
+ ],
+ "closing": [
+  {
+   "say": "今日の注目は、オープンフラップス。エーアイと実物をつなぐ作品として特に面白いです。",
+   "show": "今日の注目は、OpenFlaps。AIと実物をつなぐ作品として特に面白いです。"
+  },
+  {
+   "say": "それではまた、ものラジオでした。",
+   "show": "それではまた、ものラジオでした。"
+  }
+ ],
+ "highlight": 0,
+ "format": "monoradio/news-1",
+ "date": "2026-11-28",
+ "lang": "ja",
+ "seconds": 83.78,
+ "lines_timed": [
+  {
+   "start": 0.6,
+   "end": 6.529,
+   "show": "おはようございます、ものラジオです。11月28日、土曜日のニュースです。",
+   "part": 0
+  },
+  {
+   "start": 6.779,
+   "end": 9.457,
+   "show": "今日は全部で5本、さっそくいきましょう。",
+   "part": 0
+  },
+  {
+   "start": 10.507,
+   "end": 15.519,
+   "show": "まずは、Claudeから動かせる機械式の文字表示器、OpenFlapsです。",
+   "part": 1
+  },
+  {
+   "start": 15.769,
+   "end": 21.883,
+   "show": "設計データも組み立て手順も全部公開で、AIの返事がパタパタ動くのが楽しいです。",
+   "part": 1
+  },
+  {
+   "start": 22.933,
+   "end": 28.339,
+   "show": "続いてはロボット。SenseTimeが、シミュレーションで学んだAIを公開しました。",
+   "part": 2
+  },
+  {
+   "start": 28.589,
+   "end": 33.624,
+   "show": "実機での追加学習なしで、積み木を10回中9回成功させたそうです。",
+   "part": 2
+  },
+  {
+   "start": 33.874,
+   "end": 35.6,
+   "show": "重みも公開されています。",
+   "part": 2
+  },
+  {
+   "start": 36.65,
+   "end": 44.39,
+   "show": "次は動画生成。Hugging Faceが、Trainium3で10秒の動画を22秒ほどで作る事例を紹介しました。",
+   "part": 3
+  },
+  {
+   "start": 44.64,
+   "end": 46.981,
+   "show": "音声付きなのも面白いところです。",
+   "part": 3
+  },
+  {
+   "start": 48.031,
+   "end": 52.601,
+   "show": "続いて、無料のBlender用アドオン、Wanderer CADの更新です。",
+   "part": 4
+  },
+  {
+   "start": 52.851,
+   "end": 56.876,
+   "show": "精密な作図と普段の操作の切り替えが使いやすくなっています。",
+   "part": 4
+  },
+  {
+   "start": 57.126,
+   "end": 59.908,
+   "show": "Blender 4.2 LTS以降で使えます。",
+   "part": 4
+  },
+  {
+   "start": 60.958,
+   "end": 67.955,
+   "show": "最後は国内の材料ニュース。ストラタシス・ジャパンが、高靭性材料に黒色を追加しました。",
+   "part": 5
+  },
+  {
+   "start": 68.205,
+   "end": 72.195,
+   "show": "筐体の試作や、組み付けの評価に使える色が増えました。",
+   "part": 5
+  },
+  {
+   "start": 73.245,
+   "end": 79.232,
+   "show": "今日の注目は、OpenFlaps。AIと実物をつなぐ作品として特に面白いです。",
+   "part": 6
+  },
+  {
+   "start": 79.482,
+   "end": 81.73,
+   "show": "それではまた、ものラジオでした。",
+   "part": 6
+  }
+ ],
+ "segments": [
+  {
+   "kind": "opening",
+   "index": null,
+   "start": 0.6,
+   "end": 10.507
+  },
+  {
+   "kind": "news",
+   "index": 0,
+   "start": 10.507,
+   "end": 22.933
+  },
+  {
+   "kind": "news",
+   "index": 1,
+   "start": 22.933,
+   "end": 36.65
+  },
+  {
+   "kind": "news",
+   "index": 2,
+   "start": 36.65,
+   "end": 48.031
+  },
+  {
+   "kind": "news",
+   "index": 3,
+   "start": 48.031,
+   "end": 60.958
+  },
+  {
+   "kind": "news",
+   "index": 4,
+   "start": 60.958,
+   "end": 73.245
+  },
+  {
+   "kind": "closing",
+   "index": null,
+   "start": 73.245,
+   "end": 83.78
+  }
+ ],
+ "made_at": "2026-11-28T06:11:46"
+}
